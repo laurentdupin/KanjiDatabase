@@ -45,9 +45,7 @@ with open("../sources/frequency-wiki/Freq10001-20000.txt", "r") as frequencywiki
         line = line.replace("\r", "").replace("\n", "")
 
         if(len(line) >= 1 and line[0] == "#"):
-            print(line)
             line = line[line.index("{{l/ja|") + 7:line.index("}}")]
-            print(line)
 
             if(not(line in dicoFrequencies)):
                 dicoFrequencies[line] = {"freq" : iCounter, "occ" : 1}
@@ -61,18 +59,19 @@ jmdict = etree.parse("../sources/jmdict/JMdict.xml")
 
 root = jmdict.getroot()
 
-dicoEntries = {}
+listEntries = []
 
 for child in root.getchildren():
     
     if(child.tag == "entry"):
 
-        keyEntry = ""
         dicoEntry = {
+            "reading" : "",
             "altKanjiReadings" : [],
             "altKanaReadings" : [],
             "meanings" : [],
-            "frequencies" : []
+            "frequencies" : [],
+            "usually_kana" : False
         }
 
         for child2 in child.getchildren():
@@ -80,36 +79,48 @@ for child in root.getchildren():
             if(child2.tag == "k_ele"):
                 for child3 in child2.getchildren():
                     if(child3.tag == "keb"):
-                        if(keyEntry == ""):
-                            keyEntry = child3.text
+                        if(dicoEntry["reading"] == ""):
+                            dicoEntry["reading"] = child3.text
                         else:
                             dicoEntry["altKanjiReadings"].append(child3.text)
             
             elif(child2.tag == "r_ele"):
                 for child3 in child2.getchildren():
                     if(child3.tag == "reb"):
-                        if(keyEntry == ""):
-                            keyEntry = child3.text
+                        if(dicoEntry["reading"] == ""):
+                            dicoEntry["reading"] = child3.text
                         else:
                             dicoEntry["altKanaReadings"].append(child3.text)
             
             elif(child2.tag == "s"):
                 for child3 in child2.getchildren():
+                    if(child3.tag == "misc" and "&uk;" in child3.text):
+                        dicoEntry["usually_kana"] = True
+
                     if(child3.tag == "g" and (len(child3.attrib) == 0 or ("l" in child3.attrib and child3.get("l") == "eng"))):
                         dicoEntry["meanings"].append(child3.text)
 
-        if(keyEntry != ""):
-            dicoEntries[keyEntry] = dicoEntry
+        if(dicoEntry["reading"] != ""):
+            listEntries.append(dicoEntry)
 
-            if(keyEntry in dicoFrequencies):
-                dicoEntry["frequencies"].append(dicoFrequencies[keyEntry]["freq"])
+            if(dicoEntry["reading"] in dicoFrequencies):
+                dicoEntry["frequencies"].append(dicoFrequencies[dicoEntry["reading"]]["freq"])
 
             for reading in dicoEntry["altKanjiReadings"]:
                 if(reading in dicoFrequencies):
                     dicoEntry["frequencies"].append(dicoFrequencies[reading]["freq"])
-            
-            for reading in dicoEntry["altKanaReadings"]:
-                if(reading in dicoFrequencies):
-                    dicoEntry["frequencies"].append(dicoFrequencies[reading]["freq"])
+
+            if(dicoEntry["usually_kana"]):
+                for reading in dicoEntry["altKanaReadings"]:
+                    if(reading in dicoFrequencies):
+                        dicoEntry["frequencies"].append(dicoFrequencies[reading]["freq"])
+
+def fitness(x):
+    if(len(x["frequencies"]) == 0):
+        return float("inf")
+
+    return min(x["frequencies"])
+
+listEntries.sort(key=lambda x: fitness(x))
 
 print("done")
