@@ -5,6 +5,54 @@ import functools
 if(not(os.path.exists("../build/"))):
     os.mkdir("../build")
 
+dicoKanjis = {}
+
+kanjidic = etree.parse("../sources/kanjidic/kanjidic2.xml") 
+kanjidicroot = kanjidic.getroot()
+
+for child in kanjidicroot.getchildren():
+
+    if(child.tag == "character"):
+
+        dicoKanji = {
+            "literal" : "",
+            "freq" : -1,
+            "freq_vocab" : -1,
+            "readings_on" : [],
+            "readings_kun" : [],
+            "meanings" : []
+        }
+
+        for child2 in child.getchildren():
+            if(child2.tag == "literal"):
+                dicoKanji["literal"] = child2.text
+
+            elif(child2.tag == "misc"):
+                for child3 in child2.getchildren():
+                    if(child3.tag == "freq"):
+                        dicoKanji["freq"] = int(child3.text)
+
+            elif(child2.tag == "reading_meaning"):
+                for child3 in child2.getchildren():
+                    if(child3.tag == "rmgroup"):
+                        for child4 in child3.getchildren():
+                            if(child4.tag == "reading" and child4.get("r_type") == "ja_on"):
+                                dicoKanji["readings_on"].append(child4.text)
+                            elif(child4.tag == "reading" and child4.get("r_type") == "ja_kun"):
+                                dicoKanji["readings_kun"].append(child4.text)
+                            elif(child4.tag == "meaning" and (child4.get("m_lang") == "en" or child4.get("m_lang") == None)):
+                                dicoKanji["meanings"].append(child4.text)
+
+        if(dicoKanji["literal"] != ""):
+            dicoKanjis[dicoKanji["literal"]] = dicoKanji
+
+listKanjis = []
+
+for kanji in dicoKanjis:
+    listKanjis.append(dicoKanjis[kanji])
+
+listKanjis.sort(key = lambda x : (10000000 if x["freq"] == -1 else x["freq"]))
+
 dicoFrequencies = {}
 
 with open("../sources/frequency-leeds/44492-japanese-words-latin-lines-removed.txt", "r") as frequencyleeds:
@@ -56,14 +104,12 @@ with open("../sources/frequency-wiki/Freq10001-20000.txt", "r") as frequencywiki
 
             iCounter += 1
 
-parser = etree.XMLParser()
-jmdict = etree.parse("../sources/jmdict/JMdict.xml", parser=parser) 
-
-root = jmdict.getroot()
+jmdict = etree.parse("../sources/jmdict/JMdict.xml") 
+jmdictroot = jmdict.getroot()
 
 listEntries = []
 
-for child in root.getchildren():
+for child in jmdictroot.getchildren():
     
     if(child.tag == "entry"):
 
@@ -191,6 +237,7 @@ lowIndex = 0
 
 listRemoved = []
 dicoLowestEntry = {}
+dicoLowestEntryPerChar = {}
 
 for i in range(len(listEntries)):
     reading = listEntries[i]["reading"]
@@ -200,6 +247,15 @@ for i in range(len(listEntries)):
     
     if(not(reading in dicoLowestEntry)):
         dicoLowestEntry[reading] = i
+    
+    for char in reading:
+        if(not(char in dicoLowestEntryPerChar)):
+            dicoLowestEntryPerChar[char] = i
+
+    for otherreading in listEntries[i]["altKanjiReadings"]:
+        for char in otherreading:
+            if(not(char in dicoLowestEntryPerChar)):
+                dicoLowestEntryPerChar[char] = i
 
 for i in range(len(listEntries) - 1, -1, -1):
     reading = listEntries[i]["reading"]
@@ -214,4 +270,20 @@ for i in range(len(listEntries)):
         print("low", lowIndex)
         break
 
-print("done")
+listVocabKanjis = []
+
+for kanji in dicoKanjis:
+    if(kanji in dicoLowestEntryPerChar):
+        dicoKanjis[kanji]["freq_vocab"] = dicoLowestEntryPerChar[kanji]
+        listVocabKanjis.append(dicoKanjis[kanji])
+
+listVocabKanjis.sort(key = lambda x : (10000000 if x["freq_vocab"] == -1 else x["freq_vocab"]))
+
+for i in range(len(listVocabKanjis)):
+    if(listVocabKanjis[i]["freq_vocab"] != -1):
+        listVocabKanjis[i]["freq_vocab"] = i + 1
+
+print("DONE VOCABULARY")
+
+
+        
