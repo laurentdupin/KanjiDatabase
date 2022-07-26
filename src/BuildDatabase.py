@@ -263,6 +263,11 @@ for i in range(len(listEntries) - 1, -1, -1):
         listEntries[dicoLowestEntry[reading]]["otherMeanings"].append(listEntries[i])
         del listEntries[i]
 
+dicoEntries = {}
+
+for entry in listEntries:
+    dicoEntries[entry["reading"]] = entry
+
 for i in range(len(listEntries)):
     low = islow(listEntries[i])
     if(low):
