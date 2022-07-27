@@ -310,6 +310,11 @@ for entry in listKanjis:
 
 listAverageKanjis.sort(key = lambda x : (10000000 if x["freq_average"] == -1 else x["freq_average"]))
 
+for i in range (len(listAverageKanjis)):
+    if(listAverageKanjis[i]["freq_average"] == -1):
+        print("total kanjis", i)
+        break
+
 print("DONE VOCABULARY")
 
 
