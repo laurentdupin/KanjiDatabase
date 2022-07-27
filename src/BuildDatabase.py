@@ -18,9 +18,12 @@ for child in kanjidicroot.getchildren():
             "literal" : "",
             "freq" : -1,
             "freq_vocab" : -1,
+            "freq_vocab_entry" : {},
+            "freq_average" : -1,
             "readings_on" : [],
             "readings_kun" : [],
-            "meanings" : []
+            "meanings" : [],
+            "entries_ordered" : []
         }
 
         for child2 in child.getchildren():
@@ -171,10 +174,18 @@ for dicoEntry in listEntries:
     listMainReading.append(dicoEntry["reading"])
 
 for dicoEntry in listEntries:
+    for pri in dicoEntry["pri"]:
+        if(len(pri) == 4 and pri[0:2] == "nf"):
+            freq = int(pri[2:4]) * 500
+            dicoEntry["frequencies"].append(freq)
+            dicoEntry["freq_detail"].append({"read" : pri, "freq" : freq})
+
+
     if(dicoEntry["reading"] in dicoFrequencies):
         dicoEntry["frequencies"].append(dicoFrequencies[dicoEntry["reading"]]["freq"])
         dicoEntry["freq_detail"].append({"read" : dicoEntry["reading"], "freq" : dicoFrequencies[dicoEntry["reading"]]["freq"]})
-        dicoEntry["reading_in_freq_list"] = True
+        if(dicoFrequencies[dicoEntry["reading"]]["freq"] < 5000):
+            dicoEntry["reading_in_freq_list"] = True
 
     for reading in dicoEntry["altKanjiReadings"]:
         if(reading in dicoFrequencies and not(reading in listMainReading)):
@@ -200,9 +211,7 @@ def islow(obj):
         "gai2" in obj["pri"] or 
     len(obj["pri"]) == 0) and not(
         "spec1" in obj["pri"] or 
-        "ichi1" in obj["pri"] or 
-        "news1" in obj["pri"] or 
-        "gai1" in obj["pri"] or 
+        "news1" in obj["pri"] or
         obj["kana_only"] or
         obj["reading_in_freq_list"]
     ))
@@ -250,12 +259,12 @@ for i in range(len(listEntries)):
     
     for char in reading:
         if(not(char in dicoLowestEntryPerChar)):
-            dicoLowestEntryPerChar[char] = i
+            dicoLowestEntryPerChar[char] = {"index" : i, "entry" : listEntries[i]}
 
     for otherreading in listEntries[i]["altKanjiReadings"]:
         for char in otherreading:
             if(not(char in dicoLowestEntryPerChar)):
-                dicoLowestEntryPerChar[char] = i
+                dicoLowestEntryPerChar[char] = {"index" : i, "entry" : listEntries[i]}
 
 for i in range(len(listEntries) - 1, -1, -1):
     reading = listEntries[i]["reading"]
@@ -279,7 +288,8 @@ listVocabKanjis = []
 
 for kanji in dicoKanjis:
     if(kanji in dicoLowestEntryPerChar):
-        dicoKanjis[kanji]["freq_vocab"] = dicoLowestEntryPerChar[kanji]
+        dicoKanjis[kanji]["freq_vocab"] = dicoLowestEntryPerChar[kanji]["index"]
+        dicoKanjis[kanji]["freq_vocab_entry"] = dicoLowestEntryPerChar[kanji]["entry"]
         listVocabKanjis.append(dicoKanjis[kanji])
 
 listVocabKanjis.sort(key = lambda x : (10000000 if x["freq_vocab"] == -1 else x["freq_vocab"]))
@@ -287,6 +297,18 @@ listVocabKanjis.sort(key = lambda x : (10000000 if x["freq_vocab"] == -1 else x[
 for i in range(len(listVocabKanjis)):
     if(listVocabKanjis[i]["freq_vocab"] != -1):
         listVocabKanjis[i]["freq_vocab"] = i + 1
+
+listAverageKanjis = []
+
+for entry in listKanjis:
+    if(entry["freq"] == -1 or entry["freq_vocab"] == -1):
+        entry["freq_average"] = -1
+    else:
+        entry["freq_average"] = (2 * entry["freq_vocab"] + entry["freq"]) / 3
+
+    listAverageKanjis.append(entry)
+
+listAverageKanjis.sort(key = lambda x : (10000000 if x["freq_average"] == -1 else x["freq_average"]))
 
 print("DONE VOCABULARY")
 
