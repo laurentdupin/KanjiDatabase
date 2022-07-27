@@ -2,9 +2,11 @@ from lxml import etree
 import os
 import functools
 import jaconv
+import copy
+import json
 
-if(not(os.path.exists("../build/"))):
-    os.mkdir("../build")
+if(not(os.path.exists("../output/"))):
+    os.mkdir("../output")
 
 dicoKanjis = {}
 
@@ -323,6 +325,7 @@ for entry in listEntries:
         listKanaOnly.append(entry)
 
 listLevels = []
+dicoKanjiLevel = {}
 
 iId = 0
 
@@ -331,6 +334,8 @@ for i in range(1, 101):
 
     for kana in listKanaOnly[20 * (i - 1) : 20 * i]:
         dicoEntry = {
+            "id" : iId,
+            "sharedid" : iId,
             "type" : "vocab_kana",
             "display" : "",
             "readings" : [],
@@ -342,20 +347,80 @@ for i in range(1, 101):
         else:
             dicoEntry["display"] = kana["altKanaReadings"][0]
 
+        iId += 1
         level.append(dicoEntry)
 
     for kanji in listAverageKanjis[25 * (i - 1) : 25 * i]:
         dicoEntry = {
+            "id" : iId,
+            "sharedid" : iId,
             "type" : "kanji",
             "display" : kanji["literal"],
             "readings" : list(map(jaconv.kata2hira, kanji["readings_on"])),
             "meanings" : kanji["meanings"]
         }
 
+        dicoKanjiLevel[kanji["literal"]] = (i - 1)
+
+        iId += 1
         level.append(dicoEntry)
 
     listLevels.append(level)
 
+for entry in listEntries[:lowIndex]:
+    if(entry["kana_only"]):
+        continue
+
+    dicoEntry = {
+        "id" : iId,
+        "sharedid" : iId,
+        "type" : "vocab",
+        "display" : entry["reading"],
+        "readings" : entry["altKanaReadings"],
+        "meanings" : entry["meanings"]
+    }
+
+    readinglist = [entry["reading"]]
+    readinglist.extend(entry["altKanjiReadings"])
+
+    for otherentry in entry["otherMeanings"]:
+        dicoEntry["meanings"].extend(otherentry["meanings"])
+        dicoEntry["meanings"] = list(dict.fromkeys(dicoEntry["meanings"]))
+        dicoEntry["readings"].extend(otherentry["altKanaReadings"])
+        dicoEntry["readings"] = list(dict.fromkeys(dicoEntry["readings"]))
+        readinglist.extend(otherentry["altKanjiReadings"])
+
+    dicoEntry["readings"] = list(dict.fromkeys(list(map(jaconv.kata2hira, dicoEntry["readings"]))))
+    readinglist = list(dict.fromkeys(readinglist))
+
+    sharedid = iId
+
+    for reading in readinglist:
+        levelreading = -1
+        bValid = False
+        for char in reading:
+            if(char in dicoKanjiLevel and dicoKanjiLevel[char] > levelreading):
+                levelreading = dicoKanjiLevel[char]
+                bValid = True
+
+        if(bValid):
+            dicoCopy = copy.deepcopy(dicoEntry)
+            dicoCopy["id"] = iId
+            dicoCopy["sharedid"] = sharedid
+            dicoCopy["display"] = reading
+
+            if(iId != sharedid):
+                dicoCopy["meanings"] = []
+                dicoCopy["readings"] = []
+
+            iId += 1
+            listLevels[levelreading].append(dicoCopy)
+
+
+for i in range(len(listLevels)):
+    print(i, len(listLevels[i]))
+
+json.dump(listLevels, open("../output/Levels.json", "w", encoding="utf8"), ensure_ascii=False, indent=1)
 
 print("DONE VOCABULARY")
 
