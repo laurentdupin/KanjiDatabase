@@ -1,6 +1,7 @@
 from lxml import etree
 import os
 import functools
+import jaconv
 
 if(not(os.path.exists("../build/"))):
     os.mkdir("../build")
@@ -314,6 +315,47 @@ for i in range (len(listAverageKanjis)):
     if(listAverageKanjis[i]["freq_average"] == -1):
         print("total kanjis", i)
         break
+
+listKanaOnly = []
+
+for entry in listEntries:
+    if(entry["usually_kana"] or entry["kana_only"]):
+        listKanaOnly.append(entry)
+
+listLevels = []
+
+iId = 0
+
+for i in range(1, 101):
+    level = []
+
+    for kana in listKanaOnly[20 * (i - 1) : 20 * i]:
+        dicoEntry = {
+            "type" : "vocab_kana",
+            "display" : "",
+            "readings" : [],
+            "meanings" : kana["meanings"]
+        }
+
+        if(kana["kana_only"]):
+            dicoEntry["display"] = kana["reading"]
+        else:
+            dicoEntry["display"] = kana["altKanaReadings"][0]
+
+        level.append(dicoEntry)
+
+    for kanji in listAverageKanjis[25 * (i - 1) : 25 * i]:
+        dicoEntry = {
+            "type" : "kanji",
+            "display" : kanji["literal"],
+            "readings" : list(map(jaconv.kata2hira, kanji["readings_on"])),
+            "meanings" : kanji["meanings"]
+        }
+
+        level.append(dicoEntry)
+
+    listLevels.append(level)
+
 
 print("DONE VOCABULARY")
 
