@@ -339,6 +339,7 @@ for i in range(1, 101):
             "type" : "vocab_kana",
             "display" : "",
             "readings" : [],
+            "kun_readings" : [],
             "meanings" : kana["meanings"]
         }
 
@@ -357,6 +358,7 @@ for i in range(1, 101):
             "type" : "kanji",
             "display" : kanji["literal"],
             "readings" : list(map(jaconv.kata2hira, kanji["readings_on"])),
+            "kun_readings" : list(map(jaconv.kata2hira, kanji["readings_kun"])),
             "meanings" : kanji["meanings"]
         }
 
@@ -377,6 +379,7 @@ for entry in listEntries[:lowIndex]:
         "type" : "vocab",
         "display" : entry["reading"],
         "readings" : entry["altKanaReadings"],
+        "kun_readings" : [],
         "meanings" : entry["meanings"]
     }
 
@@ -420,6 +423,10 @@ for ilevel, level in enumerate(listLevels):
     for i in range(len(level) - 1, -1, -1):
         item = level[i]
         if(len(item["meanings"]) == 0 and item["id"] == item["sharedid"]):
+            print(ilevel, item)
+            del(level[i])
+
+        if((len(item["readings"]) + len(item["kun_readings"])) == 0 and item["id"] == item["sharedid"] and item["type"] != "vocab_kana"):
             print(ilevel, item)
             del(level[i])
 
