@@ -61,7 +61,7 @@ listKanjis.sort(key = lambda x : (10000000 if x["freq"] == -1 else x["freq"]))
 
 dicoFrequencies = {}
 
-with open("../sources/frequency-leeds/44492-japanese-words-latin-lines-removed.txt", "r") as frequencyleeds:
+with open("../sources/frequency-leeds/44492-japanese-words-latin-lines-removed.txt", "r", encoding="utf8") as frequencyleeds:
     iCounter = 0
 
     for line in frequencyleeds.readlines():
@@ -76,7 +76,7 @@ with open("../sources/frequency-leeds/44492-japanese-words-latin-lines-removed.t
         iCounter += 1
         
 
-with open("../sources/frequency-wiki/Freq1-10000.txt", "r") as frequencywiki:
+with open("../sources/frequency-wiki/Freq1-10000.txt", "r", encoding="utf8") as frequencywiki:
     iCounter = 0
 
     for line in frequencywiki.readlines():
@@ -93,7 +93,7 @@ with open("../sources/frequency-wiki/Freq1-10000.txt", "r") as frequencywiki:
 
             iCounter += 1
 
-with open("../sources/frequency-wiki/Freq10001-20000.txt", "r") as frequencywiki:
+with open("../sources/frequency-wiki/Freq10001-20000.txt", "r", encoding="utf8") as frequencywiki:
     iCounter = 10000
 
     for line in frequencywiki.readlines():
@@ -416,6 +416,12 @@ for entry in listEntries[:lowIndex]:
             iId += 1
             listLevels[levelreading].append(dicoCopy)
 
+for ilevel, level in enumerate(listLevels):
+    for i in range(len(level) - 1, -1, -1):
+        item = level[i]
+        if(len(item["meanings"]) == 0 and item["id"] == item["sharedid"]):
+            print(ilevel, item)
+            del(level[i])
 
 for i in range(len(listLevels)):
     print(i, len(listLevels[i]))
