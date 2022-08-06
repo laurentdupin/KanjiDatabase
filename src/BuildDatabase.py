@@ -1,4 +1,5 @@
 from distutils.log import debug
+from re import S
 from lxml import etree
 import os
 import functools
@@ -135,6 +136,36 @@ for child in jmdictroot.getchildren():
             "otherMeanings" : []
         }
 
+        listKanjiReadings = []
+
+        for child2 in child.getchildren():
+            if(child2.tag == "k_ele"):
+                for child3 in child2.getchildren():
+                    if(child3.tag == "keb"):
+                        listKanjiReadings.append(child3.text)
+
+        dicoKanaReadings = {}
+        strNonRestrictedReading = ""
+
+        for child2 in child.getchildren():
+            if(child2.tag == "r_ele"):
+                strReading = ""
+                bRestriction = False
+
+                for child3 in child2.getchildren():
+                    if(child3.tag == "reb"):
+                        strReading = child3.text
+                    elif(child3.tag == "re_restr"):
+                        bRestriction = True
+                        dicoKanaReadings[child3.text] = strReading 
+                
+                if(not(bRestriction)):
+                    strNonRestrictedReading = strReading
+                        
+        for reading in listKanjiReadings:
+            if(not(reading in dicoKanaReadings)):
+                dicoKanaReadings[reading] = strNonRestrictedReading
+
         for child2 in child.getchildren():
 
             if(child2.tag == "k_ele"):
@@ -143,7 +174,8 @@ for child in jmdictroot.getchildren():
                         if(dicoEntry["reading"] == ""):
                             dicoEntry["reading"] = child3.text
                         else:
-                            dicoEntry["altKanjiReadings"].append(child3.text)
+                            if(dicoKanaReadings[dicoEntry["reading"]] == dicoKanaReadings[child3.text]):
+                                dicoEntry["altKanjiReadings"].append(child3.text)
                     
                     elif(child3.tag == "ke_pri"):
                         if(not(child3.text in dicoEntry["pri"])):
