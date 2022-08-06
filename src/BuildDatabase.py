@@ -1,9 +1,11 @@
+from distutils.log import debug
 from lxml import etree
 import os
 import functools
 import jaconv
 import copy
 import json
+import hashlib
 
 if(not(os.path.exists("../output/"))):
     os.mkdir("../output")
@@ -319,10 +321,23 @@ for i in range (len(listAverageKanjis)):
         break
 
 listKanaOnly = []
+SetTrueKanaOnly = set()
+SetUsuallyKana = set()
 
 for entry in listEntries:
-    if(entry["usually_kana"] or entry["kana_only"]):
+    if(entry["usually_kana"] or entry["kana_only"]): 
+        if(not(entry["kana_only"]) and entry["usually_kana"] and entry["altKanaReadings"][0] in SetUsuallyKana):
+            continue
         listKanaOnly.append(entry)
+    if(entry["kana_only"]):
+        SetTrueKanaOnly.add(entry["reading"])
+    if(not(entry["kana_only"]) and entry["usually_kana"]):
+        SetUsuallyKana.add(entry["altKanaReadings"][0])
+
+for i in range(len(listKanaOnly) - 1, -1, -1):
+    if(not(listKanaOnly[i]["kana_only"]) and listKanaOnly[i]["usually_kana"]):
+        if(listKanaOnly[i]["altKanaReadings"][0] in SetTrueKanaOnly):
+            del listKanaOnly[i]
 
 listLevels = []
 dicoKanjiLevel = {}
@@ -369,6 +384,45 @@ for i in range(1, 101):
 
     listLevels.append(level)
 
+setMainVocabReadings = set()
+dicoSecondaryVocabReadings = {}
+
+def CheckReadingValidity(reading):
+    global dicoKanjiLevel
+    global dicoKanjis
+
+    bValid = False
+
+    for char in reading:
+        if(char in dicoKanjiLevel):
+            bValid = True
+
+        if(char in dicoKanjis and not(char in dicoKanjiLevel)):
+            print("Invalid Kanji", char)
+            bValid = False
+            break
+    
+    return bValid
+
+for entry in listEntries[:lowIndex]:
+    if(entry["kana_only"]):
+        continue
+
+    if(CheckReadingValidity(entry["reading"])):
+        setMainVocabReadings.add(entry["reading"])
+
+    altreadings = copy.deepcopy(entry["altKanjiReadings"])
+
+    for otherentry in entry["otherMeanings"]:
+        altreadings.extend(otherentry["altKanjiReadings"])
+
+    for reading in altreadings:
+
+        if(not(reading in dicoSecondaryVocabReadings)):
+            dicoSecondaryVocabReadings[reading] = 0
+
+        dicoSecondaryVocabReadings[reading] += 1
+
 for entry in listEntries[:lowIndex]:
     if(entry["kana_only"]):
         continue
@@ -398,15 +452,20 @@ for entry in listEntries[:lowIndex]:
 
     sharedid = iId
 
-    for reading in readinglist:
+    for iReading, reading in enumerate(readinglist):
         levelreading = -1
         bValid = False
-        for char in reading:
-            if(char in dicoKanjiLevel and dicoKanjiLevel[char] > levelreading):
-                levelreading = dicoKanjiLevel[char]
-                bValid = True
 
-        if(bValid):
+        if(reading in dicoSecondaryVocabReadings and dicoSecondaryVocabReadings[reading] > 1):
+            print("Invalid Secondary Reading", reading)
+            continue
+
+        if(CheckReadingValidity(reading) and (iReading == 0 or not(reading in setMainVocabReadings))):
+
+            for char in reading:
+                if(char in dicoKanjiLevel and dicoKanjiLevel[char] > levelreading):
+                    levelreading = dicoKanjiLevel[char]
+
             dicoCopy = copy.deepcopy(dicoEntry)
             dicoCopy["id"] = iId
             dicoCopy["sharedid"] = sharedid
@@ -432,6 +491,19 @@ for ilevel, level in enumerate(listLevels):
 
 for i in range(len(listLevels)):
     print(i, len(listLevels[i]))
+
+dicoHashConversion = {}
+uint64max = 18446744073709551616
+
+for level in listLevels:
+    for item in level:
+        newid = int(hashlib.md5((item["type"] + ":" + item["display"]).encode("utf8")).hexdigest(), 16) % uint64max
+        dicoHashConversion[item["id"]] = newid
+        item["id"] = newid
+
+for level in listLevels:
+    for item in level:
+        item["sharedid"] = dicoHashConversion[item["sharedid"]]
 
 json.dump(listLevels, open("../output/Levels.json", "w", encoding="utf8"), ensure_ascii=False, indent=1)
 
