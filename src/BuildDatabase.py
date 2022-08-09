@@ -521,6 +521,31 @@ for ilevel, level in enumerate(listLevels):
             print(ilevel, item)
             del(level[i])
 
+iCurrentKanaPosition = 2000
+
+for ilevel, level in enumerate(listLevels):
+    while(len(level) < 150):
+        kana = listKanaOnly[iCurrentKanaPosition]
+
+        dicoEntry = {
+            "id" : iId,
+            "sharedid" : iId,
+            "type" : "vocab_kana",
+            "display" : "",
+            "readings" : [],
+            "kun_readings" : [],
+            "meanings" : kana["meanings"]
+        }
+
+        if(kana["kana_only"]):
+            dicoEntry["display"] = kana["reading"]
+        else:
+            dicoEntry["display"] = kana["altKanaReadings"][0]
+
+        iId += 1
+        iCurrentKanaPosition += 1
+        level.append(dicoEntry)
+
 for i in range(len(listLevels)):
     print(i, len(listLevels[i]))
 
