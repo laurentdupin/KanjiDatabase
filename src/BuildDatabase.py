@@ -8,6 +8,12 @@ import copy
 import json
 import hashlib
 
+def char_is_katakana(c) -> bool:
+    return (u'\u30A0' <= c <= u'\u30FF') or (u'\u31F0' <= c <= u'\u31FF')
+
+def string_is_katakana(s: str) -> bool:
+    return all(char_is_katakana(c) for c in s)
+
 if(not(os.path.exists("../output/"))):
     os.mkdir("../output")
 
@@ -370,6 +376,19 @@ for i in range(len(listKanaOnly) - 1, -1, -1):
     if(not(listKanaOnly[i]["kana_only"]) and listKanaOnly[i]["usually_kana"]):
         if(listKanaOnly[i]["altKanaReadings"][0] in SetTrueKanaOnly):
             del listKanaOnly[i]
+
+for i in range(len(listKanaOnly) - 1, -1, -1):
+    kana = listKanaOnly[i]
+    reading = ""
+
+    if(kana["kana_only"]):
+        reading = kana["reading"]
+    else:
+        reading = kana["altKanaReadings"][0]
+
+    if(string_is_katakana(reading)):
+        print("katakana only", reading)
+        del listKanaOnly[i]
 
 listLevels = []
 dicoKanjiLevel = {}
