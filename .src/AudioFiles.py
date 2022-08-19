@@ -4,7 +4,7 @@ import os
 import json
 import uuid
 
-strOutputDirectory = "../.audiofiles/"
+strOutputDirectory = "../audiofiles/"
 
 if(not(os.path.exists(strOutputDirectory))):
     os.mkdir(strOutputDirectory)
