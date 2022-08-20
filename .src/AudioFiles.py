@@ -1,3 +1,4 @@
+import re
 import Credentials
 import boto3
 import os
@@ -31,9 +32,12 @@ for level in listLevels:
                 setReadings.add(reading.replace("-", ""))
 
 for reading in list(setReadings):
+    if("まわ" in reading):
+        print(reading)
+
     if("." in reading):
         for part in reading.split("."):
-            setReadings.add(reading)
+            setReadings.add(part)
         setReadings.remove(reading)
 
 print("Readings :", len(setReadings))
