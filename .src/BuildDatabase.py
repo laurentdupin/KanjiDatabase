@@ -35,6 +35,9 @@ for child in kanjidicroot.getchildren():
             "readings_on" : [],
             "readings_kun" : [],
             "meanings" : [],
+            "meanings_fr" : [],
+            "meanings_es" : [],
+            "meanings_pt" : [],
             "entries_ordered" : []
         }
 
@@ -55,8 +58,15 @@ for child in kanjidicroot.getchildren():
                                 dicoKanji["readings_on"].append(child4.text)
                             elif(child4.tag == "reading" and child4.get("r_type") == "ja_kun"):
                                 dicoKanji["readings_kun"].append(child4.text)
-                            elif(child4.tag == "meaning" and (child4.get("m_lang") == "en" or child4.get("m_lang") == None)):
-                                dicoKanji["meanings"].append(child4.text)
+                            elif(child4.tag == "meaning"):
+                                if((child4.get("m_lang") == "en" or child4.get("m_lang") == None)):
+                                    dicoKanji["meanings"].append(child4.text)
+                                elif(child4.get("m_lang") == "fr"):
+                                    dicoKanji["meanings_fr"].append(child4.text)
+                                elif(child4.get("m_lang") == "es"):
+                                    dicoKanji["meanings_es"].append(child4.text)
+                                elif(child4.get("m_lang") == "pt"):
+                                    dicoKanji["meanings_pt"].append(child4.text)
 
         if(dicoKanji["literal"] != ""):
             dicoKanjis[dicoKanji["literal"]] = dicoKanji
@@ -134,6 +144,9 @@ for child in jmdictroot.getchildren():
             "altKanjiReadings" : [],
             "altKanaReadings" : [],
             "meanings" : [],
+            "meanings_fr" : [],
+            "meanings_es" : [],
+            "meanings_pt" : [],
             "frequencies" : [],
             "freq_detail" : [],
             "usually_kana" : False,
@@ -205,8 +218,15 @@ for child in jmdictroot.getchildren():
                     if(child3.tag == "misc" and child3.text == "uk"):
                         dicoEntry["usually_kana"] = True
 
-                    if(child3.tag == "g" and (len(child3.attrib) == 0 or ("l" in child3.attrib and child3.get("l") == "eng"))):
-                        dicoEntry["meanings"].append(child3.text)
+                    if(child3.tag == "g"):
+                        if(len(child3.attrib) == 0 or ("l" in child3.attrib and child3.get("l") == "eng")):
+                            dicoEntry["meanings"].append(child3.text)
+                        elif("l" in child3.attrib and child3.get("l") == "fre"):
+                            dicoEntry["meanings_fr"].append(child3.text)
+                        elif("l" in child3.attrib and child3.get("l") == "spa"):
+                            dicoEntry["meanings_es"].append(child3.text)
+                        elif("l" in child3.attrib and child3.get("l") == "por"):
+                            dicoEntry["meanings_pt"].append(child3.text)
 
         if(dicoEntry["reading"] != ""):
             listEntries.append(dicoEntry)
@@ -406,7 +426,10 @@ for i in range(1, 101):
             "display" : "",
             "readings" : [],
             "kun_readings" : [],
-            "meanings" : kana["meanings"]
+            "meanings" : kana["meanings"],
+            "meanings_fr" : kana["meanings_fr"],
+            "meanings_es" : kana["meanings_es"],
+            "meanings_pt" : kana["meanings_pt"]
         }
 
         if(kana["kana_only"]):
@@ -425,7 +448,10 @@ for i in range(1, 101):
             "display" : kanji["literal"],
             "readings" : list(map(jaconv.kata2hira, kanji["readings_on"])),
             "kun_readings" : list(map(jaconv.kata2hira, kanji["readings_kun"])),
-            "meanings" : kanji["meanings"]
+            "meanings" : kanji["meanings"],
+            "meanings_fr" : kanji["meanings_fr"],
+            "meanings_es" : kanji["meanings_es"],
+            "meanings_pt" : kanji["meanings_pt"]
         }
 
         dicoKanjiLevel[kanji["literal"]] = (i - 1)
@@ -485,7 +511,10 @@ for entry in listEntries[:lowIndex]:
         "display" : entry["reading"],
         "readings" : entry["altKanaReadings"],
         "kun_readings" : [],
-        "meanings" : entry["meanings"]
+        "meanings" : entry["meanings"],
+        "meanings_es" : entry["meanings_es"],
+        "meanings_fr" : entry["meanings_fr"],
+        "meanings_pt" : entry["meanings_pt"]
     }
 
     readinglist = [entry["reading"]]
@@ -494,8 +523,12 @@ for entry in listEntries[:lowIndex]:
     for otherentry in entry["otherMeanings"]:
         dicoEntry["meanings"].extend(otherentry["meanings"])
         dicoEntry["meanings"] = list(dict.fromkeys(dicoEntry["meanings"]))
-        dicoEntry["readings"].extend(otherentry["altKanaReadings"])
-        dicoEntry["readings"] = list(dict.fromkeys(dicoEntry["readings"]))
+        dicoEntry["meanings_fr"].extend(otherentry["meanings_fr"])
+        dicoEntry["meanings_fr"] = list(dict.fromkeys(dicoEntry["meanings_fr"]))
+        dicoEntry["meanings_es"].extend(otherentry["meanings_es"])
+        dicoEntry["meanings_es"] = list(dict.fromkeys(dicoEntry["meanings_es"]))
+        dicoEntry["meanings_pt"].extend(otherentry["meanings_pt"])
+        dicoEntry["meanings_pt"] = list(dict.fromkeys(dicoEntry["meanings_pt"]))
         readinglist.extend(otherentry["altKanjiReadings"])
 
     dicoEntry["readings"] = list(dict.fromkeys(list(map(jaconv.kata2hira, dicoEntry["readings"]))))
@@ -524,6 +557,9 @@ for entry in listEntries[:lowIndex]:
 
             if(iId != sharedid):
                 dicoCopy["meanings"] = []
+                dicoCopy["meanings_fr"] = []
+                dicoCopy["meanings_es"] = []
+                dicoCopy["meanings_pt"] = []
                 dicoCopy["readings"] = []
 
             iId += 1
@@ -553,7 +589,10 @@ for ilevel, level in enumerate(listLevels):
             "display" : "",
             "readings" : [],
             "kun_readings" : [],
-            "meanings" : kana["meanings"]
+            "meanings" : kana["meanings"],
+            "meanings_fr" : kana["meanings_fr"],
+            "meanings_es" : kana["meanings_es"],
+            "meanings_pt" : kana["meanings_pt"]
         }
 
         if(kana["kana_only"]):
