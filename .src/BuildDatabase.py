@@ -14,8 +14,8 @@ def char_is_katakana(c) -> bool:
 def string_is_katakana(s: str) -> bool:
     return all(char_is_katakana(c) for c in s)
 
-if(not(os.path.exists("../output/"))):
-    os.mkdir("../output")
+if(not(os.path.exists("../.temp/"))):
+    os.mkdir("../.temp/")
 
 dicoKanjis = {}
 
@@ -406,19 +406,17 @@ for i in range(len(listKanaOnly) - 1, -1, -1):
     else:
         reading = kana["altKanaReadings"][0]
 
-    if(string_is_katakana(reading)):
-        print("katakana only", reading)
-        del listKanaOnly[i]
-
 listLevels = []
 dicoKanjiLevel = {}
 
 iId = 0
 
+kanaonlyinterval = len(listKanaOnly) // 100
+
 for i in range(1, 101):
     level = []
 
-    for kana in listKanaOnly[20 * (i - 1) : 20 * i]:
+    for kana in listKanaOnly[kanaonlyinterval * (i - 1) : min(kanaonlyinterval * i, len(listKanaOnly))]:
         dicoEntry = {
             "id" : iId,
             "sharedid" : iId,
@@ -481,7 +479,7 @@ def CheckReadingValidity(reading):
     
     return bValid
 
-for entry in listEntries[:lowIndex]:
+for entry in listEntries:
     if(entry["kana_only"]):
         continue
 
@@ -500,7 +498,7 @@ for entry in listEntries[:lowIndex]:
 
         dicoSecondaryVocabReadings[reading] += 1
 
-for entry in listEntries[:lowIndex]:
+for entry in listEntries:
     if(entry["kana_only"]):
         continue
 
@@ -565,44 +563,26 @@ for entry in listEntries[:lowIndex]:
             iId += 1
             listLevels[levelreading].append(dicoCopy)
 
+setDeletedIds = set()
+
 for ilevel, level in enumerate(listLevels):
     for i in range(len(level) - 1, -1, -1):
         item = level[i]
         if(len(item["meanings"]) == 0 and item["id"] == item["sharedid"]):
             print(ilevel, item)
+            setDeletedIds.add(item["id"])
             del(level[i])
 
-        if((len(item["readings"]) + len(item["kun_readings"])) == 0 and item["id"] == item["sharedid"] and item["type"] != "vocab_kana"):
+        elif((len(item["readings"]) + len(item["kun_readings"])) == 0 and item["id"] == item["sharedid"] and item["type"] != "vocab_kana"):
             print(ilevel, item)
+            setDeletedIds.add(item["id"])
             del(level[i])
-
-iCurrentKanaPosition = 2000
 
 for ilevel, level in enumerate(listLevels):
-    while(len(level) < 150):
-        kana = listKanaOnly[iCurrentKanaPosition]
-
-        dicoEntry = {
-            "id" : iId,
-            "sharedid" : iId,
-            "type" : "vocab_kana",
-            "display" : "",
-            "readings" : [],
-            "kun_readings" : [],
-            "meanings" : kana["meanings"],
-            "meanings_fr" : kana["meanings_fr"],
-            "meanings_es" : kana["meanings_es"],
-            "meanings_pt" : kana["meanings_pt"]
-        }
-
-        if(kana["kana_only"]):
-            dicoEntry["display"] = kana["reading"]
-        else:
-            dicoEntry["display"] = kana["altKanaReadings"][0]
-
-        iId += 1
-        iCurrentKanaPosition += 1
-        level.append(dicoEntry)
+    for i in range(len(level) - 1, -1, -1):
+        item = level[i]
+        if(item["sharedid"] in setDeletedIds):
+            del(level[i])
 
 for i in range(len(listLevels)):
     print(i, len(listLevels[i]))
@@ -620,7 +600,7 @@ for level in listLevels:
     for item in level:
         item["sharedid"] = dicoHashConversion[item["sharedid"]]
 
-json.dump(listLevels, open("../output/Levels.json", "w", encoding="utf8"), ensure_ascii=False, indent=1)
+json.dump(listLevels, open("../.temp/Levels.json", "w", encoding="utf8"), ensure_ascii=False, indent=1)
 
 print("DONE VOCABULARY")
 
