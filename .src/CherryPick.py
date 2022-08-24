@@ -270,18 +270,39 @@ listOutput = []
 for level in listInput:
     listOutput.append([])
 
+setValidKanaOnlyId = set()
+
+for level in dicoSelected["SelectedKanaOnly"]:
+    for item in dicoSelected["SelectedKanaOnly"][level]:
+        setValidKanaOnlyId.add(item)
+
 setValidVocabularySharedId = set()
 
 for level in dicoSelected["SelectedVocab"]:
     for item in dicoSelected["SelectedVocab"][level]:
         setValidVocabularySharedId.add(item)
 
+listValidKanaOnly = []
+
+for level in listInput:
+    for item in level:
+        if(item["type"] == "vocab_kana" and item["id"] in setValidKanaOnlyId):
+            listValidKanaOnly.append(item)
+
+iCurrentKanaOnlyCursor = 0
+
 for iLevel, level in enumerate(listOutput):
     for item in listInput[iLevel]:
         if(item["type"] == "kanji"):
             level.append(item)
         elif(item["type"] == "vocab" and item["sharedid"] in setValidVocabularySharedId):
+            if("〇" in item["display"] and not(item["id"] == item["sharedid"])):
+                continue
             level.append(item)
+
+    if(iLevel * 20 < len(listValidKanaOnly)):
+        level.extend(listValidKanaOnly[iLevel * 20: min((iLevel + 1) * 20, len(listValidKanaOnly))])
+
 
 json.dump(listOutput, open("../Output/Levels.json", "w", encoding="utf8"), ensure_ascii=False, indent=1)
 
