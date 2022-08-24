@@ -4,7 +4,10 @@ from logging import root
 import tkinter
 import os
 import json
+from turtle import color
 import Tooltip
+
+FontSize = 30
 
 if(not(os.path.exists("../.temp/Levels.json"))):
     print("No Levels.json found")
@@ -27,33 +30,142 @@ if(not("SelectedVocab" in dicoOutput)):
     dicoOutput["SelectedVocab"] = {}
 
 if(not("SelectedKanaOnly" in dicoOutput)):
-    dicoOutput["SelectedKanaOnly"] = []
+    dicoOutput["SelectedKanaOnly"] = {}
 
 def Quit():
     global root
     root.quit()
 
+###
+###
+### KANA ONLY BLOCK
+###
+###
+
 def KanaOnlySelection():
     global root
+    global dicoOutput
     for child in root.winfo_children():
         child.destroy()
-
-def VocabularySelection():
-    global root
-    for child in root.winfo_children():
-        child.destroy()
+    
     for iLevel, level in enumerate(listInput):
-        button = tkinter.Button(root, text=str(iLevel + 1), command = lambda level=iLevel: SelectLevel(level))
+        button = tkinter.Button(root, text=str(iLevel + 1), command = lambda level=iLevel: SelectKanaOnlyLevel(level))
         button.grid(column=iLevel%10, row = iLevel//10)
+
+        if(str(iLevel) in dicoOutput["SelectedKanaOnly"]):
+            button.config(bg="LightBlue1")
 
     iLevel += 10
 
     button = tkinter.Button(root, text="Quit", command = Quit)
     button.grid(column=0, row = iLevel//10, columnspan=10) 
 
+iKanaOnlyLevelSelected = -1
+iKanaOnlyCounter = -1
+setSelectedKanaOnly = set()
+
+def SelectKanaOnlyLevel(level):
+    global iKanaOnlyLevelSelected
+    global iKanaOnlyCounter
+    global setSelectedKanaOnly
+    iKanaOnlyLevelSelected = level
+    iKanaOnlyCounter = -1
+    setSelectedKanaOnly = set()
+    DisplayNextKanaOnlyChoice()
+
+def AcceptKanaOnly(kanaonly):
+    setSelectedKanaOnly.add(kanaonly)
+    DisplayNextKanaOnlyChoice()
+
+def RefuseKanaOnly(kanaonly):
+    DisplayNextKanaOnlyChoice()
+
+def DisplayNextKanaOnlyChoice():
+    global iKanaOnlyLevelSelected
+    global iKanaOnlyCounter
+    global root
+
+    iKanaOnlyCounter += 1
+
+    for child in root.winfo_children():
+        child.destroy()
+    
+    iCurrentKanaOnly = 0
+    selectedEntry = None
+
+    iTotalEntryCount = 0
+
+    for entry in listInput[iKanaOnlyLevelSelected]:
+        if(entry["type"] == "vocab_kana"):
+            iTotalEntryCount += 1
+
+    for entry in listInput[iKanaOnlyLevelSelected]:
+        if(entry["type"] == "vocab_kana"):
+            if(iCurrentKanaOnly != iKanaOnlyCounter):
+                iCurrentKanaOnly += 1
+            else:
+                selectedEntry = entry
+                break
+    
+    print(iKanaOnlyCounter, iTotalEntryCount)
+
+    if(selectedEntry == None):
+        DoneWithKanaOnlyLevel()
+        return
+
+    label = tkinter.Label(root, text=selectedEntry["display"], width=80)
+    label.config(font=('Arial', FontSize))
+    label.grid(row=0, column=0, columnspan=2)
+
+    label = tkinter.Label(root, text=selectedEntry["meanings"][0])
+    label.config(font=('Arial', int(FontSize * 0.7)))
+    label.grid(row=1, column=0, columnspan=2)
+
+    button = tkinter.Button(root, text="Yes", command=lambda id=selectedEntry["id"]: AcceptKanaOnly(id))
+    button.config(font=('Arial', FontSize))
+    button.grid(row=2, column = 0)
+
+    if(str(iKanaOnlyLevelSelected) in dicoOutput["SelectedKanaOnly"] and selectedEntry["id"] in dicoOutput["SelectedKanaOnly"][str(iKanaOnlyLevelSelected)]):
+        button.config(bg = "LightBlue1")
+
+    button = tkinter.Button(root, text="No", command=lambda id=selectedEntry["id"]: RefuseKanaOnly(id))
+    button.config(font=('Arial', FontSize))
+    button.grid(row=2, column = 1)
+
+    if(str(iKanaOnlyLevelSelected) in dicoOutput["SelectedKanaOnly"] and not(selectedEntry["id"] in dicoOutput["SelectedKanaOnly"][str(iKanaOnlyLevelSelected)])):
+        button.config(bg = "LightBlue1")
+
+def DoneWithKanaOnlyLevel():
+    global dicoOutput
+    dicoOutput["SelectedKanaOnly"][str(iKanaOnlyLevelSelected)] = list(setSelectedKanaOnly)
+    KanaOnlySelection()
+
+###
+###
+### VOCABULARY BLOCK
+###
+###
+
 iLevelSelected = -1
 iKanjiCounter = -1
 setSelectedVocab = set()
+
+def VocabularySelection():
+    global root
+    for child in root.winfo_children():
+        child.destroy()
+
+    for iLevel, level in enumerate(listInput):
+        button = tkinter.Button(root, text=str(iLevel + 1), command = lambda level=iLevel: SelectLevel(level))
+        button.grid(column=iLevel%10, row = iLevel//10)
+
+        if(str(iLevel) in dicoOutput["SelectedVocab"]):
+            button.config(bg="LightBlue1")
+
+    iLevel += 10
+
+    button = tkinter.Button(root, text="Quit", command = Quit)
+    button.grid(column=0, row = iLevel//10, columnspan=10) 
 
 def SelectLevel(level):
     global iLevelSelected
@@ -71,14 +183,13 @@ def SelectedVocab(vocab):
     setSelectedVocab.add(vocab)
     dicoPerButton[vocab].config(state=tkinter.DISABLED)
 
-FontSize = 30
 dicoPerButton = {}
 
 def DisplayNextKanjiChoices():
+    global iLevelSelected
     global iKanjiCounter
     global root
     global dicoPerButton
-    global dicoItemPerId
     iKanjiCounter += 1
 
     for child in root.winfo_children():
@@ -119,6 +230,13 @@ def DisplayNextKanjiChoices():
             if(selectedEntry["display"] in entry["display"]):
                 button = tkinter.Button(root, text=entry["display"], command=lambda id=entry["id"]: SelectedVocab(id))
                 button.config(font=('Arial', FontSize))
+
+                if(entry["id"] in setSelectedVocab):
+                    button.config(bg="tan1")
+                elif(str(iLevelSelected) in dicoOutput["SelectedVocab"] and 
+                    entry["id"] in dicoOutput["SelectedVocab"][str(iLevelSelected)]):
+                    button.config(bg="LightBlue1")
+
                 button.grid(row=iButtonPosition // ColumnCount, column = iButtonPosition % ColumnCount)
                 Tooltip.CreateToolTip(button, entry["meanings"][0])
                 iButtonPosition += 1
@@ -128,6 +246,12 @@ def DoneWithLevel():
     global dicoOutput
     dicoOutput["SelectedVocab"][str(iLevelSelected)] = list(setSelectedVocab)
     VocabularySelection()
+
+###
+###
+### WHATEVER BLOCK
+###
+###
 
 root = tkinter.Tk()
 button = tkinter.Button(root, text="KanaOnly", command=KanaOnlySelection)
