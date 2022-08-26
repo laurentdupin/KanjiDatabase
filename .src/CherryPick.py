@@ -1,3 +1,4 @@
+from asyncore import read
 import enum
 from glob import glob
 from logging import root
@@ -35,6 +36,9 @@ if(not("SelectedKanaOnly" in dicoOutput)):
 
 if(not("KanaOnlySharedIds" in dicoOutput)):
     dicoOutput["KanaOnlySharedIds"] = {}
+
+if(not("KunReadingSelections" in dicoOutput)):
+    dicoOutput["KunReadingSelections"] = {}
 
 def Quit():
     global root
@@ -281,6 +285,122 @@ def DoneWithLevel():
 
 ###
 ###
+### KUN READING BLOCK
+###
+###
+
+def KunReadingSelection():
+    global root
+    global dicoOutput
+    for child in root.winfo_children():
+        child.destroy()
+    
+    for iLevel, level in enumerate(listInput):
+        button = tkinter.Button(root, text=str(iLevel + 1), command = lambda level=iLevel: SelectKunReadingLevel(level))
+        button.grid(column=iLevel%10, row = iLevel//10)
+
+        if(str(iLevel) in dicoOutput["KunReadingSelections"]):
+            button.config(bg="LightBlue1")
+
+    iLevel += 10
+
+    button = tkinter.Button(root, text="Quit", command = Quit)
+    button.grid(column=0, row = iLevel//10, columnspan=10) 
+
+iKunReadingLevelSelected = -1
+iKunReadingCounter = -1
+dicoKunReadingsSelections = {}
+
+def SelectKunReadingLevel(level):
+    global iKunReadingLevelSelected
+    global iKunReadingCounter
+    global dicoKunReadingsSelections
+    iKunReadingLevelSelected = level
+    iKunReadingCounter = -1
+    dicoKunReadingsSelections = {}
+    DisplayNextKunReadingChoice()
+
+iExpectedReadingCount = 0
+
+def SelectKunReading(id, originalreading, newreading):
+    global dicoKunReadingsSelections
+    global iExpectedReadingCount
+
+    if(not(id in dicoKunReadingsSelections)):
+        dicoKunReadingsSelections[id] = {}
+
+    dicoKunReadingsSelections[id][originalreading] = newreading
+
+    print(len(dicoKunReadingsSelections[id]), iExpectedReadingCount)
+
+    if(len(dicoKunReadingsSelections[id]) == iExpectedReadingCount):
+        DisplayNextKunReadingChoice()
+
+def DisplayNextKunReadingChoice():
+    global iKunReadingLevelSelected
+    global iKunReadingCounter
+    global root
+    global iExpectedReadingCount
+
+    iKunReadingCounter += 1
+
+    for child in root.winfo_children():
+        child.destroy()
+    
+    iCurrentKunReadingKanji = 0
+    selectedEntry = None
+    maxsplitpointcount = 0
+    iExpectedReadingCount = 0
+
+    for entry in listInput[iKunReadingLevelSelected]:
+        if(entry["type"] == "kanji"):
+            
+            iExpectedReadingCount = 0
+            bPointKunReading = False
+
+            for kunreading in entry["kun_readings"]:
+                if("." in kunreading):
+                    iExpectedReadingCount += 1
+                    bPointKunReading = True
+                    maxsplitpointcount = max(maxsplitpointcount, len(kunreading.split(".")))
+
+            if(bPointKunReading):
+                if(iCurrentKunReadingKanji != iKunReadingCounter):
+                    iCurrentKunReadingKanji += 1
+                else:
+                    selectedEntry = entry
+                    break
+
+    if(selectedEntry == None):
+        DoneWithKunReadingLevel()
+        return
+
+    label = tkinter.Label(root, text=selectedEntry["display"], width=80)
+    label.config(font=('Arial', FontSize))
+    label.grid(row=0, column=0, columnspan=maxsplitpointcount)
+
+    currentrow = 1
+
+    for kunreading in entry["kun_readings"]:
+        if("." in kunreading):
+
+            arraypart = kunreading.split(".")
+            currentcolumn =  0
+
+            for item in arraypart:
+                button = tkinter.Button(root, text=item, command=lambda id=selectedEntry["id"], orireading = kunreading, newreading=item: SelectKunReading(id, orireading, newreading))
+                button.config(font=('Arial', int(FontSize * 0.7)))
+                button.grid(row=currentrow, column = currentcolumn)
+                currentcolumn += 1
+
+            currentrow += 1
+
+def DoneWithKunReadingLevel():
+    global dicoOutput
+    dicoOutput["KunReadingSelections"][str(iKunReadingLevelSelected)] = dicoKunReadingsSelections
+    KunReadingSelection()
+###
+###
 ### WHATEVER BLOCK
 ###
 ###
@@ -295,7 +415,7 @@ button.config(font=('Arial', FontSize))
 button = tkinter.Button(root, text="Per Item Definition")
 button.pack()
 button.config(font=('Arial', FontSize))
-button = tkinter.Button(root, text="Kun reading picker")
+button = tkinter.Button(root, text="Kun reading picker", command=KunReadingSelection)
 button.pack()
 button.config(font=('Arial', FontSize))
 root.mainloop()
@@ -326,6 +446,12 @@ for level in dicoSelected["KanaOnlySharedIds"]:
     for item in dicoSelected["KanaOnlySharedIds"][level]:
         dicoKanaOnlySharedIds[int(item)] = int(dicoSelected["KanaOnlySharedIds"][level][item])
 
+dicoKunReadingReplacements = {}
+
+for level in dicoSelected["KunReadingSelections"]:
+    for item in dicoSelected["KunReadingSelections"][level]:
+        dicoKunReadingReplacements[int(item)] = dicoSelected["KunReadingSelections"][level][item]
+
 listValidKanaOnly = []
 
 for level in listInput:
@@ -347,6 +473,30 @@ iCurrentKanaOnlyCursor = 0
 for iLevel, level in enumerate(listOutput):
     for item in listInput[iLevel]:
         if(item["type"] == "kanji"):
+
+            for iReading, reading in enumerate(item["kun_readings"]):
+                if(reading.endswith("-")):
+                    item["kun_readings"][iReading] = reading[:-1]
+
+            newreadinglist = []
+
+            for reading in item["kun_readings"]:
+                if(not(reading in newreadinglist)):
+                    newreadinglist.append(reading)
+
+            if(item["id"] in dicoKunReadingReplacements):
+                newreadinglist = []
+
+                for reading in item["kun_readings"]:
+                    if(reading in dicoKunReadingReplacements[item["id"]]):
+                        if(not(dicoKunReadingReplacements[item["id"]][reading] in newreadinglist)):
+                            newreadinglist.append(dicoKunReadingReplacements[item["id"]][reading])
+                    else:
+                        if(not(reading in newreadinglist)):
+                            newreadinglist.append(reading)
+                
+                item["kun_readings"] = newreadinglist
+                
             level.append(item)
         elif(item["type"] == "vocab" and item["sharedid"] in setValidVocabularySharedId):
             if("〇" in item["display"] and not(item["id"] == item["sharedid"])):
