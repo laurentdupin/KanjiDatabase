@@ -6,6 +6,7 @@ import os
 import json
 from turtle import color
 import Tooltip
+import pyperclip
 
 FontSize = 30
 
@@ -31,6 +32,9 @@ if(not("SelectedVocab" in dicoOutput)):
 
 if(not("SelectedKanaOnly" in dicoOutput)):
     dicoOutput["SelectedKanaOnly"] = {}
+
+if(not("KanaOnlySharedIds" in dicoOutput)):
+    dicoOutput["KanaOnlySharedIds"] = {}
 
 def Quit():
     global root
@@ -63,27 +67,43 @@ def KanaOnlySelection():
 iKanaOnlyLevelSelected = -1
 iKanaOnlyCounter = -1
 setSelectedKanaOnly = set()
+dicoKanaOnlySharedIds = {}
 
 def SelectKanaOnlyLevel(level):
     global iKanaOnlyLevelSelected
     global iKanaOnlyCounter
     global setSelectedKanaOnly
+    global dicoKanaOnlySharedIds
     iKanaOnlyLevelSelected = level
     iKanaOnlyCounter = -1
     setSelectedKanaOnly = set()
+    dicoKanaOnlySharedIds = {}
     DisplayNextKanaOnlyChoice()
 
 def AcceptKanaOnly(kanaonly):
+    global sharedidentry
+    global setSelectedKanaOnly
+    global dicoKanaOnlySharedIds
+
+    if(sharedidentry.get() != ""):
+        dicoKanaOnlySharedIds[kanaonly] = sharedidentry.get()
+
+    sharedidentry.delete(0,tkinter.END)
     setSelectedKanaOnly.add(kanaonly)
     DisplayNextKanaOnlyChoice()
 
 def RefuseKanaOnly(kanaonly):
+    global sharedidentry
+    sharedidentry.delete(0,tkinter.END)
     DisplayNextKanaOnlyChoice()
+
+sharedidentry = None
 
 def DisplayNextKanaOnlyChoice():
     global iKanaOnlyLevelSelected
     global iKanaOnlyCounter
     global root
+    global sharedidentry
 
     iKanaOnlyCounter += 1
 
@@ -135,9 +155,21 @@ def DisplayNextKanaOnlyChoice():
     if(str(iKanaOnlyLevelSelected) in dicoOutput["SelectedKanaOnly"] and not(selectedEntry["id"] in dicoOutput["SelectedKanaOnly"][str(iKanaOnlyLevelSelected)])):
         button.config(bg = "LightBlue1")
 
+    sharedidentry = tkinter.Entry(root)
+    sharedidentry.config(font=('Arial', FontSize))
+    sharedidentry.grid(row=3, column=0, columnspan=2)
+
+    if(str(iKanaOnlyLevelSelected) in dicoOutput["KanaOnlySharedIds"] and 
+        str(selectedEntry["id"]) in dicoOutput["KanaOnlySharedIds"][str(iKanaOnlyLevelSelected)]):
+        sharedidentry.delete(0,tkinter.END)
+        sharedidentry.insert(0, dicoOutput["KanaOnlySharedIds"][str(iKanaOnlyLevelSelected)][str(selectedEntry["id"])])
+
+    pyperclip.copy(selectedEntry["display"])
+
 def DoneWithKanaOnlyLevel():
     global dicoOutput
     dicoOutput["SelectedKanaOnly"][str(iKanaOnlyLevelSelected)] = list(setSelectedKanaOnly)
+    dicoOutput["KanaOnlySharedIds"][str(iKanaOnlyLevelSelected)] = dicoKanaOnlySharedIds
     KanaOnlySelection()
 
 ###
@@ -256,10 +288,16 @@ def DoneWithLevel():
 root = tkinter.Tk()
 button = tkinter.Button(root, text="KanaOnly", command=KanaOnlySelection)
 button.pack()
+button.config(font=('Arial', FontSize))
 button = tkinter.Button(root, text="Vocabulary", command=VocabularySelection)
 button.pack()
+button.config(font=('Arial', FontSize))
 button = tkinter.Button(root, text="Per Item Definition")
 button.pack()
+button.config(font=('Arial', FontSize))
+button = tkinter.Button(root, text="Kun reading picker")
+button.pack()
+button.config(font=('Arial', FontSize))
 root.mainloop()
 
 json.dump(dicoOutput, open("../.src/Selected.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
@@ -282,12 +320,27 @@ for level in dicoSelected["SelectedVocab"]:
     for item in dicoSelected["SelectedVocab"][level]:
         setValidVocabularySharedId.add(item)
 
+dicoKanaOnlySharedIds = {}
+
+for level in dicoSelected["KanaOnlySharedIds"]:
+    for item in dicoSelected["KanaOnlySharedIds"][level]:
+        dicoKanaOnlySharedIds[int(item)] = int(dicoSelected["KanaOnlySharedIds"][level][item])
+
 listValidKanaOnly = []
 
 for level in listInput:
     for item in level:
         if(item["type"] == "vocab_kana" and item["id"] in setValidKanaOnlyId):
             listValidKanaOnly.append(item)
+
+for level in listInput:
+    for item in level:
+        if(item["type"] == "vocab_kana" and item["id"] in dicoKanaOnlySharedIds):
+            item["meanings"] = dicoItemPerId[dicoKanaOnlySharedIds[item["id"]]]["meanings"]
+            item["meanings_fr"] = dicoItemPerId[dicoKanaOnlySharedIds[item["id"]]]["meanings_fr"]
+            item["meanings_es"] = dicoItemPerId[dicoKanaOnlySharedIds[item["id"]]]["meanings_es"]
+            item["meanings_pt"] = dicoItemPerId[dicoKanaOnlySharedIds[item["id"]]]["meanings_pt"]
+            
 
 iCurrentKanaOnlyCursor = 0
 

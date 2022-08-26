@@ -8069,6 +8069,78 @@
    "meanings_pt": []
   },
   {
+   "id": 11559554206395929318,
+   "sharedid": 11559554206395929318,
+   "type": "vocab_kana",
+   "display": "こと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "thing",
+    "matter",
+    "incident",
+    "occurrence",
+    "event",
+    "something serious",
+    "trouble",
+    "crisis",
+    "circumstances",
+    "situation",
+    "state of affairs",
+    "work",
+    "business",
+    "affair",
+    "after an inflectable word, creates a noun phrase indicating something the speaker does not feel close to",
+    "nominalizing suffix",
+    "pretending to ...",
+    "playing make-believe ...",
+    "alias",
+    "also known as",
+    "otherwise known as",
+    "or",
+    "necessity",
+    "need",
+    "you should ...",
+    "I advise that you ...",
+    "it's important to ...",
+    "individual concrete phenomenon (as opposed to a general principle)"
+   ],
+   "meanings_fr": [
+    "chose",
+    "le fait de",
+    "incident",
+    "occurrence",
+    "événement",
+    "quelque chose de grave",
+    "difficulté",
+    "crise",
+    "circonstances",
+    "situation",
+    "état des lieux",
+    "travail",
+    "activité",
+    "affaire",
+    "après un mot variable, crée un groupe nominal indiquant quelque chose dont le locuteur ne se sent pas proche",
+    "suffixe nominal",
+    "prétendre que... ",
+    "jouer à faire semblant de...",
+    "alias",
+    "surnom",
+    "également appelé",
+    "aussi connu sous le nom"
+   ],
+   "meanings_es": [
+    "cosa",
+    "materia",
+    "hecho",
+    "circunstancias",
+    "asunto",
+    "razón",
+    "experiencia"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 10959530568348224421,
    "sharedid": 10959530568348224421,
    "type": "vocab_kana",
@@ -8243,6 +8315,96 @@
    "meanings_pt": []
   },
   {
+   "id": 8275580523436352047,
+   "sharedid": 8275580523436352047,
+   "type": "vocab_kana",
+   "display": "もの",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "thing",
+    "object",
+    "article",
+    "stuff",
+    "substance",
+    "one's things",
+    "possessions",
+    "property",
+    "belongings",
+    "things",
+    "something",
+    "anything",
+    "everything",
+    "nothing",
+    "quality",
+    "reason",
+    "the way of things",
+    "used to emphasize emotion, judgment, etc.",
+    "used to indicate a common occurrence in the past (after a verb in past tense)",
+    "used to indicate a general tendency",
+    "used to indicate something that should happen",
+    "item classified as ...",
+    "item related to ...",
+    "work in the genre of ...",
+    "cause of ...",
+    "cause for ...",
+    "somehow",
+    "somewhat",
+    "for some reason",
+    "really",
+    "truly",
+    "stock",
+    "products",
+    "stolen goods",
+    "loot",
+    "spoils"
+   ],
+   "meanings_fr": [
+    "chose",
+    "objet",
+    "article",
+    "truc",
+    "substance",
+    "ses affaires",
+    "possessions",
+    "propriété",
+    "effets personnels",
+    "choses",
+    "quelque chose",
+    "n'importe quoi",
+    "tout",
+    "rien",
+    "qualité",
+    "raison",
+    "l'ordre des choses",
+    "utilisé pour mettre l'accent sur une émotion, un jugement, etc.",
+    "utilisé pour indiquer un phénomène courant dans le passé (après un verbe au passé)",
+    "utilisé pour indiquer une tendance générale",
+    "utilisé pour indiquer quelque chose qui devrait se produire",
+    "élément classé comme...",
+    "élément relatif à...",
+    "travail de...",
+    "cause de...",
+    "motif de...",
+    "raison pour...",
+    "en quelque sorte",
+    "d'une certaine manière",
+    "pour une raison quelconque",
+    "vraiment",
+    "réellement",
+    "véritablement",
+    "stock",
+    "produits",
+    "marchandises volées",
+    "butin"
+   ],
+   "meanings_es": [
+    "cosa",
+    "objeto"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 6071059682535456216,
    "sharedid": 6071059682535456216,
    "type": "vocab_kana",
@@ -8339,43 +8501,6 @@
     "hasta",
     "a"
    ],
-   "meanings_pt": []
-  },
-  {
-   "id": 14799931299028691510,
-   "sharedid": 14799931299028691510,
-   "type": "vocab_kana",
-   "display": "へ",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "to",
-    "towards",
-    "for"
-   ],
-   "meanings_fr": [],
-   "meanings_es": [
-    "prt hacia"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 9418748128654246543,
-   "sharedid": 9418748128654246543,
-   "type": "vocab_kana",
-   "display": "として",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "as (i.e. in the role of)",
-    "for (i.e. from the viewpoint of)",
-    "apart from... (used to change the topic)",
-    "even (e.g. \"not even a single person\")",
-    "thinking that...",
-    "trying to..."
-   ],
-   "meanings_fr": [],
-   "meanings_es": [],
    "meanings_pt": []
   }
  ],
@@ -9323,6 +9448,43 @@
    "meanings_pt": []
   },
   {
+   "id": 14799931299028691510,
+   "sharedid": 14799931299028691510,
+   "type": "vocab_kana",
+   "display": "へ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to",
+    "towards",
+    "for"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "prt hacia"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9418748128654246543,
+   "sharedid": 9418748128654246543,
+   "type": "vocab_kana",
+   "display": "として",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "as (i.e. in the role of)",
+    "for (i.e. from the viewpoint of)",
+    "apart from... (used to change the topic)",
+    "even (e.g. \"not even a single person\")",
+    "thinking that...",
+    "trying to..."
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
    "id": 7778634885249857501,
    "sharedid": 7778634885249857501,
    "type": "vocab_kana",
@@ -9547,6 +9709,37 @@
    "meanings_pt": []
   },
   {
+   "id": 8694381739787690802,
+   "sharedid": 8694381739787690802,
+   "type": "vocab_kana",
+   "display": "たら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "if",
+    "when",
+    "after",
+    "when it comes to ...",
+    "as for ...",
+    "that ...",
+    "why don't you ...",
+    "why not ...",
+    "how about ...",
+    "what about ...",
+    "I tell you!",
+    "I said ...",
+    "I really mean ...",
+    "vocative particle"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "indica suposición",
+    "si ... entonces",
+    "(normalmente después del nombre de alguien) indica exasperación"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 15107525231602727698,
    "sharedid": 15107525231602727698,
    "type": "vocab_kana",
@@ -9743,30 +9936,6 @@
     "fallecer",
     "ir",
     "continuar"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 18124709521163998975,
-   "sharedid": 18124709521163998975,
-   "type": "vocab_kana",
-   "display": "アメリカ",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "(United States of) America",
-    "United States",
-    "US",
-    "USA",
-    "America (land mass)",
-    "the Americas"
-   ],
-   "meanings_fr": [
-    "Amérique",
-    "États-Unis d'Amérique"
-   ],
-   "meanings_es": [
-    "América"
    ],
    "meanings_pt": []
   },
@@ -10022,80 +10191,6 @@
     "cerrar",
     "acabar",
     "guardar"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 11748074380774041519,
-   "sharedid": 11748074380774041519,
-   "type": "vocab_kana",
-   "display": "そして",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "and",
-    "and then",
-    "thus",
-    "and now",
-    "and finally"
-   ],
-   "meanings_fr": [
-    "ensuite",
-    "et",
-    "puis"
-   ],
-   "meanings_es": [
-    "y",
-    "y entonces",
-    "así",
-    "de esta manera",
-    "y ahora"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 15907022813207083447,
-   "sharedid": 15907022813207083447,
-   "type": "vocab_kana",
-   "display": "くる",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "to come (spatially or temporally)",
-    "to approach",
-    "to arrive",
-    "to come back",
-    "to do ... and come back",
-    "to come to be",
-    "to become",
-    "to get",
-    "to grow",
-    "to continue",
-    "to come from",
-    "to be caused by",
-    "to derive from",
-    "to come to (i.e. \"when it comes to spinach ...\")",
-    "next (e.g. \"next April\")",
-    "forthcoming",
-    "coming",
-    "to come",
-    "to arrive",
-    "to be due to"
-   ],
-   "meanings_fr": [
-    "revenir",
-    "faire... et revenir",
-    "s'agir de",
-    "arriver",
-    "venir"
-   ],
-   "meanings_es": [
-    "llegar",
-    "venir",
-    "venir",
-    "llegar",
-    "ser el próximo",
-    "ser debido a"
    ],
    "meanings_pt": []
   }
@@ -11089,6 +11184,80 @@
    "meanings_pt": []
   },
   {
+   "id": 11748074380774041519,
+   "sharedid": 11748074380774041519,
+   "type": "vocab_kana",
+   "display": "そして",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "and",
+    "and then",
+    "thus",
+    "and now",
+    "and finally"
+   ],
+   "meanings_fr": [
+    "ensuite",
+    "et",
+    "puis"
+   ],
+   "meanings_es": [
+    "y",
+    "y entonces",
+    "así",
+    "de esta manera",
+    "y ahora"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15907022813207083447,
+   "sharedid": 15907022813207083447,
+   "type": "vocab_kana",
+   "display": "くる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to come (spatially or temporally)",
+    "to approach",
+    "to arrive",
+    "to come back",
+    "to do ... and come back",
+    "to come to be",
+    "to become",
+    "to get",
+    "to grow",
+    "to continue",
+    "to come from",
+    "to be caused by",
+    "to derive from",
+    "to come to (i.e. \"when it comes to spinach ...\")",
+    "next (e.g. \"next April\")",
+    "forthcoming",
+    "coming",
+    "to come",
+    "to arrive",
+    "to be due to"
+   ],
+   "meanings_fr": [
+    "revenir",
+    "faire... et revenir",
+    "s'agir de",
+    "arriver",
+    "venir"
+   ],
+   "meanings_es": [
+    "llegar",
+    "venir",
+    "venir",
+    "llegar",
+    "ser el próximo",
+    "ser debido a"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 6685352933411343524,
    "sharedid": 6685352933411343524,
    "type": "vocab_kana",
@@ -11417,52 +11586,6 @@
    "meanings_pt": []
   },
   {
-   "id": 12722090390660881663,
-   "sharedid": 12722090390660881663,
-   "type": "vocab_kana",
-   "display": "テレビ",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "television",
-    "TV",
-    "TV program",
-    "TV programme",
-    "TV broadcast"
-   ],
-   "meanings_fr": [
-    "télévision",
-    "télé",
-    "TV",
-    "programme de télévision",
-    "télédiffusion"
-   ],
-   "meanings_es": [
-    "televisión",
-    "TV"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 2802167462101989724,
-   "sharedid": 2802167462101989724,
-   "type": "vocab_kana",
-   "display": "ページ",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "page"
-   ],
-   "meanings_fr": [
-    "page"
-   ],
-   "meanings_es": [
-    "página (eng:page)",
-    "página"
-   ],
-   "meanings_pt": []
-  },
-  {
    "id": 1751929009941877782,
    "sharedid": 1751929009941877782,
    "type": "vocab_kana",
@@ -11586,24 +11709,6 @@
    "meanings_pt": []
   },
   {
-   "id": 5981294082326341589,
-   "sharedid": 5981294082326341589,
-   "type": "vocab_kana",
-   "display": "システム",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "system"
-   ],
-   "meanings_fr": [
-    "système"
-   ],
-   "meanings_es": [
-    "sistema (eng: system)"
-   ],
-   "meanings_pt": []
-  },
-  {
    "id": 4098375498525030194,
    "sharedid": 4098375498525030194,
    "type": "vocab_kana",
@@ -11643,24 +11748,6 @@
    "meanings_pt": []
   },
   {
-   "id": 13833762719868308542,
-   "sharedid": 13833762719868308542,
-   "type": "vocab_kana",
-   "display": "ゲーム",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "game"
-   ],
-   "meanings_fr": [
-    "jeu"
-   ],
-   "meanings_es": [
-    "juego (eng: game)"
-   ],
-   "meanings_pt": []
-  },
-  {
    "id": 7713792702860197494,
    "sharedid": 7713792702860197494,
    "type": "vocab_kana",
@@ -11696,6 +11783,24 @@
    "meanings_pt": []
   },
   {
+   "id": 14821915487607494113,
+   "sharedid": 14821915487607494113,
+   "type": "vocab_kana",
+   "display": "のみ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "only",
+    "nothing but"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "sólo",
+    "excepto"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 12085297258828697438,
    "sharedid": 12085297258828697438,
    "type": "vocab_kana",
@@ -11725,21 +11830,79 @@
    "meanings_pt": []
   },
   {
-   "id": 18246790998887735291,
-   "sharedid": 18246790998887735291,
+   "id": 1277637155901307597,
+   "sharedid": 1277637155901307597,
    "type": "vocab_kana",
-   "display": "チーム",
+   "display": "まず",
    "readings": [],
    "kun_readings": [],
    "meanings": [
-    "team"
+    "first (of all)",
+    "firstly",
+    "to begin with",
+    "before anything else",
+    "probably",
+    "most likely",
+    "almost certainly",
+    "virtually",
+    "more or less (satisfactory)",
+    "on the whole",
+    "reasonably",
+    "anyway",
+    "at any rate",
+    "for now (at least)",
+    "for the time being"
    ],
    "meanings_fr": [
-    "équipe"
+    "(tout) d'abord",
+    "avant tout",
+    "premièrement",
+    "pour commencer",
+    "environ",
+    "à peu près",
+    "presque",
+    "de toute façon",
+    "et bien",
+    "pour le moment",
+    "difficilement (avec un verbe négatif)"
    ],
    "meanings_es": [
-    "equipo (eng: team)"
+    "primero (en todo)",
+    "empezar con",
+    "acerca de",
+    "casi",
+    "de cualquier modo",
+    "apenas (con verbo negativo)"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1582568873158073910,
+   "sharedid": 1582568873158073910,
+   "type": "vocab_kana",
+   "display": "つら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "face",
+    "mug",
+    "surface",
+    "cheek meat",
+    "cheek",
+    "cheeks",
+    "surrounding area",
+    "looking like a ...",
+    "acting as if a ..."
+   ],
+   "meanings_fr": [
+    "coin",
+    "facette",
+    "masque",
+    "page",
+    "surface",
+    "visage"
+   ],
+   "meanings_es": [],
    "meanings_pt": []
   }
  ],
@@ -12713,53 +12876,6 @@
    "meanings_pt": []
   },
   {
-   "id": 1277637155901307597,
-   "sharedid": 1277637155901307597,
-   "type": "vocab_kana",
-   "display": "まず",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "first (of all)",
-    "firstly",
-    "to begin with",
-    "before anything else",
-    "probably",
-    "most likely",
-    "almost certainly",
-    "virtually",
-    "more or less (satisfactory)",
-    "on the whole",
-    "reasonably",
-    "anyway",
-    "at any rate",
-    "for now (at least)",
-    "for the time being"
-   ],
-   "meanings_fr": [
-    "(tout) d'abord",
-    "avant tout",
-    "premièrement",
-    "pour commencer",
-    "environ",
-    "à peu près",
-    "presque",
-    "de toute façon",
-    "et bien",
-    "pour le moment",
-    "difficilement (avec un verbe négatif)"
-   ],
-   "meanings_es": [
-    "primero (en todo)",
-    "empezar con",
-    "acerca de",
-    "casi",
-    "de cualquier modo",
-    "apenas (con verbo negativo)"
-   ],
-   "meanings_pt": []
-  },
-  {
    "id": 12814650071626560074,
    "sharedid": 12814650071626560074,
    "type": "vocab_kana",
@@ -12886,24 +13002,6 @@
    "meanings_pt": []
   },
   {
-   "id": 4478704387769912260,
-   "sharedid": 4478704387769912260,
-   "type": "vocab_kana",
-   "display": "ドイツ",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "Germany"
-   ],
-   "meanings_fr": [
-    "Allemagne"
-   ],
-   "meanings_es": [
-    "Alemania"
-   ],
-   "meanings_pt": []
-  },
-  {
    "id": 536467275945509831,
    "sharedid": 536467275945509831,
    "type": "vocab_kana",
@@ -12923,6 +13021,25 @@
     "ou",
     "ou bien"
    ],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4810340509778414869,
+   "sharedid": 4810340509778414869,
+   "type": "vocab_kana",
+   "display": "における",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "in",
+    "at",
+    "on",
+    "as for",
+    "regarding",
+    "with regards to"
+   ],
+   "meanings_fr": [],
    "meanings_es": [],
    "meanings_pt": []
   },
@@ -13000,22 +13117,6 @@
    "meanings_pt": []
   },
   {
-   "id": 13663866575548642920,
-   "sharedid": 13663866575548642920,
-   "type": "vocab_kana",
-   "display": "フランス",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "France"
-   ],
-   "meanings_fr": [],
-   "meanings_es": [
-    "Francia (eng: France)"
-   ],
-   "meanings_pt": []
-  },
-  {
    "id": 1138374229241025228,
    "sharedid": 1138374229241025228,
    "type": "vocab_kana",
@@ -13062,6 +13163,30 @@
     "todas las personas",
     "todo",
     "todos"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3926087186053343941,
+   "sharedid": 3926087186053343941,
+   "type": "vocab_kana",
+   "display": "いわば",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "so to speak",
+    "so to call it",
+    "as it were"
+   ],
+   "meanings_fr": [
+    "pour ainsi dire",
+    "comme qui dirait",
+    "en quelque sorte"
+   ],
+   "meanings_es": [
+    "como quien dice",
+    "como si dijéramos",
+    "por así decirlo"
    ],
    "meanings_pt": []
   },
@@ -13239,6 +13364,32 @@
     "todavía",
     "aun"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10487067435922721731,
+   "sharedid": 10487067435922721731,
+   "type": "vocab_kana",
+   "display": "そこで",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "so",
+    "accordingly",
+    "now",
+    "then",
+    "thereupon",
+    "therefore"
+   ],
+   "meanings_fr": [
+    "alors (conjonction)",
+    "dans ce cas",
+    "donc",
+    "là-dessus",
+    "maintenant",
+    "sur ce"
+   ],
+   "meanings_es": [],
    "meanings_pt": []
   },
   {
@@ -14359,20 +14510,27 @@
    "meanings_pt": []
   },
   {
-   "id": 1120992253087971598,
-   "sharedid": 1120992253087971598,
+   "id": 9426317868439361111,
+   "sharedid": 9426317868439361111,
    "type": "vocab_kana",
-   "display": "プロ",
+   "display": "すぎ",
    "readings": [],
    "kun_readings": [],
    "meanings": [
-    "professional"
+    "past",
+    "after",
+    "too (much)",
+    "over- (e.g. eating)"
    ],
    "meanings_fr": [
-    "professionnel"
+    "passé",
+    "après",
+    "trop",
+    "sur- (par ex. surchauffe)"
    ],
    "meanings_es": [
-    "profesional (eng: professional)"
+    "sufijo: que supera, que pasa, que sobrepasa",
+    "sufijo: demasiado, excesivo, que se pasa de"
    ],
    "meanings_pt": []
   },
@@ -14565,6 +14723,31 @@
    "meanings_pt": []
   },
   {
+   "id": 7508321560168148446,
+   "sharedid": 7508321560168148446,
+   "type": "vocab_kana",
+   "display": "または",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "or",
+    "either ... or ..."
+   ],
+   "meanings_fr": [
+    "autrement",
+    "et",
+    "ou",
+    "ou ... ou",
+    "ou bien",
+    "sinon"
+   ],
+   "meanings_es": [
+    "o",
+    "de otro modo"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 16913628164174331145,
    "sharedid": 16913628164174331145,
    "type": "vocab_kana",
@@ -14615,24 +14798,6 @@
     "césped",
     "isla"
    ],
-   "meanings_pt": []
-  },
-  {
-   "id": 5170176961791667650,
-   "sharedid": 5170176961791667650,
-   "type": "vocab_kana",
-   "display": "いや",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "why",
-    "oh",
-    "no!",
-    "quit it!",
-    "stop!"
-   ],
-   "meanings_fr": [],
-   "meanings_es": [],
    "meanings_pt": []
   },
   {
@@ -14701,14 +14866,85 @@
    "readings": [],
    "kun_readings": [],
    "meanings": [
-    "that is in",
-    "who is called",
-    "that is called",
-    "that is",
-    "I see"
+    "to become",
+    "to get",
+    "to grow",
+    "to turn",
+    "to reach",
+    "to attain",
+    "to result in",
+    "to turn out",
+    "to end up",
+    "to prove (to be)",
+    "to consist of",
+    "to be composed of",
+    "to be made up of",
+    "to be completed",
+    "to be realized",
+    "to succeed",
+    "to be attained",
+    "to be accomplished",
+    "to change (into)",
+    "to turn (into)",
+    "to transform",
+    "to come (to do)",
+    "to begin (to do)",
+    "to grow (to do)",
+    "to come to",
+    "to amount to",
+    "to add up to",
+    "to make",
+    "to play (the part of)",
+    "to act as",
+    "to be used for",
+    "to be useful for",
+    "to serve as",
+    "to be promoted",
+    "to do ..."
    ],
-   "meanings_fr": [],
-   "meanings_es": [],
+   "meanings_fr": [
+    "devenir",
+    "s'établir",
+    "être",
+    "atteindre",
+    "accéder à",
+    "passer",
+    "aboutir à",
+    "mener à",
+    "s'avérer être",
+    "consister en",
+    "être composé de",
+    "réussir",
+    "être complet",
+    "être achevé",
+    "se changer en",
+    "être échangé contre",
+    "jouer un rôle",
+    "être promu",
+    "faire"
+   ],
+   "meanings_es": [
+    "convertirse en",
+    "llegar a ser",
+    "ponerse",
+    "hacerse",
+    "volverse",
+    "obtener",
+    "crecer",
+    "alcanzar a",
+    "lograr",
+    "realizar",
+    "resultar en",
+    "probar ser",
+    "consistir de",
+    "estar integrado por",
+    "tener éxito",
+    "completarse",
+    "cambiar en",
+    "intercambiarse por",
+    "jugar un rol",
+    "promoverse (shogi)"
+   ],
    "meanings_pt": []
   },
   {
@@ -14796,6 +15032,22 @@
     "ya",
     "demasiado tarde"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1109449648112576466,
+   "sharedid": 1109449648112576466,
+   "type": "vocab_kana",
+   "display": "つつ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "while",
+    "even though",
+    "despite"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
    "meanings_pt": []
   },
   {
@@ -14938,50 +15190,6 @@
     "bien",
     "ahora",
     "dejame ver"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 230621689786358865,
-   "sharedid": 230621689786358865,
-   "type": "vocab_kana",
-   "display": "すぐ",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "immediately",
-    "at once",
-    "right away",
-    "directly",
-    "soon",
-    "before long",
-    "shortly",
-    "easily",
-    "readily",
-    "without difficulty",
-    "right (near)",
-    "nearby",
-    "just (handy)",
-    "honest",
-    "upright",
-    "frank",
-    "straightforward"
-   ],
-   "meanings_fr": [
-    "aussitôt",
-    "immédiatement",
-    "sur le champ",
-    "tout de suite",
-    "en un clin d'œil",
-    "en un instant",
-    "rapidement",
-    "vite",
-    "facilement",
-    "pour (un rien)",
-    "bientôt"
-   ],
-   "meanings_es": [
-    "inmediatamente"
    ],
    "meanings_pt": []
   }
@@ -16031,6 +16239,50 @@
    "meanings_pt": []
   },
   {
+   "id": 230621689786358865,
+   "sharedid": 230621689786358865,
+   "type": "vocab_kana",
+   "display": "すぐ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "immediately",
+    "at once",
+    "right away",
+    "directly",
+    "soon",
+    "before long",
+    "shortly",
+    "easily",
+    "readily",
+    "without difficulty",
+    "right (near)",
+    "nearby",
+    "just (handy)",
+    "honest",
+    "upright",
+    "frank",
+    "straightforward"
+   ],
+   "meanings_fr": [
+    "aussitôt",
+    "immédiatement",
+    "sur le champ",
+    "tout de suite",
+    "en un clin d'œil",
+    "en un instant",
+    "rapidement",
+    "vite",
+    "facilement",
+    "pour (un rien)",
+    "bientôt"
+   ],
+   "meanings_es": [
+    "inmediatamente"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 13148367328046691387,
    "sharedid": 13148367328046691387,
    "type": "vocab_kana",
@@ -16337,26 +16589,6 @@
    "meanings_pt": []
   },
   {
-   "id": 11702348120233945563,
-   "sharedid": 11702348120233945563,
-   "type": "vocab_kana",
-   "display": "アジア",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "Asia"
-   ],
-   "meanings_fr": [
-    "Asie (en part. l'Extrême-Orient)",
-    "asiatique"
-   ],
-   "meanings_es": [
-    "Asia (Lejano Oriente)",
-    "Asia"
-   ],
-   "meanings_pt": []
-  },
-  {
    "id": 3673851043269563407,
    "sharedid": 3673851043269563407,
    "type": "vocab_kana",
@@ -16404,6 +16636,39 @@
    "meanings_es": [
     "junto con",
     "conjuntamente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7345659466785634280,
+   "sharedid": 7345659466785634280,
+   "type": "vocab_kana",
+   "display": "かつて",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "once",
+    "before",
+    "formerly",
+    "ever",
+    "former",
+    "ex-",
+    "never yet",
+    "never before",
+    "first time",
+    "still not happened"
+   ],
+   "meanings_fr": [
+    "autrefois",
+    "dans le temps",
+    "jadis",
+    "une fois"
+   ],
+   "meanings_es": [
+    "antiguamente",
+    "antes",
+    "antaño",
+    "antes"
    ],
    "meanings_pt": []
   },
@@ -16738,57 +17003,6 @@
    "meanings_es": [
     "claramente",
     "evidentemente"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 6819355424595127560,
-   "sharedid": 6819355424595127560,
-   "type": "vocab_kana",
-   "display": "ちゃんと",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "diligently",
-    "seriously",
-    "earnestly",
-    "reliably",
-    "steadily",
-    "legitimately",
-    "perfectly",
-    "properly",
-    "exactly",
-    "orderly",
-    "punctually",
-    "regularly",
-    "safely",
-    "in good condition",
-    "sufficiently",
-    "satisfactorily",
-    "quickly"
-   ],
-   "meanings_fr": [
-    "diligemment",
-    "sérieusement",
-    "sincèrement",
-    "de manière fiable",
-    "constamment",
-    "légitimement",
-    "parfaitement",
-    "correctement",
-    "exactement",
-    "de façon ordonnée",
-    "ponctuellement",
-    "régulièrement",
-    "suffisamment",
-    "de façon satisfaisante",
-    "rapidement",
-    "vite"
-   ],
-   "meanings_es": [
-    "perfectamente",
-    "propiamente",
-    "exactamente"
    ],
    "meanings_pt": []
   }
@@ -17726,6 +17940,57 @@
    "meanings_pt": []
   },
   {
+   "id": 6819355424595127560,
+   "sharedid": 6819355424595127560,
+   "type": "vocab_kana",
+   "display": "ちゃんと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "diligently",
+    "seriously",
+    "earnestly",
+    "reliably",
+    "steadily",
+    "legitimately",
+    "perfectly",
+    "properly",
+    "exactly",
+    "orderly",
+    "punctually",
+    "regularly",
+    "safely",
+    "in good condition",
+    "sufficiently",
+    "satisfactorily",
+    "quickly"
+   ],
+   "meanings_fr": [
+    "diligemment",
+    "sérieusement",
+    "sincèrement",
+    "de manière fiable",
+    "constamment",
+    "légitimement",
+    "parfaitement",
+    "correctement",
+    "exactement",
+    "de façon ordonnée",
+    "ponctuellement",
+    "régulièrement",
+    "suffisamment",
+    "de façon satisfaisante",
+    "rapidement",
+    "vite"
+   ],
+   "meanings_es": [
+    "perfectamente",
+    "propiamente",
+    "exactamente"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 6644878452994653860,
    "sharedid": 6644878452994653860,
    "type": "vocab_kana",
@@ -17854,27 +18119,6 @@
    "meanings_pt": []
   },
   {
-   "id": 9155059243895072419,
-   "sharedid": 9155059243895072419,
-   "type": "vocab_kana",
-   "display": "ドル",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "dollar",
-    "money",
-    "cash"
-   ],
-   "meanings_fr": [
-    "dollar",
-    "poupée"
-   ],
-   "meanings_es": [
-    "dólar"
-   ],
-   "meanings_pt": []
-  },
-  {
    "id": 7663467215789992419,
    "sharedid": 7663467215789992419,
    "type": "vocab_kana",
@@ -17952,6 +18196,82 @@
     "en primer lugar",
     "por el momento",
     "por ahora"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11494855691392070810,
+   "sharedid": 11494855691392070810,
+   "type": "vocab_kana",
+   "display": "かかる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to take (a resource, e.g. time or money)",
+    "to hang",
+    "to come into view",
+    "to arrive",
+    "to come under (a contract, a tax)",
+    "to start (engines, motors)",
+    "to attend",
+    "to deal with",
+    "to handle",
+    "to have started to",
+    "to be on the verge of",
+    "to overlap (e.g. information in a manual)",
+    "to cover",
+    "to (come) at",
+    "to be fastened",
+    "to be covered (e.g. with dust, a table-cloth, etc.)",
+    "to be caught in",
+    "to get a call",
+    "to depend on"
+   ],
+   "meanings_fr": [
+    "prendre (une ressource, par ex. du temps ou de l'argent)",
+    "pendre",
+    "être couvert (par exemple avec de la poussière, une nappe, etc.)",
+    "être pris dans",
+    "recevoir un appel",
+    "dépendre de",
+    "apparaître",
+    "arriver",
+    "être soumis à (une taxe)",
+    "être régi par (un contrat)",
+    "démarrer (un moteur)",
+    "s'occuper de",
+    "traiter",
+    "faire face à",
+    "avoir commencé à",
+    "s'apprêter à",
+    "se chevaucher (par ex. des informations dans un manuel)",
+    "empiéter sur",
+    "couvrir",
+    "en (venir) à",
+    "être fixé"
+   ],
+   "meanings_es": [
+    "tomarse (tiempo",
+    "dinero)",
+    "colgar",
+    "aparecer",
+    "llegar",
+    "venir bajo un (contrato, impuesto)",
+    "arrancar (motor, máquinas)",
+    "tratar con",
+    "hacer comenzado a",
+    "estar al límite de",
+    "(venir a) atacar",
+    "coincidir en parte (un manual)",
+    "cubrir",
+    "atacar",
+    "estar sujeto",
+    "cubrirse (con polvo, mesa con ropa, etc)",
+    "estar atrapado",
+    "tener una llamada",
+    "depender (de)",
+    "estar colgado de",
+    "estar atrapado"
    ],
    "meanings_pt": []
   },
@@ -18290,38 +18610,6 @@
     "hasta",
     "mucho",
     "un montón"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 224698524910329181,
-   "sharedid": 224698524910329181,
-   "type": "vocab_kana",
-   "display": "そう",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "appearing that",
-    "seeming that",
-    "looking like",
-    "having the appearance of"
-   ],
-   "meanings_fr": [
-    "ainsi",
-    "vraiment",
-    "comme cela",
-    "sembler que",
-    "ressembler à",
-    "avoir l'apparence de"
-   ],
-   "meanings_es": [
-    "así",
-    "realmente",
-    "de esa forma",
-    "(después de la raíz -masu y adj-raíz) aparentar",
-    "verse como",
-    "parecerse",
-    "tener la apariencia de"
    ],
    "meanings_pt": []
   }
@@ -19292,6 +19580,38 @@
    "meanings_pt": []
   },
   {
+   "id": 224698524910329181,
+   "sharedid": 224698524910329181,
+   "type": "vocab_kana",
+   "display": "そう",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "appearing that",
+    "seeming that",
+    "looking like",
+    "having the appearance of"
+   ],
+   "meanings_fr": [
+    "ainsi",
+    "vraiment",
+    "comme cela",
+    "sembler que",
+    "ressembler à",
+    "avoir l'apparence de"
+   ],
+   "meanings_es": [
+    "así",
+    "realmente",
+    "de esa forma",
+    "(después de la raíz -masu y adj-raíz) aparentar",
+    "verse como",
+    "parecerse",
+    "tener la apariencia de"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 16007613227986117715,
    "sharedid": 16007613227986117715,
    "type": "vocab_kana",
@@ -19399,6 +19719,27 @@
     "un rato",
     "bastante tiempo",
     "hacía mucho tiempo"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8957966332212366122,
+   "sharedid": 8957966332212366122,
+   "type": "vocab_kana",
+   "display": "くらべ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "contest",
+    "comparison",
+    "competition"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "competición",
+    "rivalización",
+    "desafío",
+    "comparación"
    ],
    "meanings_pt": []
   },
@@ -20040,56 +20381,6 @@
     "dar (ejemplo",
     "citar",
     "convocar (toda la energía de uno)"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 15910963458656266847,
-   "sharedid": 15910963458656266847,
-   "type": "vocab_kana",
-   "display": "どの",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "which",
-    "what (way)",
-    "what",
-    "what kind of",
-    "what sort of",
-    "no ...",
-    "any",
-    "adds emphasis to the preceding word",
-    "no",
-    "not at all",
-    "oh (it's nothing)"
-   ],
-   "meanings_fr": [],
-   "meanings_es": [
-    "cuál",
-    "qué tipo",
-    "qué clase"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 3060590475129608976,
-   "sharedid": 3060590475129608976,
-   "type": "vocab_kana",
-   "display": "ちなみに",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "by the way",
-    "in this connection",
-    "incidentally",
-    "in passing"
-   ],
-   "meanings_fr": [],
-   "meanings_es": [
-    "a propósito",
-    "en relación con",
-    "incidentalmente",
-    "de pasada"
    ],
    "meanings_pt": []
   }
@@ -21108,6 +21399,83 @@
    "meanings_pt": []
   },
   {
+   "id": 15910963458656266847,
+   "sharedid": 15910963458656266847,
+   "type": "vocab_kana",
+   "display": "どの",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "which",
+    "what (way)",
+    "what",
+    "what kind of",
+    "what sort of",
+    "no ...",
+    "any",
+    "adds emphasis to the preceding word",
+    "no",
+    "not at all",
+    "oh (it's nothing)"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "cuál",
+    "qué tipo",
+    "qué clase"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3060590475129608976,
+   "sharedid": 3060590475129608976,
+   "type": "vocab_kana",
+   "display": "ちなみに",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "by the way",
+    "in this connection",
+    "incidentally",
+    "in passing"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "a propósito",
+    "en relación con",
+    "incidentalmente",
+    "de pasada"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13809883594155678623,
+   "sharedid": 13809883594155678623,
+   "type": "vocab_kana",
+   "display": "こう",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "in this way",
+    "thus",
+    "such",
+    "uh..."
+   ],
+   "meanings_fr": [
+    "comme ceci (utilisé pour quelque chose ou quelqu'un proche du locuteur, y compris lui-même, ou à propos de ses opinions)",
+    "ainsi",
+    "de cette façon",
+    "euh... (interjection utilisée comme une pause verbale)"
+   ],
+   "meanings_es": [
+    "de esta manera",
+    "así",
+    "tal",
+    "pausa verbal"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 3380148176278477628,
    "sharedid": 3380148176278477628,
    "type": "vocab_kana",
@@ -21333,6 +21701,37 @@
    "meanings_pt": []
   },
   {
+   "id": 14142406340062139798,
+   "sharedid": 14142406340062139798,
+   "type": "vocab_kana",
+   "display": "ころ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "(approximate) time",
+    "around",
+    "about",
+    "toward",
+    "suitable time (or condition)",
+    "time of year",
+    "season",
+    "qing (Chinese unit of land area equal to 100 mu)"
+   ],
+   "meanings_fr": [
+    "moment (ou condition) opportun",
+    "période de l'année",
+    "saison"
+   ],
+   "meanings_es": [
+    "vez",
+    "ocasión",
+    "tiempo",
+    "alrededor de (tiempo)",
+    "aproximadamente (tiempo)"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 18125483694854351049,
    "sharedid": 18125483694854351049,
    "type": "vocab_kana",
@@ -21361,6 +21760,55 @@
     "de acuerdo con",
     "por eso",
     "de modo que"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17745321940253788694,
+   "sharedid": 17745321940253788694,
+   "type": "vocab_kana",
+   "display": "やつ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "fellow",
+    "guy",
+    "chap",
+    "thing",
+    "object",
+    "he",
+    "she",
+    "him",
+    "her",
+    "servant (esp. a samurai's attendant)",
+    "chivalrous man (Edo period)",
+    "cubed tofu (often served cold)",
+    "kite shaped like an Edo-period footman",
+    "Edo-period hairstyle worn by samurai's attendants",
+    "enslavement (of a woman; Edo-period punishment for her own or her husband's crime)",
+    "he",
+    "she",
+    "him",
+    "her"
+   ],
+   "meanings_fr": [
+    "individu",
+    "mec",
+    "type",
+    "gars",
+    "chose",
+    "objet",
+    "(péjoratif ou familier) il",
+    "elle",
+    "lui"
+   ],
+   "meanings_es": [
+    "(despectivo) (ese) tío",
+    "(ese) tipo",
+    "cosa",
+    "objeto",
+    "(despectivo o familiar) él",
+    "ella"
    ],
    "meanings_pt": []
   },
@@ -21551,182 +21999,6 @@
     "tanto",
     "así",
     "como eso"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 6884244333917195748,
-   "sharedid": 6884244333917195748,
-   "type": "vocab_kana",
-   "display": "いかに",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "how",
-    "in what way",
-    "how (much)",
-    "to what extent",
-    "however (much)",
-    "no matter how",
-    "hey",
-    "oi"
-   ],
-   "meanings_fr": [
-    "à quel point",
-    "comment",
-    "pourquoi",
-    "quel que soit"
-   ],
-   "meanings_es": [
-    "de qué manera",
-    "cómo",
-    "como quiera qué"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 17692673247101026567,
-   "sharedid": 17692673247101026567,
-   "type": "vocab_kana",
-   "display": "まとめる",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "to collect",
-    "to put (it all) together",
-    "to integrate",
-    "to consolidate",
-    "to unify",
-    "to summarize",
-    "to aggregate",
-    "to bring to a conclusion",
-    "to finalize",
-    "to settle",
-    "to put in order",
-    "to establish",
-    "to decide"
-   ],
-   "meanings_fr": [
-    "collecter",
-    "assembler",
-    "rassembler",
-    "intégrer",
-    "consolider",
-    "unifier",
-    "résumer",
-    "récapituler",
-    "agréger",
-    "apporter une conclusion",
-    "finaliser",
-    "régler",
-    "mettre en ordre",
-    "établir",
-    "decider"
-   ],
-   "meanings_es": [
-    "agrupar",
-    "ordenar",
-    "consolidar"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 17341829717469553245,
-   "sharedid": 17341829717469553245,
-   "type": "vocab_kana",
-   "display": "あう",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "to meet",
-    "to encounter",
-    "to see",
-    "to have an accident",
-    "to have a bad experience"
-   ],
-   "meanings_fr": [
-    "rencontrer",
-    "voir",
-    "revoir",
-    "avoir un accident",
-    "avoir une mauvaise expérience"
-   ],
-   "meanings_es": [
-    "conocerse",
-    "encontrarse con",
-    "tener un accidente",
-    "tener una mala experiencia",
-    "encontrar",
-    "enfrentar",
-    "afrontar",
-    "encontrarse",
-    "conocerse"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 3672613154568307941,
-   "sharedid": 3672613154568307941,
-   "type": "vocab_kana",
-   "display": "そんな",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "such",
-    "that sort of",
-    "that kind of",
-    "like that",
-    "no way!",
-    "never!"
-   ],
-   "meanings_fr": [
-    "tel (telle, tels, telles ; à propos des actions de l'auditeur, ou des idées exprimées ou comprises par l'auditeur)",
-    "pareil",
-    "semblable",
-    "cette sorte de"
-   ],
-   "meanings_es": [
-    "tal",
-    "así (como eso)",
-    "ese tipo de"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 4204551775625896230,
-   "sharedid": 4204551775625896230,
-   "type": "vocab_kana",
-   "display": "ともに",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "together",
-    "jointly",
-    "at the same time",
-    "with",
-    "as ...",
-    "including",
-    "along with",
-    "both"
-   ],
-   "meanings_fr": [
-    "ensemble",
-    "conjointement",
-    "en commun",
-    "à la fois",
-    "en même temps",
-    "avec",
-    "comme...",
-    "y compris",
-    "ainsi que",
-    "les deux"
-   ],
-   "meanings_es": [
-    "junto",
-    "juntos",
-    "al mismo tiempo",
-    "ambos",
-    "en conjunto"
    ],
    "meanings_pt": []
   }
@@ -22730,6 +23002,182 @@
    "meanings_pt": []
   },
   {
+   "id": 6884244333917195748,
+   "sharedid": 6884244333917195748,
+   "type": "vocab_kana",
+   "display": "いかに",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "how",
+    "in what way",
+    "how (much)",
+    "to what extent",
+    "however (much)",
+    "no matter how",
+    "hey",
+    "oi"
+   ],
+   "meanings_fr": [
+    "à quel point",
+    "comment",
+    "pourquoi",
+    "quel que soit"
+   ],
+   "meanings_es": [
+    "de qué manera",
+    "cómo",
+    "como quiera qué"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17692673247101026567,
+   "sharedid": 17692673247101026567,
+   "type": "vocab_kana",
+   "display": "まとめる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to collect",
+    "to put (it all) together",
+    "to integrate",
+    "to consolidate",
+    "to unify",
+    "to summarize",
+    "to aggregate",
+    "to bring to a conclusion",
+    "to finalize",
+    "to settle",
+    "to put in order",
+    "to establish",
+    "to decide"
+   ],
+   "meanings_fr": [
+    "collecter",
+    "assembler",
+    "rassembler",
+    "intégrer",
+    "consolider",
+    "unifier",
+    "résumer",
+    "récapituler",
+    "agréger",
+    "apporter une conclusion",
+    "finaliser",
+    "régler",
+    "mettre en ordre",
+    "établir",
+    "decider"
+   ],
+   "meanings_es": [
+    "agrupar",
+    "ordenar",
+    "consolidar"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17341829717469553245,
+   "sharedid": 17341829717469553245,
+   "type": "vocab_kana",
+   "display": "あう",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to meet",
+    "to encounter",
+    "to see",
+    "to have an accident",
+    "to have a bad experience"
+   ],
+   "meanings_fr": [
+    "rencontrer",
+    "voir",
+    "revoir",
+    "avoir un accident",
+    "avoir une mauvaise expérience"
+   ],
+   "meanings_es": [
+    "conocerse",
+    "encontrarse con",
+    "tener un accidente",
+    "tener una mala experiencia",
+    "encontrar",
+    "enfrentar",
+    "afrontar",
+    "encontrarse",
+    "conocerse"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3672613154568307941,
+   "sharedid": 3672613154568307941,
+   "type": "vocab_kana",
+   "display": "そんな",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "such",
+    "that sort of",
+    "that kind of",
+    "like that",
+    "no way!",
+    "never!"
+   ],
+   "meanings_fr": [
+    "tel (telle, tels, telles ; à propos des actions de l'auditeur, ou des idées exprimées ou comprises par l'auditeur)",
+    "pareil",
+    "semblable",
+    "cette sorte de"
+   ],
+   "meanings_es": [
+    "tal",
+    "así (como eso)",
+    "ese tipo de"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4204551775625896230,
+   "sharedid": 4204551775625896230,
+   "type": "vocab_kana",
+   "display": "ともに",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "together",
+    "jointly",
+    "at the same time",
+    "with",
+    "as ...",
+    "including",
+    "along with",
+    "both"
+   ],
+   "meanings_fr": [
+    "ensemble",
+    "conjointement",
+    "en commun",
+    "à la fois",
+    "en même temps",
+    "avec",
+    "comme...",
+    "y compris",
+    "ainsi que",
+    "les deux"
+   ],
+   "meanings_es": [
+    "junto",
+    "juntos",
+    "al mismo tiempo",
+    "ambos",
+    "en conjunto"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 6829694858277467801,
    "sharedid": 6829694858277467801,
    "type": "vocab_kana",
@@ -23273,134 +23721,6 @@
     "originalmente",
     "por naturaleza",
     "desde el principio"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 3083601361970117125,
-   "sharedid": 3083601361970117125,
-   "type": "vocab_kana",
-   "display": "できるだけ",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "as much as one can",
-    "as much as possible",
-    "if at all possible"
-   ],
-   "meanings_fr": [
-    "autant qu'on peut",
-    "autant que possible",
-    "si possible"
-   ],
-   "meanings_es": [
-    "tanto como sea posible"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 5654995854266035496,
-   "sharedid": 5654995854266035496,
-   "type": "vocab_kana",
-   "display": "ねこ",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "cat (esp. the domestic cat, Felis catus)",
-    "shamisen",
-    "geisha",
-    "wheelbarrow",
-    "clay bed-warmer",
-    "bottom",
-    "cat"
-   ],
-   "meanings_fr": [
-    "chat",
-    "shamisen ",
-    "geisha",
-    "brouette",
-    "chauffe-lit en terre cuite",
-    "le derrière",
-    "partenaire soumis d'une relation homosexuelle"
-   ],
-   "meanings_es": [
-    "gato",
-    "parte sumisa de una relación homosexual"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 4734146679079671485,
-   "sharedid": 4734146679079671485,
-   "type": "vocab_kana",
-   "display": "すね",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "shin",
-    "shank",
-    "lower leg"
-   ],
-   "meanings_fr": [
-    "jambe",
-    "tibia"
-   ],
-   "meanings_es": [
-    "tibia",
-    "espinilla",
-    "canilla",
-    "parte de la pierna que abarca desde la rodilla al tobillo",
-    "espinilla",
-    "tibia"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 4873320857705066130,
-   "sharedid": 4873320857705066130,
-   "type": "vocab_kana",
-   "display": "さえ",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "even",
-    "(if) only",
-    "just",
-    "as long as",
-    "besides",
-    "on top of that",
-    "what's more"
-   ],
-   "meanings_fr": [],
-   "meanings_es": [
-    "incluso"
-   ],
-   "meanings_pt": []
-  },
-  {
-   "id": 9576695534951949531,
-   "sharedid": 9576695534951949531,
-   "type": "vocab_kana",
-   "display": "ついに",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "finally",
-    "at last",
-    "in the end",
-    "after all",
-    "never (happened)"
-   ],
-   "meanings_fr": [
-    "enfin",
-    "finalement",
-    "à la fin"
-   ],
-   "meanings_es": [
-    "finalmente",
-    "al fin",
-    "por fin",
-    "(con verbo negativo) al final"
    ],
    "meanings_pt": []
   }
@@ -24398,6 +24718,108 @@
    "meanings_pt": []
   },
   {
+   "id": 3083601361970117125,
+   "sharedid": 3083601361970117125,
+   "type": "vocab_kana",
+   "display": "できるだけ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "as much as one can",
+    "as much as possible",
+    "if at all possible"
+   ],
+   "meanings_fr": [
+    "autant qu'on peut",
+    "autant que possible",
+    "si possible"
+   ],
+   "meanings_es": [
+    "tanto como sea posible"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5654995854266035496,
+   "sharedid": 5654995854266035496,
+   "type": "vocab_kana",
+   "display": "ねこ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "cat (esp. the domestic cat, Felis catus)",
+    "shamisen",
+    "geisha",
+    "wheelbarrow",
+    "clay bed-warmer",
+    "bottom",
+    "cat"
+   ],
+   "meanings_fr": [
+    "chat",
+    "shamisen ",
+    "geisha",
+    "brouette",
+    "chauffe-lit en terre cuite",
+    "le derrière",
+    "partenaire soumis d'une relation homosexuelle"
+   ],
+   "meanings_es": [
+    "gato",
+    "parte sumisa de una relación homosexual"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4873320857705066130,
+   "sharedid": 4873320857705066130,
+   "type": "vocab_kana",
+   "display": "さえ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "even",
+    "(if) only",
+    "just",
+    "as long as",
+    "besides",
+    "on top of that",
+    "what's more"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "incluso"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9576695534951949531,
+   "sharedid": 9576695534951949531,
+   "type": "vocab_kana",
+   "display": "ついに",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "finally",
+    "at last",
+    "in the end",
+    "after all",
+    "never (happened)"
+   ],
+   "meanings_fr": [
+    "enfin",
+    "finalement",
+    "à la fin"
+   ],
+   "meanings_es": [
+    "finalmente",
+    "al fin",
+    "por fin",
+    "(con verbo negativo) al final"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 10733640815441472822,
    "sharedid": 10733640815441472822,
    "type": "vocab_kana",
@@ -24670,13 +25092,48 @@
    "readings": [],
    "kun_readings": [],
    "meanings": [
-    "entrails",
-    "giblets",
-    "guts",
-    "internal organs"
+    "to hold (in one's hand)",
+    "to take",
+    "to carry",
+    "to possess",
+    "to have",
+    "to own",
+    "to maintain",
+    "to keep",
+    "to last",
+    "to be durable",
+    "to keep",
+    "to survive",
+    "to take charge of",
+    "to be in charge of",
+    "to hold (meeting, etc.)",
+    "to have (opportunity, etc.)",
+    "to have \"it\"",
+    "to have that special something",
+    "to be blessed with good luck"
    ],
-   "meanings_fr": [],
-   "meanings_es": [],
+   "meanings_fr": [
+    "tenir (dans ses mains)",
+    "porter",
+    "posséder",
+    "avoir",
+    "maintenir",
+    "garder",
+    "conserver",
+    "durer",
+    "être durable",
+    "se maintenir",
+    "survivre",
+    "se conserver",
+    "se charger de",
+    "être chargé de"
+   ],
+   "meanings_es": [
+    "llevar",
+    "cargar",
+    "sostener",
+    "poseer"
+   ],
    "meanings_pt": []
   },
   {
@@ -24800,6 +25257,26 @@
    "meanings_pt": []
   },
   {
+   "id": 11063341527658736636,
+   "sharedid": 11063341527658736636,
+   "type": "vocab_kana",
+   "display": "がち",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "artistry",
+    "good taste",
+    "elegance",
+    "grace"
+   ],
+   "meanings_fr": [
+    "élégance",
+    "bon goût"
+   ],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
    "id": 18299128865116687632,
    "sharedid": 18299128865116687632,
    "type": "vocab_kana",
@@ -24862,6 +25339,30 @@
    "meanings_pt": []
   },
   {
+   "id": 10085045778138616311,
+   "sharedid": 10085045778138616311,
+   "type": "vocab_kana",
+   "display": "もし",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "if",
+    "in case",
+    "supposing"
+   ],
+   "meanings_fr": [
+    "si",
+    "au cas où",
+    "en supposant"
+   ],
+   "meanings_es": [
+    "si",
+    "en caso de",
+    "supuesto que"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 10746892984777092398,
    "sharedid": 10746892984777092398,
    "type": "vocab_kana",
@@ -24891,23 +25392,6 @@
     "no obstante",
     "y aún"
    ],
-   "meanings_pt": []
-  },
-  {
-   "id": 9960613378778218144,
-   "sharedid": 9960613378778218144,
-   "type": "vocab_kana",
-   "display": "そのよう",
-   "readings": [],
-   "kun_readings": [],
-   "meanings": [
-    "that kind of",
-    "of the sort",
-    "of the kind",
-    "such"
-   ],
-   "meanings_fr": [],
-   "meanings_es": [],
    "meanings_pt": []
   }
  ],
@@ -25854,6 +26338,629 @@
    "meanings": [],
    "meanings_es": [],
    "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9960613378778218144,
+   "sharedid": 9960613378778218144,
+   "type": "vocab_kana",
+   "display": "そのよう",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "that kind of",
+    "of the sort",
+    "of the kind",
+    "such"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4134516923704368063,
+   "sharedid": 4134516923704368063,
+   "type": "vocab_kana",
+   "display": "ある",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to be",
+    "to exist",
+    "to live",
+    "to have",
+    "to be located",
+    "to be equipped with",
+    "to happen",
+    "to come about"
+   ],
+   "meanings_fr": [
+    "être (en général pour les objects inanimés)",
+    "exister",
+    "vivre",
+    "avoir",
+    "être situé",
+    "être équipé de",
+    "survenir",
+    "arriver"
+   ],
+   "meanings_es": [
+    "estar (objetos inanimados y plantas)",
+    "vivir",
+    "existir",
+    "tener",
+    "estar equipado con",
+    "suceder",
+    "estar (objetos inanimados)",
+    "existir",
+    "haber",
+    "vivir",
+    "tener",
+    "poseer",
+    "ser",
+    "estar localizado",
+    "ocurrir",
+    "pasar",
+    "producirse",
+    "tener lugar",
+    "suceder en",
+    "estar equipado con"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16465043895247949846,
+   "sharedid": 16465043895247949846,
+   "type": "vocab_kana",
+   "display": "もしくは",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "or",
+    "otherwise"
+   ],
+   "meanings_fr": [
+    "ou bien"
+   ],
+   "meanings_es": [
+    "o",
+    "de otro modo"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9831157242205782555,
+   "sharedid": 9831157242205782555,
+   "type": "vocab_kana",
+   "display": "ますます",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "increasingly",
+    "more and more",
+    "decreasingly (when declining)",
+    "less and less"
+   ],
+   "meanings_fr": [
+    "de plus en plus",
+    "de moins en moins (en cas de baisse)"
+   ],
+   "meanings_es": [
+    "cada vez más",
+    "más y más"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2026801202256101962,
+   "sharedid": 2026801202256101962,
+   "type": "vocab_kana",
+   "display": "せっかく",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "with trouble",
+    "at great pains",
+    "rare",
+    "valuable",
+    "precious",
+    "long-awaited",
+    "kind",
+    "generous",
+    "specially",
+    "especially",
+    "expressly"
+   ],
+   "meanings_fr": [
+    "avec des difficultés",
+    "avec de grands efforts",
+    "rare",
+    "de valeur",
+    "précieux",
+    "tant attendu",
+    "gentil",
+    "aimable",
+    "spécialement",
+    "particulièrement",
+    "notamment",
+    "surtout",
+    "expressément",
+    "explicitement"
+   ],
+   "meanings_es": [
+    "con mucho esfuerzo y esmero"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2851115597463700333,
+   "sharedid": 2851115597463700333,
+   "type": "vocab_kana",
+   "display": "だめ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "no good",
+    "not serving its purpose",
+    "useless",
+    "broken",
+    "hopeless",
+    "wasted",
+    "in vain",
+    "purposeless",
+    "cannot",
+    "must not",
+    "not allowed",
+    "neutral point (in go)",
+    "intersection owned by neither player at the end of a game"
+   ],
+   "meanings_fr": [
+    "nul",
+    "pas bien",
+    "inutile",
+    "cassé",
+    "désespéré",
+    "sans espoir",
+    "gaspillé",
+    "en vain",
+    "sans but",
+    "ne peut pas",
+    "ne doit pas",
+    "pas permis",
+    "point neutre (au jeu de go)",
+    "intersection n'appartenant à aucun joueur à la fin d'un jeu"
+   ],
+   "meanings_es": [
+    "inútil",
+    "no bueno",
+    "sin esperanza"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14525675391757852971,
+   "sharedid": 14525675391757852971,
+   "type": "vocab_kana",
+   "display": "やがて",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "before long",
+    "soon",
+    "shortly",
+    "almost",
+    "nearly",
+    "finally",
+    "in the end",
+    "eventually"
+   ],
+   "meanings_fr": [
+    "bientôt",
+    "presque",
+    "quasiment",
+    "enfin",
+    "à la fin",
+    "finalement"
+   ],
+   "meanings_es": [
+    "dentro de poco",
+    "pronto",
+    "aproximadamente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13655104186489321924,
+   "sharedid": 13655104186489321924,
+   "type": "vocab_kana",
+   "display": "ただいま",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "I'm home!",
+    "I'm back!",
+    "it's me!",
+    "now",
+    "at present",
+    "at the moment",
+    "just now",
+    "a moment ago",
+    "at once",
+    "right away",
+    "in a minute",
+    "shortly",
+    "soon",
+    "just now"
+   ],
+   "meanings_fr": [
+    "Je suis de retour",
+    "Je suis rentré !",
+    "actuellement",
+    "tout de suite",
+    "maintenant",
+    "à l'instant"
+   ],
+   "meanings_es": [
+    "ya llegué",
+    "Ya llegué",
+    "Estoy en casa",
+    "dentro de poco",
+    "ahora mismo",
+    "justo ahora"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5562839978332101955,
+   "sharedid": 5562839978332101955,
+   "type": "vocab_kana",
+   "display": "そろそろ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "soon",
+    "before long",
+    "any time now",
+    "momentarily",
+    "slowly",
+    "quietly",
+    "steadily",
+    "gradually",
+    "gingerly"
+   ],
+   "meanings_fr": [
+    "lentement",
+    "tranquillement",
+    "régulièrement",
+    "progressivement",
+    "avec précaution",
+    "bientôt",
+    "momentanément",
+    "d'ici peu",
+    "incessamment"
+   ],
+   "meanings_es": [
+    "gradualmente",
+    "constantemente",
+    "silenciosamente",
+    "lentamente",
+    "pronto"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13082088860471050726,
+   "sharedid": 13082088860471050726,
+   "type": "vocab_kana",
+   "display": "ばくだん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "bomb",
+    "alcohol with liquor added (esp. wine-based shōchū highball, also beer with whiskey)"
+   ],
+   "meanings_fr": [
+    "bombe"
+   ],
+   "meanings_es": [
+    "bomba"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17325508265498578109,
+   "sharedid": 17325508265498578109,
+   "type": "vocab_kana",
+   "display": "はま",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "beach",
+    "seashore",
+    "captured pieces (in the game of go)",
+    "captured stones",
+    "Yokohama",
+    "riverbank",
+    "riverside"
+   ],
+   "meanings_fr": [
+    "bord de mer",
+    "plage"
+   ],
+   "meanings_es": [
+    "playa"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6627407625516661959,
+   "sharedid": 6627407625516661959,
+   "type": "vocab_kana",
+   "display": "おかしい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "funny",
+    "amusing",
+    "comical",
+    "laughable",
+    "ridiculous",
+    "strange",
+    "odd",
+    "funny",
+    "peculiar",
+    "weird",
+    "unusual",
+    "eccentric",
+    "improper",
+    "unsuitable",
+    "unbecoming",
+    "suspicious"
+   ],
+   "meanings_fr": [
+    "drôle",
+    "amusant",
+    "comique",
+    "ridicule",
+    "risible",
+    "étrange",
+    "bizarre",
+    "drôle",
+    "particulier",
+    "inhabituel",
+    "insolite",
+    "excentrique",
+    "indécent",
+    "inapproprié",
+    "inconvenant",
+    "suspect"
+   ],
+   "meanings_es": [
+    "extraño",
+    "cómico",
+    "ridículo",
+    "divertido",
+    "risible",
+    "falso"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7432862062244702374,
+   "sharedid": 7432862062244702374,
+   "type": "vocab_kana",
+   "display": "がんばって",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "do your best",
+    "go for it",
+    "hang in there",
+    "keep at it"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 597857793340626785,
+   "sharedid": 597857793340626785,
+   "type": "vocab_kana",
+   "display": "どうやら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "possibly",
+    "apparently",
+    "(seem) likely",
+    "seemingly",
+    "somehow or other",
+    "with difficulty",
+    "barely",
+    "after a fashion"
+   ],
+   "meanings_fr": [
+    "d'une manière ou d'une autre",
+    "il semble que"
+   ],
+   "meanings_es": [
+    "parece que",
+    "de una forma u otra"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1543419924587917927,
+   "sharedid": 1543419924587917927,
+   "type": "vocab_kana",
+   "display": "いらっしゃる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to come",
+    "to go",
+    "to be (somewhere)",
+    "to be (doing)"
+   ],
+   "meanings_fr": [
+    "venir",
+    "aller",
+    "être (quelque part)",
+    "être en train de (faire)"
+   ],
+   "meanings_es": [
+    "ser",
+    "estar",
+    "ir",
+    "venir"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 18141514705949367375,
+   "sharedid": 18141514705949367375,
+   "type": "vocab_kana",
+   "display": "そのうち",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "before very long",
+    "soon",
+    "someday",
+    "one of these days",
+    "sooner or later",
+    "of the previously mentioned",
+    "of that number",
+    "among them",
+    "among others"
+   ],
+   "meanings_fr": [
+    "prochainement",
+    "bientôt",
+    "finalement",
+    "tôt ou tard",
+    "mentionné précédemment"
+   ],
+   "meanings_es": [
+    "de estos ~",
+    "(dentro de los ~ ya mencionados",
+    ")"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10522478947386473679,
+   "sharedid": 10522478947386473679,
+   "type": "vocab_kana",
+   "display": "じゃあ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "then",
+    "well",
+    "so",
+    "well then"
+   ],
+   "meanings_fr": [
+    "bien",
+    "bon",
+    "alors",
+    "dans ce cas",
+    "combinaison des particules « de » et « wa »",
+    "simple copule"
+   ],
+   "meanings_es": [
+    "bueno...",
+    "bueno, entonces...",
+    "combinación de las partículas 'de' y 'wa'"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 947194945529962866,
+   "sharedid": 947194945529962866,
+   "type": "vocab_kana",
+   "display": "あらゆる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "all",
+    "every"
+   ],
+   "meanings_fr": [
+    "tous",
+    "toutes"
+   ],
+   "meanings_es": [
+    "todos"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9989670295469133273,
+   "sharedid": 9989670295469133273,
+   "type": "vocab_kana",
+   "display": "もっと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "(some) more",
+    "even more",
+    "longer",
+    "further"
+   ],
+   "meanings_fr": [
+    "encore",
+    "plus",
+    "plus longtemps",
+    "plus loin"
+   ],
+   "meanings_es": [
+    "(un poco) más",
+    "más aún"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16939045249977302890,
+   "sharedid": 16939045249977302890,
+   "type": "vocab_kana",
+   "display": "ごく",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "quite",
+    "very",
+    "10^48",
+    "quindecillion",
+    "pole",
+    "climax",
+    "extreme",
+    "extremity",
+    "culmination",
+    "height",
+    "zenith",
+    "nadir"
+   ],
+   "meanings_fr": [
+    "assez",
+    "tout à fait",
+    "très",
+    "10^48",
+    "octillion"
+   ],
+   "meanings_es": [
+    "muy",
+    "mucho",
+    "en extremo",
+    "polo (eléctrico o magnético)",
+    "máximo",
+    "extremo",
+    "tope",
+    "colmo",
+    "cima",
+    "cenit"
+   ],
    "meanings_pt": []
   }
  ],
@@ -26869,6 +27976,548 @@
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
+  },
+  {
+   "id": 9825230083410315980,
+   "sharedid": 9825230083410315980,
+   "type": "vocab_kana",
+   "display": "ようやく",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "finally",
+    "at last",
+    "barely",
+    "narrowly",
+    "hardly",
+    "only just",
+    "gradually",
+    "little by little",
+    "by degrees"
+   ],
+   "meanings_fr": [
+    "enfin",
+    "à la fin",
+    "finalement",
+    "tout juste",
+    "de justesse",
+    "à peine",
+    "seulement",
+    "au fur et à mesure",
+    "progressivement",
+    "peu à peu",
+    "petit à petit",
+    "graduellement"
+   ],
+   "meanings_es": [
+    "al fin"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8165112165385905341,
+   "sharedid": 8165112165385905341,
+   "type": "vocab_kana",
+   "display": "とても",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "very",
+    "awfully",
+    "exceedingly",
+    "(not) at all",
+    "by no means",
+    "simply (cannot)"
+   ],
+   "meanings_fr": [
+    "très",
+    "vraiment",
+    "excessivement",
+    "(pas) du tout",
+    "absolument pas",
+    "absolument impossible"
+   ],
+   "meanings_es": [
+    "mucho",
+    "muchísimo",
+    "extremadamente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11241613697455134795,
+   "sharedid": 11241613697455134795,
+   "type": "vocab_kana",
+   "display": "だけど",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "however"
+   ],
+   "meanings_fr": [
+    "toutefois",
+    "cependant"
+   ],
+   "meanings_es": [
+    "sin embargo"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7166974838651842119,
+   "sharedid": 7166974838651842119,
+   "type": "vocab_kana",
+   "display": "ふと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "suddenly",
+    "casually",
+    "accidentally",
+    "incidentally",
+    "unexpectedly",
+    "unintentionally"
+   ],
+   "meanings_fr": [
+    "accidentellement",
+    "par hasard",
+    "soudainement"
+   ],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13616489057500182467,
+   "sharedid": 13616489057500182467,
+   "type": "vocab_kana",
+   "display": "あの",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "say",
+    "well",
+    "um",
+    "er"
+   ],
+   "meanings_fr": [
+    "disons",
+    "eh bien",
+    "euh..."
+   ],
+   "meanings_es": [
+    "esto...",
+    "pues...",
+    "digo...",
+    "errr..."
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9999283159799951388,
+   "sharedid": 9999283159799951388,
+   "type": "vocab_kana",
+   "display": "たった",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "only",
+    "merely",
+    "but",
+    "no more than"
+   ],
+   "meanings_fr": [
+    "seulement",
+    "sauf",
+    "pas plus que"
+   ],
+   "meanings_es": [
+    "solamente",
+    "simplemente",
+    "pero",
+    "no más de"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8435041693339110262,
+   "sharedid": 8435041693339110262,
+   "type": "vocab_kana",
+   "display": "たまたま",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "occasionally",
+    "once in a while",
+    "seldom",
+    "casually",
+    "unexpectedly",
+    "accidentally",
+    "by chance"
+   ],
+   "meanings_fr": [
+    "par hasard"
+   ],
+   "meanings_es": [
+    "casualmente",
+    "por casualidad"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2536310318265831896,
+   "sharedid": 2536310318265831896,
+   "type": "vocab_kana",
+   "display": "それに",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "besides",
+    "in addition",
+    "also",
+    "moreover"
+   ],
+   "meanings_fr": [
+    "de plus",
+    "en outre",
+    "par ailleurs",
+    "également",
+    "aussi"
+   ],
+   "meanings_es": [
+    "además"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4677309985282596034,
+   "sharedid": 4677309985282596034,
+   "type": "vocab_kana",
+   "display": "もたらす",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to bring",
+    "to take",
+    "to bring about"
+   ],
+   "meanings_fr": [
+    "apporter",
+    "conduire à",
+    "provoquer (événement)"
+   ],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 7235500896751474082,
+   "sharedid": 7235500896751474082,
+   "type": "vocab_kana",
+   "display": "なんとなく",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "somehow or other",
+    "for some reason or another",
+    "without knowing why"
+   ],
+   "meanings_fr": [
+    "pour une raison ou pour une autre",
+    "sans raison spéciale",
+    "sans savoir pourquoi",
+    "vaguement"
+   ],
+   "meanings_es": [
+    "de alguna manera",
+    "de algún modo",
+    "sea como sea"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7987672256246909327,
+   "sharedid": 7987672256246909327,
+   "type": "vocab_kana",
+   "display": "にかけて",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "till",
+    "to",
+    "over (a period)",
+    "through (e.g. Monday through Thursday)",
+    "about (approx. time or place)",
+    "on",
+    "concerning (an area of expertise)",
+    "swearing by (one's sword, God, etc.)"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8798001959683514375,
+   "sharedid": 8798001959683514375,
+   "type": "vocab_kana",
+   "display": "たまに",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "occasionally",
+    "once in a while",
+    "now and then",
+    "rarely",
+    "seldom"
+   ],
+   "meanings_fr": [
+    "de temps en temps",
+    "de temps à autre",
+    "parfois"
+   ],
+   "meanings_es": [
+    "ocasionalmente",
+    "rara vez",
+    "a veces"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13232964280692531267,
+   "sharedid": 13232964280692531267,
+   "type": "vocab_kana",
+   "display": "すら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "even"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13818149505090666478,
+   "sharedid": 13818149505090666478,
+   "type": "vocab_kana",
+   "display": "ふるさと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "hometown",
+    "birthplace",
+    "native place",
+    "one's old home",
+    "ruins",
+    "historic remains",
+    "hometown",
+    "birthplace",
+    "native place",
+    "one's old home"
+   ],
+   "meanings_fr": [
+    "ruines",
+    "vestiges historiques"
+   ],
+   "meanings_es": [
+    "mi tierra natal",
+    "tierra natal (pueblo donde uno nació y creció)",
+    "pueblo natal",
+    "tierra natal",
+    "terruño",
+    "patria"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 704110182216220892,
+   "sharedid": 704110182216220892,
+   "type": "vocab_kana",
+   "display": "かすみ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "haze (esp. in spring)",
+    "mist",
+    "dimness (of sight)"
+   ],
+   "meanings_fr": [
+    "brouillard"
+   ],
+   "meanings_es": [
+    "neblina",
+    "niebla",
+    "calina",
+    "enturbiamiento de la vista",
+    "visión borrosa"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10371817858920302599,
+   "sharedid": 10371817858920302599,
+   "type": "vocab_kana",
+   "display": "むし",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "insect",
+    "bug",
+    "cricket",
+    "moth",
+    "worm",
+    "roundworm",
+    "(one's) unconscious",
+    "thing inside one's body that stirs one's feelings and thoughts",
+    "nervousness",
+    "fretfulness",
+    "person devoted to one thing",
+    "single-minded person",
+    "valve core",
+    "mushi (type of game played with a stripped deck)"
+   ],
+   "meanings_fr": [
+    "insecte",
+    "punaise",
+    "criquet",
+    "mite",
+    "ver"
+   ],
+   "meanings_es": [
+    "insecto"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12390075595040237976,
+   "sharedid": 12390075595040237976,
+   "type": "vocab_kana",
+   "display": "いっかく",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "corner",
+    "section",
+    "point",
+    "part",
+    "one horn",
+    "narwhal (Monodon monoceros)",
+    "a cut above the rest",
+    "superior",
+    "respectable",
+    "full-fledged",
+    "something uncommon",
+    "one field",
+    "one matter",
+    "suitably",
+    "reasonably"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "esquina",
+    "sección",
+    "punto",
+    "un cuerno",
+    "narwhal (Monodon monoceros)",
+    "superioridad",
+    "algo no común",
+    "respetable",
+    "un campo",
+    "una materia",
+    "razonablemente",
+    "apropiadamente",
+    "adecuadamente",
+    "un poco mejor que el resto",
+    "superior",
+    "respetable",
+    "algo no común",
+    "un campo",
+    "una materia",
+    "suitably",
+    "razonablemente",
+    "un poco mejor que el resto",
+    "superior",
+    "respetable",
+    "algo no comun",
+    "un campo",
+    "una materia",
+    "suitably",
+    "razonablemente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15748342719239246341,
+   "sharedid": 15748342719239246341,
+   "type": "vocab_kana",
+   "display": "させる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to make (someone) do",
+    "to allow (someone) to do"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3769444531019962627,
+   "sharedid": 3769444531019962627,
+   "type": "vocab_kana",
+   "display": "あえて",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "purposely (of something needless, unexpected or seemingly counterproductive, etc.)",
+    "daringly (doing something)",
+    "deliberately",
+    "intentionally",
+    "not necessarily",
+    "not particularly",
+    "not especially",
+    "definitely not"
+   ],
+   "meanings_fr": [
+    "défi"
+   ],
+   "meanings_es": [
+    "si me permito (hacer, decir)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4014408187417090546,
+   "sharedid": 4014408187417090546,
+   "type": "vocab_kana",
+   "display": "よす",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to cease",
+    "to desist",
+    "to cut it out",
+    "to lay off (an activity)",
+    "to drop (a subject) to abolish",
+    "to resign",
+    "to give up",
+    "to stop in the midst of",
+    "to leave undone"
+   ],
+   "meanings_fr": [
+    "cesser",
+    "s'abstenir",
+    "arrêter",
+    "laisser tomber (un sujet) ",
+    "abolir",
+    "démissionner",
+    "abandonner"
+   ],
+   "meanings_es": [
+    "cesar",
+    "abolir",
+    "renunciar",
+    "rendirse"
+   ],
+   "meanings_pt": []
   }
  ],
  [
@@ -27795,6 +29444,625 @@
    "meanings": [],
    "meanings_es": [],
    "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 15024855579209863889,
+   "sharedid": 15024855579209863889,
+   "type": "vocab_kana",
+   "display": "いただける",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to be able to receive",
+    "to be able to take",
+    "to be able to accept",
+    "to be able to eat",
+    "to be able to drink",
+    "to be acceptable",
+    "to be satisfactory"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14290763785823537918,
+   "sharedid": 14290763785823537918,
+   "type": "vocab_kana",
+   "display": "そうすると",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "having done that",
+    "if that is done",
+    "if it is done in that way"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "luego de eso"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17420858412446782861,
+   "sharedid": 17420858412446782861,
+   "type": "vocab_kana",
+   "display": "なかなか",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "very",
+    "considerably",
+    "easily",
+    "readily",
+    "fairly",
+    "quite",
+    "highly",
+    "rather",
+    "by no means",
+    "not readily",
+    "middle",
+    "half-way point",
+    "excellent",
+    "wonderful",
+    "very good"
+   ],
+   "meanings_fr": [
+    "très",
+    "considérablement",
+    "facilement",
+    "aisément",
+    "relativement",
+    "assez",
+    "fortement",
+    "hautement",
+    "plutôt",
+    "en aucun cas (avec un verbe négatif)",
+    "pas facilement",
+    "milieu",
+    "mi-chemin",
+    "excellent",
+    "merveilleux",
+    "très bon"
+   ],
+   "meanings_es": [
+    "muy",
+    "considerablemente",
+    "fácilmente",
+    "de buena gana",
+    "de ningún modo (con verbos negativos)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1512336572117864920,
+   "sharedid": 1512336572117864920,
+   "type": "vocab_kana",
+   "display": "よし",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "alright",
+    "all right",
+    "right on",
+    "looking good",
+    "OK",
+    "okay"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "¡listo!",
+    "¡ok!"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10950871417149316905,
+   "sharedid": 10950871417149316905,
+   "type": "vocab_kana",
+   "display": "かな",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "I wonder",
+    "should I?",
+    "is it?",
+    "I wish that",
+    "I hope that"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "me pregunto si... (partícula de final de frase)",
+    "debería...? (partícula interrogativa usada cuando se piensa en voz alta)",
+    "es eso?",
+    "(con un verbo negativo) me gustaria que... ",
+    "eso espero"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3886243302633148463,
+   "sharedid": 3886243302633148463,
+   "type": "vocab_kana",
+   "display": "ずいぶん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "very",
+    "extremely",
+    "surprisingly",
+    "considerably",
+    "awfully",
+    "terribly",
+    "terrible",
+    "horrid",
+    "contemptible",
+    "reprehensible",
+    "remarkable",
+    "extraordinary"
+   ],
+   "meanings_fr": [
+    "méprisable",
+    "indigne",
+    "répréhensible",
+    "condamnable"
+   ],
+   "meanings_es": [
+    "extremadamente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1708197367109302213,
+   "sharedid": 1708197367109302213,
+   "type": "vocab_kana",
+   "display": "のり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "riding",
+    "ride",
+    "spread (of paints)",
+    "-seater (e.g. two-seater)",
+    "(getting into the) mood",
+    "(entering into the) spirit",
+    "energy",
+    "enthusiasm",
+    "rhythm",
+    "feeling"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 15660181832282782590,
+   "sharedid": 15660181832282782590,
+   "type": "vocab_kana",
+   "display": "つながる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to be tied together",
+    "to be connected to",
+    "to be linked to",
+    "to lead to",
+    "to be related to",
+    "to be related (by blood)"
+   ],
+   "meanings_fr": [
+    "être attaché ensemble",
+    "être connecté à",
+    "être relié à",
+    "mener à",
+    "être lié à"
+   ],
+   "meanings_es": [
+    "enlazarse",
+    "conectarse",
+    "relacionarse",
+    "canalizar"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5281994600898166785,
+   "sharedid": 5281994600898166785,
+   "type": "vocab_kana",
+   "display": "ゆえ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "reason",
+    "cause",
+    "circumstances",
+    "the late",
+    "the deceased"
+   ],
+   "meanings_fr": [
+    "donc",
+    "en conséquence",
+    "par conséquent",
+    "défunt"
+   ],
+   "meanings_es": [
+    "difunto (Sr. López)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14518378648709327201,
+   "sharedid": 14518378648709327201,
+   "type": "vocab_kana",
+   "display": "かしら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "I wonder",
+    "do you think?",
+    "I might",
+    "how about",
+    "some kind",
+    "some stage",
+    "somehow",
+    "somewhere"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "me pregunto si..."
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14134392238475247466,
+   "sharedid": 14134392238475247466,
+   "type": "vocab_kana",
+   "display": "だいたい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "generally",
+    "on the whole",
+    "mostly",
+    "almost",
+    "nearly",
+    "approximately",
+    "roughly",
+    "about",
+    "general",
+    "rough",
+    "outline",
+    "main points",
+    "gist",
+    "substance",
+    "essence",
+    "in the first place",
+    "first and foremost",
+    "from the start",
+    "to begin with"
+   ],
+   "meanings_fr": [
+    "apercu",
+    "grandes lignes",
+    "principal point",
+    "essentiel",
+    "dans l'ensemble",
+    "général",
+    "substantiellement",
+    "approximativement",
+    "environ",
+    "à peu près",
+    "d'abord",
+    "en premier lieu",
+    "pour commencer"
+   ],
+   "meanings_es": [
+    "más o menos",
+    "casi",
+    "la mayor parte (casi todo)",
+    "la mayoría de las veces",
+    "casi siempre"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6905999942515180987,
+   "sharedid": 6905999942515180987,
+   "type": "vocab_kana",
+   "display": "つながり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "connection",
+    "link",
+    "relationship"
+   ],
+   "meanings_fr": [
+    "connection",
+    "lien",
+    "relation"
+   ],
+   "meanings_es": [
+    "conexión",
+    "relación",
+    "enlace",
+    "vinculación"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9260581617963648130,
+   "sharedid": 9260581617963648130,
+   "type": "vocab_kana",
+   "display": "だんだん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "gradually",
+    "by degrees",
+    "little by little",
+    "more and more",
+    "increasingly",
+    "steps",
+    "stairs",
+    "staircase",
+    "terrace"
+   ],
+   "meanings_fr": [
+    "progressivement",
+    "graduellement",
+    "peu à peu",
+    "petit à petit",
+    "au fur et à mesur",
+    "de plus en plus"
+   ],
+   "meanings_es": [
+    "gradualmente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17108016282368484519,
+   "sharedid": 17108016282368484519,
+   "type": "vocab_kana",
+   "display": "どんなに",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "how",
+    "how much",
+    "to what extent",
+    "no matter how (much)",
+    "however"
+   ],
+   "meanings_fr": [
+    "comment",
+    "combien"
+   ],
+   "meanings_es": [
+    "cómo",
+    "cuánto"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8721003118223994756,
+   "sharedid": 8721003118223994756,
+   "type": "vocab_kana",
+   "display": "まさしく",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "certainly",
+    "surely",
+    "undoubtedly",
+    "evidently",
+    "really",
+    "truly",
+    "just",
+    "precisely",
+    "exactly",
+    "right",
+    "rightly",
+    "properly",
+    "correctly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 15954695501684786706,
+   "sharedid": 15954695501684786706,
+   "type": "vocab_kana",
+   "display": "おっしゃる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to say",
+    "to speak",
+    "to tell",
+    "to talk"
+   ],
+   "meanings_fr": [
+    "dire",
+    "parler",
+    "raconter"
+   ],
+   "meanings_es": [
+    "decir",
+    "hablar",
+    "platicar",
+    "decir",
+    "hablar",
+    "decir",
+    "hablar",
+    "platicar"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11744325361679288477,
+   "sharedid": 11744325361679288477,
+   "type": "vocab_kana",
+   "display": "うまい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "skillful",
+    "skilful",
+    "skilled",
+    "good",
+    "expert",
+    "clever (expression, trick, etc.)",
+    "apt",
+    "appropriate",
+    "delicious",
+    "tasty",
+    "good",
+    "nice",
+    "good (deal, idea, etc.)",
+    "profitable",
+    "promising",
+    "lucky",
+    "fortunate",
+    "successful",
+    "satisfactory",
+    "splendid"
+   ],
+   "meanings_fr": [
+    "habile",
+    "talentueux",
+    "intelligent",
+    "expert",
+    "sage",
+    "qui réussit",
+    "à succès",
+    "délicieux",
+    "appétissant",
+    "savoureux",
+    "chanceux",
+    "splendide",
+    "prometteur"
+   ],
+   "meanings_es": [
+    "hábil",
+    "diestro",
+    "experto",
+    "sabio",
+    "delicioso",
+    "apetitoso",
+    "afortunado",
+    "magnífico",
+    "prometedor"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11716466400533118385,
+   "sharedid": 11716466400533118385,
+   "type": "vocab_kana",
+   "display": "だいぶ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "considerably",
+    "greatly",
+    "a lot",
+    "Ōita (city, prefecture)"
+   ],
+   "meanings_fr": [
+    "considérablement",
+    "fortement",
+    "très",
+    "beaucoup"
+   ],
+   "meanings_es": [
+    "considerablemente",
+    "mucho"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2714152816516959902,
+   "sharedid": 2714152816516959902,
+   "type": "vocab_kana",
+   "display": "なるほど",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "I see",
+    "that's right",
+    "indeed"
+   ],
+   "meanings_fr": [
+    "c'est cela",
+    "en effet",
+    "effectivement",
+    "de fait"
+   ],
+   "meanings_es": [
+    "Ya veo",
+    "en efecto"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11423159869643613434,
+   "sharedid": 11423159869643613434,
+   "type": "vocab_kana",
+   "display": "ため",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to do",
+    "good",
+    "advantage",
+    "benefit",
+    "welfare",
+    "sake",
+    "purpose",
+    "objective",
+    "aim",
+    "consequence",
+    "result",
+    "effect",
+    "affecting",
+    "regarding",
+    "concerning"
+   ],
+   "meanings_fr": [
+    "bien",
+    "avantage",
+    "bénéfice",
+    "bien-être",
+    "but",
+    "objectif",
+    "conséquence",
+    "résultat",
+    "effet",
+    "à propos de",
+    "concernant"
+   ],
+   "meanings_es": [
+    "hacer (forma literaria de suru)",
+    "bien",
+    "beneficio",
+    "ventaja",
+    "bienestar",
+    "por",
+    "a fin de",
+    "para",
+    "a causa de",
+    "propósito",
+    "objetivo",
+    "consecuencia",
+    "resultado",
+    "efecto",
+    "en relación",
+    "sobre"
+   ],
    "meanings_pt": []
   }
  ],
@@ -28763,6 +31031,565 @@
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
+  },
+  {
+   "id": 6259458524835909004,
+   "sharedid": 6259458524835909004,
+   "type": "vocab_kana",
+   "display": "そういえば",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "now that you mention it",
+    "come to think of it",
+    "that reminds me",
+    "on that subject",
+    "speaking of which"
+   ],
+   "meanings_fr": [
+    "ce qui me rappelle...",
+    "à bien y penser...",
+    "maintenant que vous le dites...",
+    "sur ce sujet...",
+    "donc, si vous le dites..."
+   ],
+   "meanings_es": [
+    "lo que me recuerda ...",
+    "ya que lo mencionas ...",
+    "sobre ese tema ..."
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5702958994277200041,
+   "sharedid": 5702958994277200041,
+   "type": "vocab_kana",
+   "display": "ない",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "not",
+    "emphatic suffix"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "no haber"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17507664761785743143,
+   "sharedid": 17507664761785743143,
+   "type": "vocab_kana",
+   "display": "そうした",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "such"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14371602467580519885,
+   "sharedid": 14371602467580519885,
+   "type": "vocab_kana",
+   "display": "ずっと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "continuously",
+    "the whole time",
+    "all the way",
+    "throughout",
+    "much (more)",
+    "(by) far",
+    "far and away",
+    "a lot",
+    "a great deal",
+    "far (away)",
+    "long (ago, before, after)",
+    "straight",
+    "directly"
+   ],
+   "meanings_fr": [
+    "continuellement dans un état (pendant une longue période ou une distance)",
+    "tout le temps",
+    "tout le long",
+    "bien (mieux, etc.)",
+    "de loin",
+    "et de loin",
+    "lointain",
+    "il y a longtemps",
+    "direct",
+    "droit"
+   ],
+   "meanings_es": [
+    "desde hace mucho (tiempo, distancia)",
+    "todo el tiempo",
+    "todo el camino",
+    "recto"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10025490632068229213,
+   "sharedid": 10025490632068229213,
+   "type": "vocab_kana",
+   "display": "ほんの",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "mere",
+    "only",
+    "just",
+    "slight"
+   ],
+   "meanings_fr": [
+    "à peine",
+    "seulement",
+    "juste",
+    "même pas (avec un verbe négatif)"
+   ],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3636221649876075140,
+   "sharedid": 3636221649876075140,
+   "type": "vocab_kana",
+   "display": "しるし",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "mark",
+    "sign",
+    "symbol",
+    "emblem",
+    "badge",
+    "crest",
+    "flag",
+    "evidence",
+    "proof",
+    "token (of gratitude, affection, etc.)",
+    "stamp",
+    "seal",
+    "chop",
+    "seal impression",
+    "seal",
+    "sealing",
+    "stamp",
+    "mark",
+    "print",
+    "mudra (symbolic hand gesture)",
+    "ninja hand sign",
+    "India"
+   ],
+   "meanings_fr": [
+    "marque",
+    "signe",
+    "symbole",
+    "emblème",
+    "badge",
+    "insigne",
+    "écusson",
+    "drapeau",
+    "preuve",
+    "signe (de gratitude, d'affection, etc.)"
+   ],
+   "meanings_es": [
+    "marca",
+    "símbolo",
+    "evidencia",
+    "sello",
+    "estampilla",
+    "marca",
+    "impresión",
+    "(Bud) mudra (gesto símbolico de mano)",
+    "India"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17436823968065861917,
+   "sharedid": 17436823968065861917,
+   "type": "vocab_kana",
+   "display": "なんでも",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "any",
+    "anything",
+    "whatever",
+    "whatever one likes",
+    "everything",
+    "all",
+    "I am told",
+    "I hear",
+    "I understand",
+    "they say"
+   ],
+   "meanings_fr": [
+    "on dit",
+    "il parait"
+   ],
+   "meanings_es": [
+    "lo que sea",
+    "cualquier cosa"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4827533139182406872,
+   "sharedid": 4827533139182406872,
+   "type": "vocab_kana",
+   "display": "よろしい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "good",
+    "OK",
+    "all right",
+    "fine",
+    "very well",
+    "will do",
+    "may",
+    "can"
+   ],
+   "meanings_fr": [
+    "OK",
+    "bon",
+    "entendu",
+    "d'accord",
+    "bien",
+    "parfait",
+    "trés bien",
+    "pouvoir"
+   ],
+   "meanings_es": [
+    "bien",
+    "OK",
+    "estupendo",
+    "muy bien"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9019712352371630817,
+   "sharedid": 9019712352371630817,
+   "type": "vocab_kana",
+   "display": "ないし",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "from ... to",
+    "between ... and",
+    "or"
+   ],
+   "meanings_fr": [
+    "de...à",
+    "entre...et",
+    "ou"
+   ],
+   "meanings_es": [
+    "a partir de las..."
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3360989980321207861,
+   "sharedid": 3360989980321207861,
+   "type": "vocab_kana",
+   "display": "きり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "end",
+    "finish",
+    "place to stop",
+    "bound",
+    "limit",
+    "end",
+    "delivery date (of a futures contract)",
+    "finale (of a noh song)",
+    "end of an act (in jōruri or kabuki)",
+    "final performance of the day (in vaudeville)",
+    "trump card",
+    "king (court card; in mekuri karuta and unsun karuta)",
+    "counter for slices (esp. thick slices)",
+    "counter for cuts (of fish, meat, etc.)",
+    "only",
+    "just",
+    "(ever) since",
+    "after",
+    "continuously",
+    "remaining (in a particular state)"
+   ],
+   "meanings_fr": [
+    "indique que quelque chose est complètement utilisé ou fait"
+   ],
+   "meanings_es": [
+    "(poner) fin",
+    "término",
+    "límite"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16553060748003940649,
+   "sharedid": 16553060748003940649,
+   "type": "vocab_kana",
+   "display": "にわたって",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "throughout",
+    "over a period of ...",
+    "over a span of ..."
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12057558000889956668,
+   "sharedid": 12057558000889956668,
+   "type": "vocab_kana",
+   "display": "おめでとう",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "congratulations!",
+    "well done!",
+    "best wishes!",
+    "all the best!"
+   ],
+   "meanings_fr": [
+    "félicitations !"
+   ],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14430716367811434565,
+   "sharedid": 14430716367811434565,
+   "type": "vocab_kana",
+   "display": "だらけ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "full of (e.g. mistakes)",
+    "riddled with",
+    "covered all over with (blood, mud, etc.)"
+   ],
+   "meanings_fr": [
+    "suggérant (négativement) que quelque chose est bourré de (par ex. fautes)",
+    "complètement couvert (par ex. de sang)",
+    "plein de"
+   ],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3429015563864672074,
+   "sharedid": 3429015563864672074,
+   "type": "vocab_kana",
+   "display": "たっぷり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "full",
+    "in plenty",
+    "ample"
+   ],
+   "meanings_fr": [
+    "plein",
+    "en abondance",
+    "abondamment",
+    "amplement"
+   ],
+   "meanings_es": [
+    "copiosamente",
+    "abundante"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4171538462540552348,
+   "sharedid": 4171538462540552348,
+   "type": "vocab_kana",
+   "display": "あがり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "rise",
+    "increase",
+    "ascent",
+    "income",
+    "takings",
+    "earnings",
+    "proceeds",
+    "(crop) yield",
+    "return",
+    "profit",
+    "completion",
+    "end",
+    "finish",
+    "end result (e.g. of crafts)",
+    "how something comes out",
+    "finish",
+    "finishing (in a board or card game, etc.)",
+    "green tea (esp. in a sushi restaurant)",
+    "after (rain, illness, etc.)",
+    "ex- (e.g. ex-bureaucrat)",
+    "former"
+   ],
+   "meanings_fr": [
+    "ascension",
+    "montée",
+    "recette (financière)",
+    "rendement (culture)",
+    "infusion de poussière de thé (dans un restaurant à sushi)",
+    "ça y est!",
+    "j'ai réussi!",
+    "après (la pluie)",
+    "ex-",
+    "fini"
+   ],
+   "meanings_es": [
+    "ingresos",
+    "acabado",
+    "preparado"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7903425813583432923,
+   "sharedid": 7903425813583432923,
+   "type": "vocab_kana",
+   "display": "どのよう",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "what sort",
+    "what kind"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8014184517870953720,
+   "sharedid": 8014184517870953720,
+   "type": "vocab_kana",
+   "display": "のちに",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "later on",
+    "subsequently",
+    "by and by",
+    "after a while"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13658443486105511174,
+   "sharedid": 13658443486105511174,
+   "type": "vocab_kana",
+   "display": "どんな",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "what kind of",
+    "what sort of",
+    "what",
+    "no matter what (kind of)",
+    "whatever",
+    "any",
+    "all"
+   ],
+   "meanings_fr": [
+    "quel",
+    "quel genre",
+    "(avec -temo, demo, etc.) n'importe (quoi, qui, etc.)"
+   ],
+   "meanings_es": [
+    "como qué",
+    "qué tipo de"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 211262435612592407,
+   "sharedid": 211262435612592407,
+   "type": "vocab_kana",
+   "display": "あて",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "aim",
+    "object",
+    "purpose",
+    "end",
+    "expectations",
+    "prospects",
+    "hopes",
+    "something that can be relied upon",
+    "snack served with alcoholic drink",
+    "pad",
+    "guard",
+    "blow",
+    "strike",
+    "addressed to",
+    "per"
+   ],
+   "meanings_fr": [
+    "espoirs",
+    "fins",
+    "sûr (mérite la confiance)",
+    "attente",
+    "but",
+    "destination",
+    "objectif"
+   ],
+   "meanings_es": [
+    "objetivo",
+    "dirección",
+    "propósito",
+    "esperanzas"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1370531677428659577,
+   "sharedid": 1370531677428659577,
+   "type": "vocab_kana",
+   "display": "いらっしゃい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "come",
+    "go",
+    "stay",
+    "welcome"
+   ],
+   "meanings_fr": [
+    "venir",
+    "aller",
+    "rester",
+    "bienvenue !"
+   ],
+   "meanings_es": [
+    "(usado como imperativo cortés) ven",
+    "ves",
+    "quedate",
+    "bienvenido!"
+   ],
+   "meanings_pt": []
   }
  ],
  [
@@ -29640,6 +32467,559 @@
     "nossa casa",
     "meu marido"
    ]
+  },
+  {
+   "id": 12692812242937959054,
+   "sharedid": 12692812242937959054,
+   "type": "vocab_kana",
+   "display": "まして",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "still more",
+    "to say nothing of",
+    "not to mention",
+    "still less"
+   ],
+   "meanings_fr": [
+    "à plus forte raison",
+    "encore moins"
+   ],
+   "meanings_es": [
+    "aun más (menos)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5308923472832165890,
+   "sharedid": 5308923472832165890,
+   "type": "vocab_kana",
+   "display": "それほど",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to that degree",
+    "to that extent",
+    "that much"
+   ],
+   "meanings_fr": [
+    "à ce point",
+    "à ce degré",
+    "dans cette mesure",
+    "autant"
+   ],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14905133528415474591,
+   "sharedid": 14905133528415474591,
+   "type": "vocab_kana",
+   "display": "めぐる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to go around",
+    "to return",
+    "to surround",
+    "to concern (usu. of disputes)"
+   ],
+   "meanings_fr": [
+    "retourner",
+    "revenir",
+    "entourer",
+    "préoccuper (en général à propos de conflits)"
+   ],
+   "meanings_es": [
+    "girar",
+    "hacer girar",
+    "visitar muchos lugares",
+    "ir por ahí",
+    "girar",
+    "hacer girar",
+    "visitar muchos lugares"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2468580254614759595,
+   "sharedid": 2468580254614759595,
+   "type": "vocab_kana",
+   "display": "いったん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "once",
+    "for a short time",
+    "briefly",
+    "temporarily",
+    "one morning"
+   ],
+   "meanings_fr": [
+    "une fois",
+    "pour le moment",
+    "pour l'instant",
+    "temporairement",
+    "un matin"
+   ],
+   "meanings_es": [
+    "una vez",
+    "por un momento",
+    "una mañana",
+    "temporalmente",
+    "una mañana"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13901401414980590747,
+   "sharedid": 13901401414980590747,
+   "type": "vocab_kana",
+   "display": "きらい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "disliked",
+    "hated",
+    "disagreeable",
+    "tendency",
+    "smack (of)",
+    "touch (of)",
+    "distinction",
+    "discrimination",
+    "dislike",
+    "hatred",
+    "fear"
+   ],
+   "meanings_fr": [
+    "détestation",
+    "haine",
+    "aversion",
+    "soupçon",
+    "tendance",
+    "penchant",
+    "distinction",
+    "discrimination"
+   ],
+   "meanings_es": [
+    "disgusto",
+    "odio",
+    "sospecha",
+    "tendencia",
+    "indicio"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3854619431561656666,
+   "sharedid": 3854619431561656666,
+   "type": "vocab_kana",
+   "display": "よかったら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "if you like"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9790846315639683419,
+   "sharedid": 9790846315639683419,
+   "type": "vocab_kana",
+   "display": "ですが",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "but",
+    "however",
+    "(and) yet",
+    "nevertheless",
+    "still",
+    "for all that"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "pero",
+    "sin embargo",
+    "(y) todavía",
+    "no obstante",
+    "aún",
+    "por todo eso"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5908402517236847324,
+   "sharedid": 5908402517236847324,
+   "type": "vocab_kana",
+   "display": "のんびり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "at leisure",
+    "in a relaxed manner",
+    "in a carefree manner",
+    "quietly",
+    "peacefully"
+   ],
+   "meanings_fr": [
+    "à loisir",
+    "insouciant",
+    "sans souci"
+   ],
+   "meanings_es": [
+    "despreocupado"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3400692061776878343,
+   "sharedid": 3400692061776878343,
+   "type": "vocab_kana",
+   "display": "かなめ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "pivot",
+    "vital point",
+    "cornerstone",
+    "keystone",
+    "Japanese photinia",
+    "cornerstone",
+    "main point",
+    "keystone",
+    "requirement",
+    "need",
+    "necessary",
+    "required"
+   ],
+   "meanings_fr": [
+    "clef",
+    "pivot",
+    "point essentiel",
+    "rivet d'éventail"
+   ],
+   "meanings_es": [
+    "eje",
+    "pivote"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9744405221009742868,
+   "sharedid": 9744405221009742868,
+   "type": "vocab_kana",
+   "display": "ついでに",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "incidentally",
+    "taking the opportunity",
+    "while one is at it",
+    "in passing",
+    "on the occasion"
+   ],
+   "meanings_fr": [
+    "à l'occasion",
+    "par chance",
+    "saisir l'opportunité"
+   ],
+   "meanings_es": [
+    "(hacer algo) de paso"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7799903994130862395,
+   "sharedid": 7799903994130862395,
+   "type": "vocab_kana",
+   "display": "およそ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "about",
+    "roughly",
+    "approximately",
+    "generally",
+    "on the whole",
+    "as a rule",
+    "completely",
+    "quite",
+    "entirely",
+    "altogether",
+    "totally",
+    "not at all (with neg. verb)",
+    "outline",
+    "gist"
+   ],
+   "meanings_fr": [
+    "environ",
+    "à peu près",
+    "grossièrement",
+    "approximativement",
+    "généralement",
+    "dans l'ensemble",
+    "en règle générale",
+    "complètement",
+    "assez",
+    "entièrement",
+    "tout à fait",
+    "totalement",
+    "pas du tout (avec un verbe négatif)",
+    "aperçu",
+    "grandes lignes",
+    "essentiel"
+   ],
+   "meanings_es": [
+    "aproximadamente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11727107933010289643,
+   "sharedid": 11727107933010289643,
+   "type": "vocab_kana",
+   "display": "つり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "fishing",
+    "angling",
+    "change (for a purchase)",
+    "clickbaiting",
+    "trolling",
+    "writing deliberately inflammatory posts online"
+   ],
+   "meanings_fr": [
+    "pêche (à la ligne)",
+    "(petite) monnaie",
+    "troller (par ex. sur internet)",
+    "écrire de faux messages en ligne"
+   ],
+   "meanings_es": [
+    "pesca",
+    "cambio (e.g. para una compra)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13592606006713000338,
+   "sharedid": 13592606006713000338,
+   "type": "vocab_kana",
+   "display": "どうせ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "anyhow",
+    "in any case",
+    "at any rate",
+    "after all",
+    "at all",
+    "no matter what",
+    "at best",
+    "at most"
+   ],
+   "meanings_fr": [
+    "de toute façon",
+    "de toute manière",
+    "dans tous les cas",
+    "à tout prix",
+    "après tout",
+    "du tout",
+    "quel que soit",
+    "peu importe",
+    "au mieux",
+    "au plus"
+   ],
+   "meanings_es": [
+    "de todos modos",
+    "al fin y al cabo"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 908809291893228478,
+   "sharedid": 908809291893228478,
+   "type": "vocab_kana",
+   "display": "じっくり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "deliberately",
+    "carefully",
+    "thoroughly",
+    "without rushing"
+   ],
+   "meanings_fr": [
+    "consciencieusement"
+   ],
+   "meanings_es": [
+    "con cuidado y minuciosamente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11306722020819006017,
+   "sharedid": 11306722020819006017,
+   "type": "vocab_kana",
+   "display": "けど",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "but",
+    "however",
+    "although"
+   ],
+   "meanings_fr": [
+    "mais",
+    "cependant",
+    "bien que"
+   ],
+   "meanings_es": [
+    "pero",
+    "sin embargo",
+    "mas",
+    "de todas formas"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9314564960419227734,
+   "sharedid": 9314564960419227734,
+   "type": "vocab_kana",
+   "display": "いかにも",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "indeed",
+    "really",
+    "truly",
+    "just (like)",
+    "very",
+    "extremely",
+    "totally",
+    "terribly",
+    "absolutely",
+    "certainly",
+    "for sure",
+    "(not) in any way",
+    "in no way",
+    "at all",
+    "terribly",
+    "awfully",
+    "hopelessly"
+   ],
+   "meanings_fr": [
+    "certainement",
+    "en effet",
+    "vraiment",
+    "parfaitement",
+    "effectivement",
+    "formule indiquant un accord"
+   ],
+   "meanings_es": [
+    "definitivamente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17427014302874292271,
+   "sharedid": 17427014302874292271,
+   "type": "vocab_kana",
+   "display": "せめて",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "at least",
+    "at most",
+    "(even) just"
+   ],
+   "meanings_fr": [
+    "au moins",
+    "au plus"
+   ],
+   "meanings_es": [
+    "por lo menos"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10090293855844576023,
+   "sharedid": 10090293855844576023,
+   "type": "vocab_kana",
+   "display": "あれこれ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "this and that",
+    "this or that",
+    "one thing or another",
+    "this way and that",
+    "around",
+    "about",
+    "round about",
+    "roughly",
+    "nearly",
+    "almost"
+   ],
+   "meanings_fr": [
+    "une chose ou une autre",
+    "telle ou telle façon",
+    "ceci et cela",
+    "ceci ou cela",
+    "environ",
+    "à peu près",
+    "presque",
+    "grossièrement",
+    "quasiment",
+    "autour de"
+   ],
+   "meanings_es": [
+    "esto y aquello",
+    "esto y lo otro",
+    "tal y cual"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10177335775025970116,
+   "sharedid": 10177335775025970116,
+   "type": "vocab_kana",
+   "display": "あらかじめ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "beforehand",
+    "in advance",
+    "previously"
+   ],
+   "meanings_fr": [
+    "à l'avance"
+   ],
+   "meanings_es": [
+    "preparado con anticipación",
+    "preparado de antemano",
+    "con antelación"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12272287427314905911,
+   "sharedid": 12272287427314905911,
+   "type": "vocab_kana",
+   "display": "だからこそ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "for this reason"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "por este motivo"
+   ],
+   "meanings_pt": []
   }
  ],
  [
@@ -30523,6 +33903,587 @@
    "meanings": [],
    "meanings_es": [],
    "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 16618595500056587009,
+   "sharedid": 16618595500056587009,
+   "type": "vocab_kana",
+   "display": "ばか",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "idiot",
+    "moron",
+    "fool",
+    "trivial matter",
+    "folly",
+    "absurdity",
+    "stupid",
+    "foolish",
+    "dull",
+    "absurd",
+    "ridiculous",
+    "fervent enthusiast",
+    "nut",
+    "person singularly obsessed with something",
+    "Mactra chinensis (species of trough shell)"
+   ],
+   "meanings_fr": [
+    "chose insignifiante",
+    "chose futile",
+    "chose légère",
+    "folie",
+    "bêtise",
+    "sottise",
+    "absurdité",
+    "stupide",
+    "bête",
+    "idiot",
+    "sot",
+    "absurde",
+    "ridicule",
+    "Mactra chinensis (espèces de coquillages)"
+   ],
+   "meanings_es": [
+    "tonto",
+    "estúpido",
+    "bobo",
+    "idiota",
+    "tonto",
+    "idiota"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2559169582796117434,
+   "sharedid": 2559169582796117434,
+   "type": "vocab_kana",
+   "display": "なので",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "because",
+    "as",
+    "since"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 18441558419656565689,
+   "sharedid": 18441558419656565689,
+   "type": "vocab_kana",
+   "display": "やたら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "indiscriminately",
+    "blindly",
+    "at random",
+    "recklessly",
+    "thoughtlessly",
+    "excessively",
+    "profusely",
+    "indiscriminate",
+    "random",
+    "excessive"
+   ],
+   "meanings_fr": [
+    "à tort et à travers",
+    "imprudemment",
+    "excessivement"
+   ],
+   "meanings_es": [
+    "en exceso",
+    "a ciegas",
+    "al azar",
+    "a lo loco",
+    "a lo bestia",
+    "sin conocimiento",
+    "sin talento",
+    "pasarse de la raya"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14558354263854797854,
+   "sharedid": 14558354263854797854,
+   "type": "vocab_kana",
+   "display": "たいてい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "mostly",
+    "ordinarily",
+    "usually",
+    "generally",
+    "probably",
+    "most",
+    "almost all",
+    "ordinary",
+    "proper",
+    "appropriate",
+    "moderate"
+   ],
+   "meanings_fr": [
+    "généralement",
+    "ordinairement",
+    "usuellement",
+    "probablement",
+    "la plupart",
+    "presque tous",
+    "ordinaire",
+    "approprié",
+    "modéré"
+   ],
+   "meanings_es": [
+    "generalmente",
+    "en general",
+    "usualmente",
+    "normalmente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7270833835192245498,
+   "sharedid": 7270833835192245498,
+   "type": "vocab_kana",
+   "display": "もはや",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "already",
+    "now",
+    "no longer",
+    "not any more"
+   ],
+   "meanings_fr": [
+    "déjà",
+    "maintenant"
+   ],
+   "meanings_es": [
+    "ya",
+    "ahora"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3412400459203810797,
+   "sharedid": 3412400459203810797,
+   "type": "vocab_kana",
+   "display": "かえって",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "on the contrary",
+    "rather",
+    "instead",
+    "all the more"
+   ],
+   "meanings_fr": [
+    "à l'inverse",
+    "au contraire"
+   ],
+   "meanings_es": [
+    "por el contrario",
+    "más bien",
+    "lejos de ello",
+    "por el contrario",
+    "aun más"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4333620792638498450,
+   "sharedid": 4333620792638498450,
+   "type": "vocab_kana",
+   "display": "やりとり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "giving and taking",
+    "exchange (of letters)",
+    "arguing back and forth",
+    "(conversational) exchange"
+   ],
+   "meanings_fr": [
+    "échange"
+   ],
+   "meanings_es": [
+    "diálogo",
+    "negociación",
+    "trueque"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13443554217250335660,
+   "sharedid": 13443554217250335660,
+   "type": "vocab_kana",
+   "display": "ひげ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "moustache",
+    "beard",
+    "whiskers",
+    "whiskers (on a cat, etc.)",
+    "feelers (on an insect, etc.)",
+    "(chin) tuft",
+    "shadow (on a candlestick chart)"
+   ],
+   "meanings_fr": [
+    "barbe",
+    "favoris",
+    "moustache",
+    "très courte impulsion apparaissant sur un signal électrique"
+   ],
+   "meanings_es": [
+    "bigote",
+    "barba",
+    "patillas"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13130789766011181312,
+   "sharedid": 13130789766011181312,
+   "type": "vocab_kana",
+   "display": "ごめん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "I'm sorry",
+    "my apologies",
+    "excuse me",
+    "pardon me",
+    "may I come in?",
+    "permission",
+    "leave",
+    "license",
+    "dismissal",
+    "discharge",
+    "not wanting",
+    "objecting to",
+    "being fed up with",
+    "wishing to avoid"
+   ],
+   "meanings_fr": [
+    "désolé",
+    "merci (je m'excuse pour votre dérangement)",
+    "pardon",
+    "prendre congé",
+    "refus poli",
+    "s'excuser"
+   ],
+   "meanings_es": [
+    "perdón",
+    "discúlpeme",
+    "rechazar (algo)",
+    "declinar (algo)",
+    "rechazo",
+    "permiso"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 807492935645087317,
+   "sharedid": 807492935645087317,
+   "type": "vocab_kana",
+   "display": "こいつ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "he",
+    "she",
+    "this fellow",
+    "this guy",
+    "this person",
+    "this",
+    "this one",
+    "this thing",
+    "hey, you!",
+    "you bastard!",
+    "damn you!"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "éste",
+    "este tipo",
+    "esta persona"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4285251905239050160,
+   "sharedid": 4285251905239050160,
+   "type": "vocab_kana",
+   "display": "くださる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to give",
+    "to confer",
+    "to bestow",
+    "to kindly do for one",
+    "to oblige",
+    "to favour",
+    "to favor"
+   ],
+   "meanings_fr": [
+    "donner",
+    "conférer",
+    "accorder",
+    "daigner faire",
+    "avoir la bonté de"
+   ],
+   "meanings_es": [
+    "dar",
+    "conferir",
+    "hacer el favor",
+    "tener la amabilidad de"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9426817026469761059,
+   "sharedid": 9426817026469761059,
+   "type": "vocab_kana",
+   "display": "なぜか",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "somehow",
+    "for some reason",
+    "without knowing why"
+   ],
+   "meanings_fr": [
+    "pour une raison ou pour une autre",
+    "sans savoir pourquoi"
+   ],
+   "meanings_es": [
+    "por alguna razón",
+    "sin saber por qué"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 18144362639373666470,
+   "sharedid": 18144362639373666470,
+   "type": "vocab_kana",
+   "display": "にもかかわらず",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "in spite of",
+    "nevertheless",
+    "although",
+    "despite",
+    "no matter the",
+    "regardless of"
+   ],
+   "meanings_fr": [
+    "malgré",
+    "néanmoins"
+   ],
+   "meanings_es": [
+    "a pesar de",
+    "no obstante",
+    "sin embargo"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16418891189622191912,
+   "sharedid": 16418891189622191912,
+   "type": "vocab_kana",
+   "display": "すもも",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "Japanese plum (Prunus salicina)",
+    "Chinese plum"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "ciruela"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8481245715894585106,
+   "sharedid": 8481245715894585106,
+   "type": "vocab_kana",
+   "display": "もっとも",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "but then",
+    "although",
+    "though",
+    "reasonable",
+    "natural",
+    "just"
+   ],
+   "meanings_fr": [
+    "mais alors",
+    "bien que",
+    "cependant",
+    "pourtant",
+    "raisonnable",
+    "naturel",
+    "juste"
+   ],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14018962200645262282,
+   "sharedid": 14018962200645262282,
+   "type": "vocab_kana",
+   "display": "まめ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "legume (esp. edible legumes or their seeds, e.g. beans, peas, pulses)",
+    "bean",
+    "pea",
+    "soya bean (Glycine max)",
+    "soybean",
+    "soy",
+    "female genitalia (esp. the clitoris)",
+    "kidney",
+    "small",
+    "miniature",
+    "baby",
+    "midget",
+    "small-scale",
+    "child"
+   ],
+   "meanings_fr": [
+    "légumineuse (surtout les légumineuses comestibles ou leurs graines, comme les haricots, les pois, les légumes à gousse, etc.)",
+    "haricots",
+    "pois",
+    "soja (Glycine max)",
+    "graines de soja",
+    "soya",
+    "organes génitaux féminins (surtout le clitoris)",
+    "rein",
+    "miniature",
+    "minuscule",
+    "enfant"
+   ],
+   "meanings_es": [
+    "frijoles",
+    "habas",
+    "habichuelas",
+    "judías",
+    "soja",
+    "genitales femeninos (esp. el clítoris)",
+    "(comida) riñón",
+    "miniatura",
+    "frágil"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7826372074507349511,
+   "sharedid": 7826372074507349511,
+   "type": "vocab_kana",
+   "display": "とうとう",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "finally",
+    "at last",
+    "ultimately",
+    "in the end"
+   ],
+   "meanings_fr": [
+    "à la fin",
+    "enfin",
+    "finalement"
+   ],
+   "meanings_es": [
+    "después de todo",
+    "al final",
+    "finalmente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2396253140391145126,
+   "sharedid": 2396253140391145126,
+   "type": "vocab_kana",
+   "display": "あふれ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "overflow",
+    "failing to get a job"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "desbordamiento"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14740352758412603209,
+   "sharedid": 14740352758412603209,
+   "type": "vocab_kana",
+   "display": "ひどく",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "terribly",
+    "awfully",
+    "dreadfully",
+    "extremely",
+    "severely",
+    "very (much)"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13963701819579671085,
+   "sharedid": 13963701819579671085,
+   "type": "vocab_kana",
+   "display": "あそこ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "there",
+    "over there",
+    "that place",
+    "yonder",
+    "you-know-where",
+    "genitals",
+    "private parts",
+    "nether regions",
+    "that far",
+    "that much",
+    "that point"
+   ],
+   "meanings_fr": [
+    "là-bas (lieu physiquement éloigné de l'orateur et de l'auditeur)",
+    "cet endroit-là",
+    "là",
+    "organes génitaux",
+    "ça (quelque chose de psychologiquement éloigné aussi bien du locuteur que de l'auditeur)",
+    "à ce point",
+    "ce point"
+   ],
+   "meanings_es": [
+    "allá",
+    "allí",
+    "aquel lugar",
+    "genitales"
+   ],
    "meanings_pt": []
   }
  ],
@@ -31419,6 +35380,655 @@
     "conta",
     "preocupar"
    ]
+  },
+  {
+   "id": 12907668705925607041,
+   "sharedid": 12907668705925607041,
+   "type": "vocab_kana",
+   "display": "つらい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "painful",
+    "bitter",
+    "heart-breaking",
+    "difficult (emotionally)",
+    "tough",
+    "difficult",
+    "hard (usu. of situations)",
+    "cruel",
+    "harsh",
+    "cold",
+    "difficult to ...",
+    "hard to ..."
+   ],
+   "meanings_fr": [
+    "douloureux",
+    "amer",
+    "crève-cœur",
+    "difficile (émotionnellement)",
+    "difficile",
+    "pénible",
+    "rude",
+    "dur (en général de situations)",
+    "cruel",
+    "sévère",
+    "froid",
+    "difficile de..."
+   ],
+   "meanings_es": [
+    "doloroso",
+    "decepción amorosa"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8913222980798742514,
+   "sharedid": 8913222980798742514,
+   "type": "vocab_kana",
+   "display": "さる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to leave",
+    "to go away",
+    "to pass",
+    "to elapse",
+    "to be distant",
+    "to send away",
+    "to drive off",
+    "to divorce",
+    "to (do) completely",
+    "last ... (e.g. \"last April\")"
+   ],
+   "meanings_fr": [
+    "partir",
+    "quitter",
+    "passer",
+    "s'écouler",
+    "être éloigné",
+    "renvoyer",
+    "chasser",
+    "divorcer",
+    "... complètement",
+    "... dernier (par ex. « avril dernier »)"
+   ],
+   "meanings_es": [
+    "salir",
+    "irse",
+    "pasar",
+    "transcurrir",
+    "ser distante",
+    "echar",
+    "alejar",
+    "apartar",
+    "divorciar",
+    "(después de la raíz -masu, esp. de un verbo suru) completamente",
+    "pasado (ej. abril pasado)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2285396915909569682,
+   "sharedid": 2285396915909569682,
+   "type": "vocab_kana",
+   "display": "むらさき",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "purple",
+    "violet",
+    "purple gromwell (Lithospermum erythrorhizon)",
+    "red gromwell",
+    "red-root gromwell",
+    "soy sauce"
+   ],
+   "meanings_fr": [
+    "violet",
+    "pourpre",
+    "Erythrorhizon Lithospermum (espèces de grémil)",
+    "type de sauce soja"
+   ],
+   "meanings_es": [
+    "púrpura",
+    "violeta",
+    "tipo de sauce de soya"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7718825348604443504,
+   "sharedid": 7718825348604443504,
+   "type": "vocab_kana",
+   "display": "いいえ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "no",
+    "nay",
+    "well",
+    "er",
+    "why",
+    "you're welcome",
+    "not at all",
+    "don't mention it",
+    "no",
+    "the noes"
+   ],
+   "meanings_fr": [
+    "non",
+    "euh",
+    "hmm",
+    "pourquoi",
+    "de rien",
+    "je vous en prie",
+    "pas du tout",
+    "négation",
+    "non"
+   ],
+   "meanings_es": [
+    "no",
+    "¡nah!",
+    "¡bah!"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8017801869443287773,
+   "sharedid": 8017801869443287773,
+   "type": "vocab_kana",
+   "display": "いちいち",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "one-by-one",
+    "separately",
+    "every single",
+    "each and every",
+    "without omission",
+    "fully",
+    "in detail"
+   ],
+   "meanings_fr": [
+    "un par un",
+    "séparément",
+    "chacun",
+    "sans omission",
+    "complètement",
+    "intégralement",
+    "en détail"
+   ],
+   "meanings_es": [
+    "uno por uno",
+    "separadamente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3294476131878080439,
+   "sharedid": 3294476131878080439,
+   "type": "vocab_kana",
+   "display": "はずみ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "bounce",
+    "spring",
+    "rebound",
+    "momentum",
+    "impetus",
+    "impulse",
+    "stimulus",
+    "inertia",
+    "moment",
+    "instant",
+    "impulse",
+    "chance"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 7772954238692250377,
+   "sharedid": 7772954238692250377,
+   "type": "vocab_kana",
+   "display": "ついて",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "about",
+    "concerning",
+    "as to",
+    "regarding"
+   ],
+   "meanings_fr": [
+    "à propos de",
+    "au sujet de",
+    "concernant",
+    "quant à",
+    "en ce qui concerne"
+   ],
+   "meanings_es": [
+    "acerca de",
+    "referente a",
+    "con respecto a"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11406106143326399242,
+   "sharedid": 11406106143326399242,
+   "type": "vocab_kana",
+   "display": "ふさわしい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "appropriate",
+    "adequate",
+    "suitable",
+    "fitting",
+    "worthy"
+   ],
+   "meanings_fr": [
+    "approprié",
+    "convenable"
+   ],
+   "meanings_es": [
+    "apropiado",
+    "adecuado",
+    "idóneo",
+    "conveniente",
+    "debido",
+    "correspondiente",
+    "oportuno",
+    "digno"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9928236672645708836,
+   "sharedid": 9928236672645708836,
+   "type": "vocab_kana",
+   "display": "しょうが",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "ginger (Zingiber officinale)",
+    "dried ginger root (trad. medicine)"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "Zingiberaceae",
+    "Zingiberáceas (orden Zingiberales) (sistemática vegetal)",
+    "jengibre"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4725415562275038604,
+   "sharedid": 4725415562275038604,
+   "type": "vocab_kana",
+   "display": "すみません",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "excuse me",
+    "pardon me",
+    "I'm sorry",
+    "I beg your pardon",
+    "thank you",
+    "you shouldn't have",
+    "it's too much"
+   ],
+   "meanings_fr": [
+    "excusez-moi",
+    "pardon",
+    "je suis désolé",
+    "merci"
+   ],
+   "meanings_es": [
+    "perdón",
+    "disculpe",
+    "gracias"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11897688685441819794,
+   "sharedid": 11897688685441819794,
+   "type": "vocab_kana",
+   "display": "まれ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "rare",
+    "seldom"
+   ],
+   "meanings_fr": [
+    "rare",
+    "peu fréquent"
+   ],
+   "meanings_es": [
+    "raro",
+    "infrecuente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7819230192004286416,
+   "sharedid": 7819230192004286416,
+   "type": "vocab_kana",
+   "display": "いじめ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "bullying",
+    "teasing"
+   ],
+   "meanings_fr": [
+    "brutal",
+    "railleur"
+   ],
+   "meanings_es": [
+    "hostigamiento",
+    "acoso (físico, psicológico)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15799898883575483331,
+   "sharedid": 15799898883575483331,
+   "type": "vocab_kana",
+   "display": "またがる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to straddle",
+    "to sit astride",
+    "to mount",
+    "to extend over",
+    "to spread over",
+    "to span",
+    "to extend into"
+   ],
+   "meanings_fr": [
+    "enfourcher",
+    "s'étendre sur"
+   ],
+   "meanings_es": [
+    "montar",
+    "extenderse"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12222477375148001126,
+   "sharedid": 12222477375148001126,
+   "type": "vocab_kana",
+   "display": "がる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to show signs of being",
+    "to feel",
+    "to think",
+    "to behave as if one were",
+    "to pretend",
+    "to act as if"
+   ],
+   "meanings_fr": [
+    "montrer des signes de",
+    "sentir",
+    "penser",
+    "se comporter comme si",
+    "prétendre",
+    "faire semblant",
+    "vouloir",
+    "désirer",
+    "être impatient de",
+    "avoir hâte de"
+   ],
+   "meanings_es": [
+    "al parecer"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4412356854317210421,
+   "sharedid": 4412356854317210421,
+   "type": "vocab_kana",
+   "display": "どうか",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "please",
+    "somehow or other",
+    "one way or another"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "por favor",
+    "de una forma u otra",
+    "de una manera u otra"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3347064979091043447,
+   "sharedid": 3347064979091043447,
+   "type": "vocab_kana",
+   "display": "こんな",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "this sort of",
+    "this kind of",
+    "like this",
+    "such"
+   ],
+   "meanings_fr": [
+    "cette sorte de (utilisé à propos de quelque chose ou quelqu'un de proche du locuteur (y-compris le locuteur lui-même), ou à propos d'idées exprimées par le locuteur)",
+    "comme ceci"
+   ],
+   "meanings_es": [
+    "tal",
+    "así (como esto)",
+    "este tipo de"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 18349172530847802560,
+   "sharedid": 18349172530847802560,
+   "type": "vocab_kana",
+   "display": "とる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to take",
+    "to pick up",
+    "to grab",
+    "to catch",
+    "to pass",
+    "to hand",
+    "to give",
+    "to get",
+    "to obtain",
+    "to acquire",
+    "to win",
+    "to receive",
+    "to earn",
+    "to take (e.g. a vacation)",
+    "to adopt (a method, proposal, etc.)",
+    "to take (a measure, attitude, etc.)",
+    "to choose",
+    "to remove",
+    "to get rid of",
+    "to take off",
+    "to take away",
+    "to steal",
+    "to rob",
+    "to eat",
+    "to have (e.g. lunch)",
+    "to take (e.g. vitamins)",
+    "to pick (e.g. flowers)",
+    "to gather",
+    "to extract (e.g. juice)",
+    "to catch (e.g. fish)",
+    "to take up (time, space)",
+    "to occupy",
+    "to spare",
+    "to set aside",
+    "to secure",
+    "to reserve",
+    "to save",
+    "to put aside",
+    "to keep",
+    "to take (e.g. a joke)",
+    "to interpret",
+    "to understand",
+    "to make out",
+    "to grasp",
+    "to record",
+    "to take down",
+    "to subscribe to (e.g. a newspaper)",
+    "to take",
+    "to buy",
+    "to get",
+    "to order",
+    "to have delivered",
+    "to charge",
+    "to fine",
+    "to take (tax)",
+    "to take (e.g. a wife)",
+    "to take on (e.g. an apprentice)",
+    "to adopt",
+    "to accept",
+    "to compete (in sumo, cards, etc.)",
+    "to play"
+   ],
+   "meanings_fr": [
+    "prendre",
+    "ramasser",
+    "récolter",
+    "gagner",
+    "remporter",
+    "choisir",
+    "voler",
+    "dérober",
+    "cambrioler",
+    "manger",
+    "prendre (un repas)",
+    "enlever (ses lunettes, etc.)",
+    "concourir (au sumo, aux cartes, etc.)",
+    "jouer"
+   ],
+   "meanings_es": [
+    "tomar",
+    "coger",
+    "cosechar",
+    "ganar"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17171643912051738373,
+   "sharedid": 17171643912051738373,
+   "type": "vocab_kana",
+   "display": "すると",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "thereupon",
+    "hereupon"
+   ],
+   "meanings_fr": [
+    "ensuite",
+    "alors"
+   ],
+   "meanings_es": [
+    "sobre eso",
+    "luego",
+    "a continuación"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12139454021709405273,
+   "sharedid": 12139454021709405273,
+   "type": "vocab_kana",
+   "display": "どこか",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "somewhere",
+    "in some respects",
+    "in some way"
+   ],
+   "meanings_fr": [
+    "quelque part",
+    "n'importe où",
+    "à certains égards"
+   ],
+   "meanings_es": [
+    "en alguna parte",
+    "en algún lugar",
+    "en algunos aspectos"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1160722062226493297,
+   "sharedid": 1160722062226493297,
+   "type": "vocab_kana",
+   "display": "さっぱり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "feeling refreshed",
+    "feeling relieved",
+    "neat",
+    "tidy",
+    "clean",
+    "frank",
+    "open-hearted",
+    "plain",
+    "simple",
+    "light",
+    "completely",
+    "entirely",
+    "not in the least (with neg. verb)",
+    "not at all",
+    "nothing at all",
+    "completely useless",
+    "hopeless",
+    "awful"
+   ],
+   "meanings_fr": [
+    "se sentir rafraîchi",
+    "se sentir à l'aise",
+    "soigné",
+    "ordonné",
+    "taillé",
+    "simple",
+    "sans façon",
+    "complètement",
+    "totalement",
+    "pas le moins du monde (dans une phrase négative)",
+    "rien du tout",
+    "totalement ignorant",
+    "pas du tout",
+    "absolument pas"
+   ],
+   "meanings_es": [
+    "refrescarse",
+    "claro",
+    "definido",
+    "limpio",
+    "franco"
+   ],
+   "meanings_pt": []
   }
  ],
  [
@@ -32383,6 +36993,770 @@
     "superioridade",
     "gentileza"
    ]
+  },
+  {
+   "id": 2280365487666879816,
+   "sharedid": 2280365487666879816,
+   "type": "vocab_kana",
+   "display": "ついで",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "opportunity",
+    "occasion",
+    "chance",
+    "order",
+    "sequence",
+    "successor"
+   ],
+   "meanings_fr": [
+    "opportunité",
+    "occasion"
+   ],
+   "meanings_es": [
+    "a continuación",
+    "después de"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3217830209658450691,
+   "sharedid": 3217830209658450691,
+   "type": "vocab_kana",
+   "display": "ゆっくり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "slowly",
+    "unhurriedly",
+    "without haste",
+    "leisurely",
+    "at one's leisure",
+    "easily (e.g. in time)",
+    "well",
+    "sufficiently",
+    "amply",
+    "with time to spare",
+    "well (e.g. sleep)",
+    "comfortably"
+   ],
+   "meanings_fr": [
+    "lentement",
+    "tranquillement"
+   ],
+   "meanings_es": [
+    "lentamente",
+    "despacio",
+    "cómodo con",
+    "tranquilo"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11661389832335854123,
+   "sharedid": 11661389832335854123,
+   "type": "vocab_kana",
+   "display": "さい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "occasion",
+    "side",
+    "edge",
+    "verge",
+    "dangerous",
+    "adventurous",
+    "indecent",
+    "time",
+    "when"
+   ],
+   "meanings_fr": [
+    "occasion",
+    "côté",
+    "accotement",
+    "bord",
+    "dangereux",
+    "aventureux",
+    "indécent",
+    "temps",
+    "quand"
+   ],
+   "meanings_es": [
+    "límite",
+    "frontera",
+    "asociación",
+    "unión",
+    "ocasión"
+   ],
+   "meanings_pt": [
+    "ocasião",
+    "lado",
+    "margem",
+    "limite",
+    "indecente",
+    "ousado",
+    "perigoso",
+    "vez",
+    "quando"
+   ]
+  },
+  {
+   "id": 15234822721935678080,
+   "sharedid": 15234822721935678080,
+   "type": "vocab_kana",
+   "display": "ばあちゃん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "granny",
+    "grandma",
+    "gran",
+    "old lady",
+    "old woman"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9141693836141659566,
+   "sharedid": 9141693836141659566,
+   "type": "vocab_kana",
+   "display": "ぴったり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "tightly",
+    "closely",
+    "exactly",
+    "precisely",
+    "suddenly (stopping)",
+    "perfectly (suited)",
+    "ideally"
+   ],
+   "meanings_fr": [
+    "fermement",
+    "strictement",
+    "étroitement",
+    "exactement",
+    "précisément",
+    "justement",
+    "pile poil",
+    "(s'arrêter) soudainement",
+    "parfaitement (adapté)",
+    "idéalement"
+   ],
+   "meanings_es": [
+    "perfectamente",
+    "de golpe",
+    "justo",
+    "exactamente",
+    "perfecto"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14700559130010571222,
+   "sharedid": 14700559130010571222,
+   "type": "vocab_kana",
+   "display": "そういった",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "like that",
+    "this type"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1395944436390356677,
+   "sharedid": 1395944436390356677,
+   "type": "vocab_kana",
+   "display": "いる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to need",
+    "to want"
+   ],
+   "meanings_fr": [
+    "avoir besoin",
+    "vouloir"
+   ],
+   "meanings_es": [
+    "necesitar"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2730606161462244597,
+   "sharedid": 2730606161462244597,
+   "type": "vocab_kana",
+   "display": "もったいない",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "wasteful",
+    "a waste",
+    "too good",
+    "more than one deserves",
+    "unworthy of",
+    "impious",
+    "profane",
+    "sacrilegious"
+   ],
+   "meanings_fr": [
+    "impie",
+    "profane",
+    "sacrilège",
+    "trop beau",
+    "indigne de",
+    "immérité",
+    "inutile"
+   ],
+   "meanings_es": [
+    "demasiado bueno",
+    "más de lo que uno merece",
+    "despilfarrador",
+    "sacrílego",
+    "indigno de"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3191571349777772911,
+   "sharedid": 3191571349777772911,
+   "type": "vocab_kana",
+   "display": "すっきり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "refreshingly",
+    "with a feeling of relief",
+    "pleasantly",
+    "(a weight) off one's shoulder",
+    "shapely",
+    "neatly",
+    "refinedly",
+    "cleanly",
+    "without trouble",
+    "clearly",
+    "plainly",
+    "distinctly",
+    "completely",
+    "thoroughly",
+    "not at all (with negative sentence)",
+    "not even slightly"
+   ],
+   "meanings_fr": [
+    "se sentir rafraîchi",
+    "se sentir bien",
+    "se sentir lucide",
+    "bien fait",
+    "soigneusement",
+    "de manière raffinée",
+    "proprement",
+    "sans histoire",
+    "clairement",
+    "distinctement",
+    "complètement",
+    "sans rien oublier",
+    "pas du tout (dans une phrase négative)",
+    "pas même un peu"
+   ],
+   "meanings_es": [
+    "claramente",
+    "proporcionadamente",
+    "perfectamente",
+    "elegantemente",
+    "limpiamente",
+    "sin problemas",
+    "completamente",
+    "a fondo",
+    "en absoluto (en una oración negativa)",
+    "ni siquiera un poco"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13896066532151942719,
+   "sharedid": 13896066532151942719,
+   "type": "vocab_kana",
+   "display": "きれる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to break",
+    "to snap",
+    "to be cut",
+    "to split",
+    "to crack",
+    "to be injured",
+    "to wear out",
+    "to be worn out",
+    "to break",
+    "to burst",
+    "to collapse",
+    "to wear off",
+    "to stop working",
+    "to go dead",
+    "to expire (time limit, etc.)",
+    "to run out",
+    "to become due",
+    "to run out (of stock, etc.)",
+    "to be exhausted",
+    "to be used up",
+    "to be sold out",
+    "to be out of",
+    "to be broken off (e.g. of a relationship)",
+    "to break up",
+    "to have severed ties",
+    "to be cut off",
+    "to be disconnected",
+    "to cut well",
+    "to be sharp",
+    "to be sharp-minded",
+    "to be keen",
+    "to be shrewd",
+    "to be quick-witted",
+    "to be able",
+    "to be short of",
+    "to drop under (a certain figure)",
+    "to beat (e.g. a record time)",
+    "to dry off",
+    "to curve",
+    "to veer",
+    "to shuffle (cards)",
+    "to get angry",
+    "to snap",
+    "to blow one's top",
+    "to lose one's temper",
+    "to flip",
+    "to be able to do completely"
+   ],
+   "meanings_fr": [
+    "casser",
+    "être coupé",
+    "se séparer",
+    "craquer",
+    "se fendre",
+    "être blessé",
+    "être à court de",
+    "descendre en dessous (d'un certain chiffre)",
+    "battre (par ex. un record)",
+    "se sécher",
+    "courber",
+    "dévier",
+    "virer (de bord)",
+    "mélanger (les cartes)",
+    "se mettre en colère",
+    "craquer",
+    "exploser de rage",
+    "perdre son sang-froid",
+    "devenir dingue",
+    "pouvoir faire complètement",
+    "s'user",
+    "être usé",
+    "expirer (pour un délai, etc.)",
+    "s'épuiser",
+    "échoir",
+    "être en rupture (de stock, etc.)",
+    "être épuisé",
+    "être à guichet fermé",
+    "ne plus avoir de"
+   ],
+   "meanings_es": [
+    "estar afilado",
+    "romperse",
+    "gastarse",
+    "dañarse",
+    "estallar",
+    "colapsarse",
+    "desconectarse",
+    "estar fuera de",
+    "expirar",
+    "ser astuto",
+    "tener una mente aguda"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 737594067097751299,
+   "sharedid": 737594067097751299,
+   "type": "vocab_kana",
+   "display": "やってくる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to come along",
+    "to come around",
+    "to turn up",
+    "to arrive at the present",
+    "to get where one is",
+    "to have been doing something (for a period of time)"
+   ],
+   "meanings_fr": [
+    "arriver"
+   ],
+   "meanings_es": [
+    "venir",
+    "acudir",
+    "llegar a venir"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1822113835723243314,
+   "sharedid": 1822113835723243314,
+   "type": "vocab_kana",
+   "display": "だて",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "elegance",
+    "dandyism",
+    "sophistication",
+    "having style",
+    "affectation",
+    "showing off",
+    "putting on an air",
+    "appearances",
+    "doing something just for show"
+   ],
+   "meanings_fr": [
+    "élégance",
+    "dandysme",
+    "raffinement",
+    "ayant du style",
+    "affectation",
+    "s'exhiber",
+    "craner",
+    "apparences",
+    "faire quelque chose juste pour le spectacle"
+   ],
+   "meanings_es": [
+    "dandismo",
+    "vanaglorioso",
+    "llamativo",
+    "galantería",
+    "ponerse al aire",
+    "aparecer en espectáculos"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1229128416182992213,
+   "sharedid": 1229128416182992213,
+   "type": "vocab_kana",
+   "display": "いのしし",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "wild boar",
+    "wild pig",
+    "hog (esp. a wild boar, but also including the domesticated pig)"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "jabalí",
+    "cerdo",
+    "jabalí"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3586300361555166857,
+   "sharedid": 3586300361555166857,
+   "type": "vocab_kana",
+   "display": "まずい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "bad (taste)",
+    "unpalatable",
+    "unsavoury",
+    "unsavory",
+    "awful",
+    "terrible",
+    "unpleasant",
+    "poor",
+    "unskillful",
+    "unskilful",
+    "bungling",
+    "clumsy",
+    "ugly",
+    "unattractive",
+    "homely",
+    "plain",
+    "awkward",
+    "problematic",
+    "troublesome",
+    "unfavorable",
+    "unfavourable",
+    "unwise"
+   ],
+   "meanings_fr": [
+    "pas appétissant",
+    "désagréable (pour un goût, une apparence, une situation)",
+    "sans maîtrise",
+    "incompétent",
+    "maladroit",
+    "gauche",
+    "hideux",
+    "laid",
+    "ordinaire",
+    "banal",
+    "peu attrayant",
+    "peu attirant",
+    "embarrassant",
+    "gênant",
+    "mal à propos",
+    "inopportun",
+    "défavorable",
+    "déraisonnable",
+    "malavisé"
+   ],
+   "meanings_es": [
+    "poco apetitoso",
+    "poco apetecible",
+    "desagradable (sabor",
+    "apariencia",
+    "situación)",
+    "inexperto",
+    "torpe",
+    "desmañado",
+    "embarazoso",
+    "chapucero",
+    "desaconsejado",
+    "inoportuno"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4078795611758870287,
+   "sharedid": 4078795611758870287,
+   "type": "vocab_kana",
+   "display": "おしゃべり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "chattering",
+    "talk",
+    "idle talk",
+    "chat",
+    "chitchat",
+    "gossip",
+    "chatty",
+    "talkative",
+    "chatterbox",
+    "blabbermouth"
+   ],
+   "meanings_fr": [
+    "bavardage",
+    "paroles en l'air",
+    "caquetage",
+    "papotage",
+    "commérage",
+    "ragot",
+    "potin",
+    "bavard",
+    "loquace",
+    "moulin à paroles",
+    "pipelette"
+   ],
+   "meanings_es": [
+    "parlanchín",
+    "locuaz"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5601493501096183353,
+   "sharedid": 5601493501096183353,
+   "type": "vocab_kana",
+   "display": "つまらない",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "dull",
+    "uninteresting",
+    "boring",
+    "tedious",
+    "insignificant",
+    "unimportant",
+    "trifling",
+    "trivial",
+    "worthless",
+    "absurd",
+    "foolish",
+    "silly",
+    "stupid",
+    "useless",
+    "pointless",
+    "disappointing"
+   ],
+   "meanings_fr": [
+    "morne",
+    "ennuyeux",
+    "monotone",
+    "sans intérêt",
+    "insignifiant",
+    "sans importance",
+    "trivial",
+    "sans valeur",
+    "absurde",
+    "fou",
+    "déraisonnable",
+    "idiot",
+    "stupide",
+    "inutile",
+    "futile",
+    "décevant"
+   ],
+   "meanings_es": [
+    "insignificante",
+    "aburrido",
+    "frívolo"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13111695263692343141,
+   "sharedid": 13111695263692343141,
+   "type": "vocab_kana",
+   "display": "なくなる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to be lost (e.g. luggage)",
+    "to be missing",
+    "to be used up",
+    "to be run out",
+    "to be exhausted",
+    "to be consumed",
+    "to be reduced to zero",
+    "to not occur any more",
+    "to disappear (e.g. pain)",
+    "to be lost (e.g. a dream, confidence)"
+   ],
+   "meanings_fr": [
+    "être perdu (par ex. un bagage)",
+    "être manquant",
+    "être épuisé",
+    "être consommé",
+    "être réduit à zéro",
+    "ne plus se produire",
+    "disparaître (par ex. une douleur)",
+    "être perdu (par ex. un rêve, la confiance)"
+   ],
+   "meanings_es": [
+    "desaparecer",
+    "perderse"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3538583509392219931,
+   "sharedid": 3538583509392219931,
+   "type": "vocab_kana",
+   "display": "なす",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to build up",
+    "to establish",
+    "to form",
+    "to become (a state)",
+    "to accomplish",
+    "to achieve",
+    "to succeed in",
+    "to change into",
+    "to do",
+    "to perform",
+    "to intend to",
+    "to attempt",
+    "to try"
+   ],
+   "meanings_fr": [
+    "développer",
+    "établir",
+    "former",
+    "devenir (un état)",
+    "accomplir",
+    "atteindre",
+    "réussir",
+    "se transformer en",
+    "faire",
+    "effectuer",
+    "avoir l'intention de",
+    "tenter",
+    "essayer"
+   ],
+   "meanings_es": [
+    "elaborar",
+    "establecer",
+    "formar",
+    "convertirse",
+    "ponerse",
+    "hacerse",
+    "volverse etc. (cambios de estado)",
+    "tratar de",
+    "intentar",
+    "lograr",
+    "realizar",
+    "llevar a cabo",
+    "tener éxito",
+    "cambiar en",
+    "hacer",
+    "desempeñar",
+    "intentar de",
+    "tratar de",
+    "tener un niño",
+    "ejecutar",
+    "realizar"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12692441936451778079,
+   "sharedid": 12692441936451778079,
+   "type": "vocab_kana",
+   "display": "こんばんは",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "good evening"
+   ],
+   "meanings_fr": [
+    "bonsoir"
+   ],
+   "meanings_es": [
+    "buenas tardes"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10659958569229498637,
+   "sharedid": 10659958569229498637,
+   "type": "vocab_kana",
+   "display": "そういう",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "such",
+    "like that",
+    "that sort of"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "tal",
+    "como eso",
+    "ese tipo de",
+    "muy"
+   ],
+   "meanings_pt": []
   }
  ],
  [
@@ -33338,6 +38712,605 @@
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
+  },
+  {
+   "id": 2018363747267538458,
+   "sharedid": 2018363747267538458,
+   "type": "vocab_kana",
+   "display": "かっこいい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "attractive",
+    "good-looking",
+    "stylish",
+    "cool",
+    "smooth",
+    "neat",
+    "with-it",
+    "groovy"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "atractivo",
+    "guapo",
+    "elegante"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5380540934236301084,
+   "sharedid": 5380540934236301084,
+   "type": "vocab_kana",
+   "display": "ひどい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "cruel",
+    "heartless",
+    "hard",
+    "harsh",
+    "severe",
+    "violent",
+    "intense",
+    "strong",
+    "heavy",
+    "extreme",
+    "very bad",
+    "terrible",
+    "awful",
+    "excessive",
+    "exorbitant",
+    "unreasonable",
+    "outrageous",
+    "unfair",
+    "unjust"
+   ],
+   "meanings_fr": [
+    "cruel",
+    "sans cœur",
+    "dur",
+    "rude",
+    "sévère",
+    "violent",
+    "intense",
+    "fort",
+    "extrême",
+    "très mauvais",
+    "terrible",
+    "affreux",
+    "atroce",
+    "excessif",
+    "exorbitant",
+    "déraisonnable",
+    "scandaleux",
+    "déloyal",
+    "injuste"
+   ],
+   "meanings_es": [
+    "cruel",
+    "horrible",
+    "grave",
+    "muy malo",
+    "terrible",
+    "violento"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5956420841752282769,
+   "sharedid": 5956420841752282769,
+   "type": "vocab_kana",
+   "display": "まるで",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "quite",
+    "entirely",
+    "completely",
+    "at all",
+    "as if",
+    "as though",
+    "just like"
+   ],
+   "meanings_fr": [
+    "tout à fait",
+    "absolument",
+    "entièrement",
+    "complètement",
+    "du tout",
+    "comme si",
+    "tout comme"
+   ],
+   "meanings_es": [
+    "justamente",
+    "totalmente",
+    "completamente",
+    "por así decirlo"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3943745337249220532,
+   "sharedid": 3943745337249220532,
+   "type": "vocab_kana",
+   "display": "あれ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "that",
+    "that thing",
+    "that person",
+    "then",
+    "that time",
+    "that place (over there)",
+    "down there (i.e. one's genitals)",
+    "period",
+    "menses",
+    "he",
+    "him",
+    "boyfriend"
+   ],
+   "meanings_fr": [
+    "çà (indique quelque chose de distant du locuteur et de l'auditeur, (dans le temps, l'espace ou psychologiquement), ou quelque chose de compréhensible implicitement)",
+    "celui-là",
+    "cette personne (utilisé pour faire référence à ses égaux ou inférieurs)",
+    "là-bas",
+    "en bas (par ex. les organes génitaux)",
+    "règles",
+    "menstruations",
+    "hé (expression de surprise, de suspicion, etc.)",
+    "hein ?",
+    "quoi ?",
+    "ça (quelque chose de mentionné précédemment qui est éloigné psychologiquement ou en termes de temps)",
+    "il",
+    "lui",
+    "son",
+    "petit ami"
+   ],
+   "meanings_es": [
+    "aquello",
+    "aquél",
+    "aquella",
+    "él",
+    "novio"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 713627400494835683,
+   "sharedid": 713627400494835683,
+   "type": "vocab_kana",
+   "display": "あくまでも",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to the last",
+    "persistency",
+    "thoroughness"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11622393856784265154,
+   "sharedid": 11622393856784265154,
+   "type": "vocab_kana",
+   "display": "なんて",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "things like",
+    "something like",
+    "someone like",
+    "such a thing as",
+    "(the fact) that",
+    "to think that"
+   ],
+   "meanings_fr": [
+    "tel que",
+    "(des choses) comme",
+    "exclamation"
+   ],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1048066011351984433,
+   "sharedid": 1048066011351984433,
+   "type": "vocab_kana",
+   "display": "ものすごい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "terrific",
+    "staggering",
+    "tremendous",
+    "incredible",
+    "extreme",
+    "frightful",
+    "ghastly",
+    "horrific",
+    "terrible",
+    "awful",
+    "gruesome",
+    "eerie"
+   ],
+   "meanings_fr": [
+    "bouleversant",
+    "fracassant",
+    "stupéfiant",
+    "dans une très large mesure",
+    "terrible",
+    "horrible",
+    "effroyable",
+    "affreux",
+    "épouvantable"
+   ],
+   "meanings_es": [
+    "tremendo"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3512091875693558006,
+   "sharedid": 3512091875693558006,
+   "type": "vocab_kana",
+   "display": "もしかして",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "perhaps",
+    "possibly",
+    "maybe",
+    "by any chance",
+    "if I'm not mistaken",
+    "if",
+    "in case",
+    "in the event that"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "quizás",
+    "posiblemente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8200390486079808296,
+   "sharedid": 8200390486079808296,
+   "type": "vocab_kana",
+   "display": "よほど",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "very",
+    "greatly",
+    "much",
+    "to a large extent",
+    "quite",
+    "just about to",
+    "almost",
+    "very nearly"
+   ],
+   "meanings_fr": [
+    "assez",
+    "beaucoup",
+    "grandement",
+    "pour une large part",
+    "très"
+   ],
+   "meanings_es": [
+    "bastante",
+    "mucho más"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3762264112668921829,
+   "sharedid": 3762264112668921829,
+   "type": "vocab_kana",
+   "display": "ついつい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "unintentionally",
+    "unconsciously",
+    "by mistake",
+    "heedlessly",
+    "against one's better judgement (judgment)"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 16092833219283147229,
+   "sharedid": 16092833219283147229,
+   "type": "vocab_kana",
+   "display": "あんなに",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to that extent",
+    "to that degree",
+    "so much",
+    "so"
+   ],
+   "meanings_fr": [
+    "à ce point",
+    "à ce degré"
+   ],
+   "meanings_es": [
+    "hasta ese punto",
+    "hasta ese grado"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4313979754702270290,
+   "sharedid": 4313979754702270290,
+   "type": "vocab_kana",
+   "display": "きっちり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "exactly",
+    "precisely",
+    "punctually",
+    "on the dot",
+    "closely",
+    "tightly",
+    "(fitting) perfectly",
+    "properly",
+    "without fail"
+   ],
+   "meanings_fr": [
+    "à coup sûr",
+    "sans faute"
+   ],
+   "meanings_es": [
+    "exacto",
+    "perfecto"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8239963507039488275,
+   "sharedid": 8239963507039488275,
+   "type": "vocab_kana",
+   "display": "くれる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to give",
+    "to let (one) have",
+    "to give",
+    "to do for one",
+    "to take the trouble to do",
+    "to do to someone's disadvantage"
+   ],
+   "meanings_fr": [
+    "donner",
+    "faire pour quelqu'un",
+    "recevoir de"
+   ],
+   "meanings_es": [
+    "dar",
+    "dar al hablante"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15382783607503064497,
+   "sharedid": 15382783607503064497,
+   "type": "vocab_kana",
+   "display": "ほう",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "direction",
+    "person",
+    "alternative"
+   ],
+   "meanings_fr": [
+    "direction",
+    "personne",
+    "alternative"
+   ],
+   "meanings_es": [
+    "dirección",
+    "lado",
+    "cuadrado",
+    "método",
+    "manera",
+    "persona",
+    "forma de hacer"
+   ],
+   "meanings_pt": [
+    "direção",
+    "pessoa",
+    "alternativa"
+   ]
+  },
+  {
+   "id": 3299404811334694551,
+   "sharedid": 3299404811334694551,
+   "type": "vocab_kana",
+   "display": "ほら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "look!",
+    "see!",
+    "here!",
+    "there!",
+    "hey!"
+   ],
+   "meanings_fr": [
+    "regarde!"
+   ],
+   "meanings_es": [
+    "mira!",
+    "mírame!"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4176115634840752066,
+   "sharedid": 4176115634840752066,
+   "type": "vocab_kana",
+   "display": "とんでもない",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "unthinkable",
+    "unexpected",
+    "absurd",
+    "outrageous",
+    "preposterous",
+    "terrible",
+    "absolutely not!",
+    "far from it!",
+    "impossible!",
+    "preposterous!",
+    "what a thing to say!",
+    "no way!",
+    "(it was) no bother at all",
+    "not at all",
+    "don't mention it"
+   ],
+   "meanings_fr": [
+    "impensable",
+    "inattendu",
+    "scandaleux",
+    "outrageux",
+    "offensant",
+    "terrible",
+    "absolument pas !",
+    "pas du tout !",
+    "loin de là !",
+    "impossible !",
+    "absurde !",
+    "tu parles !",
+    "en aucune façon !",
+    "connerie",
+    "de rien !"
+   ],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 417580198429731294,
+   "sharedid": 417580198429731294,
+   "type": "vocab_kana",
+   "display": "どうにか",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "in some way or other",
+    "one way or another",
+    "somehow",
+    "only just",
+    "barely"
+   ],
+   "meanings_fr": [
+    "d'une façon ou d'une autre"
+   ],
+   "meanings_es": [
+    "de alguna manera"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9816352254988740191,
+   "sharedid": 9816352254988740191,
+   "type": "vocab_kana",
+   "display": "やっと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "at last",
+    "finally",
+    "barely",
+    "narrowly",
+    "just",
+    "by the skin of one's teeth"
+   ],
+   "meanings_fr": [
+    "enfin",
+    "finalement",
+    "à peine",
+    "de justesse",
+    "juste",
+    "d'un poil"
+   ],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9565092748319791713,
+   "sharedid": 9565092748319791713,
+   "type": "vocab_kana",
+   "display": "むら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "unevenness (of colour, paint, etc.)",
+    "irregularity",
+    "nonuniformity",
+    "blotchiness",
+    "unevenness (of quality, results, behaviour, etc.)",
+    "inconsistency",
+    "instability",
+    "fickleness",
+    "capriciousness",
+    "fitfulness",
+    "spots",
+    "speckles",
+    "mottles",
+    "speckled",
+    "spotted"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "aldea",
+    "pueblo",
+    "caserío",
+    "poblacho",
+    "mota",
+    "pinta",
+    "mancha"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11613075583955288419,
+   "sharedid": 11613075583955288419,
+   "type": "vocab_kana",
+   "display": "みたい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "-like",
+    "sort of",
+    "similar to",
+    "resembling"
+   ],
+   "meanings_fr": [
+    "comme",
+    "sorte de",
+    "pareil à",
+    "ressemblant"
+   ],
+   "meanings_es": [
+    "parece",
+    "semejante",
+    "similar a",
+    "como a"
+   ],
+   "meanings_pt": []
   }
  ],
  [
@@ -34270,6 +40243,389 @@
    "meanings": [],
    "meanings_es": [],
    "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14983300439035683244,
+   "sharedid": 14983300439035683244,
+   "type": "vocab_kana",
+   "display": "ごみ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "rubbish",
+    "trash",
+    "garbage",
+    "refuse",
+    "defilement",
+    "impurity",
+    "affliction",
+    "object (perceived with the mind or the ss)",
+    "one billionth"
+   ],
+   "meanings_fr": [
+    "déchets",
+    "détritus",
+    "immondices",
+    "ordures"
+   ],
+   "meanings_es": [
+    "basura",
+    "desperdicio",
+    "porquería"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9225663587562102723,
+   "sharedid": 9225663587562102723,
+   "type": "vocab_kana",
+   "display": "おまけに",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to make matters worse",
+    "besides",
+    "what's more",
+    "in addition",
+    "on top of that"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13612598564946505803,
+   "sharedid": 13612598564946505803,
+   "type": "vocab_kana",
+   "display": "ほっと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "with a feeling of relief",
+    "with a sigh of relief",
+    "deeply (sigh)"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "con alivio"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10768477996338041976,
+   "sharedid": 10768477996338041976,
+   "type": "vocab_kana",
+   "display": "がた",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "type",
+    "style",
+    "model",
+    "pattern",
+    "mold",
+    "mould",
+    "model",
+    "pattern",
+    "template",
+    "impression",
+    "kata (set sequence of positions and movements in martial arts)",
+    "style (in kabuki, noh, etc.)",
+    "form",
+    "convention",
+    "tradition",
+    "(standard) form",
+    "formula",
+    "usage",
+    "(set) size",
+    "inches (in sizes of displays, disks, image sensors, etc.)",
+    "(taxonomical) form"
+   ],
+   "meanings_fr": [
+    "modèle",
+    "type (par ex. de machine, de produit, etc.)",
+    "type",
+    "style",
+    "motif",
+    "moule",
+    "gabarit",
+    "modèle",
+    "patron",
+    "kata (forme standard d'un mouvement, d'une posture, etc. dans les arts martiaux, le sport, etc.)",
+    "formulaire",
+    "taille (de vêtement ou de chaussure)",
+    "forme (taxinomique)"
+   ],
+   "meanings_es": [
+    "modelo",
+    "tipo",
+    "estilo",
+    "patrón",
+    "molde",
+    "kata (forma estandar de un movimiento, postura en deportes, artes marciales, etc)",
+    "forma",
+    "tamaño (ropa, calzado, etc)",
+    "(taxonomía) forma"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 374581766238458889,
+   "sharedid": 374581766238458889,
+   "type": "vocab_kana",
+   "display": "めがね",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "glasses",
+    "eyeglasses",
+    "spectacles",
+    "judgment",
+    "judgement",
+    "discrimination",
+    "discernment",
+    "insight"
+   ],
+   "meanings_fr": [
+    "lunettes"
+   ],
+   "meanings_es": [
+    "gafas",
+    "(am) lentes",
+    "(am) anteojos"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14155711522375804486,
+   "sharedid": 14155711522375804486,
+   "type": "vocab_kana",
+   "display": "くじら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "whale (Cetacea spp.)"
+   ],
+   "meanings_fr": [
+    "baleine"
+   ],
+   "meanings_es": [
+    "ballena"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2918395496300077222,
+   "sharedid": 2918395496300077222,
+   "type": "vocab_kana",
+   "display": "ありがとう",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "thank you",
+    "thanks"
+   ],
+   "meanings_fr": [
+    "merci"
+   ],
+   "meanings_es": [
+    "gracias",
+    "Gracias",
+    "estoy muy agradecido",
+    "Es usted muy amable",
+    "gracias"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8197829316557575260,
+   "sharedid": 8197829316557575260,
+   "type": "vocab_kana",
+   "display": "きちっと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "exactly",
+    "perfectly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "aseadamente",
+    "ordenadamente",
+    "correctamente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7630288772024537257,
+   "sharedid": 7630288772024537257,
+   "type": "vocab_kana",
+   "display": "ゆったり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "comfortable",
+    "easy",
+    "calm",
+    "relaxed",
+    "loose",
+    "spacious"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "con soltura",
+    "con holgura"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5084541087609829251,
+   "sharedid": 5084541087609829251,
+   "type": "vocab_kana",
+   "display": "いささか",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "a little",
+    "a bit",
+    "somewhat",
+    "slightly",
+    "rather"
+   ],
+   "meanings_fr": [
+    "peu",
+    "un peu",
+    "légèrement"
+   ],
+   "meanings_es": [
+    "ligeramente",
+    "levemente",
+    "un tanto",
+    "un poco"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13645868655218022678,
+   "sharedid": 13645868655218022678,
+   "type": "vocab_kana",
+   "display": "そうですね",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "that's so, isn't it"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "así es",
+    "¿verdad?"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1632237207347594697,
+   "sharedid": 1632237207347594697,
+   "type": "vocab_kana",
+   "display": "です",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "be",
+    "is"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "copula cortes en japonés",
+    "ser",
+    "estar"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17882684686858878275,
+   "sharedid": 17882684686858878275,
+   "type": "vocab_kana",
+   "display": "どのように",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "how",
+    "in what way"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 17987880302887175114,
+   "sharedid": 17987880302887175114,
+   "type": "vocab_kana",
+   "display": "そうなると",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "if that is the case",
+    "if it becomes so",
+    "when it becomes so"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 6554197254354877469,
+   "sharedid": 6554197254354877469,
+   "type": "vocab_kana",
+   "display": "まっすぐ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "straight (ahead)",
+    "direct",
+    "upright",
+    "erect",
+    "straightforward",
+    "honest",
+    "frank"
+   ],
+   "meanings_fr": [
+    "(tout) droit",
+    "direct",
+    "vertical",
+    "debout",
+    "direct",
+    "honnête",
+    "franc"
+   ],
+   "meanings_es": [
+    "recto",
+    "derecho",
+    "honesto",
+    "franco",
+    "derecho",
+    "recto",
+    "directo"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 746744462240081931,
+   "sharedid": 746744462240081931,
+   "type": "vocab_kana",
+   "display": "はて",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "dear me!",
+    "good gracious!",
+    "well",
+    "let me see",
+    "now",
+    "question mark"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
    "meanings_pt": []
   }
  ],

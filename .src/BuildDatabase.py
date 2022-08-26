@@ -406,6 +406,10 @@ for i in range(len(listKanaOnly) - 1, -1, -1):
     else:
         reading = kana["altKanaReadings"][0]
 
+    if(string_is_katakana(reading)):
+        print("katakana only", reading)
+        del listKanaOnly[i]
+
 listLevels = []
 dicoKanjiLevel = {}
 
