@@ -420,7 +420,7 @@ def DisplayNextMeanings():
     button.config(font=('Arial', FontSize))
     button.grid(row=1, column=0, columnspan=5)
 
-    checkbutton = tkinter.Checkbutton(root, text='Traductions',variable=bShouldTranslate, onvalue=1, offvalue=0)
+    checkbutton = tkinter.Checkbutton(root, text='Translations',variable=bShouldTranslate, onvalue=1, offvalue=0)
     checkbutton.config(font=('Arial', FontSize))
     checkbutton.grid(row=2, column=0, columnspan=5)
 
