@@ -21,10 +21,7 @@
     "counter for days"
    ],
    "meanings_fr": [
-    "jour",
-    "soleil",
-    "Japon",
-    "compteur de jours"
+    "jour"
    ],
    "meanings_es": [
     "día",
@@ -64,9 +61,7 @@
     "protrude"
    ],
    "meanings_fr": [
-    "sortir",
-    "quitter",
-    "présence"
+    "sortie"
    ],
    "meanings_es": [
     "salir",
@@ -94,8 +89,7 @@
     "counter for years"
    ],
    "meanings_fr": [
-    "année",
-    "compteur d'années"
+    "année"
    ],
    "meanings_es": [
     "año",
@@ -123,7 +117,6 @@
     "person"
    ],
    "meanings_fr": [
-    "être humain",
     "personne"
    ],
    "meanings_es": [
@@ -155,12 +148,7 @@
     "possibly"
    ],
    "meanings_fr": [
-    "fait",
-    "chose",
-    "matière",
-    "affaire",
-    "raison",
-    "peut-être"
+    "sujet"
    ],
    "meanings_es": [
     "cosa",
@@ -194,7 +182,6 @@
     "moon"
    ],
    "meanings_fr": [
-    "lune",
     "mois"
    ],
    "meanings_es": [
@@ -223,8 +210,7 @@
     "one radical (no.1)"
    ],
    "meanings_fr": [
-    "un",
-    "radical un (no. 1)"
+    "un"
    ],
    "meanings_es": [
     "uno",
@@ -255,14 +241,7 @@
     "counter for long cylindrical things"
    ],
    "meanings_fr": [
-    "livre",
-    "présent",
-    "essentiel",
-    "origine",
-    "principal",
-    "réalité",
-    "vérité",
-    "compteur d'objets allongés"
+    "livre"
    ],
    "meanings_es": [
     "libro",
@@ -300,12 +279,7 @@
     "center"
    ],
    "meanings_fr": [
-    "dans",
-    "dedans",
-    "à l'intérieur",
-    "milieu",
-    "centre",
-    "moyenne"
+    "intérieur"
    ],
    "meanings_es": [
     "centro",
@@ -338,8 +312,7 @@
     "hour"
    ],
    "meanings_fr": [
-    "temps",
-    "heure"
+    "temps"
    ],
    "meanings_es": [
     "tiempo",
@@ -373,13 +346,7 @@
     "join"
    ],
    "meanings_fr": [
-    "réunion",
-    "rencontre",
-    "meeting",
-    "parti",
-    "association",
-    "entrevue",
-    "rejoindre"
+    "Rencontre"
    ],
    "meanings_es": [
     "asociación",
@@ -417,13 +384,7 @@
     "visible"
    ],
    "meanings_fr": [
-    "regarder",
-    "voir",
-    "visible",
-    "espoirs",
-    "chances",
-    "idée",
-    "opinion"
+    "voir"
    ],
    "meanings_es": [
     "vista",
@@ -524,9 +485,7 @@
     "later"
    ],
    "meanings_fr": [
-    "après",
-    "derrière",
-    "plus tard"
+    "derrière"
    ],
    "meanings_es": [
     "después",
@@ -558,8 +517,7 @@
     "two radical (no. 7)"
    ],
    "meanings_fr": [
-    "deux",
-    "radical deux (no. 2)"
+    "deux"
    ],
    "meanings_es": [
     "dos",
@@ -592,10 +550,7 @@
     "0.1"
    ],
    "meanings_fr": [
-    "correspondre",
-    "convenir",
-    "joindre",
-    "go (0,18 l ou 0,33 m)"
+    "adapter"
    ],
    "meanings_es": [
     "adecuado",
@@ -628,10 +583,7 @@
     "place"
    ],
    "meanings_fr": [
-    "lieu",
-    "place",
-    "aire",
-    "champ (magnétique)"
+    "emplacement"
    ],
    "meanings_es": [
     "lugar",
@@ -662,7 +614,7 @@
     "ten"
    ],
    "meanings_fr": [
-    "dix"
+    "Dix"
    ],
    "meanings_es": [
     "diez",
@@ -701,19 +653,7 @@
     "shaku/100"
    ],
    "meanings_fr": [
-    "portion",
-    "minute",
-    "section",
-    "part",
-    "degré",
-    "son lot dans la vie",
-    "comprendre",
-    "savoir",
-    "devoir",
-    "taux",
-    "1%",
-    "chances",
-    "bu = 1/100 de shaku = 3.03 mm"
+    "morceau"
    ],
    "meanings_es": [
     "parte",
@@ -760,14 +700,7 @@
     "counter for occurrences"
    ],
    "meanings_fr": [
-    "tourner",
-    "fois",
-    "rond",
-    "manche (jeu)",
-    "tour",
-    "révolution",
-    "récurrence",
-    "compteur de fois"
+    "compteur d'occurrences"
    ],
    "meanings_es": [
     "girar",
@@ -805,8 +738,7 @@
     "space"
    ],
    "meanings_fr": [
-    "intervalle",
-    "espace"
+    "intervalle"
    ],
    "meanings_es": [
     "intervalo",
@@ -849,8 +781,7 @@
     "bank"
    ],
    "meanings_fr": [
-    "aller",
-    "voyage"
+    "Aller"
    ],
    "meanings_es": [
     "ir",
@@ -885,9 +816,7 @@
     "equal"
    ],
    "meanings_fr": [
-    "identique",
-    "similaire",
-    "égal"
+    "identique"
    ],
    "meanings_es": [
     "mismo",
@@ -921,11 +850,7 @@
     "shrine"
    ],
    "meanings_fr": [
-    "temple shinto",
-    "compagnie",
-    "firme",
-    "bureau",
-    "association"
+    "entreprise"
    ],
    "meanings_es": [
     "compañía",
@@ -991,28 +916,7 @@
     "experiencia"
    ],
    "meanings_fr": [
-    "chose",
-    "le fait de",
-    "incident",
-    "occurrence",
-    "événement",
-    "quelque chose de grave",
-    "difficulté",
-    "crise",
-    "circonstances",
-    "situation",
-    "état des lieux",
-    "travail",
-    "activité",
-    "affaire",
-    "après un mot variable, crée un groupe nominal indiquant quelque chose dont le locuteur ne se sent pas proche",
-    "suffixe nominal",
-    "prétendre que... ",
-    "jouer à faire semblant de...",
-    "alias",
-    "surnom",
-    "également appelé",
-    "aussi connu sous le nom"
+    "chose"
    ],
    "meanings_pt": []
   },
@@ -1046,14 +950,7 @@
     "clase"
    ],
    "meanings_fr": [
-    "année",
-    "âge",
-    "années",
-    "après sa prime jeunesse",
-    "vieux jours",
-    "vieillesse",
-    "année (par ex. apr. J.-C.)",
-    "compteur pour les années"
+    "année"
    ],
    "meanings_pt": []
   },
@@ -1094,19 +991,7 @@
     "contador para días"
    ],
    "meanings_fr": [
-    "jour",
-    "jours",
-    "soleil",
-    "ensoleillement",
-    "lumière du soleil",
-    "cas (en part. malheureux)",
-    "événement",
-    "jour du mois",
-    "compteur de jours",
-    "dimanche",
-    "jour (calendaire)",
-    "compteur pour les jours",
-    "Japon"
+    "jour"
    ],
    "meanings_pt": []
   },
@@ -1156,30 +1041,7 @@
     "(sp) las personas"
    ],
    "meanings_fr": [
-    "-ien (par ex. italien)",
-    "-ïte (par ex. tokyoïte)",
-    "indique la nationalité, l'ethnie, l'origine, etc.",
-    "-eur (par ex. acteur, etc.)",
-    "personne travaillant avec...",
-    "indique l'expertise (dans un certain domaine)",
-    "(habituellement dans les mots composés) homme",
-    "personne",
-    "gens",
-    "compteur pour les personnes",
-    "homme",
-    "être humain",
-    "humanité",
-    "les gens",
-    "être humain (home sapiens)",
-    "les hommes comme espèce",
-    "caractère",
-    "personalité",
-    "homme de talent",
-    "vrai homme",
-    "une autre personne",
-    "d'autres personnes",
-    "les autres",
-    "adulte"
+    "-ien (par exemple italien)"
    ],
    "meanings_pt": []
   },
@@ -1206,8 +1068,7 @@
     "lunes"
    ],
    "meanings_fr": [
-    "lune",
-    "mois"
+    "Lune"
    ],
    "meanings_pt": []
   },
@@ -1235,7 +1096,9 @@
     "dicho",
     "llamado"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "appelé"
+   ],
    "meanings_pt": []
   },
   {
@@ -1292,13 +1155,7 @@
     "uno (1)"
    ],
    "meanings_fr": [
-    "un",
-    "meilleur",
-    "premier",
-    "principal",
-    "début",
-    "commencement",
-    "corde du bas (sur un shamisen, etc.)"
+    "un"
    ],
    "meanings_pt": []
   },
@@ -1340,21 +1197,7 @@
     "momento"
    ],
    "meanings_fr": [
-    "temps",
-    "heure",
-    "moment",
-    "occasion",
-    "cas",
-    "chance",
-    "opportunité",
-    "saison",
-    "l'époque",
-    "l'ère",
-    "le jour",
-    "temps (d'un verbe)",
-    "temps (spécifié)",
-    "quand...",
-    "durant..."
+    "temps"
    ],
    "meanings_pt": []
   },
@@ -1412,23 +1255,7 @@
     "durante todo ~"
    ],
    "meanings_fr": [
-    "à l'intérieur",
-    "dedans",
-    "parmi",
-    "dans",
-    "centre",
-    "milieu",
-    "pendant",
-    "durant",
-    "moyenne",
-    "modération",
-    "collège",
-    "Chine",
-    "volume deux (sur trois)",
-    "tome deux (sur trois)",
-    "durant (un certain temps quand quelqu'un fait ou a fait quelque chose)",
-    "en cours de (construction, etc.)",
-    "sur (par ex. trois personnes sur dix)"
+    "intérieur"
    ],
    "meanings_pt": []
   },
@@ -1453,7 +1280,9 @@
     "parecer",
     "punto de vista"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "regardant"
+   ],
    "meanings_pt": []
   },
   {
@@ -1489,13 +1318,7 @@
     "club"
    ],
    "meanings_fr": [
-    "rassemblement, rencontre (festival, évènement religieux, travaux...)",
-    "fête",
-    "meeting",
-    "réunion",
-    "rassemblement",
-    "association",
-    "club"
+    "rassemblement (en particulier bouddhiste, festif, etc.)"
    ],
    "meanings_pt": []
   },
@@ -1529,15 +1352,7 @@
     "se llama .."
    ],
    "meanings_fr": [
-    "dire",
-    "parler",
-    "prononcer",
-    "déclarer",
-    "affirmer",
-    "nommer",
-    "appeler",
-    "faire (par ex. quand un réveil fait dring)",
-    "faire un bruit"
+    "dire"
    ],
    "meanings_pt": []
   },
@@ -1560,9 +1375,6 @@
     "circunstancias"
    ],
    "meanings_fr": [
-    "cas",
-    "circonstance",
-    "occasion",
     "situation"
    ],
    "meanings_pt": []
@@ -1603,15 +1415,7 @@
     "país"
    ],
    "meanings_fr": [
-    "pays",
-    "état",
-    "région",
-    "gouvernement national",
-    "gouvernement central",
-    "chez soi (c.-à-.d. son pays, sa ville)",
-    "province (du Japon)",
-    "territoire",
-    "terre"
+    "pays"
    ],
    "meanings_pt": []
   },
@@ -1642,16 +1446,7 @@
     "contador para entradas (béisbol)"
    ],
    "meanings_fr": [
-    "compteur d'occurrences",
-    "une fois",
-    "manche (de baseball)",
-    "tour",
-    "jeu",
-    "match",
-    "épisode",
-    "chapitre",
-    "Hui (ethnie)",
-    "islam"
+    "compteur d'occurrences"
    ],
    "meanings_pt": []
   },
@@ -1736,31 +1531,7 @@
     "tanto como"
    ],
    "meanings_fr": [
-    "minute",
-    "fun (un dixième de monme, 5.787 grains)",
-    "un dixième",
-    "un pour cent (un dixième de « wari »)",
-    "3 mm (un dixième de « sun »)",
-    "2,4 mm (un dixième de « mon », une unité traditionnelle utilisée pour mesurer les tailles de chaussures)",
-    "0,1 degré (un dixième de « do », utilisé pour mesurer la température du corps dans toutes les échelles de température)",
-    "un quart de ryou (unité de monnaie obsolète)",
-    "épaisseur",
-    "circonstances favorables",
-    "un dixième de monme d'argent",
-    "morceau",
-    "partie",
-    "part",
-    "portion",
-    "segment",
-    "taux",
-    "sa position",
-    "son sort",
-    "son statut",
-    "sa condition",
-    "devoir",
-    "rang",
-    "en proportion de",
-    "autant que"
+    "minute (unité de temps)"
    ],
    "meanings_pt": []
   },
@@ -1784,8 +1555,7 @@
     "tiempo"
    ],
    "meanings_fr": [
-    "temps",
-    "heures (durée)"
+    "temps"
    ],
    "meanings_pt": []
   },
@@ -1812,7 +1582,7 @@
     "diez"
    ],
    "meanings_fr": [
-    "dix"
+    "Dix"
    ],
    "meanings_pt": []
   },
@@ -1857,30 +1627,7 @@
     "continuar"
    ],
    "meanings_fr": [
-    "aller",
-    "se rendre",
-    "se déplacer (dans une direction ou vers un lieu spécifique)",
-    "se diriger (vers)",
-    "être transporté (vers)",
-    "atteindre",
-    "se passer",
-    "se dérouler",
-    "avoir lieu",
-    "passer",
-    "aller et venir",
-    "marcher",
-    "décéder",
-    "mourir",
-    "faire (d'une manière spécifique)",
-    "couler",
-    "s'écouler",
-    "continuer",
-    "avoir un orgasme",
-    "jouir",
-    "éjaculer",
-    "faire un trip",
-    "se défoncer",
-    "avoir une hallucination provoquée par la drogue"
+    "aller"
    ],
    "meanings_pt": []
   },
@@ -1919,19 +1666,7 @@
     "sin cambio"
    ],
    "meanings_fr": [
-    "même",
-    "pareil",
-    "identique",
-    "égal",
-    "uniforme",
-    "équivalent",
-    "similaire",
-    "semblable",
-    "commun (par ex. un fondement)",
-    "immuable",
-    "(en général dans un conditionnel en « nara ») de toute façon",
-    "en tout cas",
-    "dans tous les cas"
+    "identique"
    ],
    "meanings_pt": []
   },
@@ -1955,10 +1690,7 @@
     "corporación"
    ],
    "meanings_fr": [
-    "compagnie",
-    "entreprise",
-    "société",
-    "lieu de travail"
+    "entreprise"
    ],
    "meanings_pt": []
   },
@@ -2017,26 +1749,7 @@
     "pausa"
    ],
    "meanings_fr": [
-    "espace (entre)",
-    "écart",
-    "intervalle",
-    "distance",
-    "temps (entre deux instants)",
-    "durée",
-    "pause",
-    "espace",
-    "étirement",
-    "période (pendant que)",
-    "relation (entre, parmi)",
-    "membres (dans, parmi)",
-    "en raison de",
-    "à cause de",
-    "période de temps",
-    "parmi",
-    "entre",
-    "inter-",
-    "intervalle de temps",
-    "pièce"
+    "espace (entre)"
    ],
    "meanings_pt": []
   },
@@ -2085,25 +1798,7 @@
     "ver (películas, flores, etc)"
    ],
    "meanings_fr": [
-    "voir",
-    "regarder",
-    "observer",
-    "réviser",
-    "contrôler",
-    "évaluer",
-    "examiner",
-    "juger",
-    "vérifier",
-    "s'occuper de",
-    "garder un œil sur",
-    "prendre soin de",
-    "voir",
-    "regarder",
-    "essayer",
-    "tenter",
-    "tester",
-    "voir que...",
-    "constater que..."
+    "voir"
    ],
    "meanings_pt": []
   },
@@ -2146,20 +1841,7 @@
     "contador para objetos cilindricos largos"
    ],
    "meanings_fr": [
-    "livre",
-    "ouvrage",
-    "bouquin",
-    "volume",
-    "ceci",
-    "présent",
-    "principal",
-    "tête",
-    "réel",
-    "régulier",
-    "compteur pour les objets cylindriques longs",
-    "compteur pour les films, téléfilms, etc.",
-    "compteur pour les buts, home runs, etc.",
-    "compteur pour les appels téléphoniques"
+    "livre"
    ],
    "meanings_pt": []
   },
@@ -2183,11 +1865,7 @@
     "sociedad"
    ],
    "meanings_fr": [
-    "société",
-    "public",
-    "communauté",
-    "le monde",
-    "études sociales"
+    "société"
    ],
    "meanings_pt": []
   },
@@ -2214,13 +1892,7 @@
     "empresa de ~"
    ],
    "meanings_fr": [
-    "haut lieu Shinto",
-    "sanctuaire Shinto",
-    "entreprise",
-    "association",
-    "société",
-    "dieu chinois régional de la terre (ou un village construit en son honneur)",
-    "compteur pour les entreprises, les temples, etc."
+    "Temple shintoïste"
    ],
    "meanings_pt": []
   },
@@ -2249,8 +1921,7 @@
     "después de eso"
    ],
    "meanings_fr": [
-    "après cela",
-    "plus tard"
+    "après ça"
    ],
    "meanings_pt": []
   },
@@ -2289,23 +1960,7 @@
     "campo (física)"
    ],
    "meanings_fr": [
-    "emplacement",
-    "endroit",
-    "espace",
-    "lieu",
-    "place",
-    "champ",
-    "discipline",
-    "sphère",
-    "domaine",
-    "occasion",
-    "situation",
-    "scène (d'une pièce de théâtre, d'un film, etc.)",
-    "séance (d'une bourse)",
-    "zone dans laquelle les cartes sont disposées (dans un jeu de cartes)",
-    "tour (c.-à-d. Est, Sud, etc.)",
-    "terrain",
-    "champ (Gestalt-thérapie)"
+    "endroit"
    ],
    "meanings_pt": []
   },
@@ -2333,9 +1988,7 @@
     "el área de Hiroshima"
    ],
    "meanings_fr": [
-    "chine",
-    "(nom d'une province japonaise) région le plus au sud-ouest de Honshu, région d'Hiroshima",
-    "centre d'un pays"
+    "Chine"
    ],
    "meanings_pt": []
   },
@@ -2360,9 +2013,7 @@
     "llevar a cabo"
    ],
    "meanings_fr": [
-    "accomplir",
-    "faire",
-    "mettre à exécution"
+    "effectuer"
    ],
    "meanings_pt": []
   },
@@ -2405,12 +2056,7 @@
     "el mundo"
    ],
    "meanings_fr": [
-    "être humain",
-    "personne",
-    "homme",
-    "humanité",
-    "genre humain",
-    "caractère (d'une personne)"
+    "humain"
    ],
    "meanings_pt": []
   },
@@ -2434,7 +2080,7 @@
     "Japonesa"
    ],
    "meanings_fr": [
-    "japonais(e)"
+    "Japonais"
    ],
    "meanings_pt": []
   },
@@ -2536,88 +2182,7 @@
     "contestar (teléfono o puerta)"
    ],
    "meanings_fr": [
-    "partir",
-    "sortir",
-    "s'en aller",
-    "quitter",
-    "partir (en voyage)",
-    "sortir",
-    "s'en aller",
-    "quitter",
-    "démarrer",
-    "établir",
-    "déborder de",
-    "dépasser de",
-    "éclater",
-    "survenir",
-    "débuter",
-    "commencer",
-    "provenir",
-    "être produit",
-    "venir de",
-    "résulter de",
-    "dériver de",
-    "être donné",
-    "obtenir",
-    "recevoir",
-    "être offert",
-    "être fourni",
-    "être présenté",
-    "être soumis",
-    "être remis",
-    "être rendu",
-    "être payé",
-    "répondre (à la porte, au téléphone, etc.)",
-    "adopter (une attitude)",
-    "agir",
-    "se comporter",
-    "prendre (de la vitesse, etc.)",
-    "gagner",
-    "acquérir",
-    "couler (par ex. des larmes)",
-    "s'écouler",
-    "saigner",
-    "obtenir un diplôme",
-    "avancer",
-    "venir à",
-    "accéder à",
-    "conduire à",
-    "mener à",
-    "atteindre",
-    "apparaître",
-    "sortir",
-    "émerger",
-    "jaillir",
-    "émaner",
-    "s'échapper",
-    "faire surface",
-    "sortir",
-    "être trouvé",
-    "être détecté",
-    "être découvert",
-    "être exposé",
-    "être montré",
-    "être présenté",
-    "paraître (sur papier)",
-    "être publié",
-    "être annoncé",
-    "être émis",
-    "être inscrit",
-    "sortir",
-    "assister",
-    "participer",
-    "prendre part",
-    "se présenter à (un événement)",
-    "jouer dans",
-    "passer (par ex. à la télévision)",
-    "être déclaré",
-    "être exprimé",
-    "être posé",
-    "être relevé",
-    "être soulevé",
-    "vendre",
-    "excéder",
-    "dépasser"
+    "quitter"
    ],
    "meanings_pt": []
   },
@@ -2639,7 +2204,7 @@
     "Enero"
    ],
    "meanings_fr": [
-    "janvier"
+    "Janvier"
    ],
    "meanings_pt": []
   },
@@ -2664,8 +2229,6 @@
     "audiencia (con alguien)"
    ],
    "meanings_fr": [
-    "entretien",
-    "entrevue",
     "interview"
    ],
    "meanings_pt": []
@@ -2687,7 +2250,9 @@
     "septiembre",
     "Septiembre"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Septembre"
+   ],
    "meanings_pt": []
   },
   {
@@ -2710,9 +2275,7 @@
     "por así decirlo"
    ],
    "meanings_fr": [
-    "pour ainsi dire",
-    "comme qui dirait",
-    "en quelque sorte"
+    "pour ainsi dire"
    ],
    "meanings_pt": []
   },
@@ -2732,7 +2295,9 @@
    "meanings_es": [
     "Mayo"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Mai"
+   ],
    "meanings_pt": []
   },
   {
@@ -2755,9 +2320,7 @@
     "Dieta de Japón (parlamento)"
    ],
    "meanings_fr": [
-    "assemblée",
-    "parlement",
-    "sénat"
+    "Diète nationale"
    ],
    "meanings_pt": []
   },
@@ -2778,7 +2341,9 @@
     "marzo",
     "Marzo"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Mars"
+   ],
    "meanings_pt": []
   },
   {
@@ -2798,7 +2363,9 @@
     "abril",
     "Abril"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Avril"
+   ],
    "meanings_pt": []
   },
   {
@@ -2818,7 +2385,9 @@
    "meanings_es": [
     "Julio"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Juillet"
+   ],
    "meanings_pt": []
   },
   {
@@ -2837,7 +2406,9 @@
    "meanings_es": [
     "Noviembre"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Novembre"
+   ],
    "meanings_pt": []
   },
   {
@@ -2880,7 +2451,9 @@
    "meanings_es": [
     "Octubre"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Octobre"
+   ],
    "meanings_pt": []
   },
   {
@@ -2912,7 +2485,9 @@
     "diciembre",
     "Diciembre"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Décembre"
+   ],
    "meanings_pt": []
   },
   {
@@ -2961,13 +2536,7 @@
     "al mismo tiempo"
    ],
    "meanings_fr": [
-    "simultané",
-    "concurrent",
-    "concomitant",
-    "en même temps",
-    "au même moment",
-    "synchrone",
-    "ensemble"
+    "simultané"
    ],
    "meanings_pt": []
   },
@@ -2988,7 +2557,9 @@
     "febrero",
     "Febrero"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Février"
+   ],
    "meanings_pt": []
   },
   {
@@ -3008,7 +2579,9 @@
     "agosto",
     "Agosto"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Août"
+   ],
    "meanings_pt": []
   },
   {
@@ -3035,7 +2608,6 @@
     "oficina principal"
    ],
    "meanings_fr": [
-    "siège principal",
     "siège social"
    ],
    "meanings_pt": []
@@ -3057,7 +2629,9 @@
     "junio",
     "Junio"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Juin"
+   ],
    "meanings_pt": []
   },
   {
@@ -3095,18 +2669,7 @@
     "doceava parte de un día"
    ],
    "meanings_fr": [
-    "jadis",
-    "à un moment",
-    "auparavant",
-    "autrefois",
-    "avant",
-    "pendant un temps",
-    "pour un certain temps",
-    "pour le moment",
-    "pour l'instant",
-    "temporairement",
-    "une fois",
-    "un moment"
+    "une heure"
    ],
    "meanings_pt": []
   },
@@ -3132,10 +2695,7 @@
     "respectivamente"
    ],
    "meanings_fr": [
-    "chacun",
-    "les gens",
-    "les hommes",
-    "tous"
+    "personnes"
    ],
    "meanings_pt": []
   },
@@ -3173,8 +2733,7 @@
     "dúo"
    ],
    "meanings_fr": [
-    "deux personnes",
-    "couple"
+    "deux personnes"
    ],
    "meanings_pt": []
   },
@@ -3211,7 +2770,9 @@
    "meanings_es": [
     "once"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Onze"
+   ],
    "meanings_pt": []
   },
   {
@@ -3231,7 +2792,9 @@
    "meanings_es": [
     "doce"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Douze"
+   ],
    "meanings_pt": []
   },
   {
@@ -3249,7 +2812,9 @@
    "meanings_es": [
     "(el) mismo día"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "le même jour"
+   ],
    "meanings_pt": []
   },
   {
@@ -3269,7 +2834,9 @@
     "actualidad",
     "hechos de actualidad"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "événements de la journée"
+   ],
    "meanings_pt": []
   },
   {
@@ -3291,9 +2858,7 @@
     "antedicho"
    ],
    "meanings_fr": [
-    "le même",
-    "ledit",
-    "ibid."
+    "le même"
    ],
    "meanings_pt": []
   },
@@ -3341,19 +2906,7 @@
     "echar a"
    ],
    "meanings_fr": [
-    "sortir (quelque chose)",
-    "tirer (la langue)",
-    "soumettre (par ex. une thèse)",
-    "rendre",
-    "publier",
-    "rendre publique",
-    "envoyer (par ex. une lettre)",
-    "émettre (un son)",
-    "allumer (un feu)",
-    "servir (de la nourriture)",
-    "commencer...",
-    "démarrer...",
-    "faire irruption..."
+    "sortir"
    ],
    "meanings_pt": []
   },
@@ -3420,12 +2973,7 @@
     "enterarse"
    ],
    "meanings_fr": [
-    "comprendre",
-    "appréhender",
-    "saisir",
-    "voir",
-    "savoir",
-    "connaître"
+    "comprendre"
    ],
    "meanings_pt": []
   },
@@ -3480,10 +3028,7 @@
     "solitario"
    ],
    "meanings_fr": [
-    "une personne",
-    "seul",
-    "célibataire",
-    "solitaire"
+    "une personne"
    ],
    "meanings_pt": []
   },
@@ -3532,11 +3077,7 @@
     "completo"
    ],
    "meanings_fr": [
-    "division par 10",
-    "parfaitement",
-    "complètement",
-    "totalement",
-    "entièrement"
+    "suffisant"
    ],
    "meanings_pt": []
   },
@@ -3561,10 +3102,7 @@
     "congregación"
    ],
    "meanings_fr": [
-    "réunion",
-    "rassemblement",
-    "association",
-    "conjonction"
+    "Rencontre"
    ],
    "meanings_pt": []
   },
@@ -3590,10 +3128,7 @@
     "terreno"
    ],
    "meanings_fr": [
-    "salle de réunion",
-    "lieu de rencontre",
-    "lieu d'un événement",
-    "terrain"
+    "lieu de réunion"
    ],
    "meanings_pt": []
   },
@@ -3622,9 +3157,7 @@
     "paradero"
    ],
    "meanings_fr": [
-    "(ses) allées et venues",
-    "(sa) trace",
-    "résultat"
+    "localisation"
    ],
    "meanings_pt": []
   },
@@ -3649,8 +3182,7 @@
     "recursos humanos"
    ],
    "meanings_fr": [
-    "ressources humaines",
-    "administration du personnel"
+    "affaires personnelles"
    ],
    "meanings_pt": []
   },
@@ -3696,13 +3228,7 @@
     "centro"
    ],
    "meanings_fr": [
-    "à mi-chemin",
-    "entre (deux)",
-    "entre-temps",
-    "intermédiaire",
-    "milieu",
-    "moyen",
-    "provisoire"
+    "milieu"
    ],
    "meanings_pt": []
   },
@@ -3736,13 +3262,7 @@
     "venir"
    ],
    "meanings_fr": [
-    "être visible",
-    "être vu",
-    "sembler",
-    "apparaitre",
-    "paraitre",
-    "avoir l'air",
-    "venir"
+    "être vu"
    ],
    "meanings_pt": []
   },
@@ -3762,7 +3282,9 @@
    "meanings_es": [
     "comprensión"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "compréhension"
+   ],
    "meanings_pt": []
   },
   {
@@ -3801,12 +3323,7 @@
     "agrupación"
    ],
    "meanings_fr": [
-    "combinaison",
-    "union",
-    "incorporation",
-    "amalgame",
-    "fusion",
-    "congruence"
+    "combinaison"
    ],
    "meanings_pt": []
   },
@@ -3836,7 +3353,9 @@
     "un combate",
     "una carrera"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "une fois"
+   ],
    "meanings_pt": []
   },
   {
@@ -3882,9 +3401,7 @@
     "reputar"
    ],
    "meanings_fr": [
-    "considérer",
-    "regarder comme",
-    "tenir pour"
+    "considérer comme"
    ],
    "meanings_pt": []
   },
@@ -3904,7 +3421,9 @@
     "have said"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "être possible de dire"
+   ],
    "meanings_pt": []
   },
   {
@@ -3935,11 +3454,7 @@
     "conocerse"
    ],
    "meanings_fr": [
-    "rencontrer",
-    "voir",
-    "revoir",
-    "avoir un accident",
-    "avoir une mauvaise expérience"
+    "rencontrer"
    ],
    "meanings_pt": []
   },
@@ -3957,7 +3472,9 @@
     "during the day"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "journée"
+   ],
    "meanings_pt": []
   },
   {
@@ -3981,10 +3498,7 @@
     "encuentro"
    ],
    "meanings_fr": [
-    "réunion",
-    "rendez-vous",
-    "rencontre",
-    "confluence"
+    "Rencontre"
    ],
    "meanings_pt": []
   },
@@ -4032,9 +3546,7 @@
     "durante el día"
    ],
    "meanings_fr": [
-    "journée",
-    "(durant) le jour",
-    "sino-japonais"
+    "journée"
    ],
    "meanings_pt": []
   },
@@ -4065,9 +3577,7 @@
     "día tras día"
    ],
    "meanings_fr": [
-    "jour après jour",
-    "quotidiennement",
-    "tous les jours"
+    "quotidiennement"
    ],
    "meanings_pt": []
   },
@@ -4086,7 +3596,9 @@
    "meanings_es": [
     "chino (persona)"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Chinois"
+   ],
    "meanings_pt": []
   },
   {
@@ -4108,7 +3620,9 @@
     "tie"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "division"
+   ],
    "meanings_pt": []
   },
   {
@@ -4145,20 +3659,7 @@
     "ser beneficioso"
    ],
    "meanings_fr": [
-    "se rassembler",
-    "fusionner",
-    "unir",
-    "se rencontrer",
-    "s'adapter",
-    "s'accorder",
-    "correspondre",
-    "coïncider",
-    "être d'accord avec",
-    "être correct",
-    "être rentable",
-    "être équitable",
-    "faire... l'un à l'autre",
-    "faire... ensemble"
+    "se réunir"
    ],
    "meanings_pt": []
   },
@@ -4185,8 +3686,7 @@
     "inmediatamente"
    ],
    "meanings_fr": [
-    "bientôt",
-    "sous peu"
+    "bientôt"
    ],
    "meanings_pt": []
   },
@@ -4217,8 +3717,7 @@
     "mostrar"
    ],
    "meanings_fr": [
-    "montrer",
-    "afficher"
+    "montrer"
    ],
    "meanings_pt": []
   },
@@ -4237,7 +3736,9 @@
    "meanings_es": [
     "gente"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "personnes"
+   ],
    "meanings_pt": []
   },
   {
@@ -4269,16 +3770,7 @@
     "espléndico"
    ],
    "meanings_fr": [
-    "admirable",
-    "magnifique",
-    "merveilleux",
-    "splendide",
-    "acte louable",
-    "exploit",
-    "action digne d'éloges",
-    "total (en part. d'une défaite)",
-    "absolu",
-    "complet"
+    "splendide"
    ],
    "meanings_pt": []
   },
@@ -4300,8 +3792,7 @@
     "función"
    ],
    "meanings_fr": [
-    "évènement",
-    "fonction"
+    "événement"
    ],
    "meanings_pt": []
   },
@@ -4322,7 +3813,7 @@
     "miembro de la sociedad"
    ],
    "meanings_fr": [
-    "membre important d'une société"
+    "adulte actif"
    ],
    "meanings_pt": []
   },
@@ -4363,23 +3854,7 @@
     "separar"
    ],
    "meanings_fr": [
-    "diviser",
-    "partager",
-    "séparer",
-    "classifier",
-    "trier",
-    "partager",
-    "distribuer",
-    "distinguer",
-    "discriminer",
-    "différencier (entre)",
-    "mettre fin à (un combat)",
-    "s'interposer",
-    "négocier",
-    "servir de médiateur",
-    "faire match nul",
-    "se frayer un chemin à travers (la foule)",
-    "vendre"
+    "diviser (en)"
    ],
    "meanings_pt": []
   },
@@ -4402,7 +3877,9 @@
     "3:00",
     "las tres en punto"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "trois heures"
+   ],
    "meanings_pt": []
   },
   {
@@ -4423,7 +3900,9 @@
     "fellow practicer of austerities"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "accompagnant"
+   ],
    "meanings_pt": []
   },
   {
@@ -4478,9 +3957,7 @@
     "parte trasera"
    ],
    "meanings_fr": [
-    "arrière",
-    "derrière",
-    "dos"
+    "derrière"
    ],
    "meanings_pt": []
   },
@@ -4505,10 +3982,7 @@
     "añ o tras año"
    ],
    "meanings_fr": [
-    "années",
-    "chaque année",
-    "d'année en année",
-    "pour son âge"
+    "année par année"
    ],
    "meanings_pt": []
   },
@@ -4546,7 +4020,9 @@
     "observación",
     "nota"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "mot"
+   ],
    "meanings_pt": []
   },
   {
@@ -4566,7 +4042,9 @@
     "above all (else)"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "entre autres"
+   ],
    "meanings_pt": []
   },
   {
@@ -4603,22 +4081,7 @@
     "de ningún modo (con verbos negativos)"
    ],
    "meanings_fr": [
-    "très",
-    "considérablement",
-    "facilement",
-    "aisément",
-    "relativement",
-    "assez",
-    "fortement",
-    "hautement",
-    "plutôt",
-    "en aucun cas (avec un verbe négatif)",
-    "pas facilement",
-    "milieu",
-    "mi-chemin",
-    "excellent",
-    "merveilleux",
-    "très bon"
+    "très"
    ],
    "meanings_pt": []
   },
@@ -4675,27 +4138,7 @@
     "comprobar con"
    ],
    "meanings_fr": [
-    "correspondre",
-    "s'ajuster",
-    "s'harmoniser",
-    "s'accorder",
-    "aller ensemble",
-    "joindre",
-    "réunir",
-    "unir",
-    "combiner",
-    "associer",
-    "faire face à",
-    "être en face de (quelqu'un)",
-    "comparer",
-    "confronter",
-    "vérifier avec",
-    "faire rencontrer (par ex. un destin désagréable)",
-    "placer ensemble",
-    "connecter",
-    "se chevaucher",
-    "mélanger",
-    "combiner"
+    "correspondre (rythme, vitesse, etc.)"
    ],
    "meanings_pt": []
   },
@@ -4729,7 +4172,6 @@
     "ser visto"
    ],
    "meanings_fr": [
-    "être découvert",
     "être trouvé"
    ],
    "meanings_pt": []
@@ -4756,11 +4198,7 @@
     "sobre ese tema ..."
    ],
    "meanings_fr": [
-    "ce qui me rappelle...",
-    "à bien y penser...",
-    "maintenant que vous le dites...",
-    "sur ce sujet...",
-    "donc, si vous le dites..."
+    "maintenant que tu le dis"
    ],
    "meanings_pt": []
   },
@@ -4782,9 +4220,7 @@
     "aspecto externo"
    ],
    "meanings_fr": [
-    "aspect extérieur",
-    "apparence extérieure",
-    "apparent"
+    "Aspect extérieur"
    ],
    "meanings_pt": []
   },
@@ -4813,7 +4249,7 @@
     "tener una cita"
    ],
    "meanings_fr": [
-    "apparaître et combattre (un ennemi)"
+    "rencontrer (par hasard)"
    ],
    "meanings_pt": []
   },
@@ -4865,9 +4301,7 @@
     "país natal"
    ],
    "meanings_fr": [
-    "métropole",
-    "pays (de naissance)",
-    "région d'origine"
+    "pays natal"
    ],
    "meanings_pt": []
   },
@@ -4887,7 +4321,7 @@
     "países"
    ],
    "meanings_fr": [
-    "pays (pluriel)"
+    "des pays"
    ],
    "meanings_pt": []
   },
@@ -4928,8 +4362,7 @@
     "a veces"
    ],
    "meanings_fr": [
-    "de temps en temps",
-    "quelquefois"
+    "parfois"
    ],
    "meanings_pt": []
   },
@@ -4973,7 +4406,9 @@
     "after a while"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "plus tard"
+   ],
    "meanings_pt": []
   },
   {
@@ -5012,18 +4447,7 @@
     "descubrir"
    ],
    "meanings_fr": [
-    "découvrir",
-    "trouver (par ex. une erreur dans un livre)",
-    "tomber sur",
-    "détecter",
-    "localiser",
-    "repérer",
-    "localiser",
-    "retrouver (par ex. quelque chose qui manque)",
-    "trouver à redire",
-    "déplorer",
-    "être habitué de voir",
-    "être familier avec"
+    "découvrir"
    ],
    "meanings_pt": []
   },
@@ -5061,7 +4485,9 @@
     "turno",
     "viraje"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "rotation"
+   ],
    "meanings_pt": []
   },
   {
@@ -5086,12 +4512,7 @@
     "entrada (diccionario)"
    ],
    "meanings_fr": [
-    "entête",
-    "titre",
-    "gros titre",
-    "légende",
-    "index",
-    "entrée (de dictionnaire)"
+    "titre"
    ],
    "meanings_pt": []
   },
@@ -5114,9 +4535,7 @@
     "mediana edad"
    ],
    "meanings_fr": [
-    "age moyen",
-    "age mûr",
-    "entre deux ages"
+    "Moyen-Âge"
    ],
    "meanings_pt": []
   },
@@ -5136,7 +4555,9 @@
     "middle day (e.g. sumo tournament, run of theatrical performances, etc.)"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Chine et Japon"
+   ],
    "meanings_pt": []
   },
   {
@@ -5154,7 +4575,9 @@
     "fork"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "ramification"
+   ],
    "meanings_pt": []
   },
   {
@@ -5174,7 +4597,9 @@
     "después de eso",
     "luego"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "plus tard"
+   ],
    "meanings_pt": []
   },
   {
@@ -5190,7 +4615,9 @@
     "minutes (period of)"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "minutes (période de temps)"
+   ],
    "meanings_pt": []
   },
   {
@@ -5209,7 +4636,9 @@
     "mid-month"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "durant le mois dans son entièreté"
+   ],
    "meanings_pt": []
   },
   {
@@ -5275,14 +4704,7 @@
     "dividir en"
    ],
    "meanings_fr": [
-    "s'embrancher",
-    "bifurquer",
-    "diverger",
-    "se séparer",
-    "se partager",
-    "se diviser",
-    "se disperser",
-    "s'éparpiller"
+    "bifurquer"
    ],
    "meanings_pt": []
   },
@@ -5312,7 +4734,9 @@
     "(during) month"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "période d'un mois"
+   ],
    "meanings_pt": []
   },
   {
@@ -5336,7 +4760,9 @@
     "en un abrir y cerrar de ojos",
     "en un pestañeo"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "en un instant"
+   ],
    "meanings_pt": []
   },
   {
@@ -5389,7 +4815,9 @@
     "this type"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "comme ça"
+   ],
    "meanings_pt": []
   },
   {
@@ -5410,7 +4838,7 @@
     "salida de un país"
    ],
    "meanings_fr": [
-    "départ d'un pays"
+    "quitter un pays"
    ],
    "meanings_pt": []
   },
@@ -5467,20 +4895,7 @@
     "circular"
    ],
    "meanings_fr": [
-    "tourner",
-    "pivoter",
-    "tournoyer",
-    "circuler",
-    "faire circuler",
-    "diffuser",
-    "entourer",
-    "encercler",
-    "utiliser quelque chose à une nouvelle fin (par ex. des restes)",
-    "... aux alentours (par ex. chercher quelqu'un aux alentours)",
-    "... dans les environs",
-    "composer (par ex. un numéro de téléphone)",
-    "investir",
-    "violer en réunion"
+    "tourner"
    ],
    "meanings_pt": []
   },
@@ -5506,7 +4921,9 @@
     "ese tipo de",
     "muy"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "tel"
+   ],
    "meanings_pt": []
   },
   {
@@ -5533,14 +4950,7 @@
     "ponerse en marcha"
    ],
    "meanings_fr": [
-    "partir (par ex. en excursion ou pour une sortie)",
-    "sortir",
-    "s'en aller",
-    "quitter",
-    "démarrer",
-    "établir",
-    "être sur le point de partir",
-    "venir de sortir"
+    "sortir (par exemple en excursion ou en sortie)"
    ],
    "meanings_pt": []
   },
@@ -5561,8 +4971,7 @@
    ],
    "meanings_es": [],
    "meanings_fr": [
-    "avant qu'on s'en rende compte",
-    "inaperçu"
+    "avant que ça se sache"
    ],
    "meanings_pt": []
   },
@@ -5587,9 +4996,7 @@
     "mirar fijamente en"
    ],
    "meanings_fr": [
-    "fixer ses yeux sur",
-    "regarder attentivement",
-    "regarder fixement"
+    "fixer du regard"
    ],
    "meanings_pt": []
   },
@@ -5620,13 +5027,7 @@
     "el otro día"
    ],
    "meanings_fr": [
-    "l'autre jour",
-    "récemment",
-    "il y a peu",
-    "pendant cette période",
-    "pendant ce temps",
-    "entre-temps",
-    "dans l'intervalle"
+    "l'autre jour"
    ],
    "meanings_pt": []
   },
@@ -5652,9 +5053,7 @@
     "distinguir"
    ],
    "meanings_fr": [
-    "distinguer",
-    "diviser",
-    "séparer"
+    "diviser"
    ],
    "meanings_pt": []
   },
@@ -5673,7 +5072,9 @@
     "discrimination"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "distinction"
+   ],
    "meanings_pt": []
   },
   {
@@ -5724,14 +5125,7 @@
     "no se debe hacer"
    ],
    "meanings_fr": [
-    "mauvais",
-    "pas bon",
-    "inutilisable",
-    "désespéré",
-    "au-delà de toute espérance",
-    "cela ne va pas",
-    "cela ne se fait pas",
-    "il ne faut pas"
+    "mauvais"
    ],
    "meanings_pt": []
   },
@@ -5753,7 +5147,9 @@
     "ver",
     "encontrar"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "remarquer"
+   ],
    "meanings_pt": []
   },
   {
@@ -5798,7 +5194,9 @@
     "deber",
     "honor"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "un dixième"
+   ],
    "meanings_pt": []
   },
   {
@@ -5820,7 +5218,9 @@
    "meanings_es": [
     "2 minutos"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "réduire de moitié"
+   ],
    "meanings_pt": []
   },
   {
@@ -5860,12 +5260,7 @@
     "durante todo el año"
    ],
    "meanings_fr": [
-    "année entière",
-    "toute l'année",
-    "tout au long de l'année",
-    "toujours",
-    "tout le temps",
-    "moyenne section (d'une école maternelle, etc.)"
+    "toute l'année"
    ],
    "meanings_pt": []
   },
@@ -5888,9 +5283,7 @@
     "expresión"
    ],
    "meanings_fr": [
-    "cliché",
-    "expression",
-    "formule"
+    "expression"
    ],
    "meanings_pt": []
   },
@@ -5924,8 +5317,7 @@
     "multitud"
    ],
    "meanings_fr": [
-    "foule",
-    "multitude"
+    "foule"
    ],
    "meanings_pt": []
   },
@@ -5950,7 +5342,9 @@
     "así (como esto)",
     "este tipo de"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "tel"
+   ],
    "meanings_pt": []
   },
   {
@@ -5970,7 +5364,9 @@
    "meanings_es": [
     "más que suficiente"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "plus qu'assez"
+   ],
    "meanings_pt": []
   },
   {
@@ -5996,11 +5392,7 @@
     "bastar"
    ],
    "meanings_fr": [
-    "arriver à temps",
-    "être à l'heure",
-    "convenir",
-    "remplir (atteindre) l'objectif",
-    "suffir"
+    "être à l'heure (pour)"
    ],
    "meanings_pt": []
   },
@@ -6036,7 +5428,6 @@
     "en detalle"
    ],
    "meanings_fr": [
-    "séparément",
     "un par un"
    ],
    "meanings_pt": []
@@ -6068,7 +5459,9 @@
    "meanings_es": [
     "durante"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "durant"
+   ],
    "meanings_pt": []
   },
   {
@@ -6102,7 +5495,9 @@
     "philtrum"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "société"
+   ],
    "meanings_pt": []
   },
   {
@@ -6121,7 +5516,9 @@
     "obvious"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Il va sans dire"
+   ],
    "meanings_pt": []
   },
   {
@@ -6145,10 +5542,7 @@
     "ejemplar"
    ],
    "meanings_fr": [
-    "échantillon",
-    "spécimen",
-    "modèle",
-    "exemple"
+    "échantillon"
    ],
    "meanings_pt": []
   },
@@ -6173,8 +5567,7 @@
     "arreglárselas"
    ],
    "meanings_fr": [
-    "faire (avec)",
-    "s'arranger (de)"
+    "faire avec"
    ],
    "meanings_pt": []
   },
@@ -6215,7 +5608,9 @@
     "circular",
     "hacer una vuelta"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "un tour"
+   ],
    "meanings_pt": []
   },
   {
@@ -6249,7 +5644,7 @@
     "encontrarse"
    ],
    "meanings_fr": [
-    "rencontrer par hasard"
+    "se rencontrer par hasard (par exemple, tomber sur un vieil ami)"
    ],
    "meanings_pt": []
   },
@@ -6303,8 +5698,7 @@
     "descubrir"
    ],
    "meanings_fr": [
-    "découvrir (cf. imitsukeru)",
-    "trouver"
+    "découvrir"
    ],
    "meanings_pt": []
   },
@@ -6325,8 +5719,7 @@
     "posposición"
    ],
    "meanings_fr": [
-    "ajourner",
-    "remettre à plus tard"
+    "reporter"
    ],
    "meanings_pt": []
   },
@@ -6360,9 +5753,7 @@
     "tiempo"
    ],
    "meanings_fr": [
-    "un certain temps",
-    "un moment",
-    "une bonne, petite durée"
+    "un bref délais"
    ],
    "meanings_pt": []
   },
@@ -6385,7 +5776,9 @@
     "salida a la empresa",
     "desplazamiento al trabajo"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "aller travailler (par exemple le matin)"
+   ],
    "meanings_pt": []
   },
   {
@@ -6428,9 +5821,7 @@
     "nueve días"
    ],
    "meanings_fr": [
-    "le neuf (du mois)",
-    "le neuvième jour du mois",
-    "neuf jours"
+    "9ème jour du mois"
    ],
    "meanings_pt": []
   },
@@ -6453,9 +5844,7 @@
     "cinco días"
    ],
    "meanings_fr": [
-    "le cinq (du mois)",
-    "le cinquième jour du mois",
-    "cinq jours"
+    "5ème jour du mois"
    ],
    "meanings_pt": []
   },
@@ -6477,9 +5866,7 @@
     "tres días"
    ],
    "meanings_fr": [
-    "le trois (du mois)",
-    "le troisième jour du mois",
-    "trois jours"
+    "3ème jour du mois"
    ],
    "meanings_pt": []
   },
@@ -6501,8 +5888,7 @@
     "cuatro días"
    ],
    "meanings_fr": [
-    "quatrième jour du mois",
-    "quatre jours"
+    "4ème jour du mois"
    ],
    "meanings_pt": []
   },
@@ -6524,9 +5910,7 @@
     "diez días"
    ],
    "meanings_fr": [
-    "le dix (du mois)",
-    "dixième jour du mois",
-    "dix jours"
+    "10ème jour du mois"
    ],
    "meanings_pt": []
   },
@@ -6560,9 +5944,7 @@
     "dos días"
    ],
    "meanings_fr": [
-    "le deux (du mois)",
-    "deuxième jour du mois",
-    "deux jours"
+    "2ème jour du mois"
    ],
    "meanings_pt": []
   },
@@ -6596,9 +5978,7 @@
     "ocho días"
    ],
    "meanings_fr": [
-    "le huit (du mois)",
-    "le huitième jour du mois",
-    "huit jours"
+    "8ème jour du mois"
    ],
    "meanings_pt": []
   },
@@ -6622,9 +6002,7 @@
     "seis días"
    ],
    "meanings_fr": [
-    "le six (du mois)",
-    "sixième jour du mois",
-    "six jours"
+    "6ème jour du mois"
    ],
    "meanings_pt": []
   },
@@ -6650,9 +6028,7 @@
     "siete días"
    ],
    "meanings_fr": [
-    "le sept (du mois)",
-    "le septième jour du mois",
-    "sept jours"
+    "7ème jour du mois"
    ],
    "meanings_pt": []
   },
@@ -6676,8 +6052,7 @@
     "veinte días"
    ],
    "meanings_fr": [
-    "le vingt du mois",
-    "vingt jours"
+    "20ème jour du mois"
    ],
    "meanings_pt": []
   },
@@ -6714,9 +6089,7 @@
     "ella"
    ],
    "meanings_fr": [
-    "cette personne",
-    "elle",
-    "lui"
+    "cette personne"
    ],
    "meanings_pt": []
   },
@@ -6735,7 +6108,9 @@
     "(for something) to happen on occasion"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "quelque chose s'est produit"
+   ],
    "meanings_pt": []
   },
   {
@@ -6758,7 +6133,9 @@
     "se ha decidido así",
     "se ha dispuesto así"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "avoir été décidé (ainsi) que"
+   ],
    "meanings_pt": []
   },
   {
@@ -6777,7 +6154,9 @@
     "if one were to say ..."
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "en parlant de ..."
+   ],
    "meanings_pt": []
   },
   {
@@ -6795,7 +6174,9 @@
    "meanings_es": [
     "Estadounidense"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Américain"
+   ],
    "meanings_pt": []
   },
   {
@@ -6813,7 +6194,9 @@
    "meanings_es": [
     "una hora"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "une heure"
+   ],
    "meanings_pt": []
   },
   {
@@ -6850,8 +6233,7 @@
     "automáticamente"
    ],
    "meanings_fr": [
-    "soi même",
-    "tout seul"
+    "seul"
    ],
    "meanings_pt": []
   },
@@ -6895,7 +6277,9 @@
     "4:00",
     "las cuatro en punto"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Quatre heures"
+   ],
    "meanings_pt": []
   },
   {
@@ -6911,7 +6295,9 @@
     "twice"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "deux fois"
+   ],
    "meanings_pt": []
   },
   {
@@ -6944,8 +6330,7 @@
     "los dos"
    ],
    "meanings_fr": [
-    "les deux",
-    "l'un et l'autre"
+    "les deux (personnes)"
    ],
    "meanings_pt": []
   },
@@ -6979,8 +6364,7 @@
     "a lo largo y ancho de Japón"
    ],
    "meanings_fr": [
-    "à travers le japon",
-    "au japon"
+    "dans tout le Japon"
    ],
    "meanings_pt": []
   },
@@ -7014,9 +6398,7 @@
     "parche (provisional)"
    ],
    "meanings_fr": [
-    "expédient",
-    "moyen de fortune",
-    "pis-aller"
+    "de fortune"
    ],
    "meanings_pt": []
   },
@@ -7052,8 +6434,7 @@
     "nos vemos"
    ],
    "meanings_fr": [
-    "bonne journée",
-    "à plus"
+    "passe une bonne journée"
    ],
    "meanings_pt": []
   },
@@ -7072,7 +6453,9 @@
    "meanings_es": [
     "(la) sociedad japonesa"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Société japonaise"
+   ],
    "meanings_pt": []
   },
   {
@@ -7091,7 +6474,9 @@
     "to make it a rule to"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "décider de"
+   ],
    "meanings_pt": []
   },
   {
@@ -7110,7 +6495,9 @@
     "absolutely necessary"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "devoir (verbe)"
+   ],
    "meanings_pt": []
   },
   {
@@ -7134,7 +6521,9 @@
     "simultáneamente",
     "al mismo tiempo"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "au total"
+   ],
    "meanings_pt": []
   },
   {
@@ -7165,7 +6554,9 @@
     "not necessarily"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "bien qu'il soit vrai que"
+   ],
    "meanings_pt": []
   },
   {
@@ -7183,7 +6574,9 @@
     "as well as (multiple roles)"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "en même temps que"
+   ],
    "meanings_pt": []
   },
   {
@@ -7201,7 +6594,9 @@
     "to counterbalance"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "échanger des regards"
+   ],
    "meanings_pt": []
   },
   {
@@ -7217,7 +6612,9 @@
     "to contribute jointly"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "contribuer conjointement"
+   ],
    "meanings_pt": []
   },
   {
@@ -7235,7 +6632,9 @@
    "meanings_es": [
     "asuntos nacionales"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "affaires nationales"
+   ],
    "meanings_pt": []
   },
   {
@@ -7255,7 +6654,9 @@
     "to run into"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "rencontrer"
+   ],
    "meanings_pt": []
   },
   {
@@ -7291,7 +6692,9 @@
     "temporada",
     "tiempo del año"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "temps"
+   ],
    "meanings_pt": []
   },
   {
@@ -7321,10 +6724,7 @@
     "abstenerse (de realizar una acción)"
    ],
    "meanings_fr": [
-    "échanger des regards",
-    "ajourner",
-    "s'abstenir",
-    "suspendre les opérations"
+    "échanger des regards"
    ],
    "meanings_pt": []
   },
@@ -7361,7 +6761,9 @@
    "meanings_es": [
     "intervalo"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "intervalle"
+   ],
    "meanings_pt": []
   },
   {
@@ -7394,9 +6796,7 @@
    ],
    "meanings_es": [],
    "meanings_fr": [
-    "distinguer",
-    "identifier (l'aspect positif ou négatif d'une chose)",
-    "reconnaître"
+    "distinguer"
    ],
    "meanings_pt": []
   },
@@ -7426,7 +6826,9 @@
     "troupe"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "dans une entreprise"
+   ],
    "meanings_pt": []
   },
   {
@@ -7448,7 +6850,9 @@
    "meanings_es": [
     "patrullaje"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "patrouiller"
+   ],
    "meanings_pt": []
   },
   {
@@ -7466,7 +6870,9 @@
    "meanings_es": [
     "compartir"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "partager"
+   ],
    "meanings_pt": []
   },
   {
@@ -7483,7 +6889,9 @@
     "to survey"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "regarder autour"
+   ],
    "meanings_pt": []
   },
   {
@@ -7513,7 +6921,9 @@
     "destination"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "destination"
+   ],
    "meanings_pt": []
   },
   {
@@ -7531,7 +6941,9 @@
    "meanings_es": [
     "en este caso"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "dans ce cas"
+   ],
    "meanings_pt": []
   },
   {
@@ -7550,7 +6962,7 @@
     "destornillador"
    ],
    "meanings_fr": [
-    "tournevis"
+    "Tournevis"
    ],
    "meanings_pt": []
   },
@@ -7601,7 +7013,9 @@
     "tithe"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "un dixième"
+   ],
    "meanings_pt": []
   },
   {
@@ -7632,7 +7046,9 @@
    "meanings_es": [
     "encuentro"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "rencontre"
+   ],
    "meanings_pt": []
   },
   {
@@ -7648,7 +7064,9 @@
     "human society"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Société humaine"
+   ],
    "meanings_pt": []
   },
   {
@@ -7665,7 +7083,9 @@
     "ten times"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "dix fois"
+   ],
    "meanings_pt": []
   },
   {
@@ -7687,7 +7107,9 @@
     "sin excepción",
     "en cada particular"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "de A à Z"
+   ],
    "meanings_pt": []
   },
   {
@@ -7703,7 +7125,9 @@
     "contemporaries"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "contemporains"
+   ],
    "meanings_pt": []
   },
   {
@@ -7720,7 +7144,9 @@
     "decade"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "dix ans"
+   ],
    "meanings_pt": []
   },
   {
@@ -7738,7 +7164,9 @@
    "meanings_es": [
     "cada (un) año"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "tous les (un) ans"
+   ],
    "meanings_pt": []
   },
   {
@@ -7756,7 +7184,9 @@
     "(at sentence-end) indicates emotional emphasis",
     "(at sentence-end, rising tone) indicates question"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "indique possessif"
+   ],
    "meanings_es": [],
    "meanings_pt": []
   },
@@ -7791,7 +7221,9 @@
     "if",
     "although"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "à (lieu, heure)"
+   ],
    "meanings_es": [
     "indica cosas tales cómo ubicación de personas u objetos, ubicación de acciones a corto plazo, etc."
    ],
@@ -7809,7 +7241,9 @@
     "indicates contrast with another option (stated or unstated)",
     "adds emphasis"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "indique le sujet de la phrase"
+   ],
    "meanings_es": [],
    "meanings_pt": []
   },
@@ -7828,7 +7262,9 @@
     "indicates point of departure or separation of action",
     "indicates object of desire, like, hate, etc."
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "indique l'objet de l'action"
+   ],
    "meanings_es": [
     "indica el objeto directo de una acción",
     "indica el sujeto de una expresión causativa",
@@ -7860,7 +7296,9 @@
     "regardless of",
     "whether (or not)"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "indique le sujet de la phrase (parfois l'objet)"
+   ],
    "meanings_es": [
     "indica el sujeto de la oración (ocasionalmente el objeto)",
     "pero",
@@ -7888,14 +7326,7 @@
     "indicates a question"
    ],
    "meanings_fr": [
-    "si",
-    "dans le cas où",
-    "quand",
-    "et",
-    "avec",
-    "particule utilisée pour citer (discours, pensée, etc.)",
-    "pion promu",
-    "indique une question (en fin de phrase)"
+    "si"
    ],
    "meanings_es": [
     "si",
@@ -7979,41 +7410,7 @@
     "to attempt to"
    ],
    "meanings_fr": [
-    "faire",
-    "faire devenir",
-    "rendre",
-    "transformer ",
-    "nommer, ou promouvoir, une personne A à un poste ou un statut B",
-    "transformer A en B",
-    "échanger A pour B",
-    "utiliser A pour B",
-    "voir A comme B",
-    "gérer A comme si c'était B",
-    "sentir A à propos de B",
-    "suffixe de transformation en verbe (s'applique aux noms repérés dans ce dictionnaire par « vs »)",
-    "utilisé pour former un verbe à la forme humble (après un nom avec le préfixe « o » ou « go »)",
-    "être sur le point de",
-    "commencer à peine à",
-    "essayer de",
-    "tenter de",
-    "servir comme",
-    "agir comme",
-    "travailler comme",
-    "porter (un vêtement, une expression du visage, etc.)",
-    "juger comme",
-    "voir comme",
-    "considérer comme",
-    "traiter comme",
-    "utiliser comme",
-    "opter pour",
-    "choisir",
-    "se faire sentir (d'une odeur, etc.)",
-    "se faire entendre (d'un bruit, etc.)",
-    "être (dans un état, dans une condition, etc.)",
-    "valoir",
-    "coûter",
-    "passer (à propos du temps)",
-    "s'écouler"
+    "faire"
    ],
    "meanings_es": [
     "hacer",
@@ -8075,33 +7472,7 @@
     "the other"
    ],
    "meanings_fr": [
-    "aussi",
-    "en plus",
-    "en outre",
-    "aussi bien que",
-    "ainsi que",
-    "(ne) plus (dans une phrase négative)",
-    "à la fois A et B",
-    "A aussi bien que B",
-    "ni A ni B (dans une phrase négative)",
-    "même",
-    "autant que",
-    "aussi nombreux que",
-    "aussi loin que",
-    "aussi longtemps que",
-    "pas moins de",
-    "pas inférieur à",
-    "même si",
-    "bien que",
-    "malgré",
-    "alors même que",
-    "en dépit de",
-    "plus",
-    "plus loin",
-    "et aussi",
-    "encore",
-    "un autre",
-    "l'autre"
+    "aussi"
    ],
    "meanings_es": [
     "también"
@@ -8200,7 +7571,9 @@
     "since",
     "expresses sympathy or warning"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "depuis (par exemple, heure, lieu, quantité numérique)"
+   ],
    "meanings_es": [
     "desde (e.g. tiempo, espacio, cantidad)",
     "de (origen)",
@@ -8256,9 +7629,7 @@
     "uh ..."
    ],
    "meanings_fr": [
-    "ça (quelque chose ou quelqu'un éloigné de l'orateur, proche de l'auditeur ; actions de l'auditeur, ou les idées exprimées ou comprises par l'auditeur)",
-    "hum...",
-    "euh..."
+    "ce"
    ],
    "meanings_es": [
     "ese"
@@ -8282,7 +7653,9 @@
     "perhaps",
     "perchance"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Je devrais"
+   ],
    "meanings_es": [],
    "meanings_pt": []
   },
@@ -8314,18 +7687,7 @@
     "isn't it?"
    ],
    "meanings_fr": [
-    "des choses telles que (liste non exhaustive liée à un moment et un lieu précis)",
-    "et... et",
-    "à la minute (où)...",
-    "à peine...",
-    "aussitôt que",
-    "ponctuation d'exclamation dans le haïku, le renga, etc.",
-    "interjection de surprise",
-    "salut",
-    "copule simple",
-    "oui",
-    "quoi ?",
-    "indique une question"
+    "des choses telles que..."
    ],
    "meanings_es": [],
    "meanings_pt": []
@@ -8347,7 +7709,9 @@
     "all ...",
     "every single ..."
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "appelé"
+   ],
    "meanings_es": [
     "dicho",
     "llamado"
@@ -8509,7 +7873,9 @@
     "look",
     "listen"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "hé"
+   ],
    "meanings_es": [
     "esto"
    ],
@@ -8536,7 +7902,9 @@
     "only",
     "merely"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "jusqu'à (un moment dans le temps)"
+   ],
    "meanings_es": [
     "hasta",
     "a"
@@ -9526,43 +8894,7 @@
     "objeto"
    ],
    "meanings_fr": [
-    "chose",
-    "objet",
-    "article",
-    "truc",
-    "substance",
-    "ses affaires",
-    "possessions",
-    "propriété",
-    "effets personnels",
-    "choses",
-    "quelque chose",
-    "n'importe quoi",
-    "tout",
-    "rien",
-    "qualité",
-    "raison",
-    "l'ordre des choses",
-    "utilisé pour mettre l'accent sur une émotion, un jugement, etc.",
-    "utilisé pour indiquer un phénomène courant dans le passé (après un verbe au passé)",
-    "utilisé pour indiquer une tendance générale",
-    "utilisé pour indiquer quelque chose qui devrait se produire",
-    "élément classé comme...",
-    "élément relatif à...",
-    "travail de...",
-    "cause de...",
-    "motif de...",
-    "raison pour...",
-    "en quelque sorte",
-    "d'une certaine manière",
-    "pour une raison quelconque",
-    "vraiment",
-    "réellement",
-    "véritablement",
-    "stock",
-    "produits",
-    "marchandises volées",
-    "butin"
+    "chose"
    ],
    "meanings_pt": []
   },
@@ -9731,21 +9063,7 @@
     "crecer"
    ],
    "meanings_fr": [
-    "être en position de faire",
-    "être en mesure de",
-    "être capable de faire",
-    "pouvoir",
-    "être prêt",
-    "être achevé",
-    "être fait",
-    "être construit",
-    "être bon à",
-    "être autorisé (à faire)",
-    "devenir intime",
-    "se prendre d'amitié (pour quelqu'un)",
-    "grandir",
-    "être élevé",
-    "tomber enceinte"
+    "pouvoir (être en mesure de) faire"
    ],
    "meanings_pt": []
   },
@@ -13234,12 +12552,7 @@
     "recurrido turístico"
    ],
    "meanings_fr": [
-    "visiter",
-    "regarder",
-    "observer",
-    "visiteur",
-    "observateur",
-    "spectateur"
+    "tourisme"
    ],
    "meanings_pt": []
   },
@@ -13261,8 +12574,7 @@
     "recordar"
    ],
    "meanings_fr": [
-    "se rappeler",
-    "se souvenir"
+    "se rappeler"
    ],
    "meanings_pt": []
   },
@@ -13856,7 +13168,9 @@
    "meanings_es": [
     "tres veces"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "trois fois"
+   ],
    "meanings_pt": []
   },
   {
@@ -14285,11 +13599,7 @@
     "mirar hacia arriba"
    ],
    "meanings_fr": [
-    "regarder vers le haut",
-    "regarder en l'air",
-    "lever les yeux",
-    "admirer",
-    "respecter"
+    "regarder vers le haut"
    ],
    "meanings_pt": []
   },
@@ -14771,7 +14081,9 @@
     "towards",
     "for"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "à"
+   ],
    "meanings_es": [
     "prt hacia"
    ],
@@ -14792,7 +14104,9 @@
     "thinking that...",
     "trying to..."
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "comme"
+   ],
    "meanings_es": [],
    "meanings_pt": []
   },
@@ -14811,11 +14125,7 @@
     "-san"
    ],
    "meanings_fr": [
-    "M.",
-    "Mme",
-    "Mlle",
-    "-san",
-    "rend les mots plus polis (surtout dans des expressions figées)"
+    "M."
    ],
    "meanings_es": [
     "señor",
@@ -14837,7 +14147,9 @@
     "right!",
     "here goes!"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "là!"
+   ],
    "meanings_es": [
     "eso"
    ],
@@ -14863,24 +14175,7 @@
     "more"
    ],
    "meanings_fr": [
-    "que",
-    "à partir",
-    "de",
-    "depuis",
-    "puisque",
-    "parce que",
-    "à cause de",
-    "comme",
-    "dès",
-    "en",
-    "avec",
-    "à",
-    "par",
-    "sauf",
-    "en dehors de",
-    "hormis",
-    "autre que",
-    "plus"
+    "que"
    ],
    "meanings_es": [
     "de",
@@ -14905,7 +14200,9 @@
     "the reason is ...",
     "given that ..."
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "cela étant dit"
+   ],
    "meanings_es": [
     "a causa de",
     "porque",
@@ -14946,21 +14243,7 @@
     "for lack of anything better to do"
    ],
    "meanings_fr": [
-    "mais",
-    "cependant",
-    "pourtant",
-    "et pourtant",
-    "même (par ex. même un enfant pourrait le soulever)",
-    "toutefois",
-    "peu importe comment",
-    "même si",
-    "... ou quelque chose",
-    "soit... ou...",
-    "ni... ni...",
-    "pseudo-",
-    "charlatan",
-    "n'a que le nom de",
-    "faute de mieux à faire"
+    "mais"
    ],
    "meanings_es": [
     "pero",
@@ -14987,7 +14270,9 @@
     "per (e.g. 100 yen per person)",
     "for every"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "concernant"
+   ],
    "meanings_es": [],
    "meanings_pt": []
   },
@@ -15016,7 +14301,9 @@
     "fine",
     "no problem"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "bien"
+   ],
    "meanings_es": [],
    "meanings_pt": []
   },
@@ -15043,7 +14330,9 @@
     "I really mean ...",
     "vocative particle"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "si"
+   ],
    "meanings_es": [
     "indica suposición",
     "si ... entonces",
@@ -15063,10 +14352,6 @@
     "but"
    ],
    "meanings_fr": [
-    "cependant",
-    "mais",
-    "néanmoins",
-    "pourtant",
     "toutefois"
    ],
    "meanings_es": [
@@ -15102,21 +14387,7 @@
     "to become pregnant"
    ],
    "meanings_fr": [
-    "être en position de faire",
-    "être en mesure de",
-    "être capable de faire",
-    "pouvoir",
-    "être prêt",
-    "être achevé",
-    "être fait",
-    "être construit",
-    "être bon à",
-    "être autorisé (à faire)",
-    "devenir intime",
-    "se prendre d'amitié (pour quelqu'un)",
-    "grandir",
-    "être élevé",
-    "tomber enceinte"
+    "pouvoir (être en mesure de) faire"
    ],
    "meanings_es": [
     "estar libre (en posición) para hacer algo",
@@ -15170,15 +14441,7 @@
     "Mrs."
    ],
    "meanings_fr": [
-    "seulement",
-    "juste",
-    "uniquement",
-    "simplement",
-    "pas plus de",
-    "rien que",
-    "seul",
-    "que (par ex. aussitôt que, autant que)",
-    "équivalent à"
+    "seulement"
    ],
    "meanings_es": [
     "solo",
@@ -15218,30 +14481,7 @@
     "to have a drug-induced hallucination"
    ],
    "meanings_fr": [
-    "aller",
-    "se rendre",
-    "se déplacer (dans une direction ou vers un lieu spécifique)",
-    "se diriger (vers)",
-    "être transporté (vers)",
-    "atteindre",
-    "se passer",
-    "se dérouler",
-    "avoir lieu",
-    "passer",
-    "aller et venir",
-    "marcher",
-    "décéder",
-    "mourir",
-    "faire (d'une manière spécifique)",
-    "couler",
-    "s'écouler",
-    "continuer",
-    "avoir un orgasme",
-    "jouir",
-    "éjaculer",
-    "faire un trip",
-    "se défoncer",
-    "avoir une hallucination provoquée par la drogue"
+    "aller"
    ],
    "meanings_es": [
     "morir",
@@ -15274,24 +14514,7 @@
     "other (esp. people and abstract matters)"
    ],
    "meanings_fr": [
-    "autre (endroit, objet, personne)",
-    "ailleurs",
-    "autre part",
-    "les autres",
-    "le reste",
-    "à l'extérieur",
-    "dehors",
-    "au-delà de",
-    "excepté",
-    "à l'exception de",
-    "sauf",
-    "sinon",
-    "à part",
-    "rien d'autre que",
-    "pas d'autre choix (que)",
-    "outre...",
-    "en plus de...",
-    "autre (en part. les gens et les questions abstraites)"
+    "autre (lieu, chose, personne)"
    ],
    "meanings_es": [
     "otro (especialmente gente y materia abstracta)",
@@ -15313,7 +14536,9 @@
     "due to",
     "because of"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "selon"
+   ],
    "meanings_es": [],
    "meanings_pt": []
   },
@@ -15348,25 +14573,7 @@
     "to find (that) ..."
    ],
    "meanings_fr": [
-    "voir",
-    "regarder",
-    "observer",
-    "réviser",
-    "contrôler",
-    "évaluer",
-    "examiner",
-    "juger",
-    "vérifier",
-    "s'occuper de",
-    "garder un œil sur",
-    "prendre soin de",
-    "voir",
-    "regarder",
-    "essayer",
-    "tenter",
-    "tester",
-    "voir que...",
-    "constater que..."
+    "voir"
    ],
    "meanings_es": [
     "ver",
@@ -15404,7 +14611,9 @@
     "something like",
     "or whatever"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "entre autres"
+   ],
    "meanings_es": [
     "entre otras cosas",
     "cosas como"
@@ -15432,13 +14641,7 @@
     "I don't know how you can ..."
    ],
    "meanings_fr": [
-    "bien",
-    "convenablement",
-    "habilement",
-    "minutieusement",
-    "parfaitement",
-    "souvent",
-    "fréquemment"
+    "bien"
    ],
    "meanings_es": [
     "bien",
@@ -16512,9 +15715,7 @@
     "and finally"
    ],
    "meanings_fr": [
-    "ensuite",
-    "et",
-    "puis"
+    "et donc"
    ],
    "meanings_es": [
     "y",
@@ -16555,11 +15756,7 @@
     "to be due to"
    ],
    "meanings_fr": [
-    "revenir",
-    "faire... et revenir",
-    "s'agir de",
-    "arriver",
-    "venir"
+    "venir (spatialement ou temporellement)"
    ],
    "meanings_es": [
     "llegar",
@@ -16583,8 +15780,7 @@
     "please (do for me)"
    ],
    "meanings_fr": [
-    "s'il vous plaît (donnez-moi)",
-    "faites (ceci) pour moi s'il vous plaît"
+    "s'il te plait"
    ],
    "meanings_es": [
     "por favor",
@@ -16686,30 +15882,7 @@
     "counter for places"
    ],
    "meanings_fr": [
-    "endroit",
-    "lieu",
-    "scène",
-    "site",
-    "emplacement",
-    "adresse",
-    "venait de faire",
-    "était en train de faire",
-    "avoir tout juste terminé de faire",
-    "quartier",
-    "zone",
-    "localité",
-    "sa maison",
-    "logis",
-    "foyer",
-    "espace",
-    "place (espace libre)",
-    "chose",
-    "question",
-    "après quoi",
-    "par conséquence",
-    "sur le point de",
-    "au bord de",
-    "compteur de lieux"
+    "endroit"
    ],
    "meanings_es": [
     "lugar",
@@ -16746,7 +15919,9 @@
     "because of",
     "according to"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "au moyen de"
+   ],
    "meanings_es": [],
    "meanings_pt": []
   },
@@ -16764,7 +15939,9 @@
     "as for",
     "regarding"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "dans"
+   ],
    "meanings_es": [],
    "meanings_pt": []
   },
@@ -16792,24 +15969,7 @@
     "nevertheless"
    ],
    "meanings_fr": [
-    "ordinaire",
-    "courant",
-    "commun",
-    "habituel",
-    "usuel",
-    "gratuit",
-    "gratis",
-    "non affecté",
-    "tel quel",
-    "sûr",
-    "seulement",
-    "uniquement",
-    "juste",
-    "simplement",
-    "mais",
-    "cependant",
-    "toutefois",
-    "néanmoins"
+    "ordinaire"
    ],
    "meanings_es": [
     "gratis",
@@ -16841,11 +16001,7 @@
     "even more"
    ],
    "meanings_fr": [
-    "d'ailleurs",
-    "de plus",
-    "de plus en plus",
-    "et encore",
-    "qui plus est"
+    "en outre"
    ],
    "meanings_es": [
     "además",
@@ -16869,9 +16025,7 @@
     "various colors (colours)"
    ],
    "meanings_fr": [
-    "divers",
-    "varié",
-    "diverses couleurs"
+    "divers"
    ],
    "meanings_es": [
     "diversos",
@@ -16892,7 +16046,9 @@
     "from the standpoint of",
     "as far as ... is concerned"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "pour"
+   ],
    "meanings_es": [
     "Respecto a",
     "para"
@@ -16981,7 +16137,9 @@
     "I wish",
     "in order to"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "même si"
+   ],
    "meanings_es": [
     "aunque",
     "a pesar de",
@@ -17039,12 +16197,6 @@
     "all"
    ],
    "meanings_fr": [
-    "tout",
-    "(en) totalité",
-    "l'ensemble",
-    "entièrement",
-    "complètement",
-    "totalement",
     "tout"
    ],
    "meanings_es": [
@@ -17088,8 +16240,7 @@
     "almost all (of)"
    ],
    "meanings_fr": [
-    "la plupart",
-    "presque tout"
+    "presque"
    ],
    "meanings_es": [
     "casi"
@@ -17107,7 +16258,9 @@
     "only",
     "nothing but"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "seulement"
+   ],
    "meanings_es": [
     "sólo",
     "excepto"
@@ -17130,12 +16283,7 @@
     "you"
    ],
    "meanings_fr": [
-    "là (lieu relativement proche de l'auditeur)",
-    "là (lieu qui vient d'être cité) ",
-    "cet endroit",
-    "alors (à propos d'un incident dont on vient de parler)",
-    "cela (à propos d'un point que l'on vient d'évoquer)",
-    "vous"
+    "là (placer relativement près de l'auditeur)"
    ],
    "meanings_es": [
     "ahí",
@@ -17168,17 +16316,7 @@
     "for the time being"
    ],
    "meanings_fr": [
-    "(tout) d'abord",
-    "avant tout",
-    "premièrement",
-    "pour commencer",
-    "environ",
-    "à peu près",
-    "presque",
-    "de toute façon",
-    "et bien",
-    "pour le moment",
-    "difficilement (avec un verbe négatif)"
+    "tout d'abord"
    ],
    "meanings_es": [
     "primero (en todo)",
@@ -17209,12 +16347,7 @@
     "acting as if a ..."
    ],
    "meanings_fr": [
-    "coin",
-    "facette",
-    "masque",
-    "page",
-    "surface",
-    "visage"
+    "surface"
    ],
    "meanings_es": [],
    "meanings_pt": []
@@ -18285,9 +17418,7 @@
     "respectively"
    ],
    "meanings_fr": [
-    "chacun",
-    "chaque",
-    "respectivement"
+    "chaque"
    ],
    "meanings_es": [
     "cada uno",
@@ -18306,7 +17437,7 @@
     "suffix for familiar person"
    ],
    "meanings_fr": [
-    "suffixe pour des personnes familières"
+    "suffixe familier pour une personne"
    ],
    "meanings_es": [
     "sufijo cariñoso para las muchachas o de muchachas a muchachos"
@@ -18331,14 +17462,7 @@
     "not to mention ..."
    ],
    "meanings_fr": [
-    "commencement",
-    "départ",
-    "début",
-    "ouverture",
-    "premier (dans un rang, etc.)",
-    "origine",
-    "tel que...",
-    "pour ne pas mentionner..."
+    "début"
    ],
    "meanings_es": [
     "comienzo",
@@ -18367,10 +17491,7 @@
     "customary"
    ],
    "meanings_fr": [
-    "toujours",
-    "habituellement",
-    "à chaque fois",
-    "jamais"
+    "toujours"
    ],
    "meanings_es": [
     "siempre",
@@ -18392,7 +17513,9 @@
     "except",
     "no more than"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "rien que"
+   ],
    "meanings_es": [
     "sólo",
     "excepto"
@@ -18416,8 +17539,7 @@
     "sometimes ... and at other times ..."
    ],
    "meanings_fr": [
-    "ou",
-    "ou bien"
+    "ou"
    ],
    "meanings_es": [],
    "meanings_pt": []
@@ -18437,7 +17559,9 @@
     "regarding",
     "with regards to"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "dans"
+   ],
    "meanings_es": [],
    "meanings_pt": []
   },
@@ -18460,9 +17584,7 @@
     "opening move"
    ],
    "meanings_fr": [
-    "il y a un moment",
-    "tout à l'heure",
-    "à l'instant"
+    "il y a peu de temps"
    ],
    "meanings_es": [
     "hace un momento",
@@ -18503,11 +17625,7 @@
     "from this point"
    ],
    "meanings_fr": [
-    "à présent",
-    "dès maintenant",
-    "désormais",
-    "dorénavant",
-    "à partir de ce moment"
+    "dès maintenant"
    ],
    "meanings_es": [
     "(n-t,uk) después de esto"
@@ -18526,7 +17644,9 @@
     "however",
     "although"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "mais"
+   ],
    "meanings_es": [
     "aunque",
     "pero",
@@ -18551,9 +17671,7 @@
     "all"
    ],
    "meanings_fr": [
-    "tous",
-    "tout le monde",
-    "tout"
+    "tout le monde"
    ],
    "meanings_es": [
     "todos",
@@ -18577,9 +17695,7 @@
     "as it were"
    ],
    "meanings_fr": [
-    "pour ainsi dire",
-    "comme qui dirait",
-    "en quelque sorte"
+    "pour ainsi dire"
    ],
    "meanings_es": [
     "como quien dice",
@@ -18606,13 +17722,7 @@
     "honey"
    ],
    "meanings_fr": [
-    "épouse",
-    "femme",
-    "ma chérie",
-    "chérie",
-    "garniture (en part. servie avec du sashimi)",
-    "embellissement",
-    "décoration"
+    "épouse"
    ],
    "meanings_es": [],
    "meanings_pt": []
@@ -18633,7 +17743,9 @@
     "type of illegal loan charging 10% interest every 10 days",
     "dealt hand consisting of 1-point cards and one single 10-point card"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "Onze"
+   ],
    "meanings_es": [
     "once"
    ],
@@ -18651,8 +17763,7 @@
     "how"
    ],
    "meanings_fr": [
-    "comment",
-    "pourquoi"
+    "Pourquoi"
    ],
    "meanings_es": [
     "por qué",
