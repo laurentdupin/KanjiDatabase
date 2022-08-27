@@ -329,6 +329,7 @@ def SelectMeaningTranslation(level):
 dicoMeaningEntries = {}
 
 def ContinueToNextMeaning(id):
+    id = str(id)
     global dicoMeaningEntries
 
     for meaning in dicoMeaningEntries:
@@ -354,6 +355,7 @@ def DisplayNextMeanings():
     global dicoOutput
     global translator
     global setAlreadyDoneInThisLevel
+    global bShouldTranslate
 
     iMeaningTranslationCounter += 1
 
@@ -390,6 +392,10 @@ def DisplayNextMeanings():
             else:
                 iCurrentMeanings += 1
 
+    if(selectedEntry == None):
+        DoneWithMeaningTranslationLevel()
+        return
+
     print(iPosition, len(listInput[iMeaningTranslationLevelSelected]))
 
     if(selectedEntry["id"] != selectedEntry["sharedid"]):
@@ -398,9 +404,11 @@ def DisplayNextMeanings():
     if(selectedEntry["id"] in dicoTempKanaOnlySharedIds):
         selectedEntry = dicoItemPerId[dicoTempKanaOnlySharedIds[selectedEntry["id"]]]
 
-    if(selectedEntry == None):
-        DoneWithMeaningTranslationLevel()
+    if(selectedEntry["id"] in setAlreadyDoneInThisLevel):
+        DisplayNextMeanings()
         return
+
+    setAlreadyDoneInThisLevel.add(selectedEntry["id"])
 
     dicoMeaningEntries = {}
 
@@ -412,37 +420,53 @@ def DisplayNextMeanings():
     button.config(font=('Arial', FontSize))
     button.grid(row=1, column=0, columnspan=5)
 
+    checkbutton = tkinter.Checkbutton(root, text='Traductions',variable=bShouldTranslate, onvalue=1, offvalue=0)
+    checkbutton.config(font=('Arial', FontSize))
+    checkbutton.grid(row=2, column=0, columnspan=5)
+
     label = tkinter.Label(root, text="Original-en")
     label.config(font=('Arial', int(FontSize * 0.7)))
-    label.grid(row=2, column=0)
+    label.grid(row=3, column=0)
 
     label = tkinter.Label(root, text="en")
     label.config(font=('Arial', int(FontSize * 0.7)))
-    label.grid(row=2, column=1)
+    label.grid(row=3, column=1)
 
     label = tkinter.Label(root, text="fr")
     label.config(font=('Arial', int(FontSize * 0.7)))
-    label.grid(row=2, column=2)
+    label.grid(row=3, column=2)
 
     label = tkinter.Label(root, text="pt")
     label.config(font=('Arial', int(FontSize * 0.7)))
-    label.grid(row=2, column=3)
+    label.grid(row=3, column=3)
 
     label = tkinter.Label(root, text="es")
     label.config(font=('Arial', int(FontSize * 0.7)))
-    label.grid(row=2, column=4)
+    label.grid(row=3, column=4)
 
-    iCurrentRow = 3
+    iCurrentRow = 4
 
     dicoTranslationsFr = {}
-    translationsfr = translator.translate(selectedEntry["meanings"][0:5], src='en', dest='fr')
-    for translation in translationsfr:
-        dicoTranslationsFr[translation.origin] = translation.text
+
+    if(bShouldTranslate.get() != 0):
+        try:
+            translationsfr = translator.translate(selectedEntry["meanings"][0:5], src='en', dest='fr')
+            for translation in translationsfr:
+                dicoTranslationsFr[translation.origin] = translation.text
+        except:
+            pass
+
+    iCurrentMeaningLevel = iMeaningTranslationLevelSelected
+
+    for level in dicoOutput["MeaningsTranslations"]:
+        if(str(selectedEntry["id"]) in dicoOutput["MeaningsTranslations"][level]):
+            iCurrentMeaningLevel = int(level)
+            break
 
     for meaning in selectedEntry["meanings"]:
-        bMeaningAlreadyIn = (str(iMeaningTranslationLevelSelected) in dicoOutput["MeaningsTranslations"] and 
-                            str(selectedEntry["id"]) in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)] and
-                            meaning in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])])
+        bMeaningAlreadyIn = (str(iCurrentMeaningLevel) in dicoOutput["MeaningsTranslations"] and 
+                            str(selectedEntry["id"]) in dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)] and
+                            meaning in dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)][str(selectedEntry["id"])])
 
         label = tkinter.Label(root, text=meaning)
         label.config(font=('Arial', int(FontSize * 0.3)))
@@ -455,18 +479,18 @@ def DisplayNextMeanings():
         entry.grid(row=iCurrentRow, column=1)
         dicoMeaningEntries[meaning]["en"] = entry
 
-        if(bMeaningAlreadyIn and "en" in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]):
+        if(bMeaningAlreadyIn and "en" in dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)][str(selectedEntry["id"])][meaning]):
             entry.delete(0, tkinter.END)
-            entry.insert(0, dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]["en"])
+            entry.insert(0, dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)][str(selectedEntry["id"])][meaning]["en"])
 
         entry = tkinter.Entry(root)
         entry.config(font=('Arial', int(FontSize * 0.3)))
         entry.grid(row=iCurrentRow, column=2)
         dicoMeaningEntries[meaning]["fr"] = entry
 
-        if(bMeaningAlreadyIn and "fr" in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]):
+        if(bMeaningAlreadyIn and "fr" in dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)][str(selectedEntry["id"])][meaning]):
             entry.delete(0, tkinter.END)
-            entry.insert(0, dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]["fr"])
+            entry.insert(0, dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)][str(selectedEntry["id"])][meaning]["fr"])
 
         if(meaning in dicoTranslationsFr):
             translation = dicoTranslationsFr[meaning]
@@ -479,24 +503,34 @@ def DisplayNextMeanings():
         entry.grid(row=iCurrentRow, column=3)
         dicoMeaningEntries[meaning]["pt"] = entry
 
-        if(bMeaningAlreadyIn and "pt" in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]):
+        if(bMeaningAlreadyIn and "pt" in dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)][str(selectedEntry["id"])][meaning]):
             entry.delete(0, tkinter.END)
-            entry.insert(0, dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]["pt"])
+            entry.insert(0, dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)][str(selectedEntry["id"])][meaning]["pt"])
 
         entry = tkinter.Entry(root)
         entry.config(font=('Arial', int(FontSize * 0.3)))
         entry.grid(row=iCurrentRow, column=4)
         dicoMeaningEntries[meaning]["es"] = entry
 
-        if(bMeaningAlreadyIn and "es" in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]):
+        if(bMeaningAlreadyIn and "es" in dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)][str(selectedEntry["id"])][meaning]):
             entry.delete(0, tkinter.END)
-            entry.insert(0, dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]["es"])
+            entry.insert(0, dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)][str(selectedEntry["id"])][meaning]["es"])
 
         iCurrentRow += 2
 
 def DoneWithMeaningTranslationLevel():
     global dicoOutput
     dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)] = dicoMeaningsTranslations
+
+    for level in dicoOutput["MeaningsTranslations"]:
+        if(level == str(iMeaningTranslationLevelSelected)):
+            continue
+
+        for id in dicoMeaningsTranslations:
+            if(id in dicoOutput["MeaningsTranslations"][level]):
+                del dicoOutput["MeaningsTranslations"][level][id]
+
+
     MeaningTranslationSelection()
 
 ###
@@ -622,6 +656,9 @@ def DoneWithKunReadingLevel():
 ###
 
 root = tkinter.Tk()
+
+bShouldTranslate = tkinter.IntVar()
+
 button = tkinter.Button(root, text="KanaOnly", command=KanaOnlySelection)
 button.pack()
 button.config(font=('Arial', FontSize))
