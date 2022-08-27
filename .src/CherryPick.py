@@ -4,6 +4,10 @@ import json
 import Tooltip
 import pyperclip
 import copy
+from googletrans import Translator
+
+#Need to do pip install googletrans==3.1.0a0 for it to work
+translator = Translator()
 
 FontSize = 30
 
@@ -309,14 +313,17 @@ def MeaningTranslationSelection():
 iMeaningTranslationLevelSelected = -1
 iMeaningTranslationCounter = -1
 dicoMeaningsTranslations = {}
+setAlreadyDoneInThisLevel = set()
 
 def SelectMeaningTranslation(level):
     global iMeaningTranslationLevelSelected
     global iMeaningTranslationCounter
     global dicoMeaningsTranslations
+    global setAlreadyDoneInThisLevel
     iMeaningTranslationLevelSelected = level
     iMeaningTranslationCounter = -1
     dicoMeaningsTranslations = {}
+    setAlreadyDoneInThisLevel = set()
     DisplayNextMeanings()
 
 dicoMeaningEntries = {}
@@ -335,12 +342,18 @@ def ContinueToNextMeaning(id):
 
     DisplayNextMeanings()
 
+def ChangeEntryContent(entry, text):
+    entry.delete(0, tkinter.END)
+    entry.insert(0, text)
+
 def DisplayNextMeanings():
     global iMeaningTranslationLevelSelected
     global iMeaningTranslationCounter
     global root
     global dicoMeaningEntries
     global dicoOutput
+    global translator
+    global setAlreadyDoneInThisLevel
 
     iMeaningTranslationCounter += 1
 
@@ -351,7 +364,13 @@ def DisplayNextMeanings():
 
     iCurrentMeanings = 0
 
-    for entry in listInput[iMeaningTranslationLevelSelected]:
+    dicoTempKanaOnlySharedIds = {}
+
+    for level in dicoOutput["KanaOnlySharedIds"]:
+        for item in dicoOutput["KanaOnlySharedIds"][level]:
+            dicoTempKanaOnlySharedIds[int(item)] = int(dicoOutput["KanaOnlySharedIds"][level][item])
+
+    for iPosition, entry in enumerate(listInput[iMeaningTranslationLevelSelected]):
         setTempValidKanaOnlyId = set()
 
         for level in dicoOutput["SelectedKanaOnly"]:
@@ -365,12 +384,19 @@ def DisplayNextMeanings():
                 setTempValidVocabularySharedId.add(item)
 
         if(entry["id"] in setTempValidKanaOnlyId or entry["sharedid"] in setTempValidVocabularySharedId or entry["type"] == "kanji"):
-            if(len(entry["meanings"]) > 0):
-                if(iCurrentMeanings == iMeaningTranslationCounter):
-                    selectedEntry = entry
-                    break
-                else:
-                    iCurrentMeanings += 1
+            if(iCurrentMeanings == iMeaningTranslationCounter):
+                selectedEntry = entry
+                break
+            else:
+                iCurrentMeanings += 1
+
+    print(iPosition, len(listInput[iMeaningTranslationLevelSelected]))
+
+    if(selectedEntry["id"] != selectedEntry["sharedid"]):
+        selectedEntry = dicoItemPerId[selectedEntry["sharedid"]]
+
+    if(selectedEntry["id"] in dicoTempKanaOnlySharedIds):
+        selectedEntry = dicoItemPerId[dicoTempKanaOnlySharedIds[selectedEntry["id"]]]
 
     if(selectedEntry == None):
         DoneWithMeaningTranslationLevel()
@@ -408,7 +434,16 @@ def DisplayNextMeanings():
 
     iCurrentRow = 3
 
+    dicoTranslationsFr = {}
+    translationsfr = translator.translate(selectedEntry["meanings"][0:5], src='en', dest='fr')
+    for translation in translationsfr:
+        dicoTranslationsFr[translation.origin] = translation.text
+
     for meaning in selectedEntry["meanings"]:
+        bMeaningAlreadyIn = (str(iMeaningTranslationLevelSelected) in dicoOutput["MeaningsTranslations"] and 
+                            str(selectedEntry["id"]) in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)] and
+                            meaning in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])])
+
         label = tkinter.Label(root, text=meaning)
         label.config(font=('Arial', int(FontSize * 0.3)))
         label.grid(row=iCurrentRow, column=0)
@@ -420,10 +455,7 @@ def DisplayNextMeanings():
         entry.grid(row=iCurrentRow, column=1)
         dicoMeaningEntries[meaning]["en"] = entry
 
-        if(str(iMeaningTranslationLevelSelected) in dicoOutput["MeaningsTranslations"] and 
-        str(selectedEntry["id"]) in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)] and
-        meaning in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])] and
-        "en" in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]):
+        if(bMeaningAlreadyIn and "en" in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]):
             entry.delete(0, tkinter.END)
             entry.insert(0, dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]["en"])
 
@@ -432,22 +464,22 @@ def DisplayNextMeanings():
         entry.grid(row=iCurrentRow, column=2)
         dicoMeaningEntries[meaning]["fr"] = entry
 
-        if(str(iMeaningTranslationLevelSelected) in dicoOutput["MeaningsTranslations"] and 
-        str(selectedEntry["id"]) in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)] and
-        meaning in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])] and
-        "fr" in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]):
+        if(bMeaningAlreadyIn and "fr" in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]):
             entry.delete(0, tkinter.END)
             entry.insert(0, dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]["fr"])
+
+        if(meaning in dicoTranslationsFr):
+            translation = dicoTranslationsFr[meaning]
+            button = tkinter.Button(root, text=translation, command=lambda entry=entry, text=translation : ChangeEntryContent(entry, text))
+            button.config(font=('Arial', int(FontSize * 0.3)))
+            button.grid(row=iCurrentRow + 1, column=2)
 
         entry = tkinter.Entry(root)
         entry.config(font=('Arial', int(FontSize * 0.3)))
         entry.grid(row=iCurrentRow, column=3)
         dicoMeaningEntries[meaning]["pt"] = entry
 
-        if(str(iMeaningTranslationLevelSelected) in dicoOutput["MeaningsTranslations"] and 
-        str(selectedEntry["id"]) in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)] and
-        meaning in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])] and
-        "pt" in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]):
+        if(bMeaningAlreadyIn and "pt" in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]):
             entry.delete(0, tkinter.END)
             entry.insert(0, dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]["pt"])
 
@@ -456,14 +488,11 @@ def DisplayNextMeanings():
         entry.grid(row=iCurrentRow, column=4)
         dicoMeaningEntries[meaning]["es"] = entry
 
-        if(str(iMeaningTranslationLevelSelected) in dicoOutput["MeaningsTranslations"] and 
-        str(selectedEntry["id"]) in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)] and
-        meaning in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])] and
-        "es" in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]):
+        if(bMeaningAlreadyIn and "es" in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]):
             entry.delete(0, tkinter.END)
             entry.insert(0, dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]["es"])
 
-        iCurrentRow += 1
+        iCurrentRow += 2
 
 def DoneWithMeaningTranslationLevel():
     global dicoOutput
