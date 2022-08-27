@@ -3915,8 +3915,8 @@
    ],
    "kun_readings": [],
    "meanings": [
-    "gō",
-    "gō",
+    "conjunction",
+    "conjunction",
     "one-tenth of the way from the base to the summit of a mountain",
     "conjunction",
     "sum",
@@ -3930,7 +3930,10 @@
     "un Go (0.18 litros",
     "0.33 metros cuadrados)"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "conjonction",
+    "conjonction"
+   ],
    "meanings_pt": []
   },
   {
@@ -7359,7 +7362,10 @@
     "let me tell you",
     "don't you know"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "à",
+    "à"
+   ],
    "meanings_es": [],
    "meanings_pt": []
   },
@@ -7604,9 +7610,8 @@
     "you (as in \"you liar\")"
    ],
    "meanings_fr": [
-    "ce (quelque chose ou quelqu'un proche du locuteur (incluant le locuteur), ou des idées exprimés par le locuteur)",
-    "celui-ci",
-    "celui-là"
+    "cet",
+    "cet"
    ],
    "meanings_es": [
     "este"
@@ -7835,19 +7840,8 @@
     "iso-"
    ],
    "meanings_fr": [
-    "et cetera",
-    "etc.",
-    "et ainsi de suite",
-    "ou autre chose",
-    "comme",
-    "classe",
-    "ordre",
-    "rang",
-    "et cetera",
-    "etc.",
-    "et autres",
-    "égal",
-    "iso-"
+    "etc",
+    "etc"
    ],
    "meanings_es": [
     "etcétera",
@@ -7867,17 +7861,52 @@
    "readings": [],
    "kun_readings": [],
    "meanings": [
-    "hey",
-    "oi",
-    "come on",
-    "look",
-    "listen"
+    "this",
+    "this one",
+    "this person",
+    "now",
+    "this point (in time)",
+    "here",
+    "used to stress the subject of a sentence",
+    "I",
+    "me"
    ],
    "meanings_fr": [
-    "hé"
+    "ceci (indiquant un élément près du locuteur, de l'action du locuteur, ou le sujet en cours)",
+    "maintenant",
+    "ici",
+    "je (moi)",
+    "certainement"
    ],
    "meanings_es": [
-    "esto"
+    "esto",
+    "éste",
+    "ésta",
+    "éstos",
+    "éstas",
+    "esta persona",
+    "ahora",
+    "aquí",
+    "yo (mi)",
+    "claramente",
+    "por supuesto",
+    "esto",
+    "éste",
+    "ésta",
+    "esta persona",
+    "ahora",
+    "aquí",
+    "yo (mi)",
+    "seguramente",
+    "esto",
+    "éste",
+    "ésta",
+    "esta persona (usu. indicando a alguien del grupo)",
+    "ahora",
+    "aquí",
+    "Yo (mi)",
+    "claramente",
+    "por supuesto"
    ],
    "meanings_pt": []
   },
@@ -14141,17 +14170,28 @@
    "readings": [],
    "kun_readings": [],
    "meanings": [
-    "there!",
-    "look!",
-    "go on!",
-    "right!",
-    "here goes!"
+    "that",
+    "it",
+    "then",
+    "that point (in time)",
+    "that time",
+    "there",
+    "you"
    ],
    "meanings_fr": [
-    "là!"
+    "ça (indique quelque chose ou quelqu'un de proche de l'auditeur, l'action de l'auditeur, ou l'objet de leur pensée) ",
+    "cela",
+    "ce moment-là",
+    "ce temps-là",
+    "cette époque-là",
+    "là (indiquant un endroit près de l'auditeur)",
+    "vous"
    ],
    "meanings_es": [
-    "eso"
+    "eso",
+    "ello",
+    "ése",
+    "ésa"
    ],
    "meanings_pt": []
   },
@@ -14681,22 +14721,8 @@
     "to happen to do"
    ],
    "meanings_fr": [
-    "terminer",
-    "arrêter",
     "finir",
-    "mettre fin à",
-    "mettre un terme à",
-    "clore",
-    "fermer (une entreprise, etc.) ",
-    "arrêter",
-    "de se taire",
-    "mettre de côté",
-    "remettre",
-    "conserver",
-    "stocker",
-    "terminer...",
-    "finir...",
-    "faire... complètement"
+    "finir"
    ],
    "meanings_es": [
     "finalizar",
@@ -15812,23 +15838,8 @@
     "while doing something else (at the same time)"
    ],
    "meanings_fr": [
-    "pendant que",
     "durant",
-    "tout en (par ex. tout en prenant le thé)",
-    "en (par ex. en pleurs)",
-    "comme",
-    "alors que",
-    "bien que",
-    "malgré",
-    "en dépit de",
-    "même si",
-    "tandis que",
-    "quoique",
-    "nonobstant",
-    "tous",
-    "les deux",
-    "comme (par ex. comme toujours)",
-    "en (par ex. en pleurs)"
+    "durant"
    ],
    "meanings_es": [
     "mientras",
@@ -16096,21 +16107,8 @@
     "within"
    ],
    "meanings_fr": [
-    "pendant",
-    "au cours de",
-    "en",
-    "parmi",
-    "entre",
-    "nous (se référant à son endogroupe ou groupe interne, par ex. son entreprise, etc.)",
-    "notre",
-    "mon époux",
-    "mon épouse",
-    "domaine du Palais impérial",
-    "empereur",
-    "je (utilisé principalement par les femmes et les enfants)",
-    "moi",
-    "dedans",
-    "à l'intérieur"
+    "l'intérieur",
+    "l'intérieur"
    ],
    "meanings_es": [
     "dentro",
@@ -16166,10 +16164,8 @@
     "these next ..."
    ],
    "meanings_fr": [
-    "ici (endroit proche physiquement du locuteur, endroit désigné par le locuteur lors d'une explication)",
-    "cet endroit",
-    "ces derniers (suivi d'un nom de durée et d'une phrase au passé : précise une période de temps juste avant le moment présent du locuteur)",
-    "ces prochains… (suivi d'un nom de durée et d'une phrase qui n'est pas au passé : précise une période de temps juste après le moment présent du locuteur)"
+    "ici",
+    "ici"
    ],
    "meanings_es": [
     "aquí",

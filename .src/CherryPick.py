@@ -314,6 +314,7 @@ iMeaningTranslationLevelSelected = -1
 iMeaningTranslationCounter = -1
 dicoMeaningsTranslations = {}
 setAlreadyDoneInThisLevel = set()
+bSearchNextEmpty = False
 
 def SelectMeaningTranslation(level):
     global iMeaningTranslationLevelSelected
@@ -321,14 +322,21 @@ def SelectMeaningTranslation(level):
     global dicoMeaningsTranslations
     global setAlreadyDoneInThisLevel
     global bShouldTranslate
+    global bSearchNextEmpty
     iMeaningTranslationLevelSelected = level
     iMeaningTranslationCounter = -1
     dicoMeaningsTranslations = {}
     setAlreadyDoneInThisLevel = set()
     bShouldTranslate.set(1)
+    bSearchNextEmpty = False
     DisplayNextMeanings()
 
 dicoMeaningEntries = {}
+
+def SearchNextEmpty(id):
+    global bSearchNextEmpty
+    bSearchNextEmpty = True
+    ContinueToNextMeaning(id)
 
 def ContinueToNextMeaning(id):
     id = str(id)
@@ -358,6 +366,7 @@ def DisplayNextMeanings():
     global translator
     global setAlreadyDoneInThisLevel
     global bShouldTranslate
+    global bSearchNextEmpty
 
     iMeaningTranslationCounter += 1
 
@@ -418,9 +427,13 @@ def DisplayNextMeanings():
     label.config(font=('Arial', FontSize))
     label.grid(row=0, column=0, columnspan=5)
 
+    button = tkinter.Button(root, text="Next Empty", command=lambda id=selectedEntry["id"] : SearchNextEmpty(id))
+    button.config(font=('Arial', FontSize))
+    button.grid(row=1, column=0)
+
     button = tkinter.Button(root, text="Continue", command=lambda id=selectedEntry["id"] : ContinueToNextMeaning(id))
     button.config(font=('Arial', FontSize))
-    button.grid(row=1, column=0, columnspan=5)
+    button.grid(row=1, column=1, columnspan=3)
 
     checkbutton = tkinter.Checkbutton(root, text='Translations',variable=bShouldTranslate, onvalue=1, offvalue=0)
     checkbutton.config(font=('Arial', FontSize))
@@ -450,7 +463,7 @@ def DisplayNextMeanings():
 
     dicoTranslationsFr = {}
 
-    if(bShouldTranslate.get() != 0):
+    if(bShouldTranslate.get() != 0 and not(bSearchNextEmpty)):
         try:
             translationsfr = translator.translate(selectedEntry["meanings"][0:5], src='en', dest='fr')
             for translation in translationsfr:
@@ -465,7 +478,16 @@ def DisplayNextMeanings():
             iCurrentMeaningLevel = int(level)
             break
 
+    bNotEmpty = False
+
+    listAddedMeanings = []
+
     for meaning in selectedEntry["meanings"]:
+        if(meaning in listAddedMeanings):
+            continue
+
+        listAddedMeanings.append(meaning)
+
         bMeaningAlreadyIn = (str(iCurrentMeaningLevel) in dicoOutput["MeaningsTranslations"] and 
                             str(selectedEntry["id"]) in dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)] and
                             meaning in dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)][str(selectedEntry["id"])])
@@ -484,6 +506,7 @@ def DisplayNextMeanings():
         if(bMeaningAlreadyIn and "en" in dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)][str(selectedEntry["id"])][meaning]):
             entry.delete(0, tkinter.END)
             entry.insert(0, dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)][str(selectedEntry["id"])][meaning]["en"])
+            bNotEmpty = True
 
         entry = tkinter.Entry(root)
         entry.config(font=('Arial', int(FontSize * 0.3)))
@@ -493,6 +516,7 @@ def DisplayNextMeanings():
         if(bMeaningAlreadyIn and "fr" in dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)][str(selectedEntry["id"])][meaning]):
             entry.delete(0, tkinter.END)
             entry.insert(0, dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)][str(selectedEntry["id"])][meaning]["fr"])
+            bNotEmpty = True
 
         if(meaning in dicoTranslationsFr):
             translation = dicoTranslationsFr[meaning]
@@ -508,6 +532,7 @@ def DisplayNextMeanings():
         if(bMeaningAlreadyIn and "pt" in dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)][str(selectedEntry["id"])][meaning]):
             entry.delete(0, tkinter.END)
             entry.insert(0, dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)][str(selectedEntry["id"])][meaning]["pt"])
+            bNotEmpty = True
 
         entry = tkinter.Entry(root)
         entry.config(font=('Arial', int(FontSize * 0.3)))
@@ -517,8 +542,17 @@ def DisplayNextMeanings():
         if(bMeaningAlreadyIn and "es" in dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)][str(selectedEntry["id"])][meaning]):
             entry.delete(0, tkinter.END)
             entry.insert(0, dicoOutput["MeaningsTranslations"][str(iCurrentMeaningLevel)][str(selectedEntry["id"])][meaning]["es"])
+            bNotEmpty = True
 
         iCurrentRow += 2
+
+    if(bSearchNextEmpty and bNotEmpty):
+        root.after(1, lambda id=selectedEntry["id"] : ContinueToNextMeaning(id))
+    elif(bSearchNextEmpty):
+        iMeaningTranslationCounter -= 1
+        setAlreadyDoneInThisLevel.remove(selectedEntry["id"])
+        bSearchNextEmpty = False
+        root.after(1, lambda id=selectedEntry["id"] : ContinueToNextMeaning(id))
 
 def DoneWithMeaningTranslationLevel():
     global dicoOutput
