@@ -320,10 +320,12 @@ def SelectMeaningTranslation(level):
     global iMeaningTranslationCounter
     global dicoMeaningsTranslations
     global setAlreadyDoneInThisLevel
+    global bShouldTranslate
     iMeaningTranslationLevelSelected = level
     iMeaningTranslationCounter = -1
     dicoMeaningsTranslations = {}
     setAlreadyDoneInThisLevel = set()
+    bShouldTranslate.set(1)
     DisplayNextMeanings()
 
 dicoMeaningEntries = {}
