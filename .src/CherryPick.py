@@ -1,13 +1,9 @@
-from asyncore import read
-import enum
-from glob import glob
-from logging import root
 import tkinter
 import os
 import json
-from turtle import color
 import Tooltip
 import pyperclip
+import copy
 
 FontSize = 30
 
@@ -39,6 +35,9 @@ if(not("KanaOnlySharedIds" in dicoOutput)):
 
 if(not("KunReadingSelections" in dicoOutput)):
     dicoOutput["KunReadingSelections"] = {}
+
+if(not("MeaningsTranslations" in dicoOutput)):
+    dicoOutput["MeaningsTranslations"] = {}
 
 def Quit():
     global root
@@ -285,6 +284,194 @@ def DoneWithLevel():
 
 ###
 ###
+### MEANING TRANSLATION BLOCK
+###
+###
+
+def MeaningTranslationSelection():
+    global root
+    global dicoOutput
+    for child in root.winfo_children():
+        child.destroy()
+    
+    for iLevel, level in enumerate(listInput):
+        button = tkinter.Button(root, text=str(iLevel + 1), command = lambda level=iLevel: SelectMeaningTranslation(level))
+        button.grid(column=iLevel%10, row = iLevel//10)
+
+        if(str(iLevel) in dicoOutput["MeaningsTranslations"]):
+            button.config(bg="LightBlue1")
+
+    iLevel += 10
+
+    button = tkinter.Button(root, text="Quit", command = Quit)
+    button.grid(column=0, row = iLevel//10, columnspan=10) 
+
+iMeaningTranslationLevelSelected = -1
+iMeaningTranslationCounter = -1
+dicoMeaningsTranslations = {}
+
+def SelectMeaningTranslation(level):
+    global iMeaningTranslationLevelSelected
+    global iMeaningTranslationCounter
+    global dicoMeaningsTranslations
+    iMeaningTranslationLevelSelected = level
+    iMeaningTranslationCounter = -1
+    dicoMeaningsTranslations = {}
+    DisplayNextMeanings()
+
+dicoMeaningEntries = {}
+
+def ContinueToNextMeaning(id):
+    global dicoMeaningEntries
+
+    for meaning in dicoMeaningEntries:
+        for lang in dicoMeaningEntries[meaning]:
+            if(dicoMeaningEntries[meaning][lang].get() != ""):
+                if(not(id in dicoMeaningsTranslations)):
+                    dicoMeaningsTranslations[id] = {}
+                if(not(meaning in dicoMeaningsTranslations[id])):
+                    dicoMeaningsTranslations[id][meaning] = {}
+                dicoMeaningsTranslations[id][meaning][lang] = dicoMeaningEntries[meaning][lang].get()
+
+    DisplayNextMeanings()
+
+def DisplayNextMeanings():
+    global iMeaningTranslationLevelSelected
+    global iMeaningTranslationCounter
+    global root
+    global dicoMeaningEntries
+    global dicoOutput
+
+    iMeaningTranslationCounter += 1
+
+    for child in root.winfo_children():
+        child.destroy()
+    
+    selectedEntry = None
+
+    iCurrentMeanings = 0
+
+    for entry in listInput[iMeaningTranslationLevelSelected]:
+        setTempValidKanaOnlyId = set()
+
+        for level in dicoOutput["SelectedKanaOnly"]:
+            for item in dicoOutput["SelectedKanaOnly"][level]:
+                setTempValidKanaOnlyId.add(item)
+
+        setTempValidVocabularySharedId = set()
+
+        for level in dicoOutput["SelectedVocab"]:
+            for item in dicoOutput["SelectedVocab"][level]:
+                setTempValidVocabularySharedId.add(item)
+
+        if(entry["id"] in setTempValidKanaOnlyId or entry["sharedid"] in setTempValidVocabularySharedId or entry["type"] == "kanji"):
+            if(len(entry["meanings"]) > 0):
+                if(iCurrentMeanings == iMeaningTranslationCounter):
+                    selectedEntry = entry
+                    break
+                else:
+                    iCurrentMeanings += 1
+
+    if(selectedEntry == None):
+        DoneWithMeaningTranslationLevel()
+        return
+
+    dicoMeaningEntries = {}
+
+    label = tkinter.Label(root, text=selectedEntry["display"], width=80)
+    label.config(font=('Arial', FontSize))
+    label.grid(row=0, column=0, columnspan=5)
+
+    button = tkinter.Button(root, text="Continue", command=lambda id=selectedEntry["id"] : ContinueToNextMeaning(id))
+    button.config(font=('Arial', FontSize))
+    button.grid(row=1, column=0, columnspan=5)
+
+    label = tkinter.Label(root, text="Original-en")
+    label.config(font=('Arial', int(FontSize * 0.7)))
+    label.grid(row=2, column=0)
+
+    label = tkinter.Label(root, text="en")
+    label.config(font=('Arial', int(FontSize * 0.7)))
+    label.grid(row=2, column=1)
+
+    label = tkinter.Label(root, text="fr")
+    label.config(font=('Arial', int(FontSize * 0.7)))
+    label.grid(row=2, column=2)
+
+    label = tkinter.Label(root, text="pt")
+    label.config(font=('Arial', int(FontSize * 0.7)))
+    label.grid(row=2, column=3)
+
+    label = tkinter.Label(root, text="es")
+    label.config(font=('Arial', int(FontSize * 0.7)))
+    label.grid(row=2, column=4)
+
+    iCurrentRow = 3
+
+    for meaning in selectedEntry["meanings"]:
+        label = tkinter.Label(root, text=meaning)
+        label.config(font=('Arial', int(FontSize * 0.3)))
+        label.grid(row=iCurrentRow, column=0)
+
+        dicoMeaningEntries[meaning] = {}
+
+        entry = tkinter.Entry(root)
+        entry.config(font=('Arial', int(FontSize * 0.3)))
+        entry.grid(row=iCurrentRow, column=1)
+        dicoMeaningEntries[meaning]["en"] = entry
+
+        if(str(iMeaningTranslationLevelSelected) in dicoOutput["MeaningsTranslations"] and 
+        str(selectedEntry["id"]) in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)] and
+        meaning in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])] and
+        "en" in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]):
+            entry.delete(0, tkinter.END)
+            entry.insert(0, dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]["en"])
+
+        entry = tkinter.Entry(root)
+        entry.config(font=('Arial', int(FontSize * 0.3)))
+        entry.grid(row=iCurrentRow, column=2)
+        dicoMeaningEntries[meaning]["fr"] = entry
+
+        if(str(iMeaningTranslationLevelSelected) in dicoOutput["MeaningsTranslations"] and 
+        str(selectedEntry["id"]) in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)] and
+        meaning in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])] and
+        "fr" in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]):
+            entry.delete(0, tkinter.END)
+            entry.insert(0, dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]["fr"])
+
+        entry = tkinter.Entry(root)
+        entry.config(font=('Arial', int(FontSize * 0.3)))
+        entry.grid(row=iCurrentRow, column=3)
+        dicoMeaningEntries[meaning]["pt"] = entry
+
+        if(str(iMeaningTranslationLevelSelected) in dicoOutput["MeaningsTranslations"] and 
+        str(selectedEntry["id"]) in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)] and
+        meaning in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])] and
+        "pt" in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]):
+            entry.delete(0, tkinter.END)
+            entry.insert(0, dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]["pt"])
+
+        entry = tkinter.Entry(root)
+        entry.config(font=('Arial', int(FontSize * 0.3)))
+        entry.grid(row=iCurrentRow, column=4)
+        dicoMeaningEntries[meaning]["es"] = entry
+
+        if(str(iMeaningTranslationLevelSelected) in dicoOutput["MeaningsTranslations"] and 
+        str(selectedEntry["id"]) in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)] and
+        meaning in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])] and
+        "es" in dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]):
+            entry.delete(0, tkinter.END)
+            entry.insert(0, dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)][str(selectedEntry["id"])][meaning]["es"])
+
+        iCurrentRow += 1
+
+def DoneWithMeaningTranslationLevel():
+    global dicoOutput
+    dicoOutput["MeaningsTranslations"][str(iMeaningTranslationLevelSelected)] = dicoMeaningsTranslations
+    MeaningTranslationSelection()
+
+###
+###
 ### KUN READING BLOCK
 ###
 ###
@@ -412,7 +599,7 @@ button.config(font=('Arial', FontSize))
 button = tkinter.Button(root, text="Vocabulary", command=VocabularySelection)
 button.pack()
 button.config(font=('Arial', FontSize))
-button = tkinter.Button(root, text="Per Item Definition")
+button = tkinter.Button(root, text="Per Item Definition", command=MeaningTranslationSelection)
 button.pack()
 button.config(font=('Arial', FontSize))
 button = tkinter.Button(root, text="Kun reading picker", command=KunReadingSelection)
@@ -452,6 +639,12 @@ for level in dicoSelected["KunReadingSelections"]:
     for item in dicoSelected["KunReadingSelections"][level]:
         dicoKunReadingReplacements[int(item)] = dicoSelected["KunReadingSelections"][level][item]
 
+dicoMeaningsTranslationsAndReplacements = {}
+
+for level in dicoSelected["MeaningsTranslations"]:
+    for item in dicoSelected["MeaningsTranslations"][level]:
+        dicoMeaningsTranslationsAndReplacements[int(item)] = dicoSelected["MeaningsTranslations"][level][item]
+
 listValidKanaOnly = []
 
 for level in listInput:
@@ -472,6 +665,24 @@ iCurrentKanaOnlyCursor = 0
 
 for iLevel, level in enumerate(listOutput):
     for item in listInput[iLevel]:
+        if(item["id"] in dicoMeaningsTranslationsAndReplacements):
+            listemptiedmeanings = []
+            originalmeanings = copy.deepcopy(item["meanings"])
+
+            for i in range(len(originalmeanings)):
+                if(originalmeanings[i] in dicoMeaningsTranslationsAndReplacements[item["id"]]):
+                    for lang in dicoMeaningsTranslationsAndReplacements[item["id"]][originalmeanings[i]]:
+                        if(lang == "en"):
+                            item["meanings"][i] = dicoMeaningsTranslationsAndReplacements[item["id"]][originalmeanings[i]]["en"]
+                        else:
+                            affectedlistname = "meanings_" + lang
+
+                            if(not(affectedlistname in listemptiedmeanings)):
+                                item[affectedlistname] = []
+                                listemptiedmeanings.append(affectedlistname)
+
+                            item[affectedlistname].append(dicoMeaningsTranslationsAndReplacements[item["id"]][originalmeanings[i]][lang])
+
         if(item["type"] == "kanji"):
 
             for iReading, reading in enumerate(item["kun_readings"]):
