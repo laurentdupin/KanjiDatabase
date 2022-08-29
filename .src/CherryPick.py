@@ -144,7 +144,14 @@ def DisplayNextKanaOnlyChoice():
     label.config(font=('Arial', FontSize))
     label.grid(row=0, column=0, columnspan=2)
 
-    label = tkinter.Label(root, text=selectedEntry["meanings"][0])
+    displaymeaning = ""
+
+    if(selectedEntry["id"] != selectedEntry["sharedid"]):
+        displaymeaning = dicoItemPerId[selectedEntry["sharedid"]]["meanings"][0]
+    else:
+        displaymeaning = selectedEntry["meanings"][0]
+
+    label = tkinter.Label(root, text=displaymeaning)
     label.config(font=('Arial', int(FontSize * 0.7)))
     label.grid(row=1, column=0, columnspan=2)
 
@@ -385,12 +392,13 @@ def DisplayNextMeanings():
 
     for iPosition, entry in enumerate(listInput[iMeaningTranslationLevelSelected]):
         setTempValidKanaOnlyId = set()
+        setTempValidVocabularySharedId = set()
 
         for level in dicoOutput["SelectedKanaOnly"]:
             for item in dicoOutput["SelectedKanaOnly"][level]:
                 setTempValidKanaOnlyId.add(item)
-
-        setTempValidVocabularySharedId = set()
+                if(dicoItemPerId[item]["id"] != dicoItemPerId[item]["sharedid"]):
+                    setTempValidVocabularySharedId.add(dicoItemPerId[item]["sharedid"])
 
         for level in dicoOutput["SelectedVocab"]:
             for item in dicoOutput["SelectedVocab"][level]:
@@ -718,12 +726,13 @@ for level in listInput:
     listOutput.append([])
 
 setValidKanaOnlyId = set()
+setValidVocabularySharedId = set()
 
 for level in dicoSelected["SelectedKanaOnly"]:
     for item in dicoSelected["SelectedKanaOnly"][level]:
         setValidKanaOnlyId.add(item)
-
-setValidVocabularySharedId = set()
+        if(dicoItemPerId[item]["id"] != dicoItemPerId[item]["sharedid"]):
+            setValidVocabularySharedId.add(dicoItemPerId[item]["sharedid"])
 
 for level in dicoSelected["SelectedVocab"]:
     for item in dicoSelected["SelectedVocab"][level]:
@@ -757,10 +766,7 @@ for level in listInput:
 for level in listInput:
     for item in level:
         if(item["type"] == "vocab_kana" and item["id"] in dicoKanaOnlySharedIds):
-            item["meanings"] = dicoItemPerId[dicoKanaOnlySharedIds[item["id"]]]["meanings"]
-            item["meanings_fr"] = dicoItemPerId[dicoKanaOnlySharedIds[item["id"]]]["meanings_fr"]
-            item["meanings_es"] = dicoItemPerId[dicoKanaOnlySharedIds[item["id"]]]["meanings_es"]
-            item["meanings_pt"] = dicoItemPerId[dicoKanaOnlySharedIds[item["id"]]]["meanings_pt"]
+            item["sharedid"] = dicoKanaOnlySharedIds[item["id"]]
             
 
 iCurrentKanaOnlyCursor = 0
@@ -783,7 +789,8 @@ for iLevel, level in enumerate(listOutput):
                                 item[affectedlistname] = []
                                 listemptiedmeanings.append(affectedlistname)
 
-                            item[affectedlistname].append(dicoMeaningsTranslationsAndReplacements[item["id"]][originalmeanings[i]][lang])
+                            if(not(dicoMeaningsTranslationsAndReplacements[item["id"]][originalmeanings[i]][lang] in item[affectedlistname])):
+                                item[affectedlistname].append(dicoMeaningsTranslationsAndReplacements[item["id"]][originalmeanings[i]][lang])
 
         if(item["type"] == "kanji"):
 

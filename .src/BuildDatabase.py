@@ -134,6 +134,8 @@ jmdictroot = jmdict.getroot()
 
 listEntries = []
 
+iCurrentEntryId = 0
+
 for child in jmdictroot.getchildren():
     
     if(child.tag == "entry"):
@@ -152,7 +154,8 @@ for child in jmdictroot.getchildren():
             "usually_kana" : False,
             "pri" : [],
             "reading_in_freq_list" : False,
-            "otherMeanings" : []
+            "otherMeanings" : [],
+            "entryid" : -1
         }
 
         listKanjiReadings = []
@@ -229,6 +232,8 @@ for child in jmdictroot.getchildren():
                             dicoEntry["meanings_pt"].append(child3.text)
 
         if(dicoEntry["reading"] != ""):
+            dicoEntry["entryid"] = iCurrentEntryId
+            iCurrentEntryId += 1
             listEntries.append(dicoEntry)
 
 listMainReading = []
@@ -417,6 +422,8 @@ iId = 0
 
 kanaonlyinterval = len(listKanaOnly) // 100
 
+dicoUsuallyKanaEntries = {}
+
 for i in range(1, 101):
     level = []
 
@@ -438,6 +445,7 @@ for i in range(1, 101):
             dicoEntry["display"] = kana["reading"]
         else:
             dicoEntry["display"] = kana["altKanaReadings"][0]
+            dicoUsuallyKanaEntries[kana["entryid"]] = dicoEntry
 
         iId += 1
         level.append(dicoEntry)
@@ -537,6 +545,7 @@ for entry in listEntries:
     readinglist = list(dict.fromkeys(readinglist))
 
     sharedid = iId
+    bAddedOne = False
 
     for iReading, reading in enumerate(readinglist):
         levelreading = -1
@@ -566,6 +575,23 @@ for entry in listEntries:
 
             iId += 1
             listLevels[levelreading].append(dicoCopy)
+            bAddedOne = True
+
+    if(bAddedOne):
+        if(entry["entryid"] in dicoUsuallyKanaEntries):
+            dicoUsuallyKanaEntries[entry["entryid"]]["sharedid"] = sharedid
+            dicoUsuallyKanaEntries[entry["entryid"]]["meanings"] = []
+            dicoUsuallyKanaEntries[entry["entryid"]]["meanings_fr"] = []
+            dicoUsuallyKanaEntries[entry["entryid"]]["meanings_es"] = []
+            dicoUsuallyKanaEntries[entry["entryid"]]["meanings_pt"] = []
+
+        for otherentry in entry["otherMeanings"]:
+            if(otherentry["entryid"] in dicoUsuallyKanaEntries):
+                dicoUsuallyKanaEntries[otherentry["entryid"]]["sharedid"] = sharedid
+                dicoUsuallyKanaEntries[otherentry["entryid"]]["meanings"] = []
+                dicoUsuallyKanaEntries[otherentry["entryid"]]["meanings_fr"] = []
+                dicoUsuallyKanaEntries[otherentry["entryid"]]["meanings_es"] = []
+                dicoUsuallyKanaEntries[otherentry["entryid"]]["meanings_pt"] = []
 
 setDeletedIds = set()
 
