@@ -404,6 +404,10 @@ def DisplayNextMeanings():
             for item in dicoOutput["SelectedVocab"][level]:
                 setTempValidVocabularySharedId.add(item)
 
+        for level in dicoSelected["KanaOnlySharedIds"]:
+            for item in dicoSelected["KanaOnlySharedIds"][level]:
+                setTempValidVocabularySharedId.add(int(dicoSelected["KanaOnlySharedIds"][level][item]))
+
         if(entry["id"] in setTempValidKanaOnlyId or entry["sharedid"] in setTempValidVocabularySharedId or entry["type"] == "kanji"):
             if(iCurrentMeanings == iMeaningTranslationCounter):
                 selectedEntry = entry
@@ -738,11 +742,13 @@ for level in dicoSelected["SelectedVocab"]:
     for item in dicoSelected["SelectedVocab"][level]:
         setValidVocabularySharedId.add(item)
 
+
 dicoKanaOnlySharedIds = {}
 
 for level in dicoSelected["KanaOnlySharedIds"]:
     for item in dicoSelected["KanaOnlySharedIds"][level]:
         dicoKanaOnlySharedIds[int(item)] = int(dicoSelected["KanaOnlySharedIds"][level][item])
+        setValidVocabularySharedId.add(dicoKanaOnlySharedIds[int(item)])
 
 dicoKunReadingReplacements = {}
 
@@ -767,7 +773,10 @@ for level in listInput:
     for item in level:
         if(item["type"] == "vocab_kana" and item["id"] in dicoKanaOnlySharedIds):
             item["sharedid"] = dicoKanaOnlySharedIds[item["id"]]
-            
+            item["meanings"] = []
+            item["meanings_fr"] = []
+            item["meanings_es"] = []
+            item["meanings_pt"] = []
 
 iCurrentKanaOnlyCursor = 0
 

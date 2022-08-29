@@ -7532,12 +7532,7 @@
    "display": "こと",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "particle indicating a command",
-    "particle indicating mild enthusiasm",
-    "particle indicating a gentle interrogative",
-    "particle used to soften a judgment or conclusion"
-   ],
+   "meanings": [],
    "meanings_fr": [],
    "meanings_es": [],
    "meanings_pt": []
@@ -7678,11 +7673,7 @@
    "display": "もの",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "indicates reason or excuse",
-    "indicates dissatisfaction",
-    "indicates desire to be pampered or indulged"
-   ],
+   "meanings": [],
    "meanings_fr": [],
    "meanings_es": [],
    "meanings_pt": []
@@ -7706,17 +7697,9 @@
    "display": "これ",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "hey",
-    "oi",
-    "come on",
-    "look",
-    "listen"
-   ],
+   "meanings": [],
    "meanings_fr": [],
-   "meanings_es": [
-    "esto"
-   ],
+   "meanings_es": [],
    "meanings_pt": []
   },
   {
@@ -14038,17 +14021,9 @@
    "display": "それ",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "there!",
-    "look!",
-    "go on!",
-    "right!",
-    "here goes!"
-   ],
+   "meanings": [],
    "meanings_fr": [],
-   "meanings_es": [
-    "eso"
-   ],
+   "meanings_es": [],
    "meanings_pt": []
   },
   {
@@ -18763,6 +18738,102 @@
    "meanings_pt": []
   },
   {
+   "id": 14789736600399045825,
+   "sharedid": 14789736600399045825,
+   "type": "vocab",
+   "display": "取る",
+   "readings": [
+    "とる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to take",
+    "to pick up",
+    "to grab",
+    "to catch",
+    "to pass",
+    "to hand",
+    "to give",
+    "to get",
+    "to obtain",
+    "to acquire",
+    "to win",
+    "to receive",
+    "to earn",
+    "to take (e.g. a vacation)",
+    "to adopt (a method, proposal, etc.)",
+    "to take (a measure, attitude, etc.)",
+    "to choose",
+    "to remove",
+    "to get rid of",
+    "to take off",
+    "to take away",
+    "to steal",
+    "to rob",
+    "to eat",
+    "to have (e.g. lunch)",
+    "to take (e.g. vitamins)",
+    "to pick (e.g. flowers)",
+    "to gather",
+    "to extract (e.g. juice)",
+    "to catch (e.g. fish)",
+    "to take up (time, space)",
+    "to occupy",
+    "to spare",
+    "to set aside",
+    "to secure",
+    "to reserve",
+    "to save",
+    "to put aside",
+    "to keep",
+    "to take (e.g. a joke)",
+    "to interpret",
+    "to understand",
+    "to make out",
+    "to grasp",
+    "to record",
+    "to take down",
+    "to subscribe to (e.g. a newspaper)",
+    "to take",
+    "to buy",
+    "to get",
+    "to order",
+    "to have delivered",
+    "to charge",
+    "to fine",
+    "to take (tax)",
+    "to take (e.g. a wife)",
+    "to take on (e.g. an apprentice)",
+    "to adopt",
+    "to accept",
+    "to compete (in sumo, cards, etc.)",
+    "to play"
+   ],
+   "meanings_es": [
+    "tomar",
+    "coger",
+    "cosechar",
+    "ganar"
+   ],
+   "meanings_fr": [
+    "prendre",
+    "ramasser",
+    "récolter",
+    "gagner",
+    "remporter",
+    "choisir",
+    "voler",
+    "dérober",
+    "cambrioler",
+    "manger",
+    "prendre (un repas)",
+    "enlever (ses lunettes, etc.)",
+    "concourir (au sumo, aux cartes, etc.)",
+    "jouer"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 10195362386556264048,
    "sharedid": 10195362386556264048,
    "type": "vocab",
@@ -19423,13 +19494,7 @@
    "display": "なる",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "that is in",
-    "who is called",
-    "that is called",
-    "that is",
-    "I see"
-   ],
+   "meanings": [],
    "meanings_fr": [],
    "meanings_es": [],
    "meanings_pt": []
@@ -20482,6 +20547,18 @@
    ]
   },
   {
+   "id": 14485636918957339699,
+   "sharedid": 9080856878843173908,
+   "type": "vocab",
+   "display": "維",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 2836219324507196421,
    "sharedid": 16191396989902015838,
    "type": "vocab",
@@ -20503,6 +20580,60 @@
    "meanings": [],
    "meanings_es": [],
    "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 7081890360342666097,
+   "sharedid": 7081890360342666097,
+   "type": "vocab",
+   "display": "持つ",
+   "readings": [
+    "もつ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to hold (in one's hand)",
+    "to take",
+    "to carry",
+    "to possess",
+    "to have",
+    "to own",
+    "to maintain",
+    "to keep",
+    "to last",
+    "to be durable",
+    "to keep",
+    "to survive",
+    "to take charge of",
+    "to be in charge of",
+    "to hold (meeting, etc.)",
+    "to have (opportunity, etc.)",
+    "to have \"it\"",
+    "to have that special something",
+    "to be blessed with good luck"
+   ],
+   "meanings_es": [
+    "llevar",
+    "cargar",
+    "sostener",
+    "poseer"
+   ],
+   "meanings_fr": [
+    "tenir (dans ses mains)",
+    "porter",
+    "posséder",
+    "avoir",
+    "maintenir",
+    "garder",
+    "conserver",
+    "durer",
+    "être durable",
+    "se maintenir",
+    "survivre",
+    "se conserver",
+    "se charger de",
+    "être chargé de"
+   ],
    "meanings_pt": []
   },
   {
@@ -22363,20 +22494,9 @@
    "display": "かかる",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "to contract (a disease)",
-    "to suffer from"
-   ],
-   "meanings_fr": [
-    "être atteint",
-    "être frappé de (paralysie)",
-    "attraper",
-    "contracter",
-    "souffrir de"
-   ],
-   "meanings_es": [
-    "sufrir de"
-   ],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
    "meanings_pt": []
   },
   {
@@ -23513,6 +23633,56 @@
    "meanings_pt": []
   },
   {
+   "id": 210936118236737593,
+   "sharedid": 210936118236737593,
+   "type": "vocab",
+   "display": "彼",
+   "readings": [
+    "あれ",
+    "あ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "that",
+    "that thing",
+    "that person",
+    "then",
+    "that time",
+    "that place (over there)",
+    "down there (i.e. one's genitals)",
+    "period",
+    "menses",
+    "he",
+    "him",
+    "boyfriend"
+   ],
+   "meanings_es": [
+    "aquello",
+    "aquél",
+    "aquella",
+    "él",
+    "novio"
+   ],
+   "meanings_fr": [
+    "çà (indique quelque chose de distant du locuteur et de l'auditeur, (dans le temps, l'espace ou psychologiquement), ou quelque chose de compréhensible implicitement)",
+    "celui-là",
+    "cette personne (utilisé pour faire référence à ses égaux ou inférieurs)",
+    "là-bas",
+    "en bas (par ex. les organes génitaux)",
+    "règles",
+    "menstruations",
+    "hé (expression de surprise, de suspicion, etc.)",
+    "hein ?",
+    "quoi ?",
+    "ça (quelque chose de mentionné précédemment qui est éloigné psychologiquement ou en termes de temps)",
+    "il",
+    "lui",
+    "son",
+    "petit ami"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 15793755963129234235,
    "sharedid": 15793755963129234235,
    "type": "vocab",
@@ -23805,6 +23975,97 @@
    "meanings_pt": []
   },
   {
+   "id": 13354739529695795681,
+   "sharedid": 13354739529695795681,
+   "type": "vocab",
+   "display": "成る",
+   "readings": [
+    "なる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to become",
+    "to get",
+    "to grow",
+    "to turn",
+    "to reach",
+    "to attain",
+    "to result in",
+    "to turn out",
+    "to end up",
+    "to prove (to be)",
+    "to consist of",
+    "to be composed of",
+    "to be made up of",
+    "to be completed",
+    "to be realized",
+    "to succeed",
+    "to be attained",
+    "to be accomplished",
+    "to change (into)",
+    "to turn (into)",
+    "to transform",
+    "to come (to do)",
+    "to begin (to do)",
+    "to grow (to do)",
+    "to come to",
+    "to amount to",
+    "to add up to",
+    "to make",
+    "to play (the part of)",
+    "to act as",
+    "to be used for",
+    "to be useful for",
+    "to serve as",
+    "to be promoted",
+    "to do ..."
+   ],
+   "meanings_es": [
+    "convertirse en",
+    "llegar a ser",
+    "ponerse",
+    "hacerse",
+    "volverse",
+    "obtener",
+    "crecer",
+    "alcanzar a",
+    "lograr",
+    "realizar",
+    "resultar en",
+    "probar ser",
+    "consistir de",
+    "estar integrado por",
+    "tener éxito",
+    "completarse",
+    "cambiar en",
+    "intercambiarse por",
+    "jugar un rol",
+    "promoverse (shogi)"
+   ],
+   "meanings_fr": [
+    "devenir",
+    "s'établir",
+    "être",
+    "atteindre",
+    "accéder à",
+    "passer",
+    "aboutir à",
+    "mener à",
+    "s'avérer être",
+    "consister en",
+    "être composé de",
+    "réussir",
+    "être complet",
+    "être achevé",
+    "se changer en",
+    "être échangé contre",
+    "jouer un rôle",
+    "être promu",
+    "faire"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 16036450792025762380,
    "sharedid": 1452338442164641750,
    "type": "vocab",
@@ -23981,6 +24242,18 @@
    "sharedid": 2835613014568149804,
    "type": "vocab",
    "display": "彼の人",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2157198468505017509,
+   "sharedid": 17059274468881746138,
+   "type": "vocab",
+   "display": "成す",
    "readings": [],
    "kun_readings": [],
    "meanings": [],
@@ -25470,6 +25743,77 @@
    "meanings_pt": []
   },
   {
+   "id": 13573624954293843426,
+   "sharedid": 13573624954293843426,
+   "type": "vocab",
+   "display": "為",
+   "readings": [
+    "す"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to do",
+    "good",
+    "advantage",
+    "benefit",
+    "welfare",
+    "sake",
+    "purpose",
+    "objective",
+    "aim",
+    "consequence",
+    "result",
+    "effect",
+    "affecting",
+    "regarding",
+    "concerning"
+   ],
+   "meanings_es": [
+    "hacer (forma literaria de suru)",
+    "bien",
+    "beneficio",
+    "ventaja",
+    "bienestar",
+    "por",
+    "a fin de",
+    "para",
+    "a causa de",
+    "propósito",
+    "objetivo",
+    "consecuencia",
+    "resultado",
+    "efecto",
+    "en relación",
+    "sobre"
+   ],
+   "meanings_fr": [
+    "bien",
+    "avantage",
+    "bénéfice",
+    "bien-être",
+    "but",
+    "objectif",
+    "conséquence",
+    "résultat",
+    "effet",
+    "à propos de",
+    "concernant"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16023023928400473518,
+   "sharedid": 13573624954293843426,
+   "type": "vocab",
+   "display": "為め",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 11072065871043479877,
    "sharedid": 11072065871043479877,
    "type": "vocab",
@@ -25717,6 +26061,70 @@
    "meanings_pt": []
   },
   {
+   "id": 17059274468881746138,
+   "sharedid": 17059274468881746138,
+   "type": "vocab",
+   "display": "為す",
+   "readings": [
+    "なす"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to build up",
+    "to establish",
+    "to form",
+    "to become (a state)",
+    "to accomplish",
+    "to achieve",
+    "to succeed in",
+    "to change into",
+    "to do",
+    "to perform",
+    "to intend to",
+    "to attempt",
+    "to try"
+   ],
+   "meanings_es": [
+    "elaborar",
+    "establecer",
+    "formar",
+    "convertirse",
+    "ponerse",
+    "hacerse",
+    "volverse etc. (cambios de estado)",
+    "tratar de",
+    "intentar",
+    "lograr",
+    "realizar",
+    "llevar a cabo",
+    "tener éxito",
+    "cambiar en",
+    "hacer",
+    "desempeñar",
+    "intentar de",
+    "tratar de",
+    "tener un niño",
+    "ejecutar",
+    "realizar"
+   ],
+   "meanings_fr": [
+    "développer",
+    "établir",
+    "former",
+    "devenir (un état)",
+    "accomplir",
+    "atteindre",
+    "réussir",
+    "se transformer en",
+    "faire",
+    "effectuer",
+    "avoir l'intention de",
+    "tenter",
+    "essayer"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 15910963458656266847,
    "sharedid": 11212362259522737617,
    "type": "vocab_kana",
@@ -25892,11 +26300,7 @@
    "display": "ころ",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "roller",
-    "runner",
-    "dried whale blubber"
-   ],
+   "meanings": [],
    "meanings_fr": [],
    "meanings_es": [],
    "meanings_pt": []
@@ -29343,12 +29747,7 @@
    "display": "もつ",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "entrails",
-    "giblets",
-    "guts",
-    "internal organs"
-   ],
+   "meanings": [],
    "meanings_fr": [],
    "meanings_es": [],
    "meanings_pt": []
@@ -29446,13 +29845,7 @@
    "display": "がち",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "serious",
-    "earnest",
-    "honest",
-    "real",
-    "legit"
-   ],
+   "meanings": [],
    "meanings_fr": [],
    "meanings_es": [],
    "meanings_pt": []
@@ -29516,9 +29909,7 @@
    "display": "もし",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "excuse me! (when calling out to someone)"
-   ],
+   "meanings": [],
    "meanings_fr": [],
    "meanings_es": [],
    "meanings_pt": []
@@ -30451,6 +30842,18 @@
     "negativa",
     "injustiça"
    ]
+  },
+  {
+   "id": 4310302637182006841,
+   "sharedid": 9080856878843173908,
+   "type": "vocab",
+   "display": "是れ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
   },
   {
    "id": 16640466484430942916,
@@ -32278,10 +32681,7 @@
    "display": "たまたま",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "testicles",
-    "balls"
-   ],
+   "meanings": [],
    "meanings_fr": [],
    "meanings_es": [],
    "meanings_pt": []
@@ -33768,9 +34168,7 @@
    "display": "だんだん",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "thank you (dialect from the Izumo region of Shimane Prefecture)"
-   ],
+   "meanings": [],
    "meanings_fr": [],
    "meanings_es": [],
    "meanings_pt": []
@@ -33866,10 +34264,7 @@
    "display": "ため",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "the same (age, social status)",
-    "peer"
-   ],
+   "meanings": [],
    "meanings_fr": [],
    "meanings_es": [],
    "meanings_pt": []
@@ -34999,6 +35394,54 @@
     "sans cesse",
     "toujours",
     "tout le temps"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4859448526435556070,
+   "sharedid": 4859448526435556070,
+   "type": "vocab",
+   "display": "去る",
+   "readings": [
+    "さる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to leave",
+    "to go away",
+    "to pass",
+    "to elapse",
+    "to be distant",
+    "to send away",
+    "to drive off",
+    "to divorce",
+    "to (do) completely",
+    "last ... (e.g. \"last April\")"
+   ],
+   "meanings_es": [
+    "salir",
+    "irse",
+    "pasar",
+    "transcurrir",
+    "ser distante",
+    "echar",
+    "alejar",
+    "apartar",
+    "divorciar",
+    "(después de la raíz -masu, esp. de un verbo suru) completamente",
+    "pasado (ej. abril pasado)"
+   ],
+   "meanings_fr": [
+    "partir",
+    "quitter",
+    "passer",
+    "s'écouler",
+    "être éloigné",
+    "renvoyer",
+    "chasser",
+    "divorcer",
+    "... complètement",
+    "... dernier (par ex. « avril dernier »)"
    ],
    "meanings_pt": []
   },
@@ -36288,6 +36731,18 @@
     "nossa casa",
     "meu marido"
    ]
+  },
+  {
+   "id": 3766884592121685156,
+   "sharedid": 9080856878843173908,
+   "type": "vocab",
+   "display": "之れ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
   },
   {
    "id": 7942549978941852946,
@@ -39143,9 +39598,7 @@
    "display": "とる",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "to be ...-ing"
-   ],
+   "meanings": [],
    "meanings_fr": [],
    "meanings_es": [],
    "meanings_pt": []
@@ -40463,10 +40916,7 @@
    "display": "さい",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "so",
-    "like that"
-   ],
+   "meanings": [],
    "meanings_fr": [],
    "meanings_es": [],
    "meanings_pt": []
@@ -40714,16 +41164,9 @@
    "display": "なす",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "eggplant (Solanum melongena)",
-    "aubergine"
-   ],
-   "meanings_fr": [
-    "aubergine"
-   ],
-   "meanings_es": [
-    "berenjena (Solanum melongena)"
-   ],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
    "meanings_pt": []
   },
   {
@@ -41736,6 +42179,63 @@
    "meanings_pt": []
   },
   {
+   "id": 6315478432371764176,
+   "sharedid": 12918184905835682595,
+   "type": "vocab",
+   "display": "懸かる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4469868168540569676,
+   "sharedid": 12918184905835682595,
+   "type": "vocab",
+   "display": "懸る",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2651889344912106562,
+   "sharedid": 2651889344912106562,
+   "type": "vocab",
+   "display": "段々",
+   "readings": [
+    "だんだん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "gradually",
+    "by degrees",
+    "little by little",
+    "more and more",
+    "increasingly",
+    "steps",
+    "stairs",
+    "staircase",
+    "terrace"
+   ],
+   "meanings_es": [
+    "gradualmente"
+   ],
+   "meanings_fr": [
+    "progressivement",
+    "graduellement",
+    "peu à peu",
+    "petit à petit",
+    "au fur et à mesur",
+    "de plus en plus"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 2018363747267538458,
    "sharedid": 18049080637839905728,
    "type": "vocab_kana",
@@ -41778,20 +42278,9 @@
    "display": "あれ",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "huh?",
-    "eh?",
-    "what?",
-    "oh",
-    "hey!",
-    "look!",
-    "listen!",
-    "help!"
-   ],
+   "meanings": [],
    "meanings_fr": [],
-   "meanings_es": [
-    "eso"
-   ],
+   "meanings_es": [],
    "meanings_pt": []
   },
   {
@@ -41953,12 +42442,7 @@
    "display": "ほう",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "oh",
-    "ho",
-    "hoo (owl call)",
-    "toot (sound of a flute)"
-   ],
+   "meanings": [],
    "meanings_fr": [],
    "meanings_es": [],
    "meanings_pt": []
@@ -43422,13 +43906,7 @@
    "display": "がた",
    "readings": [],
    "kun_readings": [],
-   "meanings": [
-    "decrepitude",
-    "(being) rickety",
-    "(state of) falling apart",
-    "looseness (in machinery)",
-    "play"
-   ],
+   "meanings": [],
    "meanings_fr": [],
    "meanings_es": [],
    "meanings_pt": []
@@ -44791,6 +45269,96 @@
    "sharedid": 2037994485699276525,
    "type": "vocab",
    "display": "見掛ける",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12918184905835682595,
+   "sharedid": 12918184905835682595,
+   "type": "vocab",
+   "display": "掛かる",
+   "readings": [
+    "かかる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to take (a resource, e.g. time or money)",
+    "to hang",
+    "to come into view",
+    "to arrive",
+    "to come under (a contract, a tax)",
+    "to start (engines, motors)",
+    "to attend",
+    "to deal with",
+    "to handle",
+    "to have started to",
+    "to be on the verge of",
+    "to overlap (e.g. information in a manual)",
+    "to cover",
+    "to (come) at",
+    "to be fastened",
+    "to be covered (e.g. with dust, a table-cloth, etc.)",
+    "to be caught in",
+    "to get a call",
+    "to depend on"
+   ],
+   "meanings_es": [
+    "tomarse (tiempo",
+    "dinero)",
+    "colgar",
+    "aparecer",
+    "llegar",
+    "venir bajo un (contrato, impuesto)",
+    "arrancar (motor, máquinas)",
+    "tratar con",
+    "hacer comenzado a",
+    "estar al límite de",
+    "(venir a) atacar",
+    "coincidir en parte (un manual)",
+    "cubrir",
+    "atacar",
+    "estar sujeto",
+    "cubrirse (con polvo, mesa con ropa, etc)",
+    "estar atrapado",
+    "tener una llamada",
+    "depender (de)",
+    "estar colgado de",
+    "estar atrapado"
+   ],
+   "meanings_fr": [
+    "prendre (une ressource, par ex. du temps ou de l'argent)",
+    "pendre",
+    "être couvert (par exemple avec de la poussière, une nappe, etc.)",
+    "être pris dans",
+    "recevoir un appel",
+    "dépendre de",
+    "apparaître",
+    "arriver",
+    "être soumis à (une taxe)",
+    "être régi par (un contrat)",
+    "démarrer (un moteur)",
+    "s'occuper de",
+    "traiter",
+    "faire face à",
+    "avoir commencé à",
+    "s'apprêter à",
+    "se chevaucher (par ex. des informations dans un manuel)",
+    "empiéter sur",
+    "couvrir",
+    "en (venir) à",
+    "être fixé"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15411804305983325933,
+   "sharedid": 12918184905835682595,
+   "type": "vocab",
+   "display": "掛る",
    "readings": [],
    "kun_readings": [],
    "meanings": [],
@@ -46690,6 +47258,35 @@
    "meanings_pt": []
   },
   {
+   "id": 17914054802319723744,
+   "sharedid": 17914054802319723744,
+   "type": "vocab",
+   "display": "其れ",
+   "readings": [
+    "それ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "that",
+    "it",
+    "then",
+    "that point (in time)",
+    "that time",
+    "there",
+    "you"
+   ],
+   "meanings_es": [
+    "eso",
+    "ello",
+    "ése",
+    "ésa"
+   ],
+   "meanings_fr": [
+    "ce"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 18165726859736000879,
    "sharedid": 16134666047120258340,
    "type": "vocab",
@@ -46912,6 +47509,67 @@
     "tout de même",
     "quand même",
     "nonobstant"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15387270719911982799,
+   "sharedid": 15387270719911982799,
+   "type": "vocab",
+   "display": "型",
+   "readings": [
+    "かた",
+    "がた"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "type",
+    "style",
+    "model",
+    "pattern",
+    "mold",
+    "mould",
+    "model",
+    "pattern",
+    "template",
+    "impression",
+    "kata (set sequence of positions and movements in martial arts)",
+    "style (in kabuki, noh, etc.)",
+    "form",
+    "convention",
+    "tradition",
+    "(standard) form",
+    "formula",
+    "usage",
+    "(set) size",
+    "inches (in sizes of displays, disks, image sensors, etc.)",
+    "(taxonomical) form"
+   ],
+   "meanings_es": [
+    "modelo",
+    "tipo",
+    "estilo",
+    "patrón",
+    "molde",
+    "kata (forma estandar de un movimiento, postura en deportes, artes marciales, etc)",
+    "forma",
+    "tamaño (ropa, calzado, etc)",
+    "(taxonomía) forma"
+   ],
+   "meanings_fr": [
+    "modèle",
+    "type (par ex. de machine, de produit, etc.)",
+    "type",
+    "style",
+    "motif",
+    "moule",
+    "gabarit",
+    "modèle",
+    "patron",
+    "kata (forme standard d'un mouvement, d'une posture, etc. dans les arts martiaux, le sport, etc.)",
+    "formulaire",
+    "taille (de vêtement ou de chaussure)",
+    "forme (taxinomique)"
    ],
    "meanings_pt": []
   },
@@ -48010,6 +48668,61 @@
     "ce (quelque chose ou quelqu'un proche du locuteur (incluant le locuteur), ou des idées exprimés par le locuteur)",
     "celui-ci",
     "celui-là"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9080856878843173908,
+   "sharedid": 9080856878843173908,
+   "type": "vocab",
+   "display": "此れ",
+   "readings": [
+    "これ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "this",
+    "this one",
+    "this person",
+    "now",
+    "this point (in time)",
+    "here",
+    "used to stress the subject of a sentence",
+    "I",
+    "me"
+   ],
+   "meanings_es": [
+    "esto",
+    "éste",
+    "ésta",
+    "éstos",
+    "éstas",
+    "esta persona",
+    "ahora",
+    "aquí",
+    "yo (mi)",
+    "claramente",
+    "por supuesto",
+    "esto",
+    "éste",
+    "ésta",
+    "esta persona",
+    "ahora",
+    "aquí",
+    "yo (mi)",
+    "seguramente",
+    "esto",
+    "éste",
+    "ésta",
+    "esta persona (usu. indicando a alguien del grupo)",
+    "ahora",
+    "aquí",
+    "Yo (mi)",
+    "claramente",
+    "por supuesto"
+   ],
+   "meanings_fr": [
+    "cet"
    ],
    "meanings_pt": []
   },
@@ -50580,6 +51293,18 @@
    ]
   },
   {
+   "id": 9562963681281735957,
+   "sharedid": 9080856878843173908,
+   "type": "vocab",
+   "display": "惟",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 16789600669604072175,
    "sharedid": 16789600669604072175,
    "type": "vocab",
@@ -50723,6 +51448,32 @@
    "meanings_fr": [
     "combien ?",
     "quel âge ?"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15032560293403894365,
+   "sharedid": 15032560293403894365,
+   "type": "vocab",
+   "display": "若し",
+   "readings": [
+    "もし"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "if",
+    "in case",
+    "supposing"
+   ],
+   "meanings_es": [
+    "si",
+    "en caso de",
+    "supuesto que"
+   ],
+   "meanings_fr": [
+    "si",
+    "au cas où",
+    "en supposant"
    ],
    "meanings_pt": []
   },
@@ -65118,6 +65869,40 @@
    "meanings_pt": []
   },
   {
+   "id": 12905147334976871793,
+   "sharedid": 12905147334976871793,
+   "type": "vocab",
+   "display": "頃",
+   "readings": [
+    "ころ",
+    "ごろ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "(approximate) time",
+    "around",
+    "about",
+    "toward",
+    "suitable time (or condition)",
+    "time of year",
+    "season",
+    "qing (Chinese unit of land area equal to 100 mu)"
+   ],
+   "meanings_es": [
+    "vez",
+    "ocasión",
+    "tiempo",
+    "alrededor de (tiempo)",
+    "aproximadamente (tiempo)"
+   ],
+   "meanings_fr": [
+    "moment (ou condition) opportun",
+    "période de l'année",
+    "saison"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 14539519547824610264,
    "sharedid": 16951644353716492333,
    "type": "vocab",
@@ -71976,6 +72761,18 @@
     "over a period of ...",
     "over a span of ..."
    ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1765981763798882727,
+   "sharedid": 4859448526435556070,
+   "type": "vocab",
+   "display": "避る",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
@@ -82938,6 +83735,45 @@
    "meanings_pt": [
     "planta de arroz"
    ]
+  },
+  {
+   "id": 13615060594619590399,
+   "sharedid": 13615060594619590399,
+   "type": "vocab",
+   "display": "偶々",
+   "readings": [
+    "たまたま"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "occasionally",
+    "once in a while",
+    "seldom",
+    "casually",
+    "unexpectedly",
+    "accidentally",
+    "by chance"
+   ],
+   "meanings_es": [
+    "casualmente",
+    "por casualidad"
+   ],
+   "meanings_fr": [
+    "par hasard"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12934927543247537986,
+   "sharedid": 13615060594619590399,
+   "type": "vocab",
+   "display": "偶偶",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
   },
   {
    "id": 5153135076108853202,
@@ -94347,6 +95183,28 @@
     "pêne en bois (pour tenir une porte ou une fenêtre fermé)",
     "fermoir utilisé pour contrôler la hauteur d'une crémaillère",
     "prostitué(e) d'un « établissement de bains »"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7908661914886188608,
+   "sharedid": 7908661914886188608,
+   "type": "vocab",
+   "display": "雅致",
+   "readings": [
+    "がち"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "artistry",
+    "good taste",
+    "elegance",
+    "grace"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [
+    "élégance",
+    "bon goût"
    ],
    "meanings_pt": []
   }
