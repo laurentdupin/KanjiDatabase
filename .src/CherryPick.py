@@ -835,6 +835,24 @@ for iLevel, level in enumerate(listOutput):
     if(iLevel * 10 < len(listValidKanaOnly)):
         level.extend(listValidKanaOnly[iLevel * 10: min((iLevel + 1) * 10, len(listValidKanaOnly))])
 
+for iLevel, level in enumerate(listOutput):
+    for item in listOutput[iLevel]:
+        while(None in item["readings"]):
+            print("r", item["display"])
+            item["readings"].remove(None)
+        while(None in item["meanings"]):
+            print("en", item["display"])
+            item["meanings"].remove(None)
+        while(None in item["meanings_fr"]):
+            print("fr", item["display"])
+            item["meanings_fr"].remove(None)
+        while(None in item["meanings_es"]):
+            print("es", item["display"])
+            item["meanings_es"].remove(None)
+        while(None in item["meanings_pt"]):
+            print("pt", item["display"])
+            item["meanings_pt"].remove(None)
+
 
 json.dump(listOutput, open("../Output/Levels.json", "w", encoding="utf8"), ensure_ascii=False, indent=1)
 
