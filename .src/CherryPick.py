@@ -832,8 +832,8 @@ for iLevel, level in enumerate(listOutput):
                 continue
             level.append(item)
 
-    if(iLevel * 20 < len(listValidKanaOnly)):
-        level.extend(listValidKanaOnly[iLevel * 20: min((iLevel + 1) * 20, len(listValidKanaOnly))])
+    if(iLevel * 10 < len(listValidKanaOnly)):
+        level.extend(listValidKanaOnly[iLevel * 10: min((iLevel + 1) * 10, len(listValidKanaOnly))])
 
 
 json.dump(listOutput, open("../Output/Levels.json", "w", encoding="utf8"), ensure_ascii=False, indent=1)
