@@ -832,8 +832,8 @@ for iLevel, level in enumerate(listOutput):
                 continue
             level.append(item)
 
-    if(iLevel * 10 < len(listValidKanaOnly)):
-        level.extend(listValidKanaOnly[iLevel * 10: min((iLevel + 1) * 10, len(listValidKanaOnly))])
+    if(iLevel * 15 < len(listValidKanaOnly)):
+        level.extend(listValidKanaOnly[iLevel * 15: min((iLevel + 1) * 15, len(listValidKanaOnly))])
 
 for iLevel, level in enumerate(listOutput):
     for item in listOutput[iLevel]:
