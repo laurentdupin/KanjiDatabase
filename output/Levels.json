@@ -5987,6 +5987,57 @@
    "meanings_pt": []
   },
   {
+   "id": 101600847341712584,
+   "sharedid": 101600847341712584,
+   "type": "vocab",
+   "display": "見る見る",
+   "readings": [
+    "みるみる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "very fast",
+    "in a twinkle",
+    "before one's eyes"
+   ],
+   "meanings_es": [
+    "en un abrir y cerrar de ojos",
+    "rápidamente"
+   ],
+   "meanings_fr": [
+    "en un clin d'œil",
+    "soudain"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13241707972045361144,
+   "sharedid": 13241707972045361144,
+   "type": "vocab",
+   "display": "見っともない",
+   "readings": [
+    "みっともない"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "shameful",
+    "disgraceful",
+    "indecent",
+    "unseemly",
+    "unbecoming",
+    "improper"
+   ],
+   "meanings_es": [
+    "vergonzoso",
+    "indecente"
+   ],
+   "meanings_fr": [
+    "inconvenant",
+    "indécent"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 10015500849427121560,
    "sharedid": 10015500849427121560,
    "type": "vocab",
@@ -15897,6 +15948,39 @@
    "meanings_pt": []
   },
   {
+   "id": 8160180516588816340,
+   "sharedid": 8160180516588816340,
+   "type": "vocab",
+   "display": "くっ付く",
+   "readings": [
+    "くっつく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to adhere to",
+    "to stick to",
+    "to cling to",
+    "to keep close to",
+    "to go along with",
+    "to get involved with",
+    "to be thick with",
+    "to become intimate"
+   ],
+   "meanings_es": [
+    "tocar",
+    "estar en contacto"
+   ],
+   "meanings_fr": [
+    "adhérer à",
+    "coller à",
+    "rester collé à",
+    "s'accrocher à",
+    "rester proche de",
+    "accompagner"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 13585602352457327473,
    "sharedid": 8220169621548691252,
    "type": "vocab",
@@ -17572,6 +17656,27 @@
    "meanings_fr": [
     "carotte"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16516705849391014756,
+   "sharedid": 16516705849391014756,
+   "type": "vocab",
+   "display": "下手くそ",
+   "readings": [
+    "へたくそ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "unskilled",
+    "clumsy",
+    "lousy",
+    "poor",
+    "awkward",
+    "shitty"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
    "meanings_pt": []
   },
   {
@@ -19685,6 +19790,56 @@
    "meanings_pt": []
   },
   {
+   "id": 5330210261398757504,
+   "sharedid": 5439811430277846899,
+   "type": "vocab",
+   "display": "さし当たり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 16648047061219034018,
+   "sharedid": 16648047061219034018,
+   "type": "vocab",
+   "display": "済まない",
+   "readings": [
+    "すまない"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "inexcusable",
+    "unjustifiable",
+    "unpardonable",
+    "sorry",
+    "remorseful",
+    "apologetic",
+    "conscience-stricken",
+    "contrite",
+    "excuse me",
+    "(I'm) sorry",
+    "thank you"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [
+    "inexcusable",
+    "injustifiable",
+    "impardonnable",
+    "désolé",
+    "plein de remords",
+    "apologétique",
+    "affligé",
+    "contrit",
+    "excusez-moi",
+    "(je suis) désolé",
+    "merci"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 8828171707071266595,
    "sharedid": 8828171707071266595,
    "type": "vocab_kana",
@@ -21322,6 +21477,54 @@
    "meanings_pt": []
   },
   {
+   "id": 7472492702994053293,
+   "sharedid": 7133411562002147181,
+   "type": "vocab",
+   "display": "持てなし",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9129700100143453613,
+   "sharedid": 9698440795885181605,
+   "type": "vocab",
+   "display": "持てなす",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14176196792580759007,
+   "sharedid": 12641433096460844684,
+   "type": "vocab",
+   "display": "果無い",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2860832768544736831,
+   "sharedid": 12641433096460844684,
+   "type": "vocab",
+   "display": "果ない",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 15728148261235773554,
    "sharedid": 10985133121435678473,
    "type": "vocab",
@@ -22851,6 +23054,30 @@
    "sharedid": 3882709966127669311,
    "type": "vocab",
    "display": "以って",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12608951219737698550,
+   "sharedid": 10879802676324602222,
+   "type": "vocab",
+   "display": "水々しい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 5397837713158913218,
+   "sharedid": 10879802676324602222,
+   "type": "vocab",
+   "display": "水水しい",
    "readings": [],
    "kun_readings": [],
    "meanings": [],
@@ -25005,6 +25232,119 @@
    "meanings_pt": []
   },
   {
+   "id": 14010430185205260227,
+   "sharedid": 14010430185205260227,
+   "type": "vocab",
+   "display": "目出度い",
+   "readings": [
+    "めでたい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "happy",
+    "auspicious",
+    "propitious",
+    "joyous",
+    "naive"
+   ],
+   "meanings_es": [
+    "propicio",
+    "favorable",
+    "cándido",
+    "ingenuo",
+    "feliz",
+    "alegre",
+    "ingenuo",
+    "tonto",
+    "cándido"
+   ],
+   "meanings_fr": [
+    "naïf",
+    "ingénu"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7133411562002147181,
+   "sharedid": 7133411562002147181,
+   "type": "vocab",
+   "display": "持て成し",
+   "readings": [
+    "もてなし"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "hospitality",
+    "reception",
+    "treatment",
+    "service",
+    "entertainment",
+    "(light) refreshment",
+    "entertaining with food and drink",
+    "treat"
+   ],
+   "meanings_es": [
+    "hospitalidad",
+    "recibimiento",
+    "deleite"
+   ],
+   "meanings_fr": [
+    "accueil",
+    "hospitalité"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11715386174897096432,
+   "sharedid": 11715386174897096432,
+   "type": "vocab",
+   "display": "お持て成し",
+   "readings": [
+    "おもてなし"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "hospitality",
+    "reception",
+    "treatment",
+    "service",
+    "entertainment",
+    "(light) refreshment",
+    "entertaining with food and drink",
+    "treat"
+   ],
+   "meanings_es": [
+    "hospitalidad",
+    "entretenimiento",
+    "servicio"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9698440795885181605,
+   "sharedid": 9698440795885181605,
+   "type": "vocab",
+   "display": "持て成す",
+   "readings": [
+    "もてなす"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to entertain",
+    "to make welcome"
+   ],
+   "meanings_es": [
+    "entretener",
+    "dar la bienvenida"
+   ],
+   "meanings_fr": [
+    "acceuillir",
+    "recevoir"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 13686255170731851940,
    "sharedid": 2835613014568149804,
    "type": "vocab",
@@ -26898,6 +27238,18 @@
     "à l'avance",
     "auparavant"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15414531042073690130,
+   "sharedid": 9208424478402844348,
+   "type": "vocab",
+   "display": "基地外",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
    "meanings_pt": []
   },
   {
@@ -30676,6 +31028,64 @@
    "meanings_pt": []
   },
   {
+   "id": 6689631014939280834,
+   "sharedid": 6689631014939280834,
+   "type": "vocab",
+   "display": "強ち",
+   "readings": [
+    "あながち"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "not necessarily",
+    "not entirely",
+    "not altogether"
+   ],
+   "meanings_es": [
+    "no necesariamente",
+    "no del todo"
+   ],
+   "meanings_fr": [
+    "pas nécessairement"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8775260691012635268,
+   "sharedid": 14342019849130809909,
+   "type": "vocab",
+   "display": "のん気",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 18171620342352679371,
+   "sharedid": 18171620342352679371,
+   "type": "vocab",
+   "display": "善くも",
+   "readings": [
+    "よくも"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "how dare ...",
+    "how could ..."
+   ],
+   "meanings_es": [
+    "¿Cómo te atreves...?"
+   ],
+   "meanings_fr": [
+    "Comment osez-vous",
+    "comment pouvez-vous",
+    "de quel droit"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 14358595590653624802,
    "sharedid": 17915767956543538377,
    "type": "vocab",
@@ -32306,6 +32716,38 @@
    "meanings": [],
    "meanings_es": [],
    "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9208424478402844348,
+   "sharedid": 9208424478402844348,
+   "type": "vocab",
+   "display": "気違い",
+   "readings": [
+    "きちがい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "madness",
+    "madman",
+    "enthusiast",
+    "freak",
+    "junkie"
+   ],
+   "meanings_es": [
+    "locura",
+    "loco",
+    "demente",
+    "loco",
+    "ido",
+    "orate",
+    "demente",
+    "chiflado"
+   ],
+   "meanings_fr": [
+    "folie",
+    "fou"
+   ],
    "meanings_pt": []
   },
   {
@@ -35206,6 +35648,44 @@
    "meanings_pt": []
   },
   {
+   "id": 11180782682740703984,
+   "sharedid": 11180782682740703984,
+   "type": "vocab",
+   "display": "私語く",
+   "readings": [
+    "ささやく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to whisper",
+    "to murmur",
+    "to rumor",
+    "to rumour"
+   ],
+   "meanings_es": [
+    "susurrar",
+    "murmurar"
+   ],
+   "meanings_fr": [
+    "chuchoter",
+    "murmurer",
+    "faire circuler (une rumeur)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9167628823112062984,
+   "sharedid": 1710676302161104217,
+   "type": "vocab",
+   "display": "万更",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 9129212832978219620,
    "sharedid": 8713798389467467885,
    "type": "vocab",
@@ -36818,6 +37298,51 @@
    "meanings_pt": []
   },
   {
+   "id": 15907078346260005470,
+   "sharedid": 15907078346260005470,
+   "type": "vocab",
+   "display": "和やか",
+   "readings": [
+    "にこやか"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "smiling",
+    "beaming",
+    "radiant",
+    "bright",
+    "cheerful",
+    "mild",
+    "calm",
+    "gentle",
+    "quiet",
+    "congenial",
+    "amicable",
+    "amiable",
+    "friendly",
+    "genial",
+    "harmonious",
+    "peaceful"
+   ],
+   "meanings_es": [
+    "sonriente",
+    "risueño",
+    "alegre",
+    "afable",
+    "apacible",
+    "congenial",
+    "armonioso"
+   ],
+   "meanings_fr": [
+    "sourire",
+    "calme",
+    "doux",
+    "paisible",
+    "serein"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 9433551269871561131,
    "sharedid": 1435683298333839420,
    "type": "vocab",
@@ -36827,6 +37352,37 @@
    "meanings": [],
    "meanings_es": [],
    "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 10577553141342040770,
+   "sharedid": 10577553141342040770,
+   "type": "vocab",
+   "display": "発条",
+   "readings": [
+    "ばね",
+    "ぜんまい",
+    "はつじょう",
+    "だんき"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "spring",
+    "spring (in one's legs)",
+    "bounce",
+    "springboard",
+    "impetus"
+   ],
+   "meanings_es": [
+    "cuerda (mecanismo de los relojes y juguetes a cuerda)",
+    "resorte",
+    "cuerda (mecanismo de los relojes y juguetes a cuerda)",
+    "cuerda (mecanismo de los relojes y juguetes a cuerda)",
+    "resorte"
+   ],
+   "meanings_fr": [
+    "ressort"
+   ],
    "meanings_pt": []
   },
   {
@@ -43825,6 +44381,78 @@
    "meanings_pt": []
   },
   {
+   "id": 16508606145623925778,
+   "sharedid": 16508606145623925778,
+   "type": "vocab",
+   "display": "逸らす",
+   "readings": [
+    "そらす"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to turn away (one's eyes, face, etc.)",
+    "to avert",
+    "to divert (e.g. one's attention)",
+    "to evade (e.g. a question)",
+    "to change (e.g. the subject)",
+    "to displease",
+    "to annoy",
+    "to offend",
+    "to upset",
+    "to miss (the target, ball, etc.)"
+   ],
+   "meanings_es": [
+    "rechazar",
+    "apartar"
+   ],
+   "meanings_fr": [
+    "détourner"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15904203901735945773,
+   "sharedid": 15904203901735945773,
+   "type": "vocab",
+   "display": "逸れる",
+   "readings": [
+    "それる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to turn away",
+    "to bear off",
+    "to veer away",
+    "to swerve from",
+    "to miss (e.g. a target)",
+    "to deviate (e.g. of a conversation)",
+    "to digress",
+    "to go astray",
+    "to wander",
+    "to lose sight of (one's companions)",
+    "to stray from",
+    "to miss (one's chance to ...)"
+   ],
+   "meanings_es": [
+    "perderse",
+    "extraviase",
+    "extraviarse"
+   ],
+   "meanings_fr": [
+    "se détourner",
+    "s'écarter de",
+    "dévier",
+    "manquer (par ex. d'une balle)",
+    "s'égarer",
+    "devenir fou",
+    "dévier (par ex. d'une conversation)",
+    "digresser",
+    "s'éloigner",
+    "errer"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 6315478432371764176,
    "sharedid": 12918184905835682595,
    "type": "vocab",
@@ -47079,6 +47707,43 @@
    "sharedid": 10167715452121603792,
    "type": "vocab",
    "display": "有りと有らゆる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 5622600357339457852,
+   "sharedid": 5622600357339457852,
+   "type": "vocab",
+   "display": "容易い",
+   "readings": [
+    "たやすい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "easy",
+    "simple",
+    "light"
+   ],
+   "meanings_es": [
+    "fácil",
+    "simple"
+   ],
+   "meanings_fr": [
+    "aisé",
+    "facile",
+    "simple"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6854670062108079755,
+   "sharedid": 5622600357339457852,
+   "type": "vocab",
+   "display": "た易い",
    "readings": [],
    "kun_readings": [],
    "meanings": [],
@@ -50396,6 +51061,93 @@
     "si c'est comme ça",
     "si c'est le cas"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1804391539343020995,
+   "sharedid": 1804391539343020995,
+   "type": "vocab",
+   "display": "陸な",
+   "readings": [
+    "ろくな"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "satisfactory",
+    "decent",
+    "good",
+    "proper",
+    "respectable"
+   ],
+   "meanings_es": [
+    "satisfactorio",
+    "decente"
+   ],
+   "meanings_fr": [
+    "convenable",
+    "satisfaisant"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5439811430277846899,
+   "sharedid": 5439811430277846899,
+   "type": "vocab",
+   "display": "差し当たり",
+   "readings": [
+    "さしあたり"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "for the time being",
+    "at present",
+    "hindrance"
+   ],
+   "meanings_es": [
+    "de pronto",
+    "por ahora"
+   ],
+   "meanings_fr": [
+    "en ce moment",
+    "pour l'instant",
+    "pour le moment"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16203273230327044318,
+   "sharedid": 5439811430277846899,
+   "type": "vocab",
+   "display": "差当り",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12541500899930390664,
+   "sharedid": 5439811430277846899,
+   "type": "vocab",
+   "display": "差しあたり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12608490029253453859,
+   "sharedid": 5439811430277846899,
+   "type": "vocab",
+   "display": "差当たり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
    "meanings_pt": []
   },
   {
@@ -54113,6 +54865,46 @@
    "meanings_pt": []
   },
   {
+   "id": 2475356096873459900,
+   "sharedid": 2475356096873459900,
+   "type": "vocab",
+   "display": "やり切れない",
+   "readings": [
+    "やりきれない"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "unable to finish (on time, etc.)",
+    "unbearable",
+    "intolerable",
+    "beyond endurance",
+    "too much"
+   ],
+   "meanings_es": [
+    "intolerable",
+    "insoportable",
+    "inaguantable",
+    "demasiado"
+   ],
+   "meanings_fr": [
+    "insupportable",
+    "intenable"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5366093652657480559,
+   "sharedid": 2475356096873459900,
+   "type": "vocab",
+   "display": "遣り切れない",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 11867315484791602027,
    "sharedid": 4075257206639743808,
    "type": "vocab_kana",
@@ -55834,6 +56626,18 @@
    "meanings_pt": []
   },
   {
+   "id": 9145335368311775026,
+   "sharedid": 14010430185205260227,
+   "type": "vocab",
+   "display": "愛でたい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 10775328432775613648,
    "sharedid": 3543819124600510917,
    "type": "vocab_kana",
@@ -57251,6 +58055,29 @@
    "meanings_pt": []
   },
   {
+   "id": 1710676302161104217,
+   "sharedid": 1710676302161104217,
+   "type": "vocab",
+   "display": "満更",
+   "readings": [
+    "まんざら"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "(not) altogether",
+    "(not) wholly"
+   ],
+   "meanings_es": [
+    "enteramente",
+    "completamente"
+   ],
+   "meanings_fr": [
+    "en partie",
+    "partiellement"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 14744868396642118763,
    "sharedid": 11482152380346189747,
    "type": "vocab_kana",
@@ -58656,6 +59483,150 @@
     "se retirer",
     "démissionner",
     "prendre sa retraite"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11320859144328193659,
+   "sharedid": 11320859144328193659,
+   "type": "vocab",
+   "display": "退ける",
+   "readings": [
+    "のける"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to put something out of the way",
+    "to move (something, someone) aside",
+    "to remove",
+    "to exclude",
+    "to take away",
+    "to set aside",
+    "to keep apart",
+    "to remove (someone) from the group",
+    "to shun",
+    "to do well despite difficulties",
+    "to accomplish despite adversity",
+    "to do resolutely",
+    "to do boldly",
+    "to refuse",
+    "to reject",
+    "to turn down",
+    "to dismiss",
+    "to repel",
+    "to repulse",
+    "to drive away",
+    "to beat off",
+    "to defeat",
+    "to make (someone) leave",
+    "to send away",
+    "to turn away",
+    "to force (someone) to leave their post",
+    "to oust",
+    "to expel"
+   ],
+   "meanings_es": [
+    "alejar",
+    "repeler",
+    "rechazar",
+    "remover",
+    "hacer a un lado",
+    "quitar del paso"
+   ],
+   "meanings_fr": [
+    "mettre à l'écart (quelque chose, quelqu'un)",
+    "retirer",
+    "ôter",
+    "éliminer",
+    "omettre",
+    "enlever",
+    "exclure",
+    "mettre de côté",
+    "mettre à part",
+    "écarter (quelqu'un) du groupe",
+    "éviter",
+    "fuir",
+    "bien faire malgré les difficultés",
+    "accomplir malgré l'adversité",
+    "faire résolument",
+    "faire avec audace",
+    "faire hardiment",
+    "repousser"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11578701602943921313,
+   "sharedid": 11578701602943921313,
+   "type": "vocab",
+   "display": "緊緊",
+   "readings": [
+    "ひしひし"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "acutely (feel)",
+    "keenly",
+    "severely",
+    "tightly",
+    "hard"
+   ],
+   "meanings_es": [
+    "ruido de leves pisadas",
+    "sentir vivamente"
+   ],
+   "meanings_fr": [
+    "fortement",
+    "sévèrement",
+    "vivement"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10030133896972084673,
+   "sharedid": 11578701602943921313,
+   "type": "vocab",
+   "display": "緊々",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 6932074424934523280,
+   "sharedid": 6932074424934523280,
+   "type": "vocab",
+   "display": "天辺",
+   "readings": [
+    "てっぺん",
+    "てへん",
+    "てっぺい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "top",
+    "summit",
+    "apex",
+    "peak",
+    "twelve o'clock (usu. midnight)",
+    "top of one's head",
+    "top of a helmet",
+    "(top of) scalp",
+    "crown",
+    "high in the sky",
+    "highest heaven"
+   ],
+   "meanings_es": [
+    "cima",
+    "cumbre",
+    "cresta"
+   ],
+   "meanings_fr": [
+    "cime",
+    "faîte",
+    "sommet"
    ],
    "meanings_pt": []
   },
@@ -61322,6 +62293,30 @@
    "sharedid": 10750414416350071904,
    "type": "vocab",
    "display": "人混み",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14225236920366308810,
+   "sharedid": 8160180516588816340,
+   "type": "vocab",
+   "display": "食っ付く",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 17608234907890752415,
+   "sharedid": 9208424478402844348,
+   "type": "vocab",
+   "display": "既知外",
    "readings": [],
    "kun_readings": [],
    "meanings": [],
@@ -67604,6 +68599,18 @@
    "meanings_pt": []
   },
   {
+   "id": 11221187896431471176,
+   "sharedid": 11320859144328193659,
+   "type": "vocab",
+   "display": "除ける",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 16108934214763234017,
    "sharedid": 16108934214763234017,
    "type": "vocab_kana",
@@ -73454,6 +74461,39 @@
    "meanings_pt": []
   },
   {
+   "id": 10208734439890872305,
+   "sharedid": 10208734439890872305,
+   "type": "vocab",
+   "display": "お休みなさい",
+   "readings": [
+    "おやすみなさい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "good night"
+   ],
+   "meanings_es": [
+    "Buenas noches",
+    "(exp,int) Buenas noches"
+   ],
+   "meanings_fr": [
+    "bonne nuit"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5717536348718156708,
+   "sharedid": 10208734439890872305,
+   "type": "vocab",
+   "display": "御休みなさい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 5754253895742792433,
    "sharedid": 5754253895742792433,
    "type": "vocab_kana",
@@ -75213,6 +76253,245 @@
    "meanings_fr": [],
    "meanings_es": [],
    "meanings_pt": []
+  },
+  {
+   "id": 10546029699820872720,
+   "sharedid": 10546029699820872720,
+   "type": "vocab_kana",
+   "display": "ねぎ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "Welsh onion (Allium fistulosum)",
+    "green onion",
+    "spring onion"
+   ],
+   "meanings_fr": [
+    "oignon vert"
+   ],
+   "meanings_es": [
+    "cebolla"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16829803133785500338,
+   "sharedid": 16829803133785500338,
+   "type": "vocab_kana",
+   "display": "ぎっしり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "tightly (packed)",
+    "densely",
+    "closely",
+    "crammed"
+   ],
+   "meanings_fr": [
+    "bondé",
+    "entassé",
+    "serré",
+    "dense"
+   ],
+   "meanings_es": [
+    "apretado ",
+    "apretujado ",
+    "repleto ",
+    "atestado ",
+    "atiborrado ",
+    "colmado ",
+    "lleno",
+    "ajustadamente",
+    "totalmente",
+    "completamente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2827486529062845683,
+   "sharedid": 3157335576388362752,
+   "type": "vocab_kana",
+   "display": "しのぶ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12511708893450170759,
+   "sharedid": 12511708893450170759,
+   "type": "vocab_kana",
+   "display": "ぐっすり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "soundly (sleeping)",
+    "fast (asleep)"
+   ],
+   "meanings_fr": [
+    "à poings fermés",
+    "dormir d'un sommeil profond"
+   ],
+   "meanings_es": [
+    "profundamente (dormir)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14179602513311592680,
+   "sharedid": 1804391539343020995,
+   "type": "vocab_kana",
+   "display": "ろくな",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3234704997581732380,
+   "sharedid": 13984676592471843734,
+   "type": "vocab_kana",
+   "display": "あほ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8101180232128332496,
+   "sharedid": 12043558230274642370,
+   "type": "vocab_kana",
+   "display": "はらむ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14032205651000524280,
+   "sharedid": 14032205651000524280,
+   "type": "vocab_kana",
+   "display": "ろうそく",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "candle"
+   ],
+   "meanings_fr": [
+    "bougie",
+    "chandelle"
+   ],
+   "meanings_es": [
+    "vela (eng: candle)",
+    "cirio"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16027186697808331088,
+   "sharedid": 16027186697808331088,
+   "type": "vocab_kana",
+   "display": "ふんだん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "plentiful",
+    "abundant",
+    "ample",
+    "lavish"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "abundante"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13374949039151133732,
+   "sharedid": 11320859144328193659,
+   "type": "vocab_kana",
+   "display": "のける",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3776592404132853995,
+   "sharedid": 3776592404132853995,
+   "type": "vocab_kana",
+   "display": "くどい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "repetitious",
+    "long-winded",
+    "tedious",
+    "wordy",
+    "verbose",
+    "insistent",
+    "importunate",
+    "heavy (taste)",
+    "(overly) rich",
+    "strong",
+    "cloying",
+    "gaudy (colour, design, etc.)",
+    "loud"
+   ],
+   "meanings_fr": [
+    "bavard",
+    "verbeux",
+    "importun",
+    "prolixe",
+    "répétitif",
+    "lourd (pour un goût)",
+    "riche",
+    "fort",
+    "écœurant",
+    "voyant",
+    "criard",
+    "bruyant"
+   ],
+   "meanings_es": [
+    "repetitivo",
+    "redundante",
+    "pesado"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17811147729488322012,
+   "sharedid": 10208734439890872305,
+   "type": "vocab_kana",
+   "display": "おやすみなさい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1551533409749671368,
+   "sharedid": 9421227485546136268,
+   "type": "vocab_kana",
+   "display": "ゆず",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
   }
  ],
  [
@@ -76328,6 +77607,484 @@
     "désespoir"
    ],
    "meanings_pt": []
+  },
+  {
+   "id": 8691602119560745897,
+   "sharedid": 8691602119560745897,
+   "type": "vocab",
+   "display": "やり繰り",
+   "readings": [
+    "やりくり"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "making do",
+    "getting by (somehow)",
+    "managing"
+   ],
+   "meanings_es": [
+    "ajuste",
+    "arreglo",
+    "acomodamiento"
+   ],
+   "meanings_fr": [
+    "arrangement ?"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6205210149973763159,
+   "sharedid": 8691602119560745897,
+   "type": "vocab",
+   "display": "遣り繰り",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4130763693880134166,
+   "sharedid": 4130763693880134166,
+   "type": "vocab",
+   "display": "若布",
+   "readings": [
+    "わかめ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "wakame (species of edible brown seaweed, Undaria pinnatifida)"
+   ],
+   "meanings_es": [
+    "wakame",
+    "alga marina",
+    "\"wakame\": un tipo de alga comestible"
+   ],
+   "meanings_fr": [
+    "algues"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14260397868486787775,
+   "sharedid": 4130763693880134166,
+   "type": "vocab",
+   "display": "和布",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 10305455911743165734,
+   "sharedid": 10305455911743165734,
+   "type": "vocab",
+   "display": "飛び切り",
+   "readings": [
+    "とびきり"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "best",
+    "extra-fine",
+    "superfine",
+    "unequalled",
+    "exceptionally",
+    "extraordinarily",
+    "by far",
+    "jumping and slashing (e.g. at an enemy)"
+   ],
+   "meanings_es": [
+    "extraordinariamente",
+    "increíblemente"
+   ],
+   "meanings_fr": [
+    "de qualité supérieure",
+    "extrêmement"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 18268240007509318006,
+   "sharedid": 10305455911743165734,
+   "type": "vocab",
+   "display": "飛びきり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11488375843467435768,
+   "sharedid": 10305455911743165734,
+   "type": "vocab",
+   "display": "飛切り",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14830781500915614742,
+   "sharedid": 14830781500915614742,
+   "type": "vocab_kana",
+   "display": "こしょう",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "pepper"
+   ],
+   "meanings_fr": [
+    "poivre"
+   ],
+   "meanings_es": [
+    "Piperaceae",
+    "Piperáceas (orden Piperales) (sistemática vegetal)",
+    "pimienta"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2828467458513924610,
+   "sharedid": 2828467458513924610,
+   "type": "vocab_kana",
+   "display": "さぞ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "surely",
+    "certainly",
+    "no doubt",
+    "must"
+   ],
+   "meanings_fr": [
+    "certainement",
+    "j'en suis sûr",
+    "sûrement",
+    "sans aucun doute"
+   ],
+   "meanings_es": [
+    "seguro",
+    "ciertamente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9160561727892434085,
+   "sharedid": 8411726467887305895,
+   "type": "vocab_kana",
+   "display": "うたう",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 930268908372463160,
+   "sharedid": 930268908372463160,
+   "type": "vocab_kana",
+   "display": "ほんのり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "slightly",
+    "faintly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8194209717452431759,
+   "sharedid": 8194209717452431759,
+   "type": "vocab_kana",
+   "display": "まく",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to scatter",
+    "to sprinkle",
+    "to strew",
+    "to distribute (handbills, etc.)",
+    "to spread (rumours, etc.)",
+    "to give the slip",
+    "to throw off",
+    "to shake off",
+    "to lose"
+   ],
+   "meanings_fr": [
+    "éparpiller",
+    "disperser",
+    "arroser",
+    "parsemer",
+    "distribuer (des tracts, etc.)",
+    "diffuser (des rumeurs, etc.)",
+    "répandre",
+    "fausser compagnie à",
+    "se débarrasser de",
+    "perdre"
+   ],
+   "meanings_es": [
+    "esparcir"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14876234381926211097,
+   "sharedid": 17543558403206361112,
+   "type": "vocab_kana",
+   "display": "どんぐり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 17860985289720469163,
+   "sharedid": 17722633580715512134,
+   "type": "vocab_kana",
+   "display": "さつまいも",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14608394441178331560,
+   "sharedid": 14608394441178331560,
+   "type": "vocab_kana",
+   "display": "そぐわない",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "unsuitable",
+    "not matching",
+    "out of character"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4387830315984636609,
+   "sharedid": 14858449488963107233,
+   "type": "vocab_kana",
+   "display": "だるい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8530805271588939175,
+   "sharedid": 8691602119560745897,
+   "type": "vocab_kana",
+   "display": "やりくり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3716311958501576514,
+   "sharedid": 3716311958501576514,
+   "type": "vocab_kana",
+   "display": "あやふや",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "uncertain",
+    "vague",
+    "ambiguous"
+   ],
+   "meanings_fr": [
+    "ambigu",
+    "douteux",
+    "incertain",
+    "indécis",
+    "vague"
+   ],
+   "meanings_es": [
+    "incierto",
+    "vago",
+    "ambiguo",
+    "inseguro"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5979056705711323477,
+   "sharedid": 4956872418299686755,
+   "type": "vocab_kana",
+   "display": "はだし",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4824658131754646136,
+   "sharedid": 4824658131754646136,
+   "type": "vocab_kana",
+   "display": "ずるずる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "(dragging a large or heavy item) slowly",
+    "(falling) little by little",
+    "(slipping) gradually",
+    "(drawing back) slowly",
+    "with a slither",
+    "on and on",
+    "while putting off",
+    "slovenly",
+    "interminably",
+    "with a slurp",
+    "with a sniffle",
+    "loose",
+    "lax",
+    "inconclusive",
+    "unresolved"
+   ],
+   "meanings_fr": [
+    "traîner (en longueur) - ennui",
+    "traîner (objet)"
+   ],
+   "meanings_es": [
+    "arrastrándose"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7781954095961124259,
+   "sharedid": 7781954095961124259,
+   "type": "vocab_kana",
+   "display": "びっしり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "closely (packed, lined up, etc.)",
+    "tightly",
+    "densely",
+    "(work) sufficiently"
+   ],
+   "meanings_fr": [
+    "bondé",
+    "entassé"
+   ],
+   "meanings_es": [
+    "denso",
+    "poblado"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2701938505277434677,
+   "sharedid": 2701938505277434677,
+   "type": "vocab_kana",
+   "display": "さんご",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "coral"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "coral"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11305182223999651240,
+   "sharedid": 11305182223999651240,
+   "type": "vocab_kana",
+   "display": "こよなく",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "exceedingly",
+    "extremely",
+    "dearly",
+    "most of all",
+    "above all else"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11252482839179001657,
+   "sharedid": 8720571666054008854,
+   "type": "vocab_kana",
+   "display": "はしご",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2515069093830212839,
+   "sharedid": 2515069093830212839,
+   "type": "vocab_kana",
+   "display": "ふらっと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "aimlessly",
+    "by chance",
+    "accidentally",
+    "casually",
+    "suddenly",
+    "unexpectedly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3752138555904666609,
+   "sharedid": 101600847341712584,
+   "type": "vocab_kana",
+   "display": "みるみる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 5992740416353573494,
+   "sharedid": 10717745069213970710,
+   "type": "vocab_kana",
+   "display": "わさび",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
   }
  ],
  [
@@ -77339,6 +79096,413 @@
     "pendre (quelqu'un)",
     "suspendre"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10581854826021182073,
+   "sharedid": 10581854826021182073,
+   "type": "vocab",
+   "display": "気触れ",
+   "readings": [
+    "かぶれ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "rash",
+    "eruption (in response to a skin irritant)",
+    "influence",
+    "crazy about",
+    "having an affectation concerning all things surrounding something (esp. a language, a culture, etc.)"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9355811452520068435,
+   "sharedid": 9355811452520068435,
+   "type": "vocab_kana",
+   "display": "しまいに",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "at the end",
+    "finally"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "al final",
+    "finalmente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13338368430796918508,
+   "sharedid": 15907078346260005470,
+   "type": "vocab_kana",
+   "display": "にこやか",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 7071911675258243312,
+   "sharedid": 14018435864413573374,
+   "type": "vocab_kana",
+   "display": "あくび",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 5378826460678197595,
+   "sharedid": 5378826460678197595,
+   "type": "vocab_kana",
+   "display": "がっちり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "solid",
+    "robust",
+    "well-built",
+    "tight",
+    "taut",
+    "shrewd",
+    "calculating",
+    "astute"
+   ],
+   "meanings_fr": [
+    "solide",
+    "robuste",
+    "bien bâti",
+    "serré",
+    "tendu",
+    "habile",
+    "calculateur",
+    "astucieux",
+    "rusé"
+   ],
+   "meanings_es": [
+    "robusto",
+    "macizo",
+    "recio"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17118814898264646551,
+   "sharedid": 17118814898264646551,
+   "type": "vocab_kana",
+   "display": "がっくり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "heartbroken",
+    "crestfallen",
+    "dejected",
+    "disappointed"
+   ],
+   "meanings_fr": [
+    "au cœur brisé",
+    "découragé",
+    "effondré",
+    "abattu",
+    "déçu"
+   ],
+   "meanings_es": [
+    "desanimado"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4953100729122631645,
+   "sharedid": 4953100729122631645,
+   "type": "vocab_kana",
+   "display": "ずるい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "sly",
+    "cunning",
+    "sneaky",
+    "crafty",
+    "unfair",
+    "dishonest",
+    "miserly",
+    "mean",
+    "stingy"
+   ],
+   "meanings_fr": [
+    "sournois",
+    "rusé",
+    "futé",
+    "malin",
+    "roublard",
+    "malhonnête",
+    "injuste",
+    "déloyal",
+    "avare",
+    "pingre"
+   ],
+   "meanings_es": [
+    "astuto",
+    "pícaro",
+    "taimado",
+    "deshonesto"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8804798087811113399,
+   "sharedid": 8804798087811113399,
+   "type": "vocab_kana",
+   "display": "まんまと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "successfully",
+    "fairly",
+    "artfully",
+    "nicely",
+    "thoroughly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3418511179040452466,
+   "sharedid": 11578701602943921313,
+   "type": "vocab_kana",
+   "display": "ひしひし",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2470030200499307371,
+   "sharedid": 2470030200499307371,
+   "type": "vocab_kana",
+   "display": "とすれば",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "then",
+    "if so",
+    "if"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 6539548606235972211,
+   "sharedid": 14010430185205260227,
+   "type": "vocab_kana",
+   "display": "めでたい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 893498491235084821,
+   "sharedid": 893498491235084821,
+   "type": "vocab_kana",
+   "display": "かかと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "heel (of foot, shoe, stocking, etc.)"
+   ],
+   "meanings_fr": [
+    "talon (de chaussure ou de personne)"
+   ],
+   "meanings_es": [
+    "talón",
+    "talón (del pie)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6818427046176411191,
+   "sharedid": 6818427046176411191,
+   "type": "vocab_kana",
+   "display": "めっきり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "remarkably",
+    "noticeably",
+    "considerably",
+    "appreciably"
+   ],
+   "meanings_fr": [
+    "remarquablement"
+   ],
+   "meanings_es": [
+    "notablemente",
+    "evidentemente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15226946887539742012,
+   "sharedid": 15226946887539742012,
+   "type": "vocab_kana",
+   "display": "どんより",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "dark",
+    "gloomy",
+    "overcast",
+    "gray",
+    "heavy",
+    "leaden",
+    "dull",
+    "lackluster",
+    "glazed"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2676595793154265059,
+   "sharedid": 7133411562002147181,
+   "type": "vocab_kana",
+   "display": "もてなし",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3464699287768156387,
+   "sharedid": 3464699287768156387,
+   "type": "vocab_kana",
+   "display": "ばれる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to leak out (a secret)",
+    "to be exposed (a lie, improper behaviour, etc.)",
+    "to be found out",
+    "to get away (of fish)"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "filtrarse (un secreto)",
+    "descubrir (una mentira, un comportamiento inapropiado, etc.) (conducta)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16461716372093008636,
+   "sharedid": 6932074424934523280,
+   "type": "vocab_kana",
+   "display": "てっぺん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14343839198832694739,
+   "sharedid": 14343839198832694739,
+   "type": "vocab_kana",
+   "display": "なまり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "accent (of one's speech)",
+    "dialect",
+    "provincialism",
+    "patois",
+    "corrupted form (e.g. of word)",
+    "mispronunciation"
+   ],
+   "meanings_fr": [
+    "accent",
+    "dialecte"
+   ],
+   "meanings_es": [
+    "acento (al hablar)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4967261847418599819,
+   "sharedid": 4967261847418599819,
+   "type": "vocab_kana",
+   "display": "ぐちゃぐちゃ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "pulpy",
+    "soppy",
+    "sloppy",
+    "untidy",
+    "in a disarray",
+    "chaotic"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2916155335386528663,
+   "sharedid": 2916155335386528663,
+   "type": "vocab_kana",
+   "display": "かつら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "wig",
+    "hairpiece",
+    "toupee"
+   ],
+   "meanings_fr": [
+    "perruque",
+    "postiche"
+   ],
+   "meanings_es": [
+    "Cercidiphyllaceae (orden Hamamelidales) (sistemática vegetal)",
+    "postizo",
+    "peluca"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17928608894467232654,
+   "sharedid": 17928608894467232654,
+   "type": "vocab_kana",
+   "display": "ともすれば",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "apt to (do)",
+    "liable to",
+    "prone to"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
    "meanings_pt": []
   }
  ],
@@ -78599,6 +80763,439 @@
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
+  },
+  {
+   "id": 11722228145580801436,
+   "sharedid": 11722228145580801436,
+   "type": "vocab",
+   "display": "頂きます",
+   "readings": [
+    "いただきます"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "thank you (for the meal just served)"
+   ],
+   "meanings_es": [
+    "Buen provecho (antes de comer)"
+   ],
+   "meanings_fr": [
+    "expression de gratitude avant les repas"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12906154135356663320,
+   "sharedid": 12906154135356663320,
+   "type": "vocab",
+   "display": "温もり",
+   "readings": [
+    "ぬくもり"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "warmth"
+   ],
+   "meanings_es": [
+    "calor",
+    "calidez"
+   ],
+   "meanings_fr": [
+    "chaleur"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10568646676394711615,
+   "sharedid": 10568646676394711615,
+   "type": "vocab",
+   "display": "温い",
+   "readings": [
+    "ぬるい",
+    "ぬくい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "lukewarm",
+    "tepid",
+    "lenient",
+    "slow",
+    "stupid"
+   ],
+   "meanings_es": [
+    "tibio",
+    "templado",
+    "cálido"
+   ],
+   "meanings_fr": [
+    "tiède",
+    "indulgent",
+    "clément",
+    "lent",
+    "stupide"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6159165606465898392,
+   "sharedid": 6159165606465898392,
+   "type": "vocab_kana",
+   "display": "すっぽり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "entirely",
+    "completely",
+    "cleanly",
+    "snugly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8570043602319325001,
+   "sharedid": 11715386174897096432,
+   "type": "vocab_kana",
+   "display": "おもてなし",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 5916989431959584511,
+   "sharedid": 5916989431959584511,
+   "type": "vocab_kana",
+   "display": "くしゃみ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "sneeze",
+    "spoken twice in response to someone sneezing as a charm against an early death"
+   ],
+   "meanings_fr": [
+    "éternuement",
+    "énoncé deux fois en réponse à quelqu'un qui éternue comme un charme contre une mort prématurée"
+   ],
+   "meanings_es": [
+    "estornudo"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14169306724025465021,
+   "sharedid": 14169306724025465021,
+   "type": "vocab_kana",
+   "display": "もやもや",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "hazy",
+    "misty",
+    "foggy",
+    "murky",
+    "fuzzy",
+    "hazy feeling",
+    "uncertain feeling",
+    "feeling gloomy",
+    "feeling depressed",
+    "pent-up feelings",
+    "ill feeling"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "poco claro ",
+    "vago ",
+    "turbio ",
+    "atontado ",
+    "borroso ",
+    "neblinoso ",
+    "difuso ",
+    "apasionarse ",
+    "excitarse"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8605527157241389930,
+   "sharedid": 8605527157241389930,
+   "type": "vocab_kana",
+   "display": "すまん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "sorry",
+    "excuse me"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8805159806020508564,
+   "sharedid": 8805159806020508564,
+   "type": "vocab_kana",
+   "display": "ひび",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "crack",
+    "fissure",
+    "rift",
+    "split",
+    "chaps",
+    "skin fissure"
+   ],
+   "meanings_fr": [
+    "fêlure",
+    "fissure"
+   ],
+   "meanings_es": [
+    "agrietamiento de la piel",
+    "grieta de la piel",
+    "estría",
+    "grieta",
+    "ruptura"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15998437838160837485,
+   "sharedid": 15998437838160837485,
+   "type": "vocab_kana",
+   "display": "ふとした",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "impulsive",
+    "unexpected",
+    "accidental",
+    "casual",
+    "inadvertent",
+    "on a whim"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 5367458057775533676,
+   "sharedid": 5367458057775533676,
+   "type": "vocab_kana",
+   "display": "たがる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to (seem) eager to",
+    "to want to",
+    "to be anxious to"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "verbo auxiliar: querer mucho, anhelar, desear, tener muchas ganas de"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 608452659323438360,
+   "sharedid": 17941001789768573672,
+   "type": "vocab_kana",
+   "display": "いっぺんに",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 15741245231558794950,
+   "sharedid": 9203678167333923954,
+   "type": "vocab_kana",
+   "display": "なんぱ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13109009727022919023,
+   "sharedid": 5931477078990367079,
+   "type": "vocab_kana",
+   "display": "ごまかす",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 15935549212643835884,
+   "sharedid": 15935549212643835884,
+   "type": "vocab_kana",
+   "display": "あざ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "birthmark",
+    "nevus",
+    "bruise"
+   ],
+   "meanings_fr": [
+    "envie",
+    "tache de vin"
+   ],
+   "meanings_es": [
+    "moretón"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6338027788878155475,
+   "sharedid": 4091908196032431654,
+   "type": "vocab_kana",
+   "display": "せんべい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 7781537690296055089,
+   "sharedid": 7781537690296055089,
+   "type": "vocab_kana",
+   "display": "ときめき",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "beating (of the heart, with joy, excitement, etc.)",
+    "palpitation",
+    "throbbing",
+    "pounding",
+    "fluttering"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "palpitación",
+    "latido"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1173159694990887255,
+   "sharedid": 6689631014939280834,
+   "type": "vocab_kana",
+   "display": "あながち",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4060551258749001774,
+   "sharedid": 4060551258749001774,
+   "type": "vocab_kana",
+   "display": "なだらか",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "gently sloping",
+    "gentle",
+    "gradual",
+    "easy",
+    "smooth (process)",
+    "gentle (e.g. tone of voice)",
+    "slow (e.g. growth)"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3343341748088581519,
+   "sharedid": 3343341748088581519,
+   "type": "vocab_kana",
+   "display": "もしもし",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "hello (e.g. on phone)",
+    "excuse me! (when calling out to someone)"
+   ],
+   "meanings_fr": [
+    "allô (au téléphone)",
+    "excusez-moi ! (en appelant quelqu'un)",
+    "hé",
+    "ohé",
+    "s'il vous plaît (pour attirer l'attention)"
+   ],
+   "meanings_es": [
+    "hola (en teléfono)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15262755195669870023,
+   "sharedid": 15262755195669870023,
+   "type": "vocab_kana",
+   "display": "ときめく",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to beat fast (of one's heart)",
+    "to flutter (with joy, anticipation, etc.)",
+    "to throb",
+    "to pound",
+    "to palpitate"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13840766124265086261,
+   "sharedid": 13840766124265086261,
+   "type": "vocab_kana",
+   "display": "おむつ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "diaper",
+    "nappy"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "pañal"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1636696848135175037,
+   "sharedid": 1636696848135175037,
+   "type": "vocab_kana",
+   "display": "ちゃっかり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "shrewdly",
+    "smartly",
+    "calculatingly",
+    "astutely",
+    "cunningly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
   }
  ],
  [
@@ -79575,6 +82172,458 @@
    ],
    "meanings_fr": [
     "faire"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4322070024986405144,
+   "sharedid": 4322070024986405144,
+   "type": "vocab",
+   "display": "お節介",
+   "readings": [
+    "おせっかい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "meddling",
+    "meddlesomeness",
+    "nosiness",
+    "interference",
+    "officiousness",
+    "meddler",
+    "buttinsky",
+    "busybody"
+   ],
+   "meanings_es": [
+    "entrometido"
+   ],
+   "meanings_fr": [
+    "curieux",
+    "fourrer son nez"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16703388602567594557,
+   "sharedid": 4322070024986405144,
+   "type": "vocab",
+   "display": "御節介",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 16410681914687014548,
+   "sharedid": 16410681914687014548,
+   "type": "vocab_kana",
+   "display": "ぐんぐん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "rapidly",
+    "vigorously",
+    "by leaps and bounds",
+    "steadily"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 883133980752915050,
+   "sharedid": 13241707972045361144,
+   "type": "vocab_kana",
+   "display": "みっともない",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 18006075575568327558,
+   "sharedid": 18006075575568327558,
+   "type": "vocab_kana",
+   "display": "のっけ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "the very start",
+    "the very beginning"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12444608852545916533,
+   "sharedid": 12444608852545916533,
+   "type": "vocab_kana",
+   "display": "まぐろ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "tuna (edible fish, Thunnus spp.)",
+    "tunny",
+    "Pacific bluefin tuna (edible fish, Thunnus orientalis)",
+    "dead lay",
+    "starfish",
+    "someone unconscious due to alcohol"
+   ],
+   "meanings_fr": [
+    "thon"
+   ],
+   "meanings_es": [
+    "atún"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5044692219976091014,
+   "sharedid": 5044692219976091014,
+   "type": "vocab_kana",
+   "display": "はげ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "baldness",
+    "bald head",
+    "bald person",
+    "baldy",
+    "idiot",
+    "moron",
+    "children's hairstyle of short untied hair",
+    "child with short untied hair",
+    "young girl working as a servant for a high-class prostitute (Edo period)",
+    "baldness",
+    "bald head"
+   ],
+   "meanings_fr": [
+    "calvitie",
+    "chauve"
+   ],
+   "meanings_es": [
+    "calvicie",
+    "calvicie",
+    "falta de cabello"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7586032701038391662,
+   "sharedid": 7586032701038391662,
+   "type": "vocab_kana",
+   "display": "もんじゃ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "monjayaki"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 15023889535524291542,
+   "sharedid": 15023889535524291542,
+   "type": "vocab_kana",
+   "display": "みっちり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "intensely",
+    "severely",
+    "strictly",
+    "hard",
+    "fully",
+    "earnestly",
+    "diligently",
+    "tightly",
+    "compactly",
+    "closely"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "intensamente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14384560110541588541,
+   "sharedid": 14384560110541588541,
+   "type": "vocab_kana",
+   "display": "ずらす",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to shift",
+    "to move",
+    "to slide",
+    "to move (an appointment, meeting, etc.)",
+    "to bring forward",
+    "to put back",
+    "to put off",
+    "to delay",
+    "to postpone",
+    "to stagger (e.g. working hours)"
+   ],
+   "meanings_fr": [
+    "déplacer",
+    "faire glisser (par ex. quelque chose par rapport à autre chose)",
+    "bouger (par ex. quelque chose hors du passage)",
+    "remettre à plus tard",
+    "retarder",
+    "reporter",
+    "décaler (par ex. des heures de travail)"
+   ],
+   "meanings_es": [
+    "cambiar de posición",
+    "diferir",
+    "posponer"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14358186213341655922,
+   "sharedid": 14358186213341655922,
+   "type": "vocab_kana",
+   "display": "そびえる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to rise (of a building, mountain, etc.)",
+    "to tower",
+    "to soar"
+   ],
+   "meanings_fr": [
+    "monter très haut",
+    "s'élever"
+   ],
+   "meanings_es": [
+    "elevarse"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2086132986134185610,
+   "sharedid": 2086132986134185610,
+   "type": "vocab_kana",
+   "display": "ほんで",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "and",
+    "thereupon",
+    "because of that"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 16029543057134532339,
+   "sharedid": 16029543057134532339,
+   "type": "vocab_kana",
+   "display": "つじつま",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "coherence",
+    "consistency"
+   ],
+   "meanings_fr": [
+    "cohérent",
+    "concordant"
+   ],
+   "meanings_es": [
+    "razonamiento",
+    "lógica"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11419060849646348210,
+   "sharedid": 11419060849646348210,
+   "type": "vocab_kana",
+   "display": "きっぱり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "clearly",
+    "plainly",
+    "distinctly",
+    "decisively",
+    "flatly",
+    "definitely",
+    "resolutely"
+   ],
+   "meanings_fr": [
+    "carrément",
+    "clairement",
+    "distinctement",
+    "nettement"
+   ],
+   "meanings_es": [
+    "rotundamente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12816468093074893409,
+   "sharedid": 12816468093074893409,
+   "type": "vocab_kana",
+   "display": "おもろい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "interesting",
+    "fascinating",
+    "intriguing",
+    "enthralling",
+    "amusing",
+    "funny",
+    "comical"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 10122394473218835650,
+   "sharedid": 14342019849130809909,
+   "type": "vocab_kana",
+   "display": "のんき",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9036184913736477421,
+   "sharedid": 5439811430277846899,
+   "type": "vocab_kana",
+   "display": "さしあたり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 7754706123471418289,
+   "sharedid": 10581854826021182073,
+   "type": "vocab_kana",
+   "display": "かぶれ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 5475643287542747466,
+   "sharedid": 11722228145580801436,
+   "type": "vocab_kana",
+   "display": "いただきます",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12070883591647262281,
+   "sharedid": 12906154135356663320,
+   "type": "vocab_kana",
+   "display": "ぬくもり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1963849794210537767,
+   "sharedid": 1963849794210537767,
+   "type": "vocab_kana",
+   "display": "はめる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to fit (e.g. a pane into a frame)",
+    "to insert (e.g. a cork)",
+    "to fasten (a button)",
+    "to put on (something that envelops; e.g. a ring, gloves)",
+    "to place (a hoop) around",
+    "to attach (e.g. a hose to a tap)",
+    "to pigeonhole (into a particular category)",
+    "to force (into a mold)",
+    "to place (restrictions) on",
+    "to entrap",
+    "to take (someone) in",
+    "to set (someone) up",
+    "to deceive",
+    "to throw into",
+    "to have sex",
+    "to fuck"
+   ],
+   "meanings_fr": [
+    "insérer",
+    "ajuster",
+    "emboîter",
+    "encastrer",
+    "boutonner",
+    "passer (quelque chose qui enveloppe, par ex. des gants ou une bague)",
+    "mettre",
+    "avoir un relation sexuelle",
+    "baiser",
+    "classer (dans une catégorie particulière)",
+    "cataloguer",
+    "placer un objet en forme d'anneau autour de quelque chose (en particulier quelque chose qui restreint la liberté, comme des menottes)",
+    "tromper",
+    "duper",
+    "piéger quelqu'un (par ex. pour accuser un innocent d'un crime, etc.)"
+   ],
+   "meanings_es": [
+    "entrar",
+    "insertar",
+    "ponerse (ropa)",
+    "hacer el amor",
+    "empotrar",
+    "encajar",
+    "entrampar",
+    "embaucar"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12100988807014019242,
+   "sharedid": 12100988807014019242,
+   "type": "vocab_kana",
+   "display": "ごちそうさま",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "thank you (for the meal)",
+    "that was a delicious meal",
+    "thank you (for displaying lovey-dovey behaviour)"
+   ],
+   "meanings_fr": [
+    "mot utilisé après avoir été servi (surtout après un repas)",
+    "utilisé après avoir entendu quelque chose de doucereux"
+   ],
+   "meanings_es": [
+    "muchas gracias por su amable invitación (a comer o beber)"
    ],
    "meanings_pt": []
   }
@@ -80569,6 +83618,381 @@
    ],
    "meanings_fr": [],
    "meanings_pt": []
+  },
+  {
+   "id": 3784030522315509754,
+   "sharedid": 3784030522315509754,
+   "type": "vocab_kana",
+   "display": "おなら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "wind",
+    "gas",
+    "fart",
+    "something worthless",
+    "something not worth considering"
+   ],
+   "meanings_fr": [
+    "pet"
+   ],
+   "meanings_es": [
+    "pedo",
+    "flatulencia",
+    "ventoseo"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12811795418482570106,
+   "sharedid": 12811795418482570106,
+   "type": "vocab_kana",
+   "display": "ぼやき",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "complaint",
+    "grumble"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12272956767013935349,
+   "sharedid": 12272956767013935349,
+   "type": "vocab_kana",
+   "display": "あんこ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "daughter",
+    "young lady",
+    "young man",
+    "eldest son",
+    "passive role in a male homosexual relationship"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11367748008463350683,
+   "sharedid": 11367748008463350683,
+   "type": "vocab_kana",
+   "display": "あじ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "horse mackerel (Carangidae spp., esp. the Japanese horse mackerel, Trachurus japonicus)",
+    "jack mackerel",
+    "pompano",
+    "scad"
+   ],
+   "meanings_fr": [
+    "chinchard"
+   ],
+   "meanings_es": [
+    "caballa (pez)",
+    "jurel"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6964917702205689196,
+   "sharedid": 6964917702205689196,
+   "type": "vocab_kana",
+   "display": "ふっくら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "fully",
+    "luxuriantly",
+    "fluffy",
+    "plump",
+    "soft and full"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3297564991386806162,
+   "sharedid": 3297564991386806162,
+   "type": "vocab_kana",
+   "display": "やんちゃ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "naughty",
+    "mischievous",
+    "rascal",
+    "naughty kid"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12515105795777701214,
+   "sharedid": 12515105795777701214,
+   "type": "vocab_kana",
+   "display": "けじめ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "distinction (e.g. between right and wrong, public and private, etc.)"
+   ],
+   "meanings_fr": [
+    "discrimination",
+    "distinction"
+   ],
+   "meanings_es": [
+    "distinción",
+    "diferencia"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5569280095400653099,
+   "sharedid": 5569280095400653099,
+   "type": "vocab_kana",
+   "display": "しゃぶしゃぶ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "shabu-shabu"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 10380647860425127246,
+   "sharedid": 10380647860425127246,
+   "type": "vocab_kana",
+   "display": "かむ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to blow (one's nose)"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 17517345167287214755,
+   "sharedid": 17517345167287214755,
+   "type": "vocab_kana",
+   "display": "こたつ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "kotatsu"
+   ],
+   "meanings_fr": [
+    "(à l'origine) braséro posé dans un trou dans le plancher",
+    "table basse à radiateur"
+   ],
+   "meanings_es": [
+    "mesa con calentador",
+    "(orig) brasero de carbón en un piso",
+    "calentador con cobija de piernas japonés"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 931540154211458404,
+   "sharedid": 16648047061219034018,
+   "type": "vocab_kana",
+   "display": "すまない",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11907425893617678156,
+   "sharedid": 4813893854773995868,
+   "type": "vocab_kana",
+   "display": "かるた",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 17572454107547367271,
+   "sharedid": 17572454107547367271,
+   "type": "vocab_kana",
+   "display": "ぎゅっと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "tightly (hold, squeeze, etc.)",
+    "firmly",
+    "forcefully (e.g. push)",
+    "hard"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13657975204631404718,
+   "sharedid": 13657975204631404718,
+   "type": "vocab_kana",
+   "display": "ざっくり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "roughly",
+    "approximately",
+    "coarsely",
+    "loosely",
+    "(cutting) in one stroke",
+    "(breaking apart) with vigour",
+    "(cutting) deeply",
+    "(splitting) wide open",
+    "gapingly",
+    "rough (material)",
+    "coarse",
+    "casually (wear)",
+    "easily"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 311660571088651367,
+   "sharedid": 311660571088651367,
+   "type": "vocab_kana",
+   "display": "むかつく",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to feel irritated",
+    "to feel offended",
+    "to feel angry",
+    "to feel sick",
+    "to feel nauseous"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "sentir asco ",
+    "sentir náuseas ",
+    "asquear ",
+    "detestar"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16345630766607212228,
+   "sharedid": 16345630766607212228,
+   "type": "vocab_kana",
+   "display": "ぞろぞろ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "in a crowd",
+    "in droves",
+    "in a stream",
+    "in succession",
+    "crawling (of insects)",
+    "swarming",
+    "dragging (e.g. along the ground)",
+    "trailing",
+    "stretching out"
+   ],
+   "meanings_fr": [
+    "en groupe",
+    "en succession"
+   ],
+   "meanings_es": [
+    "en filas",
+    "arrastrando"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4806359724623839004,
+   "sharedid": 4806359724623839004,
+   "type": "vocab_kana",
+   "display": "そそくさ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "hurriedly",
+    "in a hurry",
+    "in haste"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 15965381252887358292,
+   "sharedid": 15965381252887358292,
+   "type": "vocab_kana",
+   "display": "どしどし",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "rapidly",
+    "one after the other",
+    "without hesitation",
+    "unreservedly",
+    "freely",
+    "sound of tramping",
+    "stomping"
+   ],
+   "meanings_fr": [
+    "bruit d'une marche à pas marqués",
+    "constamment",
+    "l'un après l'autre",
+    "rapidement",
+    "sans hésitation"
+   ],
+   "meanings_es": [
+    "en sucesión rápida"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4766475824571781059,
+   "sharedid": 4322070024986405144,
+   "type": "vocab_kana",
+   "display": "おせっかい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 702855703160174582,
+   "sharedid": 702855703160174582,
+   "type": "vocab_kana",
+   "display": "ちょん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "clap (sound of wooden clappers)",
+    "chop vigorously",
+    "slight movement (e.g. poke, small bird alighting)",
+    "the end",
+    "dot (esp. typographical)"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
   }
  ],
  [
@@ -81493,6 +84917,407 @@
     "comme si",
     "tout à fait",
     "assez"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4813893854773995868,
+   "sharedid": 4813893854773995868,
+   "type": "vocab",
+   "display": "歌留多",
+   "readings": [
+    "かるた"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "karuta (traditional Japanese playing cards; esp. hyakunin isshu karuta)"
+   ],
+   "meanings_es": [
+    "juego de cartas japonesas"
+   ],
+   "meanings_fr": [
+    "karuta",
+    "jeu de cartes traditionnel japonais"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7038019301259558148,
+   "sharedid": 4813893854773995868,
+   "type": "vocab",
+   "display": "加留多",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9290202529200287414,
+   "sharedid": 9290202529200287414,
+   "type": "vocab_kana",
+   "display": "ぐるっと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "turning round",
+    "going around",
+    "turning about",
+    "rotating",
+    "surrounding",
+    "encircling"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "en circulos"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7511766056711763224,
+   "sharedid": 17400945556720433949,
+   "type": "vocab_kana",
+   "display": "ゆらゆら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8008770857831964256,
+   "sharedid": 11180782682740703984,
+   "type": "vocab_kana",
+   "display": "ささやく",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 17809662161357304877,
+   "sharedid": 2475356096873459900,
+   "type": "vocab_kana",
+   "display": "やりきれない",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 7739213053692499573,
+   "sharedid": 7739213053692499573,
+   "type": "vocab_kana",
+   "display": "ちまちま",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "small",
+    "compact"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 6715232115367003892,
+   "sharedid": 6715232115367003892,
+   "type": "vocab_kana",
+   "display": "たくましい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "burly",
+    "strong",
+    "sturdy",
+    "indomitable",
+    "indefatigable",
+    "strong-willed",
+    "resolute",
+    "bold",
+    "robust (vitality, appetite, economic growth, etc.)",
+    "strong"
+   ],
+   "meanings_fr": [
+    "de forte carrure",
+    "robuste"
+   ],
+   "meanings_es": [
+    "robusto",
+    "masculino",
+    "varonil"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14024535173188078764,
+   "sharedid": 4626021687213670973,
+   "type": "vocab_kana",
+   "display": "すいか",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11774871508425743915,
+   "sharedid": 12505118490782056796,
+   "type": "vocab_kana",
+   "display": "こぐ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4495760526561773059,
+   "sharedid": 16345434189487380885,
+   "type": "vocab_kana",
+   "display": "やかん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11570041002300395275,
+   "sharedid": 11570041002300395275,
+   "type": "vocab_kana",
+   "display": "こじつけ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "distortion",
+    "stretch",
+    "strained interpretation",
+    "technicality",
+    "casuistry",
+    "sophistry"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13991129894762825788,
+   "sharedid": 4730199431685230383,
+   "type": "vocab_kana",
+   "display": "ちくしょう",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4084380848285667273,
+   "sharedid": 4084380848285667273,
+   "type": "vocab_kana",
+   "display": "ふんわり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "gently",
+    "airily",
+    "fluffily"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 5768350181032854858,
+   "sharedid": 5768350181032854858,
+   "type": "vocab_kana",
+   "display": "いわし",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "pilchard (esp. Japanese pilchard, Sardinops melanostictus)",
+    "sardine"
+   ],
+   "meanings_fr": [
+    "sardine"
+   ],
+   "meanings_es": [
+    "sardina (esp. la japonesa Sardinops melanostictus)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9888171322277340589,
+   "sharedid": 9888171322277340589,
+   "type": "vocab_kana",
+   "display": "すがる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to cling to",
+    "to hang onto",
+    "to rely on",
+    "to depend on",
+    "to implore",
+    "to entreat"
+   ],
+   "meanings_fr": [
+    "compter sur qq",
+    "implorer",
+    "recourir",
+    "s'accrocher à",
+    "s'appuyer (canne)",
+    "se raccrocher"
+   ],
+   "meanings_es": [
+    "agarrarse",
+    "depender de",
+    "estar a merced de"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10960747945240627558,
+   "sharedid": 10960747945240627558,
+   "type": "vocab_kana",
+   "display": "きりん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "giraffe (Giraffa camelopardalis)",
+    "qilin (Chinese unicorn)",
+    "horse that can ride 1000 ri in a day"
+   ],
+   "meanings_fr": [
+    "girafe"
+   ],
+   "meanings_es": [
+    "jirafa",
+    "unicornio chino",
+    "Kirin (marca de cerveza)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2220966839731963704,
+   "sharedid": 2220966839731963704,
+   "type": "vocab_kana",
+   "display": "ぱらぱら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "sprinkling (of rain, salt, etc.)",
+    "pattering",
+    "flipping (through a book, etc.)",
+    "riffling",
+    "sparse",
+    "scattered",
+    "sporadic",
+    "crumbly (e.g. tofu, cheese)",
+    "loose",
+    "non-sticky (e.g. rice)"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "un poco ",
+    "unas migas ",
+    "unas gotas"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 384934229559436625,
+   "sharedid": 384934229559436625,
+   "type": "vocab_kana",
+   "display": "いびき",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "snoring",
+    "snore"
+   ],
+   "meanings_fr": [
+    "ronflement"
+   ],
+   "meanings_es": [
+    "ronquido"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 650061691478786704,
+   "sharedid": 4283701375463835327,
+   "type": "vocab_kana",
+   "display": "ぐずぐず",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 6102172939349488822,
+   "sharedid": 6102172939349488822,
+   "type": "vocab_kana",
+   "display": "ちらちら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "falling lightly (e.g. snow, petals, confetti)",
+    "fluttering",
+    "flickering",
+    "twinkling",
+    "glimmering",
+    "sparkling",
+    "dazzling",
+    "appearing and disappearing",
+    "catching glimpses",
+    "glancing (repeatedly)",
+    "(hear, see) from time to time",
+    "intermittently"
+   ],
+   "meanings_fr": [
+    "clignotant",
+    "par intermittence",
+    "tremblant"
+   ],
+   "meanings_es": [
+    "flamear",
+    "ojear"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6890385588473727920,
+   "sharedid": 6890385588473727920,
+   "type": "vocab_kana",
+   "display": "うとうと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "falling into a doze",
+    "dozing off",
+    "nodding off"
+   ],
+   "meanings_fr": [
+    "s'assoupir",
+    "sommeiller",
+    "somnoler"
+   ],
+   "meanings_es": [
+    "dormirse de puro cansancio"
    ],
    "meanings_pt": []
   }
@@ -82492,6 +86317,432 @@
     "au contraire"
    ],
    "meanings_pt": []
+  },
+  {
+   "id": 5172460694276808474,
+   "sharedid": 11320859144328193659,
+   "type": "vocab",
+   "display": "却ける",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12641433096460844684,
+   "sharedid": 12641433096460844684,
+   "type": "vocab",
+   "display": "果敢ない",
+   "readings": [
+    "はかない"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "fleeting",
+    "transient",
+    "short-lived",
+    "momentary",
+    "ephemeral",
+    "fickle",
+    "vain",
+    "empty (dream, etc.)",
+    "mere (hope)",
+    "faint (possibility)"
+   ],
+   "meanings_es": [
+    "efímero",
+    "vano",
+    "efímero",
+    "pasajero",
+    "fugaz"
+   ],
+   "meanings_fr": [
+    "éphémère",
+    "fugitif",
+    "inconstant",
+    "momentané",
+    "passager",
+    "vain",
+    "vide"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8087414543034550409,
+   "sharedid": 12641433096460844684,
+   "type": "vocab",
+   "display": "果敢無い",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1597445917553717155,
+   "sharedid": 1597445917553717155,
+   "type": "vocab_kana",
+   "display": "のれん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "(short) curtain hung at shop entrance",
+    "split curtain used to divide spaces in a house",
+    "reputation (of a store)",
+    "good name",
+    "credit",
+    "goodwill"
+   ],
+   "meanings_fr": [
+    "crédit",
+    "réputation",
+    "rideau servant d'enseigne a l'entrée d'un magasin"
+   ],
+   "meanings_es": [
+    "noren",
+    "cortina corta (usada como separador)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9126514112054861752,
+   "sharedid": 9126514112054861752,
+   "type": "vocab_kana",
+   "display": "しいたけ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "shiitake mushroom (Lentinula edodes)"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12749011473268575423,
+   "sharedid": 12749011473268575423,
+   "type": "vocab_kana",
+   "display": "せしめる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to cheat (someone out of)",
+    "to swindle",
+    "to wangle",
+    "to wheedle",
+    "to get"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4028292154603729596,
+   "sharedid": 4028292154603729596,
+   "type": "vocab_kana",
+   "display": "くちばし",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "beak",
+    "bill"
+   ],
+   "meanings_fr": [
+    "bec"
+   ],
+   "meanings_es": [
+    "pico",
+    "boca"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11909137015421298675,
+   "sharedid": 14827058377367557518,
+   "type": "vocab_kana",
+   "display": "いやらしい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 6334183206174232420,
+   "sharedid": 6334183206174232420,
+   "type": "vocab_kana",
+   "display": "つるつる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "smooth",
+    "shiny",
+    "slick",
+    "slippery",
+    "greasy",
+    "slurping (noodles)"
+   ],
+   "meanings_fr": [
+    "glissant",
+    "lisse"
+   ],
+   "meanings_es": [
+    "sorber",
+    "chupar",
+    "liso",
+    "pulido"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3189063272060714639,
+   "sharedid": 11310328920479209755,
+   "type": "vocab_kana",
+   "display": "おでこ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2458978687889401871,
+   "sharedid": 2458978687889401871,
+   "type": "vocab_kana",
+   "display": "かゆい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "itchy"
+   ],
+   "meanings_fr": [
+    "qui démange",
+    "qui gratte"
+   ],
+   "meanings_es": [
+    "picor",
+    "escozor"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13511628455485323728,
+   "sharedid": 9698440795885181605,
+   "type": "vocab_kana",
+   "display": "もてなす",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13556299948349237638,
+   "sharedid": 13556299948349237638,
+   "type": "vocab_kana",
+   "display": "どっしり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "bulky and heavy",
+    "massive",
+    "solid",
+    "weighty",
+    "substantial",
+    "dignified",
+    "imposing",
+    "composed"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "con aplomo"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3635103349244237996,
+   "sharedid": 3635103349244237996,
+   "type": "vocab_kana",
+   "display": "おびただしい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "large number",
+    "innumerable",
+    "great many",
+    "immense",
+    "vast",
+    "abundant"
+   ],
+   "meanings_fr": [
+    "considérable",
+    "innombrable"
+   ],
+   "meanings_es": [
+    "abundante"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13375303628923007712,
+   "sharedid": 1790994304507882592,
+   "type": "vocab_kana",
+   "display": "うきうき",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4309572373012878930,
+   "sharedid": 4309572373012878930,
+   "type": "vocab_kana",
+   "display": "べったり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "sticking",
+    "clinging",
+    "with a smack (e.g. sitting down)",
+    "hard",
+    "all over",
+    "thickly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3531136794895200460,
+   "sharedid": 3531136794895200460,
+   "type": "vocab_kana",
+   "display": "くすぐる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to tickle",
+    "to tickle (one's curiosity, vanity, etc.)",
+    "to arouse",
+    "to appeal to",
+    "to flatter",
+    "to make laugh",
+    "to amuse",
+    "to entertain",
+    "to tickle"
+   ],
+   "meanings_fr": [
+    "chatouiller"
+   ],
+   "meanings_es": [
+    "cosquillear",
+    "excitar",
+    "estimular",
+    "halagar"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17402573883931535391,
+   "sharedid": 17402573883931535391,
+   "type": "vocab_kana",
+   "display": "ぐいぐい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "without hesitation",
+    "with great optimism",
+    "vigorously",
+    "with great vigor",
+    "positively",
+    "(pushing or pulling) strongly",
+    "(drinking) heavily"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11344826108607114877,
+   "sharedid": 8324835745340169133,
+   "type": "vocab_kana",
+   "display": "おふくろ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 6736725533303573806,
+   "sharedid": 10424809410680061908,
+   "type": "vocab_kana",
+   "display": "くつろぐ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9773431953170250041,
+   "sharedid": 9773431953170250041,
+   "type": "vocab_kana",
+   "display": "ためらう",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to hesitate",
+    "to waver"
+   ],
+   "meanings_fr": [
+    "hésiter"
+   ],
+   "meanings_es": [
+    "titubear",
+    "vacilar",
+    "dudar"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2384920558569470021,
+   "sharedid": 2384920558569470021,
+   "type": "vocab_kana",
+   "display": "こってり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "thickly",
+    "heavily",
+    "richly",
+    "severely",
+    "strongly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 17582360676432430921,
+   "sharedid": 2286317540259082238,
+   "type": "vocab_kana",
+   "display": "すれすれ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
   }
  ],
  [
@@ -83451,6 +87702,463 @@
     "perforatrice"
    ],
    "meanings_pt": []
+  },
+  {
+   "id": 11696863992657929862,
+   "sharedid": 10717745069213970710,
+   "type": "vocab",
+   "display": "和佐比",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1589162822227926217,
+   "sharedid": 15907078346260005470,
+   "type": "vocab",
+   "display": "柔やか",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9349480020188574218,
+   "sharedid": 9349480020188574218,
+   "type": "vocab_kana",
+   "display": "ぎこちない",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "awkward",
+    "clumsy",
+    "stiff",
+    "crude",
+    "unrefined",
+    "constrained"
+   ],
+   "meanings_fr": [
+    "contraint",
+    "gauche",
+    "maladroit",
+    "raide"
+   ],
+   "meanings_es": [
+    "incómodo"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11557875348414676796,
+   "sharedid": 11557875348414676796,
+   "type": "vocab_kana",
+   "display": "ぞくぞく",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "shivering",
+    "feeling chilly",
+    "shuddering (with fear)",
+    "feeling creepy",
+    "thrilled",
+    "excited"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14883257288825123419,
+   "sharedid": 14883257288825123419,
+   "type": "vocab_kana",
+   "display": "こそこそ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "sneakily",
+    "secretly",
+    "stealthily",
+    "on the sly"
+   ],
+   "meanings_fr": [
+    "furtivement"
+   ],
+   "meanings_es": [
+    "hacer algo sigilosamente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3572892134213171123,
+   "sharedid": 3572892134213171123,
+   "type": "vocab_kana",
+   "display": "づら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "wig",
+    "hairpiece"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "postizo",
+    "peluca"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6144801552861084275,
+   "sharedid": 8160180516588816340,
+   "type": "vocab_kana",
+   "display": "くっつく",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8801581336224026225,
+   "sharedid": 8801581336224026225,
+   "type": "vocab_kana",
+   "display": "もどかしい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "irritating",
+    "irritated",
+    "frustrating",
+    "vexing",
+    "(feeling things are) not quick enough",
+    "(feeling) too slow-going",
+    "(feeling) impatient",
+    "tantalizing",
+    "tantalising"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "fuera de quicio, fuera de sus casillas, exasperado, harto, muy impaciente, irritado"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12460107646188340150,
+   "sharedid": 12460107646188340150,
+   "type": "vocab_kana",
+   "display": "ドキッと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "being startled",
+    "getting a shock"
+   ],
+   "meanings_fr": [
+    "effrayant",
+    "sentir un choc"
+   ],
+   "meanings_es": [
+    "sobresaltarse",
+    "sorprenderse",
+    "espantarse"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7773660550949066241,
+   "sharedid": 7773660550949066241,
+   "type": "vocab_kana",
+   "display": "もろい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "brittle",
+    "fragile",
+    "weak",
+    "frail",
+    "tender-hearted",
+    "sentimental",
+    "easily moved"
+   ],
+   "meanings_fr": [
+    "cassant",
+    "fragile",
+    "sensible"
+   ],
+   "meanings_es": [
+    "frágil",
+    "quebradizo"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13146790005843265861,
+   "sharedid": 13146790005843265861,
+   "type": "vocab_kana",
+   "display": "あんな",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "that sort of",
+    "that kind of",
+    "like that",
+    "such",
+    "so"
+   ],
+   "meanings_fr": [
+    "tel (à propos de quelqu'un ou quelque chose de distant à la fois du locuteur et de l'auditeur, ou d'une situation inconnue à la fois du locuteur et de l'auditeur)",
+    "un tel",
+    "ça",
+    "cette sorte de",
+    "comme ça",
+    "de cette façon"
+   ],
+   "meanings_es": [
+    "tal",
+    "semejante",
+    "como",
+    "parecido",
+    "así como aquello"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3762865426221365490,
+   "sharedid": 3762865426221365490,
+   "type": "vocab_kana",
+   "display": "ぽっかり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "lightly",
+    "gaping wide",
+    "suddenly",
+    "unexpectedly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "ligero",
+    "formando un gran hueco"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3262735011854132765,
+   "sharedid": 3262735011854132765,
+   "type": "vocab_kana",
+   "display": "ひょんなことから",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "by a strange coincidence",
+    "in an unexpected turn of events",
+    "by chance",
+    "by accident"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2648793009021691825,
+   "sharedid": 2648793009021691825,
+   "type": "vocab_kana",
+   "display": "まやかし",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "deception",
+    "make-believe",
+    "fake",
+    "counterfeit",
+    "phony"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4254192435021920574,
+   "sharedid": 4254192435021920574,
+   "type": "vocab_kana",
+   "display": "にらむ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to glare at",
+    "to scowl at",
+    "to glower at",
+    "to stare intensely at",
+    "to examine carefully",
+    "to estimate",
+    "to guess",
+    "to suspect",
+    "to judge",
+    "to keep an eye on someone (e.g. a suspicious or untrustworthy person)",
+    "to watch",
+    "to take account of",
+    "to take into consideration"
+   ],
+   "meanings_fr": [
+    "regarder avec hostilité",
+    "menacer du regard",
+    "jeter un regard mauvais",
+    "regarder intensément",
+    "examiner attentivement",
+    "estimer",
+    "deviner",
+    "soupçonner",
+    "suspecter",
+    "juger",
+    "garder un oeil sur quelqu'un (par ex. une personne suspecte ou non fiable)",
+    "regarder",
+    "tenir compte de",
+    "prendre en considération"
+   ],
+   "meanings_es": [
+    "mirar fijamente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5451049864814200482,
+   "sharedid": 5451049864814200482,
+   "type": "vocab_kana",
+   "display": "しょぼい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "shabby",
+    "dull",
+    "cheap",
+    "lackluster",
+    "uninspiring",
+    "depressing",
+    "gloomy"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12609605183790155788,
+   "sharedid": 12609605183790155788,
+   "type": "vocab_kana",
+   "display": "ねた",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "material (for a story, article, etc.)",
+    "information",
+    "news item",
+    "joke",
+    "jest",
+    "(comedy) routine",
+    "made-up story",
+    "material",
+    "proof",
+    "evidence",
+    "(magician's) trick",
+    "secret",
+    "ingredients",
+    "(Internet) meme"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 5403972357347020849,
+   "sharedid": 10568646676394711615,
+   "type": "vocab_kana",
+   "display": "ぬるい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2819508155399942541,
+   "sharedid": 2819508155399942541,
+   "type": "vocab_kana",
+   "display": "あらまし",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "outline",
+    "summary",
+    "gist",
+    "abstract",
+    "roughly",
+    "about",
+    "nearly",
+    "almost"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "sumario",
+    "resumen",
+    "líneas generales",
+    "outline"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3872336821573889667,
+   "sharedid": 8998233707650623127,
+   "type": "vocab_kana",
+   "display": "うちわ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9198975101696985364,
+   "sharedid": 12318384114368363438,
+   "type": "vocab_kana",
+   "display": "あぐら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4081148511802721001,
+   "sharedid": 4081148511802721001,
+   "type": "vocab_kana",
+   "display": "うっとうしい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "gloomy (e.g. mood)",
+    "depressing",
+    "irritating",
+    "troublesome",
+    "heavy (weather)",
+    "cloudy"
+   ],
+   "meanings_fr": [
+    "couvert (temps)",
+    "déprimant",
+    "triste"
+   ],
+   "meanings_es": [
+    "odioso",
+    "insoportable"
+   ],
+   "meanings_pt": []
   }
  ],
  [
@@ -84402,6 +89110,418 @@
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
+  },
+  {
+   "id": 9203678167333923954,
+   "sharedid": 9203678167333923954,
+   "type": "vocab",
+   "display": "軟派",
+   "readings": [
+    "なんぱ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "seducer",
+    "smooth talker",
+    "ladies' man",
+    "playboy",
+    "playgirl",
+    "picking up women",
+    "hitting on women",
+    "moderate party",
+    "moderate",
+    "social story (in a newspaper, etc.)",
+    "society columnist (of a newspaper)",
+    "bearish trader",
+    "bear"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1790994304507882592,
+   "sharedid": 1790994304507882592,
+   "type": "vocab",
+   "display": "浮き浮き",
+   "readings": [
+    "うきうき"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "cheerfully",
+    "buoyantly",
+    "happily",
+    "in high spirits"
+   ],
+   "meanings_es": [
+    "flotando",
+    "alegre",
+    "emocionado"
+   ],
+   "meanings_fr": [
+    "de bonne humeur",
+    "gai",
+    "joyeux",
+    "réjoui"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4666173856098923437,
+   "sharedid": 4666173856098923437,
+   "type": "vocab_kana",
+   "display": "せっかち",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "hasty",
+    "impatient",
+    "restless",
+    "rash"
+   ],
+   "meanings_fr": [
+    "impatient",
+    "pressé"
+   ],
+   "meanings_es": [
+    "precipitado",
+    "impaciente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11026798927544159834,
+   "sharedid": 11026798927544159834,
+   "type": "vocab_kana",
+   "display": "ざっくばらん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "frank",
+    "candid",
+    "outspoken",
+    "unreserved"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "a las claras ",
+    "con franqueza ",
+    "sin tapujos",
+    "franqueza"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15025389387041532944,
+   "sharedid": 10152942423560470402,
+   "type": "vocab_kana",
+   "display": "かけら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3733800559183014695,
+   "sharedid": 3733800559183014695,
+   "type": "vocab_kana",
+   "display": "どす",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "dagger",
+    "dirk",
+    "knife",
+    "threatening quality (in a voice, etc.)",
+    "muddy",
+    "turbid",
+    "murky",
+    "unclear",
+    "be",
+    "is"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 5738099478934321044,
+   "sharedid": 16508606145623925778,
+   "type": "vocab_kana",
+   "display": "そらす",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13688717779928128416,
+   "sharedid": 13688717779928128416,
+   "type": "vocab_kana",
+   "display": "おっとり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "gently",
+    "quietly",
+    "calmly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "dulcemente",
+    "suavemente",
+    "tranquilamente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9964751910685371477,
+   "sharedid": 5622600357339457852,
+   "type": "vocab_kana",
+   "display": "たやすい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 15113976339024886225,
+   "sharedid": 15113976339024886225,
+   "type": "vocab_kana",
+   "display": "じりじり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "slowly (but steadily)",
+    "gradually",
+    "bit-by-bit",
+    "irritatedly",
+    "impatiently",
+    "scorchingly (of the sun)",
+    "sizzling (i.e. sound of frying in oil)",
+    "sound of a warning bell, alarm clock, etc.",
+    "oozing out (oil, sweat, etc.)",
+    "seeping out"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "acabarse la paciencia",
+    "avanzar lento pero sin pausa",
+    "ser implacables los rayos de sol",
+    "sonido de alarma del reloj"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8001661481104707832,
+   "sharedid": 8001661481104707832,
+   "type": "vocab_kana",
+   "display": "とんだ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "unthinkable",
+    "unimaginable",
+    "inconceivable",
+    "unexpected",
+    "terrible",
+    "awful",
+    "serious",
+    "very"
+   ],
+   "meanings_fr": [
+    "abominable",
+    "absurde",
+    "sérieux",
+    "terrible",
+    "vraiment pas"
+   ],
+   "meanings_es": [
+    "impensable",
+    "inimaginable",
+    "inconcebible",
+    "inesperado",
+    "terrible",
+    "tremendo",
+    "grave",
+    "muy"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2708621264573580336,
+   "sharedid": 6074514421729512412,
+   "type": "vocab_kana",
+   "display": "どろどろ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 7052118939000743986,
+   "sharedid": 7052118939000743986,
+   "type": "vocab_kana",
+   "display": "ずぶ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "completely",
+    "entirely",
+    "totally"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "completamente",
+    "enteramente",
+    "totalmente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9035686508354600258,
+   "sharedid": 9035686508354600258,
+   "type": "vocab_kana",
+   "display": "ひらひら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "fluttering",
+    "flapping",
+    "waving",
+    "flickering (light, flame, etc.)",
+    "frill",
+    "piece of thin material"
+   ],
+   "meanings_fr": [
+    "frémissement",
+    "froissement (de vêtements)"
+   ],
+   "meanings_es": [
+    "revoloteando",
+    "parpadeando"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10568058573065272145,
+   "sharedid": 1027081063500763085,
+   "type": "vocab_kana",
+   "display": "たんぽぽ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 18300612613029900632,
+   "sharedid": 4130763693880134166,
+   "type": "vocab_kana",
+   "display": "わかめ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2858395139481914528,
+   "sharedid": 2858395139481914528,
+   "type": "vocab_kana",
+   "display": "うだうだ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "going on and on (about inconsequential things)",
+    "talking nons",
+    "idling away the time",
+    "dawdling"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 7127283708182971863,
+   "sharedid": 18310309853450698379,
+   "type": "vocab_kana",
+   "display": "はがす",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 6698649214181141283,
+   "sharedid": 8294746681173280922,
+   "type": "vocab_kana",
+   "display": "かけっこ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 16227047403925217964,
+   "sharedid": 16227047403925217964,
+   "type": "vocab_kana",
+   "display": "よろ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "best regards",
+    "please take care of",
+    "please do"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 17446123477897389925,
+   "sharedid": 2494733240236041495,
+   "type": "vocab_kana",
+   "display": "やかましい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 5252665046856976092,
+   "sharedid": 5252665046856976092,
+   "type": "vocab_kana",
+   "display": "ぶらり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "dangling",
+    "aimlessly",
+    "casually",
+    "idly",
+    "unexpectedly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
   }
  ],
  [
@@ -85341,6 +90461,369 @@
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
+  },
+  {
+   "id": 17084902106027944511,
+   "sharedid": 1710676302161104217,
+   "type": "vocab_kana",
+   "display": "まんざら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 6057345805025413693,
+   "sharedid": 15047022964802730455,
+   "type": "vocab_kana",
+   "display": "からし",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13583963310259422558,
+   "sharedid": 13583963310259422558,
+   "type": "vocab_kana",
+   "display": "ちぐはぐ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "mismatched",
+    "odd",
+    "irregular",
+    "inconsistent",
+    "incoherent",
+    "confused"
+   ],
+   "meanings_fr": [
+    "incohérent"
+   ],
+   "meanings_es": [
+    "incoherente",
+    "absurdo",
+    "caótico",
+    "confuso"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14792341941657287066,
+   "sharedid": 14792341941657287066,
+   "type": "vocab_kana",
+   "display": "よもや",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "surely (not)",
+    "certainly (not)"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "seguramente",
+    "sin duda"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6685961449804370127,
+   "sharedid": 6685961449804370127,
+   "type": "vocab_kana",
+   "display": "いそいそ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "cheerfully",
+    "excitedly"
+   ],
+   "meanings_fr": [
+    "allègrement",
+    "avec animation",
+    "gaiement"
+   ],
+   "meanings_es": [
+    "estar muy alegre",
+    "vivaz"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5038798383812410329,
+   "sharedid": 5038798383812410329,
+   "type": "vocab_kana",
+   "display": "くたくた",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "exhausted",
+    "worn out",
+    "dead tired",
+    "battered (esp. of clothing)",
+    "worn out",
+    "ragged",
+    "tattered",
+    "(boiling) to a pulp",
+    "to a mash",
+    "to a mush"
+   ],
+   "meanings_fr": [
+    "être à plat",
+    "être épuisé"
+   ],
+   "meanings_es": [
+    "agotado",
+    "muerto (de cansancio)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8555273485440173078,
+   "sharedid": 8555273485440173078,
+   "type": "vocab_kana",
+   "display": "くよくよ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to fret (over)",
+    "to brood (about)",
+    "to mope",
+    "to worry",
+    "worriedly",
+    "(fretting) constantly",
+    "(worrying) over this and that",
+    "(obsessing) to no end"
+   ],
+   "meanings_fr": [
+    "ruminer",
+    "s'inquiéter",
+    "se faire du souci pour",
+    "se tracasser"
+   ],
+   "meanings_es": [
+    "lamentandose"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7291420928918395638,
+   "sharedid": 7291420928918395638,
+   "type": "vocab_kana",
+   "display": "そわそわ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "restlessly",
+    "nervously",
+    "uneasily",
+    "in a fidget"
+   ],
+   "meanings_fr": [
+    "agité",
+    "nerveux"
+   ],
+   "meanings_es": [
+    "nervioso",
+    "inquieto"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4130382851807068284,
+   "sharedid": 4130382851807068284,
+   "type": "vocab_kana",
+   "display": "ずっしり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "heavily",
+    "profoundly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2424332010604232814,
+   "sharedid": 2424332010604232814,
+   "type": "vocab_kana",
+   "display": "じゃんじゃん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "clanging (of a bell)",
+    "jangling",
+    "ding-dong",
+    "continuously",
+    "incessantly",
+    "one after another",
+    "rapidly",
+    "plentifully",
+    "freely"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "campaneando",
+    "repiqueteando"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15501038214715342165,
+   "sharedid": 15501038214715342165,
+   "type": "vocab_kana",
+   "display": "ふける",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to run away (e.g. from work)",
+    "to escape",
+    "to hide",
+    "to end a round with less than 20 points"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 5799700202623983360,
+   "sharedid": 16024680963627693639,
+   "type": "vocab_kana",
+   "display": "きらびやか",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9375188303103371699,
+   "sharedid": 9375188303103371699,
+   "type": "vocab_kana",
+   "display": "からかう",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to tease",
+    "to make fun of",
+    "to poke fun at",
+    "to make a crack about",
+    "to chaff",
+    "to kid",
+    "to joke",
+    "to banter",
+    "to pull someone's leg"
+   ],
+   "meanings_fr": [
+    "ridiculiser",
+    "se moquer de",
+    "taquiner",
+    "plaisanter",
+    "se jouer de"
+   ],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 5717168429902532447,
+   "sharedid": 8847769024501544020,
+   "type": "vocab_kana",
+   "display": "こする",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8873050625527283862,
+   "sharedid": 8873050625527283862,
+   "type": "vocab_kana",
+   "display": "でなければ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "without",
+    "but if",
+    "otherwise",
+    "or else"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12282415959243452473,
+   "sharedid": 10577553141342040770,
+   "type": "vocab_kana",
+   "display": "ばね",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9885130958769647624,
+   "sharedid": 9885130958769647624,
+   "type": "vocab_kana",
+   "display": "とぼとぼ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "totteringly",
+    "trudgingly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "caminar sin ánimo ",
+    "andar afligido ",
+    "caminar con cansancio"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 560749804583694903,
+   "sharedid": 10305455911743165734,
+   "type": "vocab_kana",
+   "display": "とびきり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14162546434394755181,
+   "sharedid": 11401525661425529218,
+   "type": "vocab_kana",
+   "display": "はしゃぐ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 7510759668399945848,
+   "sharedid": 13971047103018174428,
+   "type": "vocab_kana",
+   "display": "こぼれる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
   }
  ],
  [
@@ -86209,6 +91692,416 @@
    ],
    "meanings_fr": [
     "cousin (masculin)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12983866453700252320,
+   "sharedid": 12983866453700252320,
+   "type": "vocab_kana",
+   "display": "ひょっこり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "all of a sudden",
+    "suddenly",
+    "by chance",
+    "unexpectedly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11136767705342601156,
+   "sharedid": 11136767705342601156,
+   "type": "vocab_kana",
+   "display": "ふざける",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to joke",
+    "to jest",
+    "to kid",
+    "to josh",
+    "to make fun of",
+    "to laugh at",
+    "to play a prank",
+    "to romp",
+    "to gambol",
+    "to frolic",
+    "to frisk",
+    "to mess around",
+    "to fool around",
+    "to screw around",
+    "to neck",
+    "to make out"
+   ],
+   "meanings_fr": [
+    "rigoler",
+    "plaisanter",
+    "blaguer",
+    "se moquer de",
+    "rire de",
+    "jouer un tour",
+    "faire une blague",
+    "folâtrer",
+    "gambader",
+    "batifoler",
+    "s'amuser",
+    "faire l'imbécile",
+    "glander",
+    "s'embrasser"
+   ],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1438767293280111398,
+   "sharedid": 1438767293280111398,
+   "type": "vocab_kana",
+   "display": "ぶんぶん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "buzz",
+    "hum",
+    "shake (with vigor)",
+    "shaking"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3147364148867619942,
+   "sharedid": 12641433096460844684,
+   "type": "vocab_kana",
+   "display": "はかない",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 7724322873683651741,
+   "sharedid": 7724322873683651741,
+   "type": "vocab_kana",
+   "display": "たたずむ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to stand (still) a while",
+    "to loiter",
+    "to stop"
+   ],
+   "meanings_fr": [
+    "rôder",
+    "rester immobile un instant",
+    "s'arrêter",
+    "s'attarder (en route)"
+   ],
+   "meanings_es": [
+    "quedarse parado"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4663950051945062845,
+   "sharedid": 4663950051945062845,
+   "type": "vocab_kana",
+   "display": "しんみり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "quietly",
+    "softly",
+    "seriously",
+    "intimately",
+    "heart-to-heart",
+    "solemnly",
+    "sadly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1228991785420734276,
+   "sharedid": 1228991785420734276,
+   "type": "vocab_kana",
+   "display": "ちょびっと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "a little"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 6151185047757824609,
+   "sharedid": 6151185047757824609,
+   "type": "vocab_kana",
+   "display": "ごっそり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "completely",
+    "entirely",
+    "all",
+    "in large amounts",
+    "a lot"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14606395270962282890,
+   "sharedid": 14606395270962282890,
+   "type": "vocab_kana",
+   "display": "てくてく",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "(walking a long distance) at a steady pace",
+    "trudgingly"
+   ],
+   "meanings_fr": [
+    "parcourir une longue distance à vitesse uniforme"
+   ],
+   "meanings_es": [
+    "a marcha forzada"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 411693825424555075,
+   "sharedid": 411693825424555075,
+   "type": "vocab_kana",
+   "display": "もぐ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to pluck (usually from a tree)",
+    "to pick (e.g. apples)"
+   ],
+   "meanings_fr": [
+    "cueillir"
+   ],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8149784219734960678,
+   "sharedid": 17530057381301217011,
+   "type": "vocab_kana",
+   "display": "ぶっきらぼう",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 7993097177921043449,
+   "sharedid": 7993097177921043449,
+   "type": "vocab_kana",
+   "display": "じめじめ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "damp",
+    "humid",
+    "wet",
+    "clammy",
+    "muggy",
+    "soggy",
+    "gloomy",
+    "melancholy",
+    "depressing"
+   ],
+   "meanings_fr": [
+    "humide",
+    "moite"
+   ],
+   "meanings_es": [
+    "húmedo y empadado",
+    "sonido de goteo o chorreo"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15184412622238716999,
+   "sharedid": 15184412622238716999,
+   "type": "vocab_kana",
+   "display": "なぞる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to trace (drawing)",
+    "to follow",
+    "to imitate",
+    "to copy",
+    "to reproduce"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12388951735494805276,
+   "sharedid": 12388951735494805276,
+   "type": "vocab_kana",
+   "display": "とんとん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "with a tap",
+    "with a knock",
+    "with a knocking sound",
+    "with a rap-tap",
+    "smoothly (proceed)",
+    "without a hitch",
+    "without delay",
+    "even",
+    "equal",
+    "break-even"
+   ],
+   "meanings_fr": [
+    "tapotement"
+   ],
+   "meanings_es": [
+    "golpeando",
+    "al parejo",
+    "sin contratiempos"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16827953318515985376,
+   "sharedid": 16827953318515985376,
+   "type": "vocab_kana",
+   "display": "なんぞ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "et cetera",
+    "etc.",
+    "and the like",
+    "and so forth"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9705377860206082910,
+   "sharedid": 9705377860206082910,
+   "type": "vocab_kana",
+   "display": "あたふた",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "in a hurry",
+    "hurriedly",
+    "hastily",
+    "helter-skelter",
+    "hurry-scurry"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "perder los papeles",
+    "no saber qué hacer",
+    "precipitarse, apurarse"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12819904878777514402,
+   "sharedid": 12819904878777514402,
+   "type": "vocab_kana",
+   "display": "それも",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "and in addition to that",
+    "even so"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "y además de eso"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5375376958631003745,
+   "sharedid": 5375376958631003745,
+   "type": "vocab_kana",
+   "display": "くねくね",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "winding",
+    "meandering",
+    "wriggling",
+    "wiggling",
+    "waving",
+    "swaying",
+    "twisting and turning"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12008904241256487547,
+   "sharedid": 12008904241256487547,
+   "type": "vocab_kana",
+   "display": "どんと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "powerfully",
+    "vigorously",
+    "with all one's strength",
+    "lots of",
+    "heaps of",
+    "plenty"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14849863617297849613,
+   "sharedid": 14849863617297849613,
+   "type": "vocab_kana",
+   "display": "からから",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "parched",
+    "dried-up",
+    "bone-dry",
+    "empty",
+    "hollow",
+    "rattling",
+    "clattering",
+    "laughing loudly",
+    "roaring with laughter"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "estar algo seco",
+    "tener sed",
+    "reírse con fruición",
+    "gaak"
    ],
    "meanings_pt": []
   }
@@ -87215,6 +93108,483 @@
     "injuste"
    ],
    "meanings_pt": []
+  },
+  {
+   "id": 14018435864413573374,
+   "sharedid": 14018435864413573374,
+   "type": "vocab",
+   "display": "欠伸",
+   "readings": [
+    "あくび",
+    "けんしん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "yawn",
+    "yawning",
+    "kanji \"yawning\" radical (radical 76)"
+   ],
+   "meanings_es": [
+    "bostezo",
+    "bostezar (y estirarse)",
+    "bostezar",
+    "bostezo"
+   ],
+   "meanings_fr": [
+    "bâillement",
+    "radical de kanji « bâillement » (radical 76)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4905133750095722405,
+   "sharedid": 10152942423560470402,
+   "type": "vocab",
+   "display": "欠けら",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13971047103018174428,
+   "sharedid": 13971047103018174428,
+   "type": "vocab",
+   "display": "零れる",
+   "readings": [
+    "こぼれる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to spill",
+    "to fall out of",
+    "to overflow",
+    "to peek through",
+    "to become visible (although normally not)",
+    "to escape (of a smile, tear, etc.)"
+   ],
+   "meanings_es": [
+    "derramarse",
+    "regarse",
+    "infiltrarse"
+   ],
+   "meanings_fr": [
+    "regarder à travers",
+    "devenir visible (alors que ce n'est pas le cas normalement)",
+    "s'échapper (pour un sourire, des larmes, etc.)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8263846658717914081,
+   "sharedid": 8263846658717914081,
+   "type": "vocab",
+   "display": "零す",
+   "readings": [
+    "こぼす"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to spill",
+    "to drop",
+    "to shed (tears)",
+    "to grumble",
+    "to complain",
+    "to let one's feelings show"
+   ],
+   "meanings_es": [
+    "derramar",
+    "regar",
+    "quejarse",
+    "derramar",
+    "murmurar",
+    "refunfuñar"
+   ],
+   "meanings_fr": [
+    "répandre",
+    "renverser",
+    "verser (des larmes)",
+    "ronchonner",
+    "grommeler",
+    "grogner",
+    "bougonner",
+    "se plaindre",
+    "laisser paraître ses sentiments"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1072169291426300886,
+   "sharedid": 1072169291426300886,
+   "type": "vocab_kana",
+   "display": "ちびちび",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "little by little",
+    "bit by bit",
+    "sparingly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4353372252286567779,
+   "sharedid": 18171620342352679371,
+   "type": "vocab_kana",
+   "display": "よくも",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4195076035334511,
+   "sharedid": 4195076035334511,
+   "type": "vocab_kana",
+   "display": "わんさ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "in swarms",
+    "in great crowds"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3754607213695967636,
+   "sharedid": 3754607213695967636,
+   "type": "vocab_kana",
+   "display": "てきぱき",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "briskly",
+    "quickly",
+    "promptly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "con prontitud",
+    "dinámicamente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12961038057215348250,
+   "sharedid": 12961038057215348250,
+   "type": "vocab_kana",
+   "display": "ちんちん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "penis",
+    "with a tinkle",
+    "with a jingle",
+    "with a whistle (of a kettle)",
+    "sitting up and begging (of a dog)",
+    "juvenile black porgy",
+    "children's game in which one hops on one foot",
+    "very hot (e.g. of tea)",
+    "flirting",
+    "fondling",
+    "jealousy"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "pene (voz infantil), la colita, el pito, la pilila, la pichina",
+    "tintineo ",
+    "campanilleo ",
+    "rumor metálico ",
+    "ponerse un perro a dos patas"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5280710669597108204,
+   "sharedid": 5280710669597108204,
+   "type": "vocab_kana",
+   "display": "のろのろ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "slowly",
+    "sluggishly"
+   ],
+   "meanings_fr": [
+    "doucement",
+    "lentement",
+    "mollement"
+   ],
+   "meanings_es": [
+    "pesadamente",
+    "aletargadamente"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2368993521863009892,
+   "sharedid": 2368993521863009892,
+   "type": "vocab_kana",
+   "display": "はびこる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "to become overgrown",
+    "to grow thick",
+    "to spread",
+    "to run rampant",
+    "to thrive",
+    "to prevail",
+    "to become powerful"
+   ],
+   "meanings_fr": [
+    "devenir puissant",
+    "s'étendre",
+    "se propager (végétation)"
+   ],
+   "meanings_es": [
+    "crecer fuera de control"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2125671588178135431,
+   "sharedid": 8263846658717914081,
+   "type": "vocab_kana",
+   "display": "こぼす",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1851751838010147950,
+   "sharedid": 1851751838010147950,
+   "type": "vocab_kana",
+   "display": "ひょんな",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "strange",
+    "unexpected",
+    "(by) chance",
+    "unusual",
+    "curious"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 10293376387896047767,
+   "sharedid": 10293376387896047767,
+   "type": "vocab_kana",
+   "display": "もりもり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "(eating) heartily",
+    "energetically",
+    "vigorously",
+    "(working) hard",
+    "enthusiastically",
+    "bulging (muscles)",
+    "welling up (of strength, courage, etc.)"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "con vitalidad, con energía, con fuerza ",
+    "morder algo duro"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6748547182205084510,
+   "sharedid": 6748547182205084510,
+   "type": "vocab_kana",
+   "display": "やんわり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "softly",
+    "mildly",
+    "gently",
+    "politely"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1202606481402182224,
+   "sharedid": 15904203901735945773,
+   "type": "vocab_kana",
+   "display": "それる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 18442051290806400868,
+   "sharedid": 11866305371612197532,
+   "type": "vocab_kana",
+   "display": "なおざり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14606368447130283581,
+   "sharedid": 14606368447130283581,
+   "type": "vocab_kana",
+   "display": "ともすると",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "apt to (do)",
+    "liable to",
+    "prone to"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9155822975587613523,
+   "sharedid": 9155822975587613523,
+   "type": "vocab_kana",
+   "display": "ぽかぽか",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "pleasantly warm",
+    "nice and warm",
+    "repeatedly (hitting someone)",
+    "again and again",
+    "over and over"
+   ],
+   "meanings_fr": [
+    "bruit de coups sur quelqu'un",
+    "chaleur à travers le corps"
+   ],
+   "meanings_es": [
+    "calientito",
+    "tibio"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17735244655344979971,
+   "sharedid": 17735244655344979971,
+   "type": "vocab_kana",
+   "display": "しょんぼり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "downheartedly",
+    "dejectedly",
+    "dispiritedly",
+    "despondently"
+   ],
+   "meanings_fr": [
+    "être découragé"
+   ],
+   "meanings_es": [
+    "estar desanimado"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16316005486656371012,
+   "sharedid": 16316005486656371012,
+   "type": "vocab_kana",
+   "display": "ばっさり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "(cutting) with a single stroke",
+    "lopping off (branches, etc.)",
+    "(cutting hair) short",
+    "drastically (slash a budget, etc.)",
+    "resolutely",
+    "ruthlessly (discard, etc.)",
+    "completely"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4337006074741580011,
+   "sharedid": 4337006074741580011,
+   "type": "vocab_kana",
+   "display": "ほうき",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "broom"
+   ],
+   "meanings_fr": [
+    "balai"
+   ],
+   "meanings_es": [
+    "escoba"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6368115466692805894,
+   "sharedid": 6368115466692805894,
+   "type": "vocab_kana",
+   "display": "ふわっと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "floatingly",
+    "driftingly",
+    "with a s of weightlessness",
+    "softly",
+    "gently",
+    "lightly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 17393508124573162566,
+   "sharedid": 17393508124573162566,
+   "type": "vocab_kana",
+   "display": "ごそごそ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "with a rustling sound",
+    "(rummaging) around"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "ruido confuso ",
+    "sonido turbio ",
+    "murmullo"
+   ],
+   "meanings_pt": []
   }
  ],
  [
@@ -88119,6 +94489,324 @@
     "pato doméstico"
    ],
    "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2286317540259082238,
+   "sharedid": 2286317540259082238,
+   "type": "vocab",
+   "display": "擦れ擦れ",
+   "readings": [
+    "すれすれ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "grazing",
+    "skimming",
+    "almost touching",
+    "passing within inches",
+    "being within a whisker",
+    "shaving close",
+    "barely",
+    "just",
+    "narrowly",
+    "by a slim margin"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [
+    "juste à temps",
+    "sur la marge",
+    "sur le bord de",
+    "tres pres de"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 710800091900821221,
+   "sharedid": 710800091900821221,
+   "type": "vocab_kana",
+   "display": "ぽんぽん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "tummy",
+    "tumtum",
+    "bang-bang",
+    "pop-pop",
+    "tap-tap",
+    "without reservation",
+    "unreservedly",
+    "snappishly",
+    "outspokenly",
+    "one after another",
+    "successively"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "onomatopeya de un golpe, disparo, petardeo, explosión o palmada ",
+    "repleto, abarrotado"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3990051496278965059,
+   "sharedid": 3990051496278965059,
+   "type": "vocab_kana",
+   "display": "いみじくも",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "admirably",
+    "exquisitely",
+    "aptly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 105333511116969240,
+   "sharedid": 105333511116969240,
+   "type": "vocab_kana",
+   "display": "あれよあれよ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "while surprised",
+    "suddenly"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "exclamación de sorpresa: ¿eh?, ¿cómo? ",
+    "expresión vocativa: ¡oye!, ¡eh!, ¡tú!"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6363598339489017343,
+   "sharedid": 6363598339489017343,
+   "type": "vocab_kana",
+   "display": "そうですが",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "that's so, however ..."
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9208554574932050551,
+   "sharedid": 16516705849391014756,
+   "type": "vocab_kana",
+   "display": "へたくそ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8088448006735569028,
+   "sharedid": 8088448006735569028,
+   "type": "vocab_kana",
+   "display": "しこたま",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "a lot",
+    "loads",
+    "plenty"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3312914098705755132,
+   "sharedid": 3312914098705755132,
+   "type": "vocab_kana",
+   "display": "せこい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "petty",
+    "small-minded",
+    "stingy",
+    "cheap",
+    "mean",
+    "crafty",
+    "sly",
+    "poor (performance, etc.)",
+    "bad",
+    "unskilled"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "rácano ",
+    "tacaño ",
+    "cara dura ",
+    "jeta"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6917898668656195938,
+   "sharedid": 6917898668656195938,
+   "type": "vocab_kana",
+   "display": "びっしょり",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "wet through",
+    "drenched"
+   ],
+   "meanings_fr": [
+    "imbibé",
+    "trempé"
+   ],
+   "meanings_es": [
+    "empapado"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13897082770543535448,
+   "sharedid": 13897082770543535448,
+   "type": "vocab_kana",
+   "display": "おさらば",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "good-bye",
+    "farewell"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2218105889310480006,
+   "sharedid": 2218105889310480006,
+   "type": "vocab_kana",
+   "display": "ぐんと",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "remarkably",
+    "noticeably"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 6774061633880971954,
+   "sharedid": 10879802676324602222,
+   "type": "vocab_kana",
+   "display": "みずみずしい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11487186359205019008,
+   "sharedid": 11487186359205019008,
+   "type": "vocab_kana",
+   "display": "ざく",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "assorted vegetables for sukiyaki (esp. green onion)"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8237023182319564087,
+   "sharedid": 9208424478402844348,
+   "type": "vocab_kana",
+   "display": "きちがい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1808659012812637516,
+   "sharedid": 1808659012812637516,
+   "type": "vocab_kana",
+   "display": "あわや",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "nearly",
+    "almost",
+    "on the verge (of happening)"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "por los pelos",
+    "ultimo momento",
+    "por poco"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9943031307467880446,
+   "sharedid": 9943031307467880446,
+   "type": "vocab_kana",
+   "display": "せせらぎ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "small stream",
+    "brooklet",
+    "murmuring (as of a stream)"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11011626691736659665,
+   "sharedid": 3464933612471482249,
+   "type": "vocab_kana",
+   "display": "うぬぼれ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_fr": [],
+   "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 10043181875988278067,
+   "sharedid": 10043181875988278067,
+   "type": "vocab_kana",
+   "display": "しくしく",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [
+    "weeping",
+    "sobbing",
+    "softly (crying)",
+    "with a prolonged dull pain",
+    "having a griping pain"
+   ],
+   "meanings_fr": [],
+   "meanings_es": [
+    "punzante",
+    "intensamente"
+   ],
    "meanings_pt": []
   }
  ],
@@ -90343,6 +97031,18 @@
     "gravillon"
    ],
    "meanings_pt": []
+  },
+  {
+   "id": 7524931097550237059,
+   "sharedid": 11722228145580801436,
+   "type": "vocab",
+   "display": "戴きます",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
   }
  ],
  [
@@ -91171,6 +97871,50 @@
    "meanings": [],
    "meanings_es": [],
    "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2858780975631226177,
+   "sharedid": 4813893854773995868,
+   "type": "vocab",
+   "display": "軽板",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2254214055084117152,
+   "sharedid": 4813893854773995868,
+   "type": "vocab",
+   "display": "軽多",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 17530057381301217011,
+   "sharedid": 17530057381301217011,
+   "type": "vocab",
+   "display": "ぶっきら棒",
+   "readings": [
+    "ぶっきらぼう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "curt",
+    "blunt",
+    "brusque"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [
+    "brusque"
+   ],
    "meanings_pt": []
   }
  ],
@@ -93939,6 +100683,90 @@
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
+  },
+  {
+   "id": 3981722499783665440,
+   "sharedid": 5931477078990367079,
+   "type": "vocab",
+   "display": "誤摩化す",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14342019849130809909,
+   "sharedid": 14342019849130809909,
+   "type": "vocab",
+   "display": "呑気",
+   "readings": [
+    "のんき"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "carefree",
+    "optimistic",
+    "careless",
+    "reckless",
+    "heedless",
+    "happy-go-lucky",
+    "easygoing",
+    "thoughtless"
+   ],
+   "meanings_es": [
+    "despreocupado",
+    "indiferente"
+   ],
+   "meanings_fr": [
+    "insouciant",
+    "optimiste",
+    "négligent",
+    "téméraire",
+    "inattentif",
+    "facile à vivre",
+    "nonchalant",
+    "inconscient",
+    "irréfléchi",
+    "inconsidéré"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14827058377367557518,
+   "sharedid": 14827058377367557518,
+   "type": "vocab",
+   "display": "嫌らしい",
+   "readings": [
+    "いやらしい",
+    "やらしい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "unpleasant",
+    "disagreeable",
+    "nasty",
+    "lewd",
+    "lascivious",
+    "obscene",
+    "filthy",
+    "dirty"
+   ],
+   "meanings_es": [
+    "desagradable",
+    "asqueroso",
+    "repulsivo",
+    "detestable",
+    "indecente",
+    "lascivo",
+    "sucio"
+   ],
+   "meanings_fr": [
+    "désagréable",
+    "détestable"
+   ],
+   "meanings_pt": []
   }
  ],
  [
@@ -94849,6 +101677,26 @@
     "indigne",
     "répréhensible",
     "condamnable"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16345434189487380885,
+   "sharedid": 16345434189487380885,
+   "type": "vocab",
+   "display": "薬缶",
+   "readings": [
+    "やかん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "kettle"
+   ],
+   "meanings_es": [
+    "tetera"
+   ],
+   "meanings_fr": [
+    "bouilloire"
    ],
    "meanings_pt": []
   }
@@ -95898,6 +102746,72 @@
     "agression sexuelle",
     "attentat à la pudeur",
     "viol"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8324835745340169133,
+   "sharedid": 8324835745340169133,
+   "type": "vocab",
+   "display": "お袋",
+   "readings": [
+    "おふくろ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "one's mother"
+   ],
+   "meanings_es": [
+    "(mi) madre",
+    "madre",
+    "mamá",
+    "mi vieja"
+   ],
+   "meanings_fr": [
+    "sa propre mère"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 18252599669321112471,
+   "sharedid": 8324835745340169133,
+   "type": "vocab",
+   "display": "御袋",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 16024680963627693639,
+   "sharedid": 16024680963627693639,
+   "type": "vocab",
+   "display": "綺羅びやか",
+   "readings": [
+    "きらびやか"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "gorgeous",
+    "gaudy",
+    "dazzling",
+    "gay",
+    "resplendent"
+   ],
+   "meanings_es": [
+    "esplendoroso",
+    "deslumbrante",
+    "radiante",
+    "esplendoroso"
+   ],
+   "meanings_fr": [
+    "éclatant",
+    "gai",
+    "magnifique",
+    "splendide",
+    "voyant"
    ],
    "meanings_pt": []
   }
@@ -96990,6 +103904,98 @@
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
+  },
+  {
+   "id": 5931477078990367079,
+   "sharedid": 5931477078990367079,
+   "type": "vocab",
+   "display": "誤魔化す",
+   "readings": [
+    "ごまかす"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to deceive",
+    "to cheat",
+    "to swindle",
+    "to falsify",
+    "to misrepresent",
+    "to lie about",
+    "to tamper with",
+    "to doctor",
+    "to cook",
+    "to evade (a question, taxes, etc.)",
+    "to dodge",
+    "to g over (a mistake, fault, etc.)",
+    "to smooth over",
+    "to get one's way out of (a difficult situation)",
+    "to explain away",
+    "to embezzle",
+    "to pocket"
+   ],
+   "meanings_es": [
+    "despistar",
+    "confundir",
+    "disimular",
+    "estafar"
+   ],
+   "meanings_fr": [
+    "falsifier",
+    "tromper"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4283701375463835327,
+   "sharedid": 4283701375463835327,
+   "type": "vocab",
+   "display": "愚図愚図",
+   "readings": [
+    "ぐずぐず"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "slowly",
+    "tardily",
+    "dawdling",
+    "lingering",
+    "hesitantly",
+    "complaining",
+    "grumbling",
+    "unsettled (e.g. weather)",
+    "loose",
+    "slackened"
+   ],
+   "meanings_es": [
+    "lentamente",
+    "perezosamente",
+    "con parsimonia",
+    "derrumbarse",
+    "desmoronarse"
+   ],
+   "meanings_fr": [
+    "avec hésitation",
+    "lentement",
+    "paresseusement"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8294746681173280922,
+   "sharedid": 8294746681173280922,
+   "type": "vocab",
+   "display": "駆けっこ",
+   "readings": [
+    "かけっこ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "(foot) race",
+    "sprint"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
   }
  ],
  [
@@ -98020,6 +105026,84 @@
     "radoteur"
    ],
    "meanings_pt": []
+  },
+  {
+   "id": 12043558230274642370,
+   "sharedid": 12043558230274642370,
+   "type": "vocab",
+   "display": "妊む",
+   "readings": [
+    "はらむ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to conceive",
+    "to become pregnant",
+    "to get filled with (e.g. sails filled with wind)",
+    "to be swollen with",
+    "to contain (a contradiction, danger, etc.)",
+    "to carry (a problem, consequences, etc.)",
+    "to involve (e.g. risk)",
+    "to be swollen and ripe (of a plant ear, head, sprout, etc.)"
+   ],
+   "meanings_es": [
+    "concebir",
+    "quedar embarazada",
+    "llenarse con"
+   ],
+   "meanings_fr": [
+    "concevoir",
+    "devenir mère",
+    "tomber enceinte",
+    "se gonfler"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10424809410680061908,
+   "sharedid": 10424809410680061908,
+   "type": "vocab",
+   "display": "寛ぐ",
+   "readings": [
+    "くつろぐ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to relax",
+    "to feel at home"
+   ],
+   "meanings_es": [
+    "relajarse",
+    "ponerse cómodo"
+   ],
+   "meanings_fr": [
+    "faire comme chez soi",
+    "se détendre"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11866305371612197532,
+   "sharedid": 11866305371612197532,
+   "type": "vocab",
+   "display": "等閑",
+   "readings": [
+    "なおざり",
+    "とうかん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "neglect",
+    "negligence",
+    "disregard",
+    "making light of"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [
+    "être franc",
+    "négligence"
+   ],
+   "meanings_pt": []
   }
  ],
  [
@@ -98910,6 +105994,43 @@
    "sharedid": 18195708186706741225,
    "type": "vocab",
    "display": "弥弥",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 10879802676324602222,
+   "sharedid": 10879802676324602222,
+   "type": "vocab",
+   "display": "瑞々しい",
+   "readings": [
+    "みずみずしい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "fresh and youthful",
+    "lively",
+    "vibrant",
+    "vivacious",
+    "juicy (e.g. fruit)"
+   ],
+   "meanings_es": [
+    "fresco",
+    "jugoso"
+   ],
+   "meanings_fr": [
+    "frais (ex. fruit)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14969325557790954803,
+   "sharedid": 10879802676324602222,
+   "type": "vocab",
+   "display": "瑞瑞しい",
    "readings": [],
    "kun_readings": [],
    "meanings": [],
@@ -100622,6 +107743,18 @@
     "avec enthousiasme"
    ],
    "meanings_pt": []
+  },
+  {
+   "id": 17186628318165870932,
+   "sharedid": 9208424478402844348,
+   "type": "vocab",
+   "display": "気狂い",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
   }
  ],
  [
@@ -101525,6 +108658,55 @@
    "meanings": [],
    "meanings_es": [],
    "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13948552323919097742,
+   "sharedid": 14010430185205260227,
+   "type": "vocab",
+   "display": "芽出度い",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2137910409408361430,
+   "sharedid": 4813893854773995868,
+   "type": "vocab",
+   "display": "賀留多",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 17400945556720433949,
+   "sharedid": 17400945556720433949,
+   "type": "vocab",
+   "display": "揺ら揺ら",
+   "readings": [
+    "ゆらゆら"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "swaying",
+    "swinging",
+    "rocking",
+    "shaking",
+    "wavering",
+    "flickering"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [
+    "bouger ?",
+    "trembler",
+    "vibrer"
+   ],
    "meanings_pt": []
   }
  ],
@@ -103341,6 +110523,49 @@
     "syllabaire japonais utilisé principalement pour les mots empruntés"
    ],
    "meanings_pt": []
+  },
+  {
+   "id": 4958613297744279490,
+   "sharedid": 4813893854773995868,
+   "type": "vocab",
+   "display": "嘉留太",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 10152942423560470402,
+   "sharedid": 10152942423560470402,
+   "type": "vocab",
+   "display": "欠片",
+   "readings": [
+    "かけら"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "fragment",
+    "broken piece",
+    "chip",
+    "splinter",
+    "shard",
+    "ounce (of truth, conscience, etc.)",
+    "trace",
+    "shred",
+    "scrap"
+   ],
+   "meanings_es": [
+    "fragmento",
+    "pedazo"
+   ],
+   "meanings_fr": [
+    "éclat",
+    "fragment",
+    "tesson"
+   ],
+   "meanings_pt": []
   }
  ],
  [
@@ -104275,6 +111500,31 @@
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
+  },
+  {
+   "id": 11401525661425529218,
+   "sharedid": 11401525661425529218,
+   "type": "vocab",
+   "display": "燥ぐ",
+   "readings": [
+    "はしゃぐ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to make merry",
+    "to frolic",
+    "to be in high spirits"
+   ],
+   "meanings_es": [
+    "juguetear",
+    "bromear",
+    "divertirse"
+   ],
+   "meanings_fr": [
+    "être joyeux",
+    "s'amuser"
+   ],
+   "meanings_pt": []
   }
  ],
  [
@@ -105154,6 +112404,68 @@
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
+  },
+  {
+   "id": 6074514421729512412,
+   "sharedid": 6074514421729512412,
+   "type": "vocab",
+   "display": "泥々",
+   "readings": [
+    "どろどろ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "thick",
+    "viscous",
+    "mushy",
+    "pulpy",
+    "slushy",
+    "syrupy",
+    "sticky",
+    "muddy",
+    "dirty (with oil, grease, etc.)",
+    "to be in an ugly state (of emotions, relations, etc.)",
+    "to be murky",
+    "to be sordid"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [
+    "embrouillé",
+    "sirupeux"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4844246274007330075,
+   "sharedid": 6074514421729512412,
+   "type": "vocab",
+   "display": "泥泥",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 15047022964802730455,
+   "sharedid": 15047022964802730455,
+   "type": "vocab",
+   "display": "辛子",
+   "readings": [
+    "からし"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "mustard"
+   ],
+   "meanings_es": [
+    "mostaza"
+   ],
+   "meanings_fr": [
+    "moutarde"
+   ],
+   "meanings_pt": []
   }
  ],
  [
@@ -105939,6 +113251,32 @@
     "0",
     "3 milímetros"
    ]
+  },
+  {
+   "id": 4956872418299686755,
+   "sharedid": 4956872418299686755,
+   "type": "vocab",
+   "display": "裸足",
+   "readings": [
+    "はだし",
+    "せんそく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "barefoot",
+    "superior to (e.g. a professional)",
+    "outdoing",
+    "outshining"
+   ],
+   "meanings_es": [
+    "descalzo",
+    "pies descalzos",
+    "ser superior a (un profesional)"
+   ],
+   "meanings_fr": [
+    "nu-pieds"
+   ],
+   "meanings_pt": []
   }
  ],
  [
@@ -107615,6 +114953,105 @@
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
+  },
+  {
+   "id": 13984676592471843734,
+   "sharedid": 13984676592471843734,
+   "type": "vocab",
+   "display": "阿呆",
+   "readings": [
+    "あほ",
+    "あほう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "fool",
+    "idiot",
+    "simpleton"
+   ],
+   "meanings_es": [
+    "tonto",
+    "simplón",
+    "idiota"
+   ],
+   "meanings_fr": [
+    "con",
+    "idiot",
+    "stupide"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1027081063500763085,
+   "sharedid": 1027081063500763085,
+   "type": "vocab",
+   "display": "蒲公英",
+   "readings": [
+    "たんぽぽ",
+    "ほこうえい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "dandelion (esp. species Taraxacum platycarpum)"
+   ],
+   "meanings_es": [
+    "diente de león (esp. species Taraxacum platycarpum)"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8847769024501544020,
+   "sharedid": 8847769024501544020,
+   "type": "vocab",
+   "display": "錯る",
+   "readings": [
+    "こする"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to rub",
+    "to scrub",
+    "to scrape",
+    "to rub in",
+    "to smear on",
+    "to spread on",
+    "to daub",
+    "to lay the blame on",
+    "to chafe",
+    "to strike (match)",
+    "to file",
+    "to frost (glass)",
+    "to lose (e.g. a match)",
+    "to forfeit",
+    "to squander one's money (e.g. through gambling, Pachinko, etc.)"
+   ],
+   "meanings_es": [
+    "frotar",
+    "fregar",
+    "dar palmadas o golpecitos",
+    "quitar frotando",
+    "pulir",
+    "triturar",
+    "pulverizar",
+    "raspar",
+    "ser igual a",
+    "estar a punto de alcanzar",
+    "moler",
+    "machacar",
+    "majar con el mortero",
+    "limar",
+    "dilapidar, derrochar, pulirse (gastar), fundir (gastar)"
+   ],
+   "meanings_fr": [
+    "frotter",
+    "gratter",
+    "frotter (allumette)",
+    "limer",
+    "polir (verre)",
+    "râper"
+   ],
+   "meanings_pt": []
   }
  ],
  [
@@ -108446,6 +115883,34 @@
     "plier (des vêtements, un parapluie)",
     "fermer (une boutique ou une entreprise)",
     "quitter (un lieu)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12505118490782056796,
+   "sharedid": 12505118490782056796,
+   "type": "vocab",
+   "display": "漕ぐ",
+   "readings": [
+    "こぐ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to row",
+    "to scull",
+    "to paddle",
+    "to pedal (e.g. bicycle)",
+    "to swing (on a swing)",
+    "to operate a hand pump",
+    "to push through (deep snow, the jungle, etc.)"
+   ],
+   "meanings_es": [
+    "remar",
+    "pedalear"
+   ],
+   "meanings_fr": [
+    "pagayer",
+    "ramer"
    ],
    "meanings_pt": []
   }
@@ -109289,6 +116754,22 @@
     "être impatient de"
    ],
    "meanings_pt": []
+  },
+  {
+   "id": 17543558403206361112,
+   "sharedid": 17543558403206361112,
+   "type": "vocab",
+   "display": "団栗",
+   "readings": [
+    "どんぐり"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "acorn"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
   }
  ],
  [
@@ -110096,6 +117577,79 @@
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
+  },
+  {
+   "id": 4730199431685230383,
+   "sharedid": 4730199431685230383,
+   "type": "vocab",
+   "display": "畜生",
+   "readings": [
+    "ちくしょう",
+    "ちきしょう",
+    "ちくしょー"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "damn it",
+    "damn",
+    "son of a bitch",
+    "for Christ's sake",
+    "beast",
+    "animal",
+    "person reborn into the animal realm",
+    "brute",
+    "bastard"
+   ],
+   "meanings_es": [
+    "bestia (cualquier animal excepto el hombre)",
+    "(Buddh) persona que renace en el reino animal",
+    "animal (persona despreciable)",
+    "bruto",
+    "hijo de puta",
+    "por el amor de Dios",
+    "maldita sea",
+    null,
+    "bestia (cualquier animal excepto el hombre)",
+    "(Buddh) persona que renace en el reino animal",
+    "animal (persona despreciable)",
+    "bruto",
+    "hijo de puta",
+    "por el amor de Dios",
+    "maldita sea"
+   ],
+   "meanings_fr": [
+    "animal",
+    "bête",
+    "brute",
+    "bon dieu",
+    "flûte",
+    "merde etc etc....",
+    "mince",
+    "nom d'un chien",
+    "nom de dieu",
+    "zut"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8998233707650623127,
+   "sharedid": 8998233707650623127,
+   "type": "vocab",
+   "display": "団扇",
+   "readings": [
+    "うちわ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "uchiwa"
+   ],
+   "meanings_es": [
+    "abanico"
+   ],
+   "meanings_fr": [
+    "eventail"
+   ],
+   "meanings_pt": []
   }
  ],
  [
@@ -110885,6 +118439,18 @@
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
+  },
+  {
+   "id": 7954981623763072597,
+   "sharedid": 8847769024501544020,
+   "type": "vocab",
+   "display": "磨る",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
   }
  ],
  [
@@ -111663,6 +119229,57 @@
    "meanings_fr": [
     "jeu de pierre-feuille-ciseaux"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17941001789768573672,
+   "sharedid": 17941001789768573672,
+   "type": "vocab",
+   "display": "一遍に",
+   "readings": [
+    "いっぺんに"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "(all) at once",
+    "at the same time",
+    "in one go",
+    "in one sitting",
+    "right away",
+    "in an instant"
+   ],
+   "meanings_es": [
+    "a la vez",
+    "al mismo tiempo"
+   ],
+   "meanings_fr": [
+    "autrefois",
+    "dans le temps"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13484351145354478063,
+   "sharedid": 2494733240236041495,
+   "type": "vocab",
+   "display": "八釜しい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 7657693197585976973,
+   "sharedid": 8263846658717914081,
+   "type": "vocab",
+   "display": "溢す",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
    "meanings_pt": []
   }
  ],
@@ -113399,6 +121016,35 @@
     "grand-mère"
    ],
    "meanings_pt": []
+  },
+  {
+   "id": 14858449488963107233,
+   "sharedid": 14858449488963107233,
+   "type": "vocab",
+   "display": "怠い",
+   "readings": [
+    "だるい",
+    "たるい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "sluggish",
+    "languid",
+    "listless",
+    "heavy (heart, legs, etc.)",
+    "dull",
+    "bothersome",
+    "tiresome",
+    "pain-in-the-ass"
+   ],
+   "meanings_es": [
+    "somnoliento"
+   ],
+   "meanings_fr": [
+    "fatigué",
+    "las"
+   ],
+   "meanings_pt": []
   }
  ],
  [
@@ -114279,6 +121925,43 @@
    "meanings": [],
    "meanings_es": [],
    "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2494733240236041495,
+   "sharedid": 2494733240236041495,
+   "type": "vocab",
+   "display": "喧しい",
+   "readings": [
+    "やかましい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "noisy",
+    "loud",
+    "clamorous",
+    "boisterous",
+    "much talked of",
+    "much-discussed",
+    "vexed",
+    "strict",
+    "severe",
+    "stern",
+    "particular",
+    "fussy",
+    "fastidious",
+    "fault-finding",
+    "carping"
+   ],
+   "meanings_es": [
+    "ruidoso"
+   ],
+   "meanings_fr": [
+    "agaçant",
+    "bruyant",
+    "rigoureux",
+    "strict"
+   ],
    "meanings_pt": []
   }
  ],
@@ -116547,6 +124230,27 @@
    ],
    "meanings_fr": [],
    "meanings_pt": []
+  },
+  {
+   "id": 10717745069213970710,
+   "sharedid": 10717745069213970710,
+   "type": "vocab",
+   "display": "山葵",
+   "readings": [
+    "わさび"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "wasabi (Wasabia japonica)",
+    "Japanese horseradish"
+   ],
+   "meanings_es": [
+    "rábano picante japonés"
+   ],
+   "meanings_fr": [
+    "raifort japonais"
+   ],
+   "meanings_pt": []
   }
  ],
  [
@@ -118019,6 +125723,42 @@
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
+  },
+  {
+   "id": 3338786554472979908,
+   "sharedid": 11320859144328193659,
+   "type": "vocab",
+   "display": "斥ける",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12915594110660590445,
+   "sharedid": 4130763693880134166,
+   "type": "vocab",
+   "display": "稚海藻",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9889953553613479988,
+   "sharedid": 16516705849391014756,
+   "type": "vocab",
+   "display": "下手糞",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
   }
  ],
  [
@@ -118814,6 +126554,90 @@
     "nuez (fruto)",
     "nogal"
    ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8720571666054008854,
+   "sharedid": 8720571666054008854,
+   "type": "vocab",
+   "display": "梯子",
+   "readings": [
+    "はしご",
+    "ていし"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "ladder",
+    "stairs",
+    "going to several places in succession (e.g. barhopping)"
+   ],
+   "meanings_es": [
+    "escaleras",
+    "escalones"
+   ],
+   "meanings_fr": [
+    "échelle",
+    "escaliers",
+    "aller à plusieurs endroits successivement (par ex. de bar en bar)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7568182871578063022,
+   "sharedid": 5931477078990367079,
+   "type": "vocab",
+   "display": "胡麻化す",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12318384114368363438,
+   "sharedid": 12318384114368363438,
+   "type": "vocab",
+   "display": "胡座",
+   "readings": [
+    "あぐら",
+    "こざ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "sitting cross-legged (i.e. Indian style)"
+   ],
+   "meanings_es": [
+    "sentarse con las piernas cruzadas",
+    "vanagloriarse"
+   ],
+   "meanings_fr": [
+    "assis les jambes croisées (à l'indienne)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5647228195986602631,
+   "sharedid": 12318384114368363438,
+   "type": "vocab",
+   "display": "胡坐",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13424053040376993568,
+   "sharedid": 12318384114368363438,
+   "type": "vocab",
+   "display": "胡床",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
   }
@@ -119683,6 +127507,133 @@
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
+  },
+  {
+   "id": 17722633580715512134,
+   "sharedid": 17722633580715512134,
+   "type": "vocab",
+   "display": "さつま芋",
+   "readings": [
+    "さつまいも",
+    "かんしょ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "sweet potato (Ipomoea batatas)"
+   ],
+   "meanings_es": [
+    "boniato",
+    "batata",
+    "(am) papa dulce"
+   ],
+   "meanings_fr": [
+    "patate douce"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17287188852279502102,
+   "sharedid": 17722633580715512134,
+   "type": "vocab",
+   "display": "薩摩芋",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 6141545460937832132,
+   "sharedid": 14342019849130809909,
+   "type": "vocab",
+   "display": "暢気",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4626021687213670973,
+   "sharedid": 4626021687213670973,
+   "type": "vocab",
+   "display": "西瓜",
+   "readings": [
+    "すいか"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "watermelon (Citrullus lanatus)"
+   ],
+   "meanings_es": [
+    "sandía"
+   ],
+   "meanings_fr": [
+    "melon d'eau",
+    "pastèque"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15977392457404362390,
+   "sharedid": 4626021687213670973,
+   "type": "vocab",
+   "display": "水瓜",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3464933612471482249,
+   "sharedid": 3464933612471482249,
+   "type": "vocab",
+   "display": "自惚れ",
+   "readings": [
+    "うぬぼれ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "pretension",
+    "conceit",
+    "hubris"
+   ],
+   "meanings_es": [
+    "vanidad"
+   ],
+   "meanings_fr": [
+    "prétention",
+    "vanité"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1508960181539489012,
+   "sharedid": 3464933612471482249,
+   "type": "vocab",
+   "display": "己惚れ",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12011524399570505373,
+   "sharedid": 3464933612471482249,
+   "type": "vocab",
+   "display": "自惚",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
   }
  ],
  [
@@ -120484,6 +128435,118 @@
     "sinuosité"
    ],
    "meanings_pt": []
+  },
+  {
+   "id": 3157335576388362752,
+   "sharedid": 3157335576388362752,
+   "type": "vocab",
+   "display": "偲ぶ",
+   "readings": [
+    "しのぶ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to recollect",
+    "to remember",
+    "to reminisce",
+    "to be nostalgic for",
+    "to imagine",
+    "to guess",
+    "to infer"
+   ],
+   "meanings_es": [
+    "recolectar",
+    "recordar"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11310328920479209755,
+   "sharedid": 11310328920479209755,
+   "type": "vocab",
+   "display": "お凸",
+   "readings": [
+    "おでこ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "brow",
+    "forehead",
+    "prominent forehead",
+    "beetle brow",
+    "not catching anything"
+   ],
+   "meanings_es": [
+    "frente (de la cara)"
+   ],
+   "meanings_fr": [
+    "front"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11964399624492832965,
+   "sharedid": 11310328920479209755,
+   "type": "vocab",
+   "display": "御凸",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 18310309853450698379,
+   "sharedid": 18310309853450698379,
+   "type": "vocab",
+   "display": "剥がす",
+   "readings": [
+    "はがす",
+    "へがす"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to tear off",
+    "to peel off",
+    "to rip off",
+    "to strip off",
+    "to skin",
+    "to flay",
+    "to disrobe",
+    "to deprive of",
+    "to detach",
+    "to disconnect"
+   ],
+   "meanings_es": [
+    "desprender",
+    "despegar",
+    "raspar"
+   ],
+   "meanings_fr": [
+    "écorcher",
+    "arracher",
+    "déconnecter",
+    "dépouiller",
+    "détacher",
+    "enlever",
+    "peler",
+    "se déshabiller"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10914523214374040735,
+   "sharedid": 18310309853450698379,
+   "type": "vocab",
+   "display": "剥す",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
   }
  ],
  [
@@ -121145,6 +129208,81 @@
    ],
    "meanings_fr": [],
    "meanings_es": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9421227485546136268,
+   "sharedid": 9421227485546136268,
+   "type": "vocab",
+   "display": "柚子",
+   "readings": [
+    "ゆず",
+    "ゆ",
+    "ゆう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "yuzu (Citrus ichangensis x C. reticulata)"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8411726467887305895,
+   "sharedid": 8411726467887305895,
+   "type": "vocab",
+   "display": "謳う",
+   "readings": [
+    "うたう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to extol",
+    "to sing the praises of",
+    "to celebrate",
+    "to declare",
+    "to stipulate",
+    "to express",
+    "to state",
+    "to insist"
+   ],
+   "meanings_es": [
+    "exaltar",
+    "aclamar",
+    "reconocer"
+   ],
+   "meanings_fr": [
+    "énoncer",
+    "déclarer",
+    "stipuler"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4091908196032431654,
+   "sharedid": 4091908196032431654,
+   "type": "vocab",
+   "display": "煎餅",
+   "readings": [
+    "せんべい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "rice cracker",
+    "senbei",
+    "Japanese cracker",
+    "rice cookie",
+    "wafer"
+   ],
+   "meanings_es": [
+    "galleta de arroz",
+    "galleta japonesa",
+    "oblea"
+   ],
+   "meanings_fr": [
+    "biscuit de riz (cracker)"
+   ],
    "meanings_pt": []
   }
  ],
