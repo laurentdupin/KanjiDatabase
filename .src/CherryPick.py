@@ -404,9 +404,9 @@ def DisplayNextMeanings():
             for item in dicoOutput["SelectedVocab"][level]:
                 setTempValidVocabularySharedId.add(item)
 
-        for level in dicoSelected["KanaOnlySharedIds"]:
-            for item in dicoSelected["KanaOnlySharedIds"][level]:
-                setTempValidVocabularySharedId.add(int(dicoSelected["KanaOnlySharedIds"][level][item]))
+        for level in dicoOutput["KanaOnlySharedIds"]:
+            for item in dicoOutput["KanaOnlySharedIds"][level]:
+                setTempValidVocabularySharedId.add(int(dicoOutput["KanaOnlySharedIds"][level][item]))
 
         if(entry["id"] in setTempValidKanaOnlyId or entry["sharedid"] in setTempValidVocabularySharedId or entry["type"] == "kanji"):
             if(iCurrentMeanings == iMeaningTranslationCounter):

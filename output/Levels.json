@@ -4344,10 +4344,7 @@
    ],
    "meanings_es": [],
    "meanings_fr": [
-    "à peine",
-    "seulement",
-    "juste",
-    "même pas (avec un verbe négatif)"
+    "seulement"
    ],
    "meanings_pt": []
   },
@@ -4773,13 +4770,7 @@
     "separadamente"
    ],
    "meanings_fr": [
-    "un par un",
-    "séparément",
-    "chacun",
-    "sans omission",
-    "complètement",
-    "intégralement",
-    "en détail"
+    "un par un"
    ],
    "meanings_pt": []
   },
@@ -5397,7 +5388,9 @@
     "this type of"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "ce genre de"
+   ],
    "meanings_pt": []
   },
   {
@@ -5490,7 +5483,9 @@
     "por qué",
     "que tipo de"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "quelle sorte de"
+   ],
    "meanings_pt": []
   },
   {
@@ -6005,8 +6000,7 @@
     "rápidamente"
    ],
    "meanings_fr": [
-    "en un clin d'œil",
-    "soudain"
+    "très vite"
    ],
    "meanings_pt": []
   },
@@ -6032,8 +6026,7 @@
     "indecente"
    ],
    "meanings_fr": [
-    "inconvenant",
-    "indécent"
+    "honteux"
    ],
    "meanings_pt": []
   },
@@ -6059,8 +6052,7 @@
     "en frente de mis narices"
    ],
    "meanings_fr": [
-    "devant ses yeux",
-    "devant soi"
+    "devant ses propres yeux"
    ],
    "meanings_pt": []
   },
@@ -6080,7 +6072,9 @@
     "to keep up with"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "accompagner"
+   ],
    "meanings_pt": []
   },
   {
@@ -6460,7 +6454,9 @@
     "using"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "passant par"
+   ],
    "meanings_pt": []
   },
   {
@@ -6477,7 +6473,9 @@
     "something called ..."
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "quelque chose comme ..."
+   ],
    "meanings_pt": []
   },
   {
@@ -6756,7 +6754,9 @@
     "incomprensible",
     "ininteligible"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "difficile à comprendre"
+   ],
    "meanings_pt": []
   },
   {
@@ -6808,7 +6808,9 @@
     "judging from appearances"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "en apparence"
+   ],
    "meanings_pt": []
   },
   {
@@ -8868,9 +8870,7 @@
     "extra"
    ],
    "meanings_fr": [
-    "supplémentaire",
-    "meilleur",
-    "préférable"
+    "meilleur"
    ],
    "meanings_pt": []
   },
@@ -9630,11 +9630,7 @@
     "ser debido a"
    ],
    "meanings_fr": [
-    "revenir",
-    "faire... et revenir",
-    "s'agir de",
-    "arriver",
-    "venir"
+    "venir (spatialement ou temporellement)"
    ],
    "meanings_pt": []
   },
@@ -13275,7 +13271,9 @@
     "to be possible (to)"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "pouvoir faire"
+   ],
    "meanings_pt": []
   },
   {
@@ -15666,8 +15664,7 @@
     "(con verbo forma -te) por favor haz por mí"
    ],
    "meanings_fr": [
-    "s'il vous plaît (donnez-moi)",
-    "faites (ceci) pour moi s'il vous plaît"
+    "s'il te plait"
    ],
    "meanings_pt": []
   },
@@ -17459,10 +17456,6 @@
     "como quiera que"
    ],
    "meanings_fr": [
-    "cependant",
-    "mais",
-    "néanmoins",
-    "pourtant",
     "toutefois"
    ],
    "meanings_pt": []
@@ -17549,21 +17542,7 @@
     "parte interior"
    ],
    "meanings_fr": [
-    "pendant",
-    "au cours de",
-    "en",
-    "parmi",
-    "entre",
-    "nous (se référant à son endogroupe ou groupe interne, par ex. son entreprise, etc.)",
-    "notre",
-    "mon époux",
-    "mon épouse",
-    "domaine du Palais impérial",
-    "empereur",
-    "je (utilisé principalement par les femmes et les enfants)",
-    "moi",
-    "dedans",
-    "à l'intérieur"
+    "l'intérieur"
    ],
    "meanings_pt": []
   },
@@ -17912,7 +17891,9 @@
     "to have peaceful relations"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "bien se passer"
+   ],
    "meanings_pt": []
   },
   {
@@ -19151,30 +19132,7 @@
     "sufijo: lugar, sitio"
    ],
    "meanings_fr": [
-    "endroit",
-    "lieu",
-    "scène",
-    "site",
-    "emplacement",
-    "adresse",
-    "venait de faire",
-    "était en train de faire",
-    "avoir tout juste terminé de faire",
-    "quartier",
-    "zone",
-    "localité",
-    "sa maison",
-    "logis",
-    "foyer",
-    "espace",
-    "place (espace libre)",
-    "chose",
-    "question",
-    "après quoi",
-    "par conséquence",
-    "sur le point de",
-    "au bord de",
-    "compteur de lieux"
+    "endroit"
    ],
    "meanings_pt": []
   },
@@ -19197,7 +19155,9 @@
     "Respecto a",
     "para"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "pour"
+   ],
    "meanings_pt": []
   },
   {
@@ -19231,12 +19191,6 @@
     "en general"
    ],
    "meanings_fr": [
-    "tout",
-    "(en) totalité",
-    "l'ensemble",
-    "entièrement",
-    "complètement",
-    "totalement",
     "tout"
    ],
    "meanings_pt": []
@@ -22972,7 +22926,9 @@
     "for every"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "concernant"
+   ],
    "meanings_pt": []
   },
   {
@@ -23016,24 +22972,7 @@
     "otro"
    ],
    "meanings_fr": [
-    "autre (endroit, objet, personne)",
-    "ailleurs",
-    "autre part",
-    "les autres",
-    "le reste",
-    "à l'extérieur",
-    "dehors",
-    "au-delà de",
-    "excepté",
-    "à l'exception de",
-    "sauf",
-    "sinon",
-    "à part",
-    "rien d'autre que",
-    "pas d'autre choix (que)",
-    "outre...",
-    "en plus de...",
-    "autre (en part. les gens et les questions abstraites)"
+    "autre (lieu, chose, personne)"
    ],
    "meanings_pt": []
   },
@@ -23080,13 +23019,7 @@
     "frecuentemente"
    ],
    "meanings_fr": [
-    "bien",
-    "convenablement",
-    "habilement",
-    "minutieusement",
-    "parfaitement",
-    "souvent",
-    "fréquemment"
+    "correctement"
    ],
    "meanings_pt": []
   },
@@ -24556,17 +24489,7 @@
     "apenas (con verbo negativo)"
    ],
    "meanings_fr": [
-    "(tout) d'abord",
-    "avant tout",
-    "premièrement",
-    "pour commencer",
-    "environ",
-    "à peu près",
-    "presque",
-    "de toute façon",
-    "et bien",
-    "pour le moment",
-    "difficilement (avec un verbe négatif)"
+    "d'abord"
    ],
    "meanings_pt": []
   },
@@ -24615,21 +24538,7 @@
     "rostro"
    ],
    "meanings_fr": [
-    "coin",
-    "facette",
-    "masque",
-    "page",
-    "surface",
-    "visage",
-    "face",
-    "protection faciale",
-    "(au kendo) frapper la tête",
-    "surface (en part. surface géométrique)",
-    "aspect",
-    "côté",
-    "chanfrein",
-    "compteur pour les objets étendus ou plats, niveaux ou stades, par ex. dans un jeu vidéo",
-    "masque (en part. de Nô ou de Kyogen)"
+    "surface"
    ],
    "meanings_pt": []
   },
@@ -24698,28 +24607,7 @@
     "detino"
    ],
    "meanings_fr": [
-    "il y a un moment",
-    "tout à l'heure",
-    "à l'instant",
-    "précédent",
-    "avant",
-    "ancien",
-    "premier",
-    "plus tôt",
-    "il y a quelque temps",
-    "antérieur",
-    "pointe (par ex. de crayon)",
-    "extrémité",
-    "bec",
-    "tête (de ligne)",
-    "devant",
-    "l'autre côté",
-    "avenir",
-    "futur",
-    "après",
-    "plus tard",
-    "destination",
-    "l'autre partie (par ex. contractante)"
+    "il y a peu de temps"
    ],
    "meanings_pt": []
   },
@@ -24953,11 +24841,7 @@
     "desde el principio"
    ],
    "meanings_fr": [
-    "à l'origine",
-    "depuis le commencement",
-    "depuis le départ",
-    "originairement",
-    "par nature"
+    "à l'origine"
    ],
    "meanings_pt": []
   },
@@ -25199,9 +25083,7 @@
     "en contorno"
    ],
    "meanings_fr": [
-    "pour le moment",
-    "une seul fois",
-    "dans les grandes lignes"
+    "pour l'instant"
    ],
    "meanings_pt": []
   },
@@ -26838,41 +26720,7 @@
     "intentar"
    ],
    "meanings_fr": [
-    "faire",
-    "faire devenir",
-    "rendre",
-    "transformer ",
-    "nommer, ou promouvoir, une personne A à un poste ou un statut B",
-    "transformer A en B",
-    "échanger A pour B",
-    "utiliser A pour B",
-    "voir A comme B",
-    "gérer A comme si c'était B",
-    "sentir A à propos de B",
-    "suffixe de transformation en verbe (s'applique aux noms repérés dans ce dictionnaire par « vs »)",
-    "utilisé pour former un verbe à la forme humble (après un nom avec le préfixe « o » ou « go »)",
-    "être sur le point de",
-    "commencer à peine à",
-    "essayer de",
-    "tenter de",
-    "servir comme",
-    "agir comme",
-    "travailler comme",
-    "porter (un vêtement, une expression du visage, etc.)",
-    "juger comme",
-    "voir comme",
-    "considérer comme",
-    "traiter comme",
-    "utiliser comme",
-    "opter pour",
-    "choisir",
-    "se faire sentir (d'une odeur, etc.)",
-    "se faire entendre (d'un bruit, etc.)",
-    "être (dans un état, dans une condition, etc.)",
-    "valoir",
-    "coûter",
-    "passer (à propos du temps)",
-    "s'écouler"
+    "faire"
    ],
    "meanings_pt": []
   },
@@ -26912,21 +26760,7 @@
     "y tal..."
    ],
    "meanings_fr": [
-    "et cetera",
-    "etc.",
-    "et ainsi de suite",
-    "ou autre chose",
-    "comme",
-    "classe",
-    "ordre",
-    "rang",
-    "et autres",
-    "égal",
-    "iso-",
-    "suffixe du pluriel",
-    "environ",
-    "indicateur approximatif de direction, d'emplacement, de montant, etc.",
-    "suffixe de nominalisation"
+    "etc"
    ],
    "meanings_pt": []
   },
@@ -26975,17 +26809,7 @@
     "sobre"
    ],
    "meanings_fr": [
-    "bien",
-    "avantage",
-    "bénéfice",
-    "bien-être",
-    "but",
-    "objectif",
-    "conséquence",
-    "résultat",
-    "effet",
-    "à propos de",
-    "concernant"
+    "faire"
    ],
    "meanings_pt": []
   },
@@ -27017,7 +26841,9 @@
     "because of"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "selon"
+   ],
    "meanings_pt": []
   },
   {
@@ -27059,22 +26885,7 @@
     "guardar"
    ],
    "meanings_fr": [
-    "terminer",
-    "arrêter",
-    "finir",
-    "mettre fin à",
-    "mettre un terme à",
-    "clore",
-    "fermer (une entreprise, etc.) ",
-    "arrêter",
-    "de se taire",
-    "mettre de côté",
-    "remettre",
-    "conserver",
-    "stocker",
-    "terminer...",
-    "finir...",
-    "faire... complètement"
+    "finir"
    ],
    "meanings_pt": []
   },
@@ -27117,14 +26928,7 @@
     "principio"
    ],
    "meanings_fr": [
-    "commencement",
-    "départ",
-    "début",
-    "ouverture",
-    "premier (dans un rang, etc.)",
-    "origine",
-    "tel que...",
-    "pour ne pas mentionner..."
+    "début"
    ],
    "meanings_pt": []
   },
@@ -28715,9 +28519,7 @@
     "respectivamente"
    ],
    "meanings_fr": [
-    "chacun",
-    "chaque",
-    "respectivement"
+    "chaque"
    ],
    "meanings_pt": []
   },
@@ -28771,10 +28573,7 @@
     "nunca (con verbo neg.)"
    ],
    "meanings_fr": [
-    "toujours",
-    "habituellement",
-    "à chaque fois",
-    "jamais"
+    "toujours"
    ],
    "meanings_pt": []
   },
@@ -30789,9 +30588,7 @@
     "varios"
    ],
    "meanings_fr": [
-    "divers",
-    "varié",
-    "diverses couleurs"
+    "divers"
    ],
    "meanings_pt": []
   },
@@ -31074,7 +30871,9 @@
     "un pelín insuficiente",
     "que deja un poco que desear"
    ],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "un de plus"
+   ],
    "meanings_pt": []
   },
   {
@@ -31237,9 +31036,7 @@
     "naturalmente"
    ],
    "meanings_fr": [
-    "de soi-même",
-    "automatiquement",
-    "naturellement"
+    "par lui-même"
    ],
    "meanings_pt": []
   },
@@ -32520,7 +32317,9 @@
     "according to"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "au moyen de"
+   ],
    "meanings_pt": []
   },
   {
@@ -34243,8 +34042,7 @@
     "cómo"
    ],
    "meanings_fr": [
-    "comment",
-    "pourquoi"
+    "Pourquoi"
    ],
    "meanings_pt": []
   },
@@ -35665,11 +35463,7 @@
     "más y más"
    ],
    "meanings_fr": [
-    "d'ailleurs",
-    "de plus",
-    "de plus en plus",
-    "et encore",
-    "qui plus est"
+    "en outre"
    ],
    "meanings_pt": []
   },
@@ -37250,47 +37044,7 @@
     "operar (restaurante)"
    ],
    "meanings_fr": [
-    "faire",
-    "entreprendre",
-    "accomplir",
-    "jouer (à un jeu)",
-    "étudier",
-    "envoyer",
-    "expédier",
-    "avoir des relations sexuelles avec",
-    "vivre",
-    "se débrouiller",
-    "faire… totalement",
-    "faire… largement",
-    "faire... jusqu'à une grande distance",
-    "faire... pour quelqu'un (de statut égal ou inférieur)",
-    "faire... (parfois avec une nuance négative)",
-    "faire des efforts actifs pour...",
-    "mettre",
-    "déplacer",
-    "tourner (la tête, le regard, etc.)",
-    "donner (en particulier à quelqu'un d'un statut inférieur ou égal)",
-    "laisser avoir",
-    "offrir",
-    "accorder",
-    "octroyer",
-    "conférer",
-    "accélérer (un véhicule)",
-    "gérer (une affaire)",
-    "conserver",
-    "être engagé dans",
-    "pratiquer (le droit, la médecine, etc.)",
-    "s'entraîner",
-    "prendre (un repas, une boisson, etc.)",
-    "manger",
-    "boire",
-    "fumer",
-    "jouer (un rôle)",
-    "faire un show",
-    "se libérer (mentalement)",
-    "blesser",
-    "faire mal",
-    "tuer"
+    "faire"
    ],
    "meanings_pt": []
   },
@@ -42716,20 +42470,7 @@
     "talla"
    ],
    "meanings_fr": [
-    "seulement",
-    "juste",
-    "uniquement",
-    "simplement",
-    "pas plus de",
-    "rien que",
-    "seul",
-    "que (par ex. aussitôt que, autant que)",
-    "équivalent à",
-    "hauteur",
-    "taille",
-    "longueur (en part. d'un vêtement)",
-    "tout",
-    "magnificence (d'un poème waka, etc.)"
+    "seulement"
    ],
    "meanings_pt": []
   },
@@ -50147,9 +49888,7 @@
     "ese"
    ],
    "meanings_fr": [
-    "ça (quelque chose ou quelqu'un éloigné de l'orateur, proche de l'auditeur ; actions de l'auditeur, ou les idées exprimées ou comprises par l'auditeur)",
-    "hum...",
-    "euh..."
+    "ce"
    ],
    "meanings_pt": []
   },
@@ -50228,12 +49967,7 @@
     "ese lugar"
    ],
    "meanings_fr": [
-    "là (lieu relativement proche de l'auditeur)",
-    "là (lieu qui vient d'être cité) ",
-    "cet endroit",
-    "alors (à propos d'un incident dont on vient de parler)",
-    "cela (à propos d'un point que l'on vient d'évoquer)",
-    "vous"
+    "là (placer relativement près de l'auditeur)"
    ],
    "meanings_pt": []
   },
@@ -52091,9 +51825,7 @@
     "este"
    ],
    "meanings_fr": [
-    "ce (quelque chose ou quelqu'un proche du locuteur (incluant le locuteur), ou des idées exprimés par le locuteur)",
-    "celui-ci",
-    "celui-là"
+    "cet"
    ],
    "meanings_pt": []
   },
@@ -52180,10 +51912,7 @@
     "este lugar"
    ],
    "meanings_fr": [
-    "ici (endroit proche physiquement du locuteur, endroit désigné par le locuteur lors d'une explication)",
-    "cet endroit",
-    "ces derniers (suivi d'un nom de durée et d'une phrase au passé : précise une période de temps juste avant le moment présent du locuteur)",
-    "ces prochains… (suivi d'un nom de durée et d'une phrase qui n'est pas au passé : précise une période de temps juste après le moment présent du locuteur)"
+    "ici"
    ],
    "meanings_pt": []
   },
@@ -52220,11 +51949,7 @@
     "(n-t,uk) después de esto"
    ],
    "meanings_fr": [
-    "à présent",
-    "dès maintenant",
-    "désormais",
-    "dorénavant",
-    "à partir de ce moment"
+    "à partir de maintenant"
    ],
    "meanings_pt": []
   },
@@ -52265,9 +51990,7 @@
     "todos"
    ],
    "meanings_fr": [
-    "tous",
-    "tout le monde",
-    "tout"
+    "tout le monde"
    ],
    "meanings_pt": []
   },
@@ -55787,7 +55510,9 @@
     "regarding"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "dans"
+   ],
    "meanings_pt": []
   },
   {
@@ -55846,8 +55571,7 @@
     "casi"
    ],
    "meanings_fr": [
-    "la plupart",
-    "presque tout"
+    "presque"
    ],
    "meanings_pt": []
   },
@@ -55869,7 +55593,9 @@
     "with regards to"
    ],
    "meanings_es": [],
-   "meanings_fr": [],
+   "meanings_fr": [
+    "dans"
+   ],
    "meanings_pt": []
   },
   {
@@ -64492,24 +64218,7 @@
     "sencillo"
    ],
    "meanings_fr": [
-    "ordinaire",
-    "courant",
-    "commun",
-    "habituel",
-    "usuel",
-    "gratuit",
-    "gratis",
-    "non affecté",
-    "tel quel",
-    "sûr",
-    "seulement",
-    "uniquement",
-    "juste",
-    "simplement",
-    "mais",
-    "cependant",
-    "toutefois",
-    "néanmoins"
+    "ordinaire"
    ],
    "meanings_pt": []
   },
@@ -71786,8 +71495,7 @@
    ],
    "meanings_es": [],
    "meanings_fr": [
-    "ou",
-    "ou bien"
+    "ou"
    ],
    "meanings_pt": []
   },
@@ -77658,8 +77366,7 @@
     "contacto"
    ],
    "meanings_fr": [
-    "attouchement",
-    "contact"
+    "Contact"
    ],
    "meanings_pt": []
   },
@@ -101522,10 +101229,7 @@
     "extremadamente"
    ],
    "meanings_fr": [
-    "méprisable",
-    "indigne",
-    "répréhensible",
-    "condamnable"
+    "très"
    ],
    "meanings_pt": []
   },
