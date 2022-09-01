@@ -4,6 +4,7 @@ import boto3
 import os
 import json
 import uuid
+import KanaReadings
 
 strOutputDirectory = "../audiofiles/"
 
@@ -20,6 +21,9 @@ else:
 listLevels = json.load(open("../output/Levels.json", "r", encoding="utf8"))
 
 setReadings = set()
+
+for reading in KanaReadings.listKanaReadings:
+    setReadings.add(reading)
 
 for level in listLevels:
     for item in level:
