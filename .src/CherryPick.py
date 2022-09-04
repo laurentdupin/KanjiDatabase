@@ -802,30 +802,20 @@ for iLevel, level in enumerate(listOutput):
                                 item[affectedlistname].append(dicoMeaningsTranslationsAndReplacements[item["id"]][originalmeanings[i]][lang])
 
         if(item["type"] == "kanji"):
-
-            for iReading, reading in enumerate(item["kun_readings"]):
-                if(reading.endswith("-")):
-                    item["kun_readings"][iReading] = reading[:-1]
-
             newreadinglist = []
 
             for reading in item["kun_readings"]:
-                if(not(reading in newreadinglist)):
-                    newreadinglist.append(reading)
+                if(item["id"] in dicoKunReadingReplacements and reading in dicoKunReadingReplacements[item["id"]]):
+                    readingadjusted = dicoKunReadingReplacements[item["id"]][reading].replace(" ", "").replace("-", "")
+                    if(not(readingadjusted in newreadinglist)):
+                        newreadinglist.append(readingadjusted)
+                else:
+                    readingadjusted = reading.replace(" ", "").replace("-", "")
+                    if(not(readingadjusted in newreadinglist)):
+                        newreadinglist.append(readingadjusted)
+            
+            item["kun_readings"] = newreadinglist
 
-            if(item["id"] in dicoKunReadingReplacements):
-                newreadinglist = []
-
-                for reading in item["kun_readings"]:
-                    if(reading in dicoKunReadingReplacements[item["id"]]):
-                        if(not(dicoKunReadingReplacements[item["id"]][reading] in newreadinglist)):
-                            newreadinglist.append(dicoKunReadingReplacements[item["id"]][reading])
-                    else:
-                        if(not(reading in newreadinglist)):
-                            newreadinglist.append(reading)
-                
-                item["kun_readings"] = newreadinglist
-                
             level.append(item)
         elif(item["type"] == "vocab" and item["sharedid"] in setValidVocabularySharedId):
             if("〇" in item["display"] and not(item["id"] == item["sharedid"])):
