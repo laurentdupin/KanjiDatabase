@@ -19202,6 +19202,18 @@
    "meanings_pt": []
   },
   {
+   "id": 14075456403647116249,
+   "sharedid": 1026101968273064783,
+   "type": "vocab",
+   "display": "下りる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 16595381110165455338,
    "sharedid": 16595381110165455338,
    "type": "vocab",
@@ -19645,6 +19657,18 @@
    "meanings_fr": [
     "mouvement"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16826691659162973366,
+   "sharedid": 11236547143558027437,
+   "type": "vocab",
+   "display": "おい付く",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
    "meanings_pt": []
   },
   {
@@ -29254,6 +29278,18 @@
     "entièrement",
     "totalement"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7818635937766572600,
+   "sharedid": 6785178800836908236,
+   "type": "vocab",
+   "display": "みな様",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
    "meanings_pt": []
   },
   {
@@ -42331,6 +42367,18 @@
    "meanings_pt": []
   },
   {
+   "id": 7163986186349883274,
+   "sharedid": 2924416541007479291,
+   "type": "vocab",
+   "display": "心良い",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 13211660459157124023,
    "sharedid": 12196010403892597462,
    "type": "vocab",
@@ -48535,6 +48583,18 @@
     "comportamiento",
     "conducta"
    ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13732046798812613245,
+   "sharedid": 2925366099735440854,
+   "type": "vocab",
+   "display": "平す",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
   },
@@ -56820,6 +56880,18 @@
    "meanings_pt": []
   },
   {
+   "id": 16508893738904486901,
+   "sharedid": 11287723367320123624,
+   "type": "vocab",
+   "display": "小形",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 12395146467891800938,
    "sharedid": 12395146467891800938,
    "type": "vocab",
@@ -58023,6 +58095,18 @@
     "tomar su peaje",
     "recompensar"
    ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 17842165498989701149,
+   "sharedid": 13164398172251663649,
+   "type": "vocab",
+   "display": "新形",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
   },
@@ -76333,6 +76417,18 @@
     "s'inquiéter",
     "se soucier"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2087039730607562710,
+   "sharedid": 6493656615519048666,
+   "type": "vocab",
+   "display": "指環",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
    "meanings_pt": []
   },
   {
@@ -97369,6 +97465,18 @@
    "meanings_pt": []
   },
   {
+   "id": 8547386724018266872,
+   "sharedid": 11376689655142437188,
+   "type": "vocab",
+   "display": "花やか",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 4305613561050775279,
    "sharedid": 4305613561050775279,
    "type": "vocab",
@@ -98391,6 +98499,30 @@
     "sentir",
     "sympathiser avec"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17219303443297409347,
+   "sharedid": 10578633769891298148,
+   "type": "vocab",
+   "display": "花々しい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3318863320052324177,
+   "sharedid": 10578633769891298148,
+   "type": "vocab",
+   "display": "花花しい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
    "meanings_pt": []
   },
   {
@@ -101514,6 +101646,18 @@
    "meanings_pt": []
   },
   {
+   "id": 106720556102293058,
+   "sharedid": 6965422076705753518,
+   "type": "vocab",
+   "display": "拡がる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 6231984368847663604,
    "sharedid": 6231984368847663604,
    "type": "vocab",
@@ -101553,6 +101697,18 @@
     "contre-attaque",
     "contre-coup"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 290797542417039023,
+   "sharedid": 12304103168814256064,
+   "type": "vocab",
+   "display": "拡げる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
    "meanings_pt": []
   },
   {
@@ -107509,6 +107665,18 @@
    "meanings_pt": []
   },
   {
+   "id": 6262369717469532448,
+   "sharedid": 13318730782996406411,
+   "type": "vocab",
+   "display": "直経",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 4687058632334749369,
    "sharedid": 4687058632334749369,
    "type": "vocab",
@@ -111501,6 +111669,18 @@
     "superficie",
     "surface"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8118335347386186543,
+   "sharedid": 16110190604521779761,
+   "type": "vocab",
+   "display": "直段",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
    "meanings_pt": []
   },
   {
@@ -121313,6 +121493,18 @@
    "meanings_pt": []
   },
   {
+   "id": 16489959662450132018,
+   "sharedid": 11707255097946318182,
+   "type": "vocab",
+   "display": "集録",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 3987740418967082791,
    "sharedid": 3987740418967082791,
    "type": "vocab",
@@ -122363,6 +122555,18 @@
    "meanings_fr": [
     "le peuple"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2669883342653660117,
+   "sharedid": 12304103168814256064,
+   "type": "vocab",
+   "display": "展げる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
    "meanings_pt": []
   },
   {
@@ -130364,6 +130568,54 @@
    "meanings_pt": []
   },
   {
+   "id": 2155707616516390203,
+   "sharedid": 2155707616516390203,
+   "type": "vocab",
+   "display": "平均",
+   "readings": [
+    "へいきん",
+    "へいぎん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "average",
+    "mean",
+    "balance",
+    "equilibrium"
+   ],
+   "meanings_es": [
+    "promedio"
+   ],
+   "meanings_fr": [
+    "équilibre"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12622479110644166825,
+   "sharedid": 12622479110644166825,
+   "type": "vocab",
+   "display": "五輪",
+   "readings": [
+    "ごりん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "Olympic Games",
+    "Olympics",
+    "Olympic rings"
+   ],
+   "meanings_es": [
+    "(las) Olimpíadas",
+    "(los) Juegos Olímpicos"
+   ],
+   "meanings_fr": [
+    "les 5 devoirs de piété filiale confucéens",
+    "les jeux olympiques"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 5564706469931419343,
    "sharedid": 5564706469931419343,
    "type": "vocab",
@@ -130416,6 +130668,118 @@
    "meanings_pt": []
   },
   {
+   "id": 10556532215035207956,
+   "sharedid": 10556532215035207956,
+   "type": "vocab",
+   "display": "完全",
+   "readings": [
+    "かんぜん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "perfect",
+    "complete"
+   ],
+   "meanings_es": [
+    "por completo",
+    "por entero",
+    "del todo",
+    "plenamente",
+    "perfeción",
+    "compleción"
+   ],
+   "meanings_fr": [
+    "état complet",
+    "perfection"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7177580616248710864,
+   "sharedid": 7177580616248710864,
+   "type": "vocab",
+   "display": "屋",
+   "readings": [
+    "や"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "shop",
+    "store",
+    "restaurant",
+    "someone who sells (something) or works as (something)",
+    "someone with a (certain) personality trait",
+    "house",
+    "roof",
+    "building"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [
+    "magasin (de quelque chose)",
+    "boutique (de quelque chose)",
+    "échoppe (de quelque chose)",
+    "quelqu'un qui vend (quelque chose) ou travaille en tant que...",
+    "personne porteuse d'un (certain) trait de caractère",
+    "maison",
+    "toit"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17907052203820880242,
+   "sharedid": 17907052203820880242,
+   "type": "vocab",
+   "display": "風",
+   "readings": [
+    "かぜ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "wind",
+    "breeze",
+    "draught",
+    "draft",
+    "manner",
+    "behaviour",
+    "behavior",
+    "cold",
+    "influenza",
+    "method",
+    "way",
+    "style",
+    "appearance",
+    "air",
+    "tendency",
+    "folk song (genre of the Shi Jing)",
+    "wind (one of the five elements)"
+   ],
+   "meanings_es": [
+    "viento",
+    "brisa"
+   ],
+   "meanings_fr": [
+    "vent",
+    "brise",
+    "courant d'air",
+    "souffle de vent",
+    "manières",
+    "comportement",
+    "rhume",
+    "grippe",
+    "façon",
+    "méthode",
+    "manière",
+    "style",
+    "apparence",
+    "aspect",
+    "air",
+    "tendance",
+    "chanson folklorique (genre de Shi Jing)",
+    "vent (un des cinq éléments)"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 17959984088656483539,
    "sharedid": 17959984088656483539,
    "type": "vocab",
@@ -130436,6 +130800,169 @@
     "ensuite",
     "et puis",
     "puis"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1058223456939964452,
+   "sharedid": 1058223456939964452,
+   "type": "vocab",
+   "display": "歌",
+   "readings": [
+    "うた"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "song",
+    "singing",
+    "classical Japanese poem (esp. tanka)",
+    "modern poetry"
+   ],
+   "meanings_es": [
+    "canción",
+    "canción",
+    "poesía clásica japonesa (esp. tanka)",
+    "poesía moderna",
+    "poesía (poema)"
+   ],
+   "meanings_fr": [
+    "chanson",
+    "poésie japonaise traditionnelle (par ex. le tanka)",
+    "poésie moderne"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13855552963611422995,
+   "sharedid": 13855552963611422995,
+   "type": "vocab",
+   "display": "大型",
+   "readings": [
+    "おおがた"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "large",
+    "large-sized",
+    "large-scale",
+    "big"
+   ],
+   "meanings_es": [
+    "modelo a gran escala"
+   ],
+   "meanings_fr": [
+    "grand",
+    "gros"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11638284718969949516,
+   "sharedid": 11638284718969949516,
+   "type": "vocab",
+   "display": "移動",
+   "readings": [
+    "いどう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "movement",
+    "transfer",
+    "migration",
+    "removal",
+    "travel",
+    "mobile",
+    "moving",
+    "traveling",
+    "travelling",
+    "roving"
+   ],
+   "meanings_es": [
+    "eliminación",
+    "migración",
+    "movimiento",
+    "móvil (ej. comunicaciones)"
+   ],
+   "meanings_fr": [
+    "mouvement",
+    "déplacement",
+    "transfert",
+    "migration",
+    "déménagement",
+    "voyage",
+    "mobile",
+    "en mouvement",
+    "en voyage",
+    "nomade",
+    "itinérant"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14138835692588143908,
+   "sharedid": 14138835692588143908,
+   "type": "vocab",
+   "display": "差",
+   "readings": [
+    "さ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "difference",
+    "variation",
+    "difference"
+   ],
+   "meanings_es": [
+    "diferencia",
+    "margen",
+    "divergencia"
+   ],
+   "meanings_fr": [
+    "écart",
+    "différence",
+    "variation",
+    "différence"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14720696447236214446,
+   "sharedid": 14720696447236214446,
+   "type": "vocab",
+   "display": "親",
+   "readings": [
+    "おや"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "parent",
+    "parents",
+    "mother and father",
+    "dealer (in cards, mahjong, etc.)",
+    "banker",
+    "founder",
+    "inventor",
+    "(pet) owner",
+    "key",
+    "parent (organization)",
+    "main",
+    "ancestor",
+    "forefather",
+    "intimacy",
+    "closeness",
+    "friendliness",
+    "close relative",
+    "pro- (e.g. pro-American)"
+   ],
+   "meanings_es": [
+    "padres"
+   ],
+   "meanings_fr": [
+    "parent",
+    "parents",
+    "croupier (dans un jeu de cartes, au mah-jong, etc.)",
+    "fondateur",
+    "propriétaire (d'un animal)"
    ],
    "meanings_pt": []
   },
@@ -130474,6 +131001,311 @@
     "juste après",
     "sans pause",
     "sans interruption"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7892856832601595226,
+   "sharedid": 7892856832601595226,
+   "type": "vocab",
+   "display": "運転",
+   "readings": [
+    "うんてん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "operation (of a machine)",
+    "running",
+    "working",
+    "driving (a vehicle)",
+    "use (of capital, funds, etc.)",
+    "management",
+    "investment"
+   ],
+   "meanings_es": [
+    "operación",
+    "movimiento",
+    "conducir"
+   ],
+   "meanings_fr": [
+    "fonctionnement (d'une machine, etc.)",
+    "opération",
+    "manœuvre",
+    "exécution",
+    "conduite",
+    "roulement (dans les fonds de roulement, etc.)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10578382378714942919,
+   "sharedid": 10578382378714942919,
+   "type": "vocab",
+   "display": "関税",
+   "readings": [
+    "かんぜい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "tariff (import tax)",
+    "duty",
+    "customs"
+   ],
+   "meanings_es": [
+    "aranceles",
+    "derechos de aduana"
+   ],
+   "meanings_fr": [
+    "douanes",
+    "droits de douane"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5139877328882362019,
+   "sharedid": 5139877328882362019,
+   "type": "vocab",
+   "display": "検査",
+   "readings": [
+    "けんさ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "inspection (e.g. customs, factory)",
+    "examination",
+    "test",
+    "check",
+    "scan (e.g. MRI, PET)",
+    "audit"
+   ],
+   "meanings_es": [
+    "inspección (examinación",
+    "chequeo)",
+    "examinación de ~"
+   ],
+   "meanings_fr": [
+    "inspection (par ex. des douanes, d'une usine)",
+    "examen",
+    "scanner (par ex. IRM, TEP, etc.)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5179460555607773747,
+   "sharedid": 5179460555607773747,
+   "type": "vocab",
+   "display": "検察",
+   "readings": [
+    "けんさつ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "examination",
+    "investigation",
+    "prosecution"
+   ],
+   "meanings_es": [
+    "examen",
+    "investigación",
+    "interposición judicial"
+   ],
+   "meanings_fr": [
+    "examen",
+    "procureur"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15899425735792815700,
+   "sharedid": 15899425735792815700,
+   "type": "vocab",
+   "display": "広告",
+   "readings": [
+    "こうこく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "advertisement",
+    "advertising",
+    "announcement",
+    "notice"
+   ],
+   "meanings_es": [
+    "publicitar",
+    "hacer propaganda",
+    "anunciar",
+    "hacer público",
+    "anuncio publicitario"
+   ],
+   "meanings_fr": [
+    "publicité",
+    "réclame"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12483906818996319545,
+   "sharedid": 12483906818996319545,
+   "type": "vocab",
+   "display": "被害",
+   "readings": [
+    "ひがい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "(suffering) damage",
+    "injury",
+    "harm"
+   ],
+   "meanings_es": [
+    "daño",
+    "estrago"
+   ],
+   "meanings_fr": [
+    "(subir un) dommage",
+    "blessure",
+    "dégâts",
+    "ravages"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 544042154697418836,
+   "sharedid": 544042154697418836,
+   "type": "vocab",
+   "display": "父親",
+   "readings": [
+    "ちちおや"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "father"
+   ],
+   "meanings_es": [
+    "padre"
+   ],
+   "meanings_fr": [
+    "père"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13474837391114024427,
+   "sharedid": 13474837391114024427,
+   "type": "vocab",
+   "display": "部屋",
+   "readings": [
+    "へや"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "room",
+    "chamber",
+    "apartment",
+    "flat",
+    "pad",
+    "stable"
+   ],
+   "meanings_es": [
+    "habitación"
+   ],
+   "meanings_fr": [
+    "chambre",
+    "pièce",
+    "salle",
+    "appartement",
+    "piaule",
+    "écurie"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 561540389693892373,
+   "sharedid": 561540389693892373,
+   "type": "vocab",
+   "display": "母親",
+   "readings": [
+    "ははおや"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "mother"
+   ],
+   "meanings_es": [
+    "madre"
+   ],
+   "meanings_fr": [
+    "mère"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16304555222395159497,
+   "sharedid": 16304555222395159497,
+   "type": "vocab",
+   "display": "防止",
+   "readings": [
+    "ぼうし"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "prevention",
+    "check"
+   ],
+   "meanings_es": [
+    "prevención"
+   ],
+   "meanings_fr": [
+    "contrôle",
+    "empêchement",
+    "prévention"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6679677162920051798,
+   "sharedid": 6679677162920051798,
+   "type": "vocab",
+   "display": "減税",
+   "readings": [
+    "げんぜい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "tax reduction"
+   ],
+   "meanings_es": [
+    "reducción de impuestos"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3046441968646736801,
+   "sharedid": 3046441968646736801,
+   "type": "vocab",
+   "display": "完成",
+   "readings": [
+    "かんせい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "completion",
+    "perfection",
+    "accomplishment"
+   ],
+   "meanings_es": [
+    "completo",
+    "terminación",
+    "perfección",
+    "realización",
+    "logro"
+   ],
+   "meanings_fr": [
+    "achèvement",
+    "terminaison",
+    "perfection",
+    "accomplissement"
    ],
    "meanings_pt": []
   },
@@ -130547,6 +131379,31 @@
    "meanings_pt": []
   },
   {
+   "id": 11287723367320123624,
+   "sharedid": 11287723367320123624,
+   "type": "vocab",
+   "display": "小型",
+   "readings": [
+    "こがた"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "small-sized",
+    "small-scale",
+    "miniature",
+    "small",
+    "little",
+    "tiny"
+   ],
+   "meanings_es": [
+    "mini-"
+   ],
+   "meanings_fr": [
+    "de petite taille"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 15387270719911982799,
    "sharedid": 15387270719911982799,
    "type": "vocab",
@@ -130608,6 +131465,241 @@
    "meanings_pt": []
   },
   {
+   "id": 12413017361348172118,
+   "sharedid": 12413017361348172118,
+   "type": "vocab",
+   "display": "歌手",
+   "readings": [
+    "かしゅ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "singer"
+   ],
+   "meanings_es": [
+    "cantante"
+   ],
+   "meanings_fr": [
+    "chanteur"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5481143071763587151,
+   "sharedid": 5481143071763587151,
+   "type": "vocab",
+   "display": "課税",
+   "readings": [
+    "かぜい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "taxation"
+   ],
+   "meanings_es": [
+    "impuesto fiscal"
+   ],
+   "meanings_fr": [
+    "taxation"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15633843519135142807,
+   "sharedid": 15633843519135142807,
+   "type": "vocab",
+   "display": "格差",
+   "readings": [
+    "かくさ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "qualitative difference",
+    "disparity",
+    "gap"
+   ],
+   "meanings_es": [
+    "diferencia cualitativa",
+    "disparidad"
+   ],
+   "meanings_fr": [
+    "différence qualitative",
+    "disparité"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6486206803527834410,
+   "sharedid": 6486206803527834410,
+   "type": "vocab",
+   "display": "差別",
+   "readings": [
+    "さべつ",
+    "しゃべつ",
+    "しゃべち"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "distinction",
+    "differentiation",
+    "discrimination",
+    "discrimination (against people)"
+   ],
+   "meanings_es": [
+    "discriminación",
+    "racismo",
+    "segregación"
+   ],
+   "meanings_fr": [
+    "discrimination",
+    "distinction",
+    "différentiation"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4742948565646483999,
+   "sharedid": 4742948565646483999,
+   "type": "vocab",
+   "display": "中止",
+   "readings": [
+    "ちゅうし"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "interruption",
+    "discontinuance",
+    "suspension",
+    "stoppage",
+    "cancellation (of a planned event)",
+    "calling off"
+   ],
+   "meanings_es": [
+    "descontinuación",
+    "anulación"
+   ],
+   "meanings_fr": [
+    "état arrété, suspendu",
+    "interruption"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 808719804634036868,
+   "sharedid": 808719804634036868,
+   "type": "vocab",
+   "display": "両親",
+   "readings": [
+    "りょうしん",
+    "ふたおや"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "parents",
+    "both parents"
+   ],
+   "meanings_es": [
+    "padres (los propios)",
+    "ambos padres"
+   ],
+   "meanings_fr": [
+    "les deux parents",
+    "parents"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17740566254259575260,
+   "sharedid": 17740566254259575260,
+   "type": "vocab",
+   "display": "介入",
+   "readings": [
+    "かいにゅう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "intervention"
+   ],
+   "meanings_es": [
+    "intervención"
+   ],
+   "meanings_fr": [
+    "immixtion",
+    "intervention"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5430256539407603832,
+   "sharedid": 5430256539407603832,
+   "type": "vocab",
+   "display": "所得税",
+   "readings": [
+    "しょとくぜい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "income tax"
+   ],
+   "meanings_es": [
+    "impuesto sobre la renta de las personas físicas",
+    "IRPF"
+   ],
+   "meanings_fr": [
+    "impôt sur le revenu"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7388637103893635622,
+   "sharedid": 7388637103893635622,
+   "type": "vocab",
+   "display": "税",
+   "readings": [
+    "ぜい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "tax"
+   ],
+   "meanings_es": [
+    "impuesto",
+    "tasa"
+   ],
+   "meanings_fr": [
+    "impôt",
+    "taxe"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1343712990498051210,
+   "sharedid": 1343712990498051210,
+   "type": "vocab",
+   "display": "広い",
+   "readings": [
+    "ひろい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "spacious",
+    "vast",
+    "wide"
+   ],
+   "meanings_es": [
+    "espacioso",
+    "vasto",
+    "amplio"
+   ],
+   "meanings_fr": [
+    "ample",
+    "large",
+    "spacieux",
+    "vaste"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 5406267434001719530,
    "sharedid": 3206018383587278048,
    "type": "vocab",
@@ -130617,6 +131709,260 @@
    "meanings": [],
    "meanings_es": [],
    "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11030180778604143916,
+   "sharedid": 11030180778604143916,
+   "type": "vocab",
+   "display": "広島",
+   "readings": [
+    "ひろしま"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "Hiroshima (city, prefecture)"
+   ],
+   "meanings_es": [
+    "hiroshima"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12689622637350245141,
+   "sharedid": 12689622637350245141,
+   "type": "vocab",
+   "display": "自転車",
+   "readings": [
+    "じてんしゃ",
+    "じでんしゃ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "bicycle",
+    "bike"
+   ],
+   "meanings_es": [
+    "bicicleta"
+   ],
+   "meanings_fr": [
+    "bicyclette",
+    "vélo"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4844435656502834363,
+   "sharedid": 4844435656502834363,
+   "type": "vocab",
+   "display": "移転",
+   "readings": [
+    "いてん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "moving",
+    "relocation",
+    "change of address",
+    "transfer (of deeds, property, etc.)",
+    "demise"
+   ],
+   "meanings_es": [
+    "traslado",
+    "transferencia",
+    "desaparición"
+   ],
+   "meanings_fr": [
+    "déplacement",
+    "déménagement",
+    "transfert"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14087630598270708820,
+   "sharedid": 14087630598270708820,
+   "type": "vocab",
+   "display": "運転手",
+   "readings": [
+    "うんてんしゅ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "driver",
+    "chauffeur"
+   ],
+   "meanings_es": [
+    "chofer",
+    "conductor"
+   ],
+   "meanings_fr": [
+    "chauffeur",
+    "conducteur"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12810261978402412000,
+   "sharedid": 12810261978402412000,
+   "type": "vocab",
+   "display": "検事",
+   "readings": [
+    "けんじ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "public prosecutor"
+   ],
+   "meanings_es": [
+    "fiscal"
+   ],
+   "meanings_fr": [
+    "procureur général"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6464856357826708243,
+   "sharedid": 6464856357826708243,
+   "type": "vocab",
+   "display": "公害",
+   "readings": [
+    "こうがい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "pollution",
+    "public nuisance",
+    "contamination"
+   ],
+   "meanings_es": [
+    "contaminación ambiental"
+   ],
+   "meanings_fr": [
+    "pollution",
+    "nuisance publique",
+    "contamination"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1303670010314001950,
+   "sharedid": 1303670010314001950,
+   "type": "vocab",
+   "display": "増税",
+   "readings": [
+    "ぞうぜい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "tax increase"
+   ],
+   "meanings_es": [
+    "subida de impuestos"
+   ],
+   "meanings_fr": [
+    "augmentation des impôts"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4523584334789810553,
+   "sharedid": 4523584334789810553,
+   "type": "vocab",
+   "display": "風景",
+   "readings": [
+    "ふうけい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "scenery",
+    "scene",
+    "landscape",
+    "view",
+    "sight",
+    "scene (e.g. of a crime)"
+   ],
+   "meanings_es": [
+    "paisaje"
+   ],
+   "meanings_fr": [
+    "paysage",
+    "scène",
+    "vue",
+    "scène (par ex. de crime)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17750662335671071115,
+   "sharedid": 17750662335671071115,
+   "type": "vocab",
+   "display": "台風",
+   "readings": [
+    "たいふう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "typhoon",
+    "hurricane"
+   ],
+   "meanings_es": [
+    "tifón"
+   ],
+   "meanings_fr": [
+    "typhon",
+    "ouragan"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5966031986713034283,
+   "sharedid": 5966031986713034283,
+   "type": "vocab",
+   "display": "移行",
+   "readings": [
+    "いこう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "transition",
+    "changeover",
+    "switchover",
+    "shift",
+    "transfer (of powers, weight, etc.)",
+    "shift (e.g. of centre of gravity)"
+   ],
+   "meanings_es": [
+    "transición",
+    "migración"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13042439633514657235,
+   "sharedid": 13042439633514657235,
+   "type": "vocab",
+   "display": "被害者",
+   "readings": [
+    "ひがいしゃ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "victim",
+    "injured party",
+    "sufferer"
+   ],
+   "meanings_es": [
+    "víctima",
+    "perjudicado"
+   ],
+   "meanings_fr": [
+    "blessé",
+    "victime"
+   ],
    "meanings_pt": []
   },
   {
@@ -130647,6 +131993,45 @@
    "meanings_pt": []
   },
   {
+   "id": 7931732561135083721,
+   "sharedid": 7931732561135083721,
+   "type": "vocab",
+   "display": "回転",
+   "readings": [
+    "かいてん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "rotation",
+    "revolution",
+    "turn",
+    "spin",
+    "working (e.g. of one's mind)",
+    "function",
+    "turnover (of goods, funds, etc.)",
+    "circulation",
+    "flow (of customers)",
+    "rotation",
+    "curl",
+    "slalom (alpine skiing event)"
+   ],
+   "meanings_es": [
+    "rotación",
+    "giro",
+    "vuelta",
+    "rodeo",
+    "revolución",
+    "girar",
+    "rotar",
+    "dar vueltas"
+   ],
+   "meanings_fr": [
+    "rotation",
+    "tour"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 1504672318323751009,
    "sharedid": 17224221695525207139,
    "type": "vocab",
@@ -130655,6 +132040,155 @@
    "kun_readings": [],
    "meanings": [],
    "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 5191472852551243295,
+   "sharedid": 5191472852551243295,
+   "type": "vocab",
+   "display": "広場",
+   "readings": [
+    "ひろば"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "public square",
+    "square",
+    "plaza",
+    "piazza",
+    "forum",
+    "open space",
+    "clearing"
+   ],
+   "meanings_es": [
+    "plaza"
+   ],
+   "meanings_fr": [
+    "grande place"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15551931025139111472,
+   "sharedid": 15551931025139111472,
+   "type": "vocab",
+   "display": "税金",
+   "readings": [
+    "ぜいきん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "tax",
+    "duty"
+   ],
+   "meanings_es": [
+    "tasa"
+   ],
+   "meanings_fr": [
+    "impôt",
+    "taxe"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2509396780065261018,
+   "sharedid": 2509396780065261018,
+   "type": "vocab",
+   "display": "大陸",
+   "readings": [
+    "たいりく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "continent",
+    "continental Asia (esp. mainland China)",
+    "continental Europe"
+   ],
+   "meanings_es": [
+    "continente"
+   ],
+   "meanings_fr": [
+    "continent",
+    "Asie continentale (en part. la Chine continentale)",
+    "Europe continentale"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6285837472833948081,
+   "sharedid": 6285837472833948081,
+   "type": "vocab",
+   "display": "陸上",
+   "readings": [
+    "りくじょう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "(on) land",
+    "ground",
+    "shore",
+    "track-and-field events"
+   ],
+   "meanings_es": [
+    "terrestre",
+    "de atletismo"
+   ],
+   "meanings_fr": [
+    "sol",
+    "terre"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10459818633483514983,
+   "sharedid": 10459818633483514983,
+   "type": "vocab",
+   "display": "輪",
+   "readings": [
+    "わ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "ring",
+    "circle",
+    "loop",
+    "hoop",
+    "wheel",
+    "circle (e.g. of friends)",
+    "planetary ring",
+    "counter for wheels and flowers"
+   ],
+   "meanings_es": [
+    "anillo",
+    "aro",
+    "contador para flores y ruedas"
+   ],
+   "meanings_fr": [
+    "anneau",
+    "cerceau",
+    "cercle"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14604658315537538954,
+   "sharedid": 14604658315537538954,
+   "type": "vocab",
+   "display": "介護",
+   "readings": [
+    "かいご"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "nursing",
+    "care",
+    "caregiving",
+    "caring"
+   ],
+   "meanings_es": [
+    "enfermería"
+   ],
    "meanings_fr": [],
    "meanings_pt": []
   },
@@ -130668,6 +132202,60 @@
    "meanings": [],
    "meanings_es": [],
    "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13724221944423239819,
+   "sharedid": 13724221944423239819,
+   "type": "vocab",
+   "display": "才",
+   "readings": [
+    "さい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "ability",
+    "gift",
+    "talent",
+    "aptitude",
+    "genius",
+    "sai"
+   ],
+   "meanings_es": [
+    "habilidad",
+    "regalo",
+    "talento",
+    "aptitud",
+    "genio",
+    "años de edad"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8009662326270752270,
+   "sharedid": 8009662326270752270,
+   "type": "vocab",
+   "display": "歌う",
+   "readings": [
+    "うたう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to sing",
+    "to sing of (love, beauty, etc.) in a poem",
+    "to express in the form of a poem",
+    "to recite (a poem)"
+   ],
+   "meanings_es": [
+    "cantar"
+   ],
+   "meanings_fr": [
+    "chanter",
+    "chanter (ses louanges dans un poème, etc.)",
+    "composer un poème",
+    "réciter un poème"
+   ],
    "meanings_pt": []
   },
   {
@@ -130694,6 +132282,106 @@
     "par ailleurs",
     "également",
     "aussi"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7927480385057315483,
+   "sharedid": 7927480385057315483,
+   "type": "vocab",
+   "display": "転ずる",
+   "readings": [
+    "てんずる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to turn",
+    "to shift",
+    "to alter",
+    "to distract"
+   ],
+   "meanings_es": [
+    "volcar",
+    "voltear",
+    "cambiar"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4284099478848456722,
+   "sharedid": 4284099478848456722,
+   "type": "vocab",
+   "display": "完了",
+   "readings": [
+    "かんりょう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "completion",
+    "conclusion",
+    "perfect (tense, form, aspect)",
+    "end"
+   ],
+   "meanings_es": [
+    "conclusión",
+    "terminación",
+    "consumación"
+   ],
+   "meanings_fr": [
+    "accomplissement",
+    "achèvement",
+    "conclusion",
+    "parfait (temps du verbe, forme, aspect)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2558475775647914114,
+   "sharedid": 2558475775647914114,
+   "type": "vocab",
+   "display": "移民",
+   "readings": [
+    "いみん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "immigration",
+    "emigration",
+    "immigrant",
+    "emigrant"
+   ],
+   "meanings_es": [
+    "(común) emigración",
+    "inmigración",
+    "emigrante",
+    "inmigrante"
+   ],
+   "meanings_fr": [
+    "émigré",
+    "émigration",
+    "immigrant",
+    "immigration"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7437603515613868727,
+   "sharedid": 7437603515613868727,
+   "type": "vocab",
+   "display": "陸軍",
+   "readings": [
+    "りくぐん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "army"
+   ],
+   "meanings_es": [
+    "ejército"
+   ],
+   "meanings_fr": [
+    "armée (de terre)"
    ],
    "meanings_pt": []
   },
@@ -130735,6 +132423,251 @@
    "meanings_pt": []
   },
   {
+   "id": 6965422076705753518,
+   "sharedid": 6965422076705753518,
+   "type": "vocab",
+   "display": "広がる",
+   "readings": [
+    "ひろがる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to spread (out)",
+    "to extend",
+    "to stretch",
+    "to reach to",
+    "to get around",
+    "to fill (e.g. a space)"
+   ],
+   "meanings_es": [
+    "extenderse",
+    "propagarse"
+   ],
+   "meanings_fr": [
+    "atteindre",
+    "gagner",
+    "s'étaler",
+    "s'étendre",
+    "s'étirer"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8009103206646062172,
+   "sharedid": 8009103206646062172,
+   "type": "vocab",
+   "display": "点検",
+   "readings": [
+    "てんけん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "inspection",
+    "examination",
+    "checking"
+   ],
+   "meanings_es": [
+    "inspección",
+    "comprobación",
+    "revisión"
+   ],
+   "meanings_fr": [
+    "examen",
+    "inspection",
+    "vérification",
+    "visite"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12304103168814256064,
+   "sharedid": 12304103168814256064,
+   "type": "vocab",
+   "display": "広げる",
+   "readings": [
+    "ひろげる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to spread",
+    "to extend",
+    "to expand",
+    "to enlarge",
+    "to widen",
+    "to broaden",
+    "to unfold",
+    "to open",
+    "to unroll",
+    "to unwrap",
+    "to scatter about",
+    "to spread around",
+    "to make flourish",
+    "to cause to prosper"
+   ],
+   "meanings_es": [
+    "extenderse",
+    "propagarse",
+    "desdoblarse",
+    "abrirse",
+    "desenrollarse"
+   ],
+   "meanings_fr": [
+    "élargir",
+    "étaler",
+    "étendre",
+    "étirer",
+    "agrandir",
+    "propager",
+    "déplier",
+    "ouvrir",
+    "dérouler",
+    "déballer",
+    "disperser",
+    "répandre",
+    "faire prospérer"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13164398172251663649,
+   "sharedid": 13164398172251663649,
+   "type": "vocab",
+   "display": "新型",
+   "readings": [
+    "しんがた"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "new type",
+    "new style",
+    "new model",
+    "new strain (e.g. infectious disease)"
+   ],
+   "meanings_es": [
+    "nuevo estilo",
+    "nuevo modelo"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14439294895454832484,
+   "sharedid": 14439294895454832484,
+   "type": "vocab",
+   "display": "止める",
+   "readings": [
+    "とめる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to stop",
+    "to turn off",
+    "to park",
+    "to prevent",
+    "to suppress (a cough)",
+    "to hold back (tears)",
+    "to hold (one's breath)",
+    "to relieve (pain)",
+    "to stop (someone from doing something)",
+    "to dissuade",
+    "to forbid",
+    "to prohibit",
+    "to notice",
+    "to be aware of",
+    "to concentrate on",
+    "to pay attention to",
+    "to remember",
+    "to bear in mind",
+    "to fix (in place)",
+    "to fasten",
+    "to tack",
+    "to pin",
+    "to nail",
+    "to button",
+    "to staple",
+    "to detain",
+    "to keep in custody",
+    "to stop (an activity)",
+    "to cease",
+    "to discontinue",
+    "to end",
+    "to quit",
+    "to cancel",
+    "to abandon",
+    "to give up",
+    "to abolish",
+    "to abstain",
+    "to refrain"
+   ],
+   "meanings_es": [
+    "parar",
+    "detener",
+    "detener (algo)",
+    "cesar",
+    "renunciar",
+    "ponerle fin a"
+   ],
+   "meanings_fr": [
+    "arrêter",
+    "éteindre",
+    "se garer",
+    "stationner",
+    "empêcher",
+    "retenir (une toux, des larmes, son souffle)",
+    "soulager (la douleur)",
+    "empêcher (quelqu'un de faire quelque chose)",
+    "faire cesser",
+    "dissuader",
+    "interdire",
+    "prohiber",
+    "remarquer",
+    "être au courant de",
+    "se concentrer sur",
+    "prêter attention à",
+    "se rappeler de",
+    "retenir",
+    "se souvenir de",
+    "garder à l'esprit",
+    "détenir",
+    "maintenir en détention",
+    "arrêter (une activité)",
+    "cesser",
+    "interrompre",
+    "mettre fin à",
+    "terminer",
+    "annuler",
+    "abandonner",
+    "renoncer à",
+    "abolir",
+    "s'abstenir de"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14982756716302284533,
+   "sharedid": 14982756716302284533,
+   "type": "vocab",
+   "display": "才能",
+   "readings": [
+    "さいのう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "talent",
+    "ability"
+   ],
+   "meanings_es": [
+    "talento",
+    "capacidad"
+   ],
+   "meanings_fr": [
+    "don",
+    "talent",
+    "capacité"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 18140335091058515936,
    "sharedid": 3878237006324323371,
    "type": "vocab",
@@ -130759,6 +132692,482 @@
    "meanings_pt": []
   },
   {
+   "id": 16979282244828640071,
+   "sharedid": 16979282244828640071,
+   "type": "vocab",
+   "display": "検証",
+   "readings": [
+    "けんしょう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "verification",
+    "inspection"
+   ],
+   "meanings_es": [
+    "verificación",
+    "inspección"
+   ],
+   "meanings_fr": [
+    "inspection",
+    "vérification"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6667998381239575536,
+   "sharedid": 6667998381239575536,
+   "type": "vocab",
+   "display": "広さ",
+   "readings": [
+    "ひろさ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "area",
+    "extent",
+    "dimensions",
+    "size",
+    "width",
+    "breadth"
+   ],
+   "meanings_es": [
+    "extensión",
+    "superficie"
+   ],
+   "meanings_fr": [
+    "étendue"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1033881297617166925,
+   "sharedid": 1033881297617166925,
+   "type": "vocab",
+   "display": "中華",
+   "readings": [
+    "ちゅうか"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "China",
+    "Chinese food"
+   ],
+   "meanings_es": [
+    "chino (e.g. restaurante)"
+   ],
+   "meanings_fr": [
+    "chine (empire du milieu)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15431621420990545916,
+   "sharedid": 15431621420990545916,
+   "type": "vocab",
+   "display": "幅広い",
+   "readings": [
+    "はばひろい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "extensive",
+    "wide",
+    "broad"
+   ],
+   "meanings_es": [
+    "extenso",
+    "vasto"
+   ],
+   "meanings_fr": [
+    "grand",
+    "large",
+    "vaste"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10186062792254243543,
+   "sharedid": 10186062792254243543,
+   "type": "vocab",
+   "display": "利害",
+   "readings": [
+    "りがい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "advantages and disadvantages",
+    "interests (of parties)"
+   ],
+   "meanings_es": [
+    "interés",
+    "beneficio",
+    "provecho"
+   ],
+   "meanings_fr": [
+    "avantages et désavantages",
+    "intérêt"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16155610222550887843,
+   "sharedid": 16155610222550887843,
+   "type": "vocab",
+   "display": "北陸",
+   "readings": [
+    "ほくりく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "Hokuriku region (of Honshu; incl. Niigata, Toyama, Ishikawa and Fukui prefectures)"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9422295848255861033,
+   "sharedid": 9422295848255861033,
+   "type": "vocab",
+   "display": "典型",
+   "readings": [
+    "てんけい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "type",
+    "pattern",
+    "model",
+    "epitome",
+    "exemplar",
+    "archetype",
+    "perfect example"
+   ],
+   "meanings_es": [
+    "clásico",
+    "típico"
+   ],
+   "meanings_fr": [
+    "type",
+    "modèle",
+    "maquette",
+    "exemple",
+    "archétype",
+    "représentant"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8368146891725216113,
+   "sharedid": 8368146891725216113,
+   "type": "vocab",
+   "display": "儀式",
+   "readings": [
+    "ぎしき"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "ceremony",
+    "rite",
+    "ritual",
+    "service"
+   ],
+   "meanings_es": [
+    "ceremonia",
+    "rito",
+    "ritual",
+    "servicio"
+   ],
+   "meanings_fr": [
+    "cérémonie",
+    "formalité",
+    "rite",
+    "rituel"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17754099717313468141,
+   "sharedid": 17754099717313468141,
+   "type": "vocab",
+   "display": "親善",
+   "readings": [
+    "しんぜん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "friendship",
+    "goodwill",
+    "friendly relations",
+    "amity"
+   ],
+   "meanings_es": [
+    "amistad"
+   ],
+   "meanings_fr": [
+    "amitié"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 18250485207063361510,
+   "sharedid": 18250485207063361510,
+   "type": "vocab",
+   "display": "有害",
+   "readings": [
+    "ゆうがい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "harmful",
+    "hazardous"
+   ],
+   "meanings_es": [
+    "nocivo"
+   ],
+   "meanings_fr": [
+    "nuisible"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11376689655142437188,
+   "sharedid": 11376689655142437188,
+   "type": "vocab",
+   "display": "華やか",
+   "readings": [
+    "はなやか"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "showy",
+    "brilliant",
+    "gorgeous",
+    "florid",
+    "gay"
+   ],
+   "meanings_es": [
+    "espléndido",
+    "espectacular",
+    "vistoso"
+   ],
+   "meanings_fr": [
+    "éclatant",
+    "brillant",
+    "gai",
+    "orné (trop)",
+    "splendide"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3380628262977384883,
+   "sharedid": 3380628262977384883,
+   "type": "vocab",
+   "display": "差し止め",
+   "readings": [
+    "さしとめ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "prohibition",
+    "ban",
+    "suspension",
+    "injunction"
+   ],
+   "meanings_es": [
+    "interdicción",
+    "prohibición"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 16870272804155672841,
+   "sharedid": 3380628262977384883,
+   "type": "vocab",
+   "display": "差止め",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 16568923509090391678,
+   "sharedid": 3380628262977384883,
+   "type": "vocab",
+   "display": "差止",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11486476276906807196,
+   "sharedid": 11486476276906807196,
+   "type": "vocab",
+   "display": "止まる",
+   "readings": [
+    "とまる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to stop (moving)",
+    "to come to a stop",
+    "to stop (doing, working, being supplied)",
+    "to come to a halt",
+    "to cease",
+    "to be stopped",
+    "to be suspended",
+    "to alight",
+    "to perch on",
+    "to stop",
+    "to be over",
+    "to remain",
+    "to abide",
+    "to stay (in the one place)",
+    "to be limited to",
+    "to be confined to",
+    "to only account for"
+   ],
+   "meanings_es": [
+    "detenerse",
+    "permanecer",
+    "quedarse",
+    "limitarse",
+    "detener",
+    "parar",
+    "detener(se)"
+   ],
+   "meanings_fr": [
+    "arrêter (de bouger)",
+    "stopper",
+    "s'arrêter (de faire, de travailler, d'être fourni)",
+    "faire halte",
+    "cesser",
+    "être arrêté",
+    "être suspendu",
+    "se poser sur (comme l'oiseau sur la branche)",
+    "percher",
+    "demeurer",
+    "rester (dans un seul endroit)",
+    "se limiter à",
+    "se borner à"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12418414714331794647,
+   "sharedid": 11486476276906807196,
+   "type": "vocab",
+   "display": "止る",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3518924711635144604,
+   "sharedid": 3518924711635144604,
+   "type": "vocab",
+   "display": "介す",
+   "readings": [
+    "かいす"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to use as an intermediary",
+    "to mediate",
+    "to assist",
+    "to worry",
+    "to mind",
+    "to care"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 16861599286594069745,
+   "sharedid": 16861599286594069745,
+   "type": "vocab",
+   "display": "均等",
+   "readings": [
+    "きんとう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "equality",
+    "uniformity",
+    "evenness"
+   ],
+   "meanings_es": [
+    "igualdad",
+    "uniformidad"
+   ],
+   "meanings_fr": [
+    "égalité",
+    "parité"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2547279991646617759,
+   "sharedid": 2547279991646617759,
+   "type": "vocab",
+   "display": "親族",
+   "readings": [
+    "しんぞく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "relative",
+    "relation",
+    "blood relative"
+   ],
+   "meanings_es": [
+    "familiares"
+   ],
+   "meanings_fr": [
+    "parent"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5359952368304939919,
+   "sharedid": 5359952368304939919,
+   "type": "vocab",
+   "display": "儀",
+   "readings": [
+    "ぎ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "ceremony",
+    "matter",
+    "affair",
+    "with regard to",
+    "as for",
+    "as concerns"
+   ],
+   "meanings_es": [
+    "regla",
+    "ceremonia",
+    "asunto",
+    "caso",
+    "materia"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 4313815758644559435,
    "sharedid": 10303277574476818626,
    "type": "vocab",
@@ -130766,6 +133175,23 @@
    "readings": [],
    "kun_readings": [],
    "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 5426573919326547894,
+   "sharedid": 5426573919326547894,
+   "type": "vocab",
+   "display": "相続税",
+   "readings": [
+    "そうぞくぜい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "inheritance tax",
+    "death duty"
+   ],
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
@@ -130783,6 +133209,141 @@
    "meanings_pt": []
   },
   {
+   "id": 11942226031117965846,
+   "sharedid": 11942226031117965846,
+   "type": "vocab",
+   "display": "模型",
+   "readings": [
+    "もけい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "model",
+    "dummy",
+    "maquette"
+   ],
+   "meanings_es": [
+    "modelo (a escala)",
+    "maniquí",
+    "maqueta"
+   ],
+   "meanings_fr": [
+    "maquette",
+    "modèle (réduit)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13318730782996406411,
+   "sharedid": 13318730782996406411,
+   "type": "vocab",
+   "display": "直径",
+   "readings": [
+    "ちょっけい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "diameter"
+   ],
+   "meanings_es": [
+    "diámetro"
+   ],
+   "meanings_fr": [
+    "diamètre"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6310498733007686040,
+   "sharedid": 6310498733007686040,
+   "type": "vocab",
+   "display": "明快",
+   "readings": [
+    "めいかい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "clear",
+    "clear-cut",
+    "lucid",
+    "unequivocal",
+    "explicit"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14505889159400734084,
+   "sharedid": 14505889159400734084,
+   "type": "vocab",
+   "display": "移す",
+   "readings": [
+    "うつす"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to change",
+    "to swap",
+    "to substitute",
+    "to transfer",
+    "to change the object of one's interest or focus",
+    "to spend or take time",
+    "to infect",
+    "to permeate something with the smell or colour of something",
+    "to move on to the next or different stage of (a plan, etc.)"
+   ],
+   "meanings_es": [
+    "mover de sitio",
+    "cambiar de sitio",
+    "trasladar",
+    "trasvasar",
+    "contagiar",
+    "transmitir",
+    "transformar",
+    "cambiar",
+    "cambiar",
+    "sustituir",
+    "transferir",
+    "cambiar el objeto del interés de uno o el enfoque",
+    "pasar o tomar tiempo",
+    "infectar",
+    "permear algo con el olor o color de algo",
+    "mover a la siguiente o etapa diferente de (un plan, etc.)"
+   ],
+   "meanings_fr": [
+    "changer",
+    "échanger",
+    "substituer",
+    "transférer",
+    "changer l'objet de son intérêt ou de sa concentration",
+    "passer ou prendre du temps",
+    "infecter",
+    "imprégner quelque chose avec l'odeur ou la couleur de quelque chose",
+    "passer à l'étape suivante ou différente du (projet, etc.)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13612934042499804591,
+   "sharedid": 13612934042499804591,
+   "type": "vocab",
+   "display": "転送",
+   "readings": [
+    "てんそう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "transfer",
+    "redirection",
+    "transmission",
+    "forwarding (telephone call, e-mail, etc.)"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 5036887851759307163,
    "sharedid": 12370135450574547128,
    "type": "vocab",
@@ -130795,6 +133356,74 @@
    "meanings_pt": []
   },
   {
+   "id": 4340444537904787927,
+   "sharedid": 4340444537904787927,
+   "type": "vocab",
+   "display": "屋外",
+   "readings": [
+    "おくがい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "outdoors",
+    "outside"
+   ],
+   "meanings_es": [
+    "afuera"
+   ],
+   "meanings_fr": [
+    "extérieur",
+    "dehors",
+    "en plein air"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15397718230719320463,
+   "sharedid": 15397718230719320463,
+   "type": "vocab",
+   "display": "親しむ",
+   "readings": [
+    "したしむ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to be intimate with",
+    "to befriend"
+   ],
+   "meanings_es": [
+    "familiarizarse",
+    "crear intimidad"
+   ],
+   "meanings_fr": [
+    "se familiariser avec"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12461119177893886188,
+   "sharedid": 12461119177893886188,
+   "type": "vocab",
+   "display": "転じる",
+   "readings": [
+    "てんじる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to turn",
+    "to shift",
+    "to alter",
+    "to distract"
+   ],
+   "meanings_es": [
+    "cambiar",
+    "girar",
+    "pasar"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 11637097162634315169,
    "sharedid": 8491767579119328911,
    "type": "vocab",
@@ -130803,6 +133432,275 @@
    "kun_readings": [],
    "meanings": [],
    "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 18049903984921972631,
+   "sharedid": 18049903984921972631,
+   "type": "vocab",
+   "display": "完結",
+   "readings": [
+    "かんけつ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "conclusion",
+    "completion"
+   ],
+   "meanings_es": [
+    "conclusión",
+    "perfeccionamiento de un contrato",
+    "perfección de una obligación"
+   ],
+   "meanings_fr": [
+    "achèvement",
+    "conclusion"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2774646622827389084,
+   "sharedid": 2774646622827389084,
+   "type": "vocab",
+   "display": "半径",
+   "readings": [
+    "はんけい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "radius"
+   ],
+   "meanings_es": [
+    "radio (de una circunferencia)"
+   ],
+   "meanings_fr": [
+    "rayon"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 18150135450127469483,
+   "sharedid": 18150135450127469483,
+   "type": "vocab",
+   "display": "国歌",
+   "readings": [
+    "こっか"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "national anthem"
+   ],
+   "meanings_es": [
+    "himno nacional"
+   ],
+   "meanings_fr": [
+    "hymne national"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4722923154325236605,
+   "sharedid": 4722923154325236605,
+   "type": "vocab",
+   "display": "無差別",
+   "readings": [
+    "むさべつ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "indiscrimination",
+    "without discrimination",
+    "indiscriminate"
+   ],
+   "meanings_es": [
+    "falta de distinción",
+    "indiscriminación"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9870648172534494495,
+   "sharedid": 9870648172534494495,
+   "type": "vocab",
+   "display": "加害者",
+   "readings": [
+    "かがいしゃ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "assailant",
+    "perpetrator",
+    "wrong-doer",
+    "aggressor"
+   ],
+   "meanings_es": [
+    "agresor"
+   ],
+   "meanings_fr": [
+    "assaillant"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6493656615519048666,
+   "sharedid": 6493656615519048666,
+   "type": "vocab",
+   "display": "指輪",
+   "readings": [
+    "ゆびわ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "(finger) ring"
+   ],
+   "meanings_es": [
+    "anillo"
+   ],
+   "meanings_fr": [
+    "bague"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6822823705122574936,
+   "sharedid": 6822823705122574936,
+   "type": "vocab",
+   "display": "時差",
+   "readings": [
+    "じさ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "time difference"
+   ],
+   "meanings_es": [
+    "huso horario",
+    "diferencia horaria"
+   ],
+   "meanings_fr": [
+    "décalage horaire"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4192415707735247991,
+   "sharedid": 4192415707735247991,
+   "type": "vocab",
+   "display": "水害",
+   "readings": [
+    "すいがい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "water damage",
+    "flood disaster"
+   ],
+   "meanings_es": [
+    "desastres naturales (causados por inundaciones, ciclones, etc)"
+   ],
+   "meanings_fr": [
+    "dégât des eaux",
+    "dégâts d'une inondation"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10713612330575825348,
+   "sharedid": 10713612330575825348,
+   "type": "vocab",
+   "display": "和風",
+   "readings": [
+    "わふう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "Japanese style",
+    "light wind",
+    "moderate breeze"
+   ],
+   "meanings_es": [
+    "estilo japonés"
+   ],
+   "meanings_fr": [
+    "de style japonais"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10506643428551617030,
+   "sharedid": 10506643428551617030,
+   "type": "vocab",
+   "display": "佳作",
+   "readings": [
+    "かさく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "good piece of work",
+    "honourable mention (honorable)"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [
+    "produit de grande qualité",
+    "travail exceptionnel"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1548590204808430670,
+   "sharedid": 1548590204808430670,
+   "type": "vocab",
+   "display": "検挙",
+   "readings": [
+    "けんきょ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "arrest",
+    "roundup"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [
+    "arrestation",
+    "poursuite"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3525657695180860179,
+   "sharedid": 3525657695180860179,
+   "type": "vocab",
+   "display": "親交",
+   "readings": [
+    "しんこう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "intimacy",
+    "friendship",
+    "friendly relations"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8429600076703422722,
+   "sharedid": 8429600076703422722,
+   "type": "vocab",
+   "display": "移管",
+   "readings": [
+    "いかん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "transfer of control"
+   ],
+   "meanings_es": [
+    "transferir el control"
+   ],
    "meanings_fr": [],
    "meanings_pt": []
   },
@@ -130844,6 +133742,234 @@
    "meanings_pt": []
   },
   {
+   "id": 2857142319439200423,
+   "sharedid": 2857142319439200423,
+   "type": "vocab",
+   "display": "原型",
+   "readings": [
+    "げんけい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "prototype",
+    "model",
+    "pattern",
+    "archetypal"
+   ],
+   "meanings_es": [
+    "modelo original",
+    "prototipo"
+   ],
+   "meanings_fr": [
+    "prototype"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8491275195485321437,
+   "sharedid": 8491275195485321437,
+   "type": "vocab",
+   "display": "作風",
+   "readings": [
+    "さくふう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "style (of a work, author, artist, etc.)",
+    "characteristics"
+   ],
+   "meanings_es": [
+    "estilo literario"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1137352638876590396,
+   "sharedid": 1137352638876590396,
+   "type": "vocab",
+   "display": "差し引き",
+   "readings": [
+    "さしひき"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "deduction",
+    "subtraction",
+    "balance",
+    "ebb and flow",
+    "rise and fall"
+   ],
+   "meanings_es": [
+    "reducción",
+    "sustracción",
+    "saldo",
+    "balance"
+   ],
+   "meanings_fr": [
+    "déduction",
+    "retenue",
+    "soustraction",
+    "solde",
+    "balance (d'un compte)",
+    "flux et reflux",
+    "ascension et chute"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9281265585106981933,
+   "sharedid": 1137352638876590396,
+   "type": "vocab",
+   "display": "差引き",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 651512522147442263,
+   "sharedid": 1137352638876590396,
+   "type": "vocab",
+   "display": "差引",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11345505474867760812,
+   "sharedid": 11345505474867760812,
+   "type": "vocab",
+   "display": "車輪",
+   "readings": [
+    "しゃりん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "(vehicle) wheel"
+   ],
+   "meanings_es": [
+    "rueda"
+   ],
+   "meanings_fr": [
+    "roue (voiture)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12776042907814884137,
+   "sharedid": 12776042907814884137,
+   "type": "vocab",
+   "display": "不快",
+   "readings": [
+    "ふかい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "displeasure",
+    "discomfort",
+    "unpleasantness",
+    "indisposition",
+    "ailment"
+   ],
+   "meanings_es": [
+    "desagradable",
+    "desagrado",
+    "descontento"
+   ],
+   "meanings_fr": [
+    "déplaisant",
+    "désagréable",
+    "gênant"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 866483813712276894,
+   "sharedid": 866483813712276894,
+   "type": "vocab",
+   "display": "風味",
+   "readings": [
+    "ふうみ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "taste",
+    "flavor",
+    "flavour"
+   ],
+   "meanings_es": [
+    "sabor",
+    "gusto"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 17767098605833178666,
+   "sharedid": 17767098605833178666,
+   "type": "vocab",
+   "display": "四輪車",
+   "readings": [
+    "よんりんしゃ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "automobile",
+    "car"
+   ],
+   "meanings_es": [
+    "automóvil",
+    "coche"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11150761886056228249,
+   "sharedid": 11150761886056228249,
+   "type": "vocab",
+   "display": "陸路",
+   "readings": [
+    "りくろ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "land route",
+    "overland route",
+    "by land",
+    "overland"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [
+    "itinéraire par voie de terre"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 896571312050112310,
+   "sharedid": 896571312050112310,
+   "type": "vocab",
+   "display": "介助",
+   "readings": [
+    "かいじょ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "help",
+    "assistance",
+    "aid"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 9505765750122298144,
    "sharedid": 13675056405471343324,
    "type": "vocab",
@@ -130856,6 +133982,29 @@
    "meanings_pt": []
   },
   {
+   "id": 6400097731834701516,
+   "sharedid": 6400097731834701516,
+   "type": "vocab",
+   "display": "均一",
+   "readings": [
+    "きんいつ",
+    "きんいち"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "uniformity",
+    "equality"
+   ],
+   "meanings_es": [
+    "uniformidad"
+   ],
+   "meanings_fr": [
+    "égalité",
+    "uniformité"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 2850927240504952967,
    "sharedid": 8275595157003710270,
    "type": "vocab",
@@ -130864,6 +134013,73 @@
    "kun_readings": [],
    "meanings": [],
    "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 7445560070989690373,
+   "sharedid": 7445560070989690373,
+   "type": "vocab",
+   "display": "快調",
+   "readings": [
+    "かいちょう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "good (condition)",
+    "going well",
+    "fine",
+    "smooth"
+   ],
+   "meanings_es": [
+    "buen estado",
+    "perfectas condiciones"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 17394230459550695600,
+   "sharedid": 17394230459550695600,
+   "type": "vocab",
+   "display": "不完全",
+   "readings": [
+    "ふかんぜん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "imperfect",
+    "incomplete",
+    "faulty",
+    "defective"
+   ],
+   "meanings_es": [
+    "incompleto"
+   ],
+   "meanings_fr": [
+    "défectueux",
+    "imparfait",
+    "incomplet"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7886647446802678596,
+   "sharedid": 7886647446802678596,
+   "type": "vocab",
+   "display": "快感",
+   "readings": [
+    "かいかん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "pleasant feeling",
+    "pleasant sensation",
+    "pleasure"
+   ],
+   "meanings_es": [
+    "sensación agradable"
+   ],
    "meanings_fr": [],
    "meanings_pt": []
   },
@@ -130884,6 +134100,84 @@
    "meanings_fr": [
     "ou",
     "ou alors"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2924416541007479291,
+   "sharedid": 2924416541007479291,
+   "type": "vocab",
+   "display": "快い",
+   "readings": [
+    "こころよい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "pleasant",
+    "agreeable",
+    "comfortable",
+    "refreshing"
+   ],
+   "meanings_es": [
+    "placentero",
+    "ameno",
+    "agradable",
+    "grato",
+    "cómodo",
+    "confortable",
+    "acogedor"
+   ],
+   "meanings_fr": [
+    "agréable",
+    "plaisant"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5894639088275621325,
+   "sharedid": 5894639088275621325,
+   "type": "vocab",
+   "display": "射止める",
+   "readings": [
+    "いとめる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to shoot dead",
+    "to bring down (an animal)",
+    "to win (a prize, someone's heart, etc.)",
+    "to make one's own"
+   ],
+   "meanings_es": [
+    "abatir de un disparo",
+    "matar a tiros",
+    "capturar",
+    "apresar",
+    "conseguir"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8211062523057757835,
+   "sharedid": 8211062523057757835,
+   "type": "vocab",
+   "display": "口径",
+   "readings": [
+    "こうけい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "aperture",
+    "bore",
+    "calibre",
+    "caliber"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [
+    "calibre",
+    "ouverture",
+    "trou"
    ],
    "meanings_pt": []
   },
@@ -130939,6 +134233,29 @@
     "dans ce cas",
     "si c'est comme ça",
     "si c'est le cas"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 18046357473476577678,
+   "sharedid": 18046357473476577678,
+   "type": "vocab",
+   "display": "一介",
+   "readings": [
+    "いっかい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "mere",
+    "only a ..."
+   ],
+   "meanings_es": [
+    "no más que",
+    "sólo un .."
+   ],
+   "meanings_fr": [
+    "juste",
+    "simplement"
    ],
    "meanings_pt": []
   },
@@ -131030,6 +134347,24 @@
    "meanings_pt": []
   },
   {
+   "id": 16507929743265104856,
+   "sharedid": 16507929743265104856,
+   "type": "vocab",
+   "display": "中華街",
+   "readings": [
+    "ちゅうかがい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "Chinatown"
+   ],
+   "meanings_es": [
+    "barrio chino"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 7105672710628413833,
    "sharedid": 7105672710628413833,
    "type": "vocab",
@@ -131091,6 +134426,102 @@
    "meanings_pt": []
   },
   {
+   "id": 4805832509171923766,
+   "sharedid": 4805832509171923766,
+   "type": "vocab",
+   "display": "１００均",
+   "readings": [
+    "ひゃっきん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "hundred-yen store",
+    "100 yen shop"
+   ],
+   "meanings_es": [
+    "tienda de todo por 100 yen"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4246005396890351341,
+   "sharedid": 4805832509171923766,
+   "type": "vocab",
+   "display": "百均",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4384789008715255537,
+   "sharedid": 4384789008715255537,
+   "type": "vocab",
+   "display": "華",
+   "readings": [
+    "か"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "flashiness",
+    "showiness",
+    "brilliance",
+    "splendor",
+    "bloom",
+    "flowers"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8933519863152835530,
+   "sharedid": 8933519863152835530,
+   "type": "vocab",
+   "display": "完ぺき",
+   "readings": [
+    "かんぺき",
+    "かんべき"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "perfect",
+    "complete",
+    "flawless"
+   ],
+   "meanings_es": [
+    "perfecto",
+    "completo",
+    "sin fallos"
+   ],
+   "meanings_fr": [
+    "parfait"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 306701805659252764,
+   "sharedid": 306701805659252764,
+   "type": "vocab",
+   "display": "径",
+   "readings": [
+    "けい",
+    "わたり"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "diameter"
+   ],
+   "meanings_es": [
+    "diámetro"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 588587572430109115,
    "sharedid": 6735903732891932098,
    "type": "vocab",
@@ -131099,6 +134530,333 @@
    "kun_readings": [],
    "meanings": [],
    "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 15146329116928066826,
+   "sharedid": 15146329116928066826,
+   "type": "vocab",
+   "display": "中華人民共和国",
+   "readings": [
+    "ちゅうかじんみんきょうわこく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "People's Republic of China"
+   ],
+   "meanings_es": [
+    "Republica Popular de China (República)",
+    "China Comunista"
+   ],
+   "meanings_fr": [
+    "république populaire de chine"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15649783371030546446,
+   "sharedid": 15649783371030546446,
+   "type": "vocab",
+   "display": "行儀",
+   "readings": [
+    "ぎょうぎ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "manners",
+    "behavior",
+    "behaviour"
+   ],
+   "meanings_es": [
+    "formas (modo de proceder)",
+    "conducta",
+    "comportamiento"
+   ],
+   "meanings_fr": [
+    "manières",
+    "comportement"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5719047145701692205,
+   "sharedid": 5719047145701692205,
+   "type": "vocab",
+   "display": "流儀",
+   "readings": [
+    "りゅうぎ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "way (of doing things)",
+    "method",
+    "style",
+    "fashion",
+    "school (e.g. of poetry)"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 10578633769891298148,
+   "sharedid": 10578633769891298148,
+   "type": "vocab",
+   "display": "華々しい",
+   "readings": [
+    "はなばなしい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "brilliant",
+    "splendid",
+    "glorious",
+    "magnificent",
+    "spectacular"
+   ],
+   "meanings_es": [
+    "brillante",
+    "magnífico",
+    "espectacular",
+    "espléndido",
+    "glorioso"
+   ],
+   "meanings_fr": [
+    "brillant",
+    "glorieux",
+    "magnifique",
+    "spectaculaire"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7337302587523051520,
+   "sharedid": 10578633769891298148,
+   "type": "vocab",
+   "display": "華華しい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12002554589704810504,
+   "sharedid": 12002554589704810504,
+   "type": "vocab",
+   "display": "中華民国",
+   "readings": [
+    "ちゅうかみんこく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "Republic of China (Taiwan)",
+    "ROC"
+   ],
+   "meanings_es": [
+    "Republica de China (Taiwán) (República)"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13696861913040820666,
+   "sharedid": 13696861913040820666,
+   "type": "vocab",
+   "display": "英才",
+   "readings": [
+    "えいさい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "genius",
+    "brilliance",
+    "unusual talent",
+    "gifted person",
+    "person of unusual talent"
+   ],
+   "meanings_es": [
+    "talento extraordinario",
+    "genio",
+    "dotado"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 16303246303616073009,
+   "sharedid": 16303246303616073009,
+   "type": "vocab",
+   "display": "均質",
+   "readings": [
+    "きんしつ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "homogeneous",
+    "homogeneity"
+   ],
+   "meanings_es": [
+    "homogéneo",
+    "homogeneidad"
+   ],
+   "meanings_fr": [
+    "homogène",
+    "homogénéité"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6990211703068462513,
+   "sharedid": 6990211703068462513,
+   "type": "vocab",
+   "display": "才気",
+   "readings": [
+    "さいき"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "wisdom"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4756865295933557262,
+   "sharedid": 4756865295933557262,
+   "type": "vocab",
+   "display": "均整",
+   "readings": [
+    "きんせい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "symmetry",
+    "balance",
+    "proportion",
+    "uniformity"
+   ],
+   "meanings_es": [
+    "simetría",
+    "equilibrio",
+    "proporción",
+    "uniformidad"
+   ],
+   "meanings_fr": [
+    "proportion (bien proportionné)",
+    "symétrie"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 18090876356289433171,
+   "sharedid": 18090876356289433171,
+   "type": "vocab",
+   "display": "才人",
+   "readings": [
+    "さいじん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "talented person",
+    "clever person"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 18414023053979311009,
+   "sharedid": 18414023053979311009,
+   "type": "vocab",
+   "display": "型番",
+   "readings": [
+    "かたばん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "model number"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3959947178634230050,
+   "sharedid": 3959947178634230050,
+   "type": "vocab",
+   "display": "佳客",
+   "readings": [
+    "かかく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "good visitor",
+    "pleasant guest"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 6988168839114014356,
+   "sharedid": 6988168839114014356,
+   "type": "vocab",
+   "display": "佳景",
+   "readings": [
+    "かけい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "beautiful view"
+   ],
+   "meanings_es": [
+    "buena vista",
+    "bello paisaje"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 15406511518703281498,
+   "sharedid": 15406511518703281498,
+   "type": "vocab",
+   "display": "画才",
+   "readings": [
+    "がさい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "artistic talent"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2925366099735440854,
+   "sharedid": 2925366099735440854,
+   "type": "vocab",
+   "display": "均す",
+   "readings": [
+    "ならす"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to make even",
+    "to make smooth",
+    "to make level",
+    "to flatten",
+    "to average"
+   ],
+   "meanings_es": [
+    "hacer plano",
+    "hacer liso",
+    "nivelar"
+   ],
    "meanings_fr": [],
    "meanings_pt": []
   },
@@ -132414,6 +136172,27 @@
    "meanings_pt": []
   },
   {
+   "id": 9035603029002135963,
+   "sharedid": 9035603029002135963,
+   "type": "vocab",
+   "display": "葬儀",
+   "readings": [
+    "そうぎ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "funeral service"
+   ],
+   "meanings_es": [
+    "servicio funerario"
+   ],
+   "meanings_fr": [
+    "funérailles",
+    "obsèques"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 4659640581905746610,
    "sharedid": 3643975181231665294,
    "type": "vocab",
@@ -132438,6 +136217,31 @@
    "meanings_pt": []
   },
   {
+   "id": 11153093299840264896,
+   "sharedid": 11153093299840264896,
+   "type": "vocab",
+   "display": "昭和",
+   "readings": [
+    "しょうわ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "Shōwa era (1926.12.25-1989.1.7)",
+    "reminiscent of the Shōwa era",
+    "Shōwa-nostalgic",
+    "old-fashioned",
+    "quaint",
+    "old-school"
+   ],
+   "meanings_es": [
+    "emperador japonés (1926-1989)"
+   ],
+   "meanings_fr": [
+    "Hiro-Hito (empereur japonais 1926-1989)"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 13237685854643284032,
    "sharedid": 15859119740012851765,
    "type": "vocab",
@@ -132450,6 +136254,43 @@
    "meanings_pt": []
   },
   {
+   "id": 2983446386884802362,
+   "sharedid": 2983446386884802362,
+   "type": "vocab",
+   "display": "読む",
+   "readings": [
+    "よむ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to read",
+    "to recite (e.g. a sutra)",
+    "to chant",
+    "to predict",
+    "to guess",
+    "to forecast",
+    "to read (someone's thoughts)",
+    "to see (e.g. into someone's heart)",
+    "to divine",
+    "to decipher",
+    "to count",
+    "to estimate",
+    "to read (a kanji) with its native Japanese reading"
+   ],
+   "meanings_es": [
+    "leer"
+   ],
+   "meanings_fr": [
+    "lire",
+    "compter",
+    "deviner",
+    "prévoir",
+    "prédire",
+    "lire (dans le cœur ou les pensées de quelqu'un)"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 12836000972572514278,
    "sharedid": 17009067706748116853,
    "type": "vocab",
@@ -132459,6 +136300,36 @@
    "meanings": [],
    "meanings_es": [],
    "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2568461723730474308,
+   "sharedid": 2568461723730474308,
+   "type": "vocab",
+   "display": "採用",
+   "readings": [
+    "さいよう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "use",
+    "adoption",
+    "acceptance",
+    "appointment",
+    "employment",
+    "engagement",
+    "recruitment"
+   ],
+   "meanings_es": [
+    "adopción",
+    "acogimiento",
+    "empleo"
+   ],
+   "meanings_fr": [
+    "admission (personne)",
+    "adoption (chose)",
+    "engagement (personne)"
+   ],
    "meanings_pt": []
   },
   {
@@ -132506,6 +136377,304 @@
    "meanings_pt": []
   },
   {
+   "id": 2967372558225729182,
+   "sharedid": 2967372558225729182,
+   "type": "vocab",
+   "display": "編集",
+   "readings": [
+    "へんしゅう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "editing",
+    "compilation"
+   ],
+   "meanings_es": [
+    "edición"
+   ],
+   "meanings_fr": [
+    "édition",
+    "compilation",
+    "rédaction"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1501215231966394136,
+   "sharedid": 2967372558225729182,
+   "type": "vocab",
+   "display": "編修",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 16275189827104967717,
+   "sharedid": 16275189827104967717,
+   "type": "vocab",
+   "display": "編",
+   "readings": [
+    "へん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "compilation (of a text)",
+    "editing",
+    "volume (of a text)",
+    "completed literary work"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [
+    "compilation (pour un texte)",
+    "édition",
+    "volume (d'un texte)",
+    "tome",
+    "œuvre littéraire complète"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1798659452102347195,
+   "sharedid": 1798659452102347195,
+   "type": "vocab",
+   "display": "読み",
+   "readings": [
+    "よみ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "reading",
+    "reading (of a kanji, esp. kun reading)",
+    "reading (e.g. of a situation)",
+    "insight",
+    "judgment",
+    "interpretation",
+    "prediction",
+    "calculation"
+   ],
+   "meanings_es": [
+    "lectura"
+   ],
+   "meanings_fr": [
+    "lecture"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8345071119469519711,
+   "sharedid": 8345071119469519711,
+   "type": "vocab",
+   "display": "値",
+   "readings": [
+    "あたい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "price",
+    "cost",
+    "value",
+    "worth",
+    "merit",
+    "level"
+   ],
+   "meanings_es": [
+    "valor",
+    "precio",
+    "costo",
+    "mérito",
+    "variable (programación en computadora)"
+   ],
+   "meanings_fr": [
+    "valeur",
+    "compte",
+    "nombre"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11355445104875004563,
+   "sharedid": 11355445104875004563,
+   "type": "vocab",
+   "display": "亜細亜",
+   "readings": [
+    "あじあ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "Asia"
+   ],
+   "meanings_es": [
+    "Asia (Lejano Oriente)",
+    "Asia"
+   ],
+   "meanings_fr": [
+    "Asie (en part. l'Extrême-Orient)",
+    "asiatique"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 18301825227353273687,
+   "sharedid": 18301825227353273687,
+   "type": "vocab",
+   "display": "直接",
+   "readings": [
+    "ちょくせつ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "direct",
+    "immediate",
+    "personal",
+    "firsthand"
+   ],
+   "meanings_es": [
+    "directo",
+    "inmediato",
+    "personal",
+    "de primera mano"
+   ],
+   "meanings_fr": [
+    "direct",
+    "immédiat",
+    "personnel",
+    "de première main"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10137982792832013502,
+   "sharedid": 10137982792832013502,
+   "type": "vocab",
+   "display": "含む",
+   "readings": [
+    "ふくむ",
+    "くくむ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to contain",
+    "to comprise",
+    "to have",
+    "to hold",
+    "to include",
+    "to embrace",
+    "to hold in the mouth",
+    "to bear in mind",
+    "to understand",
+    "to harbor (grudge, etc.)",
+    "to harbour",
+    "to express (emotion, etc.)",
+    "to imply"
+   ],
+   "meanings_es": [
+    "contener",
+    "tener dentro"
+   ],
+   "meanings_fr": [
+    "contenir",
+    "comporter",
+    "comprendre",
+    "avoir",
+    "retenir",
+    "inclure",
+    "renfermer",
+    "tenir dans la bouche",
+    "garder à l'esprit",
+    "comprendre",
+    "entretenir (une rancune, etc.)",
+    "exprimer (une émotion, etc.)",
+    "impliquer"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12586936078821905711,
+   "sharedid": 12586936078821905711,
+   "type": "vocab",
+   "display": "士",
+   "readings": [
+    "し"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "man (esp. one who is well-respected)",
+    "samurai",
+    "person (in a certain profession, esp. licensed)",
+    "member"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13713102241883974324,
+   "sharedid": 13713102241883974324,
+   "type": "vocab",
+   "display": "末",
+   "readings": [
+    "すえ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "end",
+    "tip",
+    "top",
+    "end (of the year, month, etc.)",
+    "close",
+    "youngest child",
+    "descendants",
+    "offspring",
+    "posterity",
+    "future",
+    "(finally) after",
+    "(at last) after",
+    "at the end of",
+    "trifles",
+    "trivialities",
+    "degenerate age",
+    "new shoots",
+    "new growth (of a tree)",
+    "top end",
+    "the end (of)",
+    "powder"
+   ],
+   "meanings_es": [
+    "fin",
+    "final",
+    "finales",
+    "conclusión",
+    "resultado",
+    "cima",
+    "punta",
+    "extremo"
+   ],
+   "meanings_fr": [
+    "bout",
+    "pointe",
+    "extrémité",
+    "haut",
+    "fin",
+    "clôture (par ex. clôture du mois)",
+    "benjamin",
+    "le plus jeune enfant",
+    "descendants",
+    "progéniture",
+    "postérité",
+    "futur",
+    "avenir",
+    "enfin",
+    "finalement",
+    "banalités",
+    "trivialités",
+    "futilités"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 12041302755469935793,
    "sharedid": 1294700969511784135,
    "type": "vocab",
@@ -132515,6 +136684,231 @@
    "meanings": [],
    "meanings_es": [],
    "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 18023979374299316925,
+   "sharedid": 18023979374299316925,
+   "type": "vocab",
+   "display": "追加",
+   "readings": [
+    "ついか"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "addition",
+    "supplement",
+    "appending",
+    "appendix"
+   ],
+   "meanings_es": [
+    "adición",
+    "suplemento",
+    "apéndice",
+    "agregar (en software)"
+   ],
+   "meanings_fr": [
+    "addition",
+    "supplément",
+    "ajout (par ex. à un fichier)",
+    "annexe"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17448285484381106979,
+   "sharedid": 17448285484381106979,
+   "type": "vocab",
+   "display": "資料",
+   "readings": [
+    "しりょう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "materials",
+    "data",
+    "document"
+   ],
+   "meanings_es": [
+    "materiales",
+    "materia prima",
+    "datos",
+    "información"
+   ],
+   "meanings_fr": [
+    "matériaux",
+    "données",
+    "document"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5325942152131583566,
+   "sharedid": 5325942152131583566,
+   "type": "vocab",
+   "display": "収入",
+   "readings": [
+    "しゅうにゅう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "income",
+    "receipts",
+    "revenue"
+   ],
+   "meanings_es": [
+    "ingresos"
+   ],
+   "meanings_fr": [
+    "reçu",
+    "recette",
+    "revenu"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15600333387579769385,
+   "sharedid": 15600333387579769385,
+   "type": "vocab",
+   "display": "修正",
+   "readings": [
+    "しゅうせい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "amendment",
+    "correction",
+    "revision",
+    "modification",
+    "alteration",
+    "retouching",
+    "update",
+    "fix"
+   ],
+   "meanings_es": [
+    "corrección",
+    "enmienda",
+    "rectificación",
+    "corregir",
+    "rectificar",
+    "modificar",
+    "enmendar"
+   ],
+   "meanings_fr": [
+    "altération",
+    "corriger",
+    "mettre à jour",
+    "modification",
+    "révision",
+    "rectification",
+    "remaniement",
+    "retoucher"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9539529816501311911,
+   "sharedid": 9539529816501311911,
+   "type": "vocab",
+   "display": "編成",
+   "readings": [
+    "へんせい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "composition",
+    "formation",
+    "organization",
+    "organisation",
+    "compilation"
+   ],
+   "meanings_es": [
+    "estructura",
+    "configuración",
+    "ordenamiento",
+    "organización"
+   ],
+   "meanings_fr": [
+    "organisation"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1386230199909433746,
+   "sharedid": 1386230199909433746,
+   "type": "vocab",
+   "display": "無料",
+   "readings": [
+    "むりょう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "free (of charge)",
+    "gratuitous"
+   ],
+   "meanings_es": [
+    "gratis",
+    "gratuito"
+   ],
+   "meanings_fr": [
+    "gratuit",
+    "libre"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 18269612670909399776,
+   "sharedid": 18269612670909399776,
+   "type": "vocab",
+   "display": "料金",
+   "readings": [
+    "りょうきん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "fee",
+    "charge",
+    "fare"
+   ],
+   "meanings_es": [
+    "cargo (tarifa",
+    "precio)"
+   ],
+   "meanings_fr": [
+    "frais",
+    "prix",
+    "taxe"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11292971575325465271,
+   "sharedid": 11292971575325465271,
+   "type": "vocab",
+   "display": "料理",
+   "readings": [
+    "りょうり"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "cooking",
+    "cookery",
+    "cuisine",
+    "meal",
+    "food",
+    "dish",
+    "item on a menu",
+    "(easily) dealing with something",
+    "handling (well)"
+   ],
+   "meanings_es": [
+    "cocina",
+    "arte culinario"
+   ],
+   "meanings_fr": [
+    "cuisine",
+    "cuisiner"
+   ],
    "meanings_pt": []
   },
   {
@@ -132615,6 +137009,404 @@
    "meanings_pt": []
   },
   {
+   "id": 7713721644100025149,
+   "sharedid": 7713721644100025149,
+   "type": "vocab",
+   "display": "高速",
+   "readings": [
+    "こうそく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "high-speed",
+    "rapid",
+    "express",
+    "highway",
+    "freeway",
+    "expressway",
+    "motorway"
+   ],
+   "meanings_es": [
+    "de alta velocidad"
+   ],
+   "meanings_fr": [
+    "grande vitesse",
+    "vitesse rapide",
+    "autoroute",
+    "voie express",
+    "voie rapide"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11500231522594961121,
+   "sharedid": 11500231522594961121,
+   "type": "vocab",
+   "display": "価値",
+   "readings": [
+    "かち"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "value",
+    "worth",
+    "merit"
+   ],
+   "meanings_es": [
+    "valor",
+    "mérito"
+   ],
+   "meanings_fr": [
+    "mérite",
+    "valeur"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6785178800836908236,
+   "sharedid": 6785178800836908236,
+   "type": "vocab",
+   "display": "皆様",
+   "readings": [
+    "みなさま"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "everyone"
+   ],
+   "meanings_es": [
+    "todos"
+   ],
+   "meanings_fr": [
+    "tout le monde"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7210386924529986412,
+   "sharedid": 6785178800836908236,
+   "type": "vocab",
+   "display": "皆さま",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 10473651945778658064,
+   "sharedid": 10473651945778658064,
+   "type": "vocab",
+   "display": "接続",
+   "readings": [
+    "せつぞく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "connection",
+    "attachment",
+    "union",
+    "join",
+    "joint",
+    "link",
+    "changing trains",
+    "conjunction"
+   ],
+   "meanings_es": [
+    "conexión"
+   ],
+   "meanings_fr": [
+    "correspondance (de train)",
+    "conjonction"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4714640830742873340,
+   "sharedid": 4714640830742873340,
+   "type": "vocab",
+   "display": "急",
+   "readings": [
+    "きゅう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "sudden",
+    "abrupt",
+    "unexpected",
+    "urgent",
+    "pressing",
+    "steep",
+    "sharp",
+    "precipitous",
+    "rapid",
+    "swift",
+    "fast",
+    "emergency",
+    "crisis",
+    "danger",
+    "urgency",
+    "hurrying",
+    "haste",
+    "(in gagaku or noh) end of a song"
+   ],
+   "meanings_es": [
+    "urgente",
+    "imprevisto",
+    "empinado"
+   ],
+   "meanings_fr": [
+    "soudain",
+    "urgent",
+    "brusque",
+    "escarpé",
+    "raide",
+    "rapide",
+    "vite",
+    "urgence",
+    "crise",
+    "empressement",
+    "hâte",
+    "fin d'une chanson (dans le nô ou le gagaku)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4832383591031904316,
+   "sharedid": 4832383591031904316,
+   "type": "vocab",
+   "display": "急速",
+   "readings": [
+    "きゅうそく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "rapid (e.g. progress)"
+   ],
+   "meanings_es": [
+    "veloz",
+    "rápido"
+   ],
+   "meanings_fr": [
+    "rapide (par ex. des progrès)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1456636032265223365,
+   "sharedid": 1456636032265223365,
+   "type": "vocab",
+   "display": "収支",
+   "readings": [
+    "しゅうし"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "income and expenditure"
+   ],
+   "meanings_es": [
+    "balance"
+   ],
+   "meanings_fr": [
+    "entrées et sorties (comptabilité)",
+    "revenu et dépense"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16178282403928933340,
+   "sharedid": 16178282403928933340,
+   "type": "vocab",
+   "display": "同士",
+   "readings": [
+    "どうし",
+    "どし"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "fellow",
+    "mutual",
+    "companion",
+    "comrade"
+   ],
+   "meanings_es": [
+    "compañero",
+    "camarada"
+   ],
+   "meanings_fr": [
+    "camarade",
+    "compagnon"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16062370622511914487,
+   "sharedid": 16062370622511914487,
+   "type": "vocab",
+   "display": "兵士",
+   "readings": [
+    "へいし"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "soldier"
+   ],
+   "meanings_es": [
+    "soldado"
+   ],
+   "meanings_fr": [
+    "soldat"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16302654003144903623,
+   "sharedid": 16302654003144903623,
+   "type": "vocab",
+   "display": "未明",
+   "readings": [
+    "みめい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "early dawn",
+    "grey of morning",
+    "gray of morning"
+   ],
+   "meanings_es": [
+    "de madrugada"
+   ],
+   "meanings_fr": [
+    "Le point du jour",
+    "l'aube"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14427309497752005151,
+   "sharedid": 14427309497752005151,
+   "type": "vocab",
+   "display": "値上げ",
+   "readings": [
+    "ねあげ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "price increase",
+    "rise in price",
+    "wage increase"
+   ],
+   "meanings_es": [
+    "alza de precios"
+   ],
+   "meanings_fr": [
+    "inflation",
+    "montée des prix"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12941649980968399240,
+   "sharedid": 14427309497752005151,
+   "type": "vocab",
+   "display": "値上",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1479881823322609371,
+   "sharedid": 1479881823322609371,
+   "type": "vocab",
+   "display": "研修",
+   "readings": [
+    "けんしゅう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "training (esp. in-service)",
+    "induction course"
+   ],
+   "meanings_es": [
+    "estudio",
+    "investigación"
+   ],
+   "meanings_fr": [
+    "formation (surtout continue)",
+    "cours d'initiation"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11100799839907881732,
+   "sharedid": 11100799839907881732,
+   "type": "vocab",
+   "display": "再編",
+   "readings": [
+    "さいへん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "reorganization",
+    "reorganisation",
+    "reshuffle"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11707255097946318182,
+   "sharedid": 11707255097946318182,
+   "type": "vocab",
+   "display": "収録",
+   "readings": [
+    "しゅうろく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "recording (in a book, the minutes, etc.)",
+    "printing",
+    "including (e.g. in a set of complete works)",
+    "containing",
+    "compiling",
+    "recording (audio or video)"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 6406427038422818052,
+   "sharedid": 6406427038422818052,
+   "type": "vocab",
+   "display": "速度",
+   "readings": [
+    "そくど"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "speed",
+    "velocity",
+    "pace",
+    "rate",
+    "velocity"
+   ],
+   "meanings_es": [
+    "velocidad"
+   ],
+   "meanings_fr": [
+    "vitesse",
+    "rapidité",
+    "vélocité"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 4127306563251767337,
    "sharedid": 5046925650939247735,
    "type": "vocab",
@@ -132624,6 +137416,678 @@
    "meanings": [],
    "meanings_es": [],
    "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 7287145648566760912,
+   "sharedid": 7287145648566760912,
+   "type": "vocab",
+   "display": "未来",
+   "readings": [
+    "みらい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "(distant) future",
+    "future existence",
+    "world beyond the grave",
+    "the world to come",
+    "future (tense)"
+   ],
+   "meanings_es": [
+    "el futuro (usualmente distante)",
+    "tiempo futuro",
+    "el mundo a venir"
+   ],
+   "meanings_fr": [
+    "avenir (généralement distant)",
+    "futur (conjugaison)",
+    "le monde à venir"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 18165576254358764984,
+   "sharedid": 18165576254358764984,
+   "type": "vocab",
+   "display": "回収",
+   "readings": [
+    "かいしゅう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "collection",
+    "recovery",
+    "withdrawal",
+    "retrieval"
+   ],
+   "meanings_es": [
+    "recoger",
+    "recuperar",
+    "retirar",
+    "reembolsarse, cobrar",
+    "recuperación",
+    "decomiso",
+    "confiscación",
+    "requisa",
+    "incautación"
+   ],
+   "meanings_fr": [
+    "collection",
+    "levée",
+    "relevée"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8146613828738376964,
+   "sharedid": 8146613828738376964,
+   "type": "vocab",
+   "display": "採決",
+   "readings": [
+    "さいけつ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "vote",
+    "ballot",
+    "division"
+   ],
+   "meanings_es": [
+    "voto",
+    "votación",
+    "sufragio",
+    "elección"
+   ],
+   "meanings_fr": [
+    "appel",
+    "vote"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1847976239253556567,
+   "sharedid": 1847976239253556567,
+   "type": "vocab",
+   "display": "読者",
+   "readings": [
+    "どくしゃ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "reader"
+   ],
+   "meanings_es": [
+    "lector"
+   ],
+   "meanings_fr": [
+    "lecteur"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11634474388351695736,
+   "sharedid": 11634474388351695736,
+   "type": "vocab",
+   "display": "年末",
+   "readings": [
+    "ねんまつ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "end-of-year"
+   ],
+   "meanings_es": [
+    "fin de año"
+   ],
+   "meanings_fr": [
+    "fin d'année"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16110190604521779761,
+   "sharedid": 16110190604521779761,
+   "type": "vocab",
+   "display": "値段",
+   "readings": [
+    "ねだん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "price",
+    "cost"
+   ],
+   "meanings_es": [
+    "precio",
+    "coste",
+    "(am) costo"
+   ],
+   "meanings_fr": [
+    "coût",
+    "prix"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13346031481402367339,
+   "sharedid": 13346031481402367339,
+   "type": "vocab",
+   "display": "創設",
+   "readings": [
+    "そうせつ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "establishment",
+    "founding",
+    "organization",
+    "organisation"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 17041483026975656709,
+   "sharedid": 17041483026975656709,
+   "type": "vocab",
+   "display": "早急",
+   "readings": [
+    "そうきゅう",
+    "さっきゅう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "immediate",
+    "prompt",
+    "quick",
+    "rapid",
+    "urgent",
+    "pressing"
+   ],
+   "meanings_es": [
+    "urgente"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 15560249531756564413,
+   "sharedid": 15560249531756564413,
+   "type": "vocab",
+   "display": "太",
+   "readings": [
+    "ふと"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "fat",
+    "fatty",
+    "grand",
+    "magnificent",
+    "excellent"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3984428717472900281,
+   "sharedid": 3984428717472900281,
+   "type": "vocab",
+   "display": "脚本",
+   "readings": [
+    "きゃくほん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "script",
+    "screenplay",
+    "scenario"
+   ],
+   "meanings_es": [
+    "guión (de una película, teatral)"
+   ],
+   "meanings_fr": [
+    "scénario"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3879765001612956786,
+   "sharedid": 3879765001612956786,
+   "type": "vocab",
+   "display": "急性",
+   "readings": [
+    "きゅうせい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "acute (illness)"
+   ],
+   "meanings_es": [
+    "agudo",
+    "severo"
+   ],
+   "meanings_fr": [
+    "aigu (maladie)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16003147245474712900,
+   "sharedid": 16003147245474712900,
+   "type": "vocab",
+   "display": "追う",
+   "readings": [
+    "おう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to chase",
+    "to run after",
+    "to pursue",
+    "to follow after",
+    "to follow (a set order, a trend, etc.)",
+    "to drive out",
+    "to get rid of",
+    "to oust",
+    "to expel",
+    "to drive (e.g. a herd)",
+    "to be pressed (e.g. for time)"
+   ],
+   "meanings_es": [
+    "perseguir",
+    "ir detrás de"
+   ],
+   "meanings_fr": [
+    "pourchasser",
+    "chasser",
+    "courir après",
+    "poursuivre",
+    "suivre (un ordre, une tendance, etc.)",
+    "chasser",
+    "évincer",
+    "expulser",
+    "exclure",
+    "conduire (par ex. un troupeau)",
+    "être pressé (par ex. par le temps)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9234553743558640233,
+   "sharedid": 9234553743558640233,
+   "type": "vocab",
+   "display": "追及",
+   "readings": [
+    "ついきゅう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "investigation (e.g. into someone's guilt)",
+    "questioning",
+    "pressing",
+    "hounding",
+    "pinning down",
+    "catching up",
+    "overtaking"
+   ],
+   "meanings_es": [
+    "persecución",
+    "investigación"
+   ],
+   "meanings_fr": [
+    "poursuivre",
+    "serrer de près",
+    "faire une investigation (des recherches)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2574217438575445471,
+   "sharedid": 2574217438575445471,
+   "type": "vocab",
+   "display": "読書",
+   "readings": [
+    "どくしょ",
+    "とくしょ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "reading (a book)"
+   ],
+   "meanings_es": [
+    "la lectura (el leer)",
+    "lectura"
+   ],
+   "meanings_fr": [
+    "lecture"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4252471816543092074,
+   "sharedid": 4252471816543092074,
+   "type": "vocab",
+   "display": "収集",
+   "readings": [
+    "しゅうしゅう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "collecting",
+    "accumulating",
+    "gathering",
+    "collection (of art, stamps, insects, etc.)",
+    "garbage collection",
+    "waste collection"
+   ],
+   "meanings_es": [
+    "coleccionar",
+    "recopilar",
+    "hacer colección de",
+    "recoger",
+    "colección",
+    "amontonamiento",
+    "hacinamiento",
+    "acumulamiento",
+    "colección",
+    "recopilación",
+    "recolecta",
+    "recogida"
+   ],
+   "meanings_fr": [
+    "collection",
+    "récolte"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1951156637983666982,
+   "sharedid": 1951156637983666982,
+   "type": "vocab",
+   "display": "降り",
+   "readings": [
+    "ふり"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "rainfall",
+    "snowfall",
+    "alighting",
+    "descending",
+    "giving up on winning a hand and discarding only safe tiles"
+   ],
+   "meanings_es": [
+    "bajar (autobús)",
+    "descender (ej. montaña)"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 5325753148881182572,
+   "sharedid": 5325753148881182572,
+   "type": "vocab",
+   "display": "皆さん",
+   "readings": [
+    "みなさん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "all",
+    "everyone",
+    "everybody"
+   ],
+   "meanings_es": [
+    "todos"
+   ],
+   "meanings_fr": [
+    "tous",
+    "tout le monde",
+    "vous tous"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7693912318407245566,
+   "sharedid": 7693912318407245566,
+   "type": "vocab",
+   "display": "創立",
+   "readings": [
+    "そうりつ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "establishment",
+    "founding",
+    "organization",
+    "organisation"
+   ],
+   "meanings_es": [
+    "establecimiento"
+   ],
+   "meanings_fr": [
+    "établissement",
+    "fondement",
+    "organisation"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6208063936170157313,
+   "sharedid": 6208063936170157313,
+   "type": "vocab",
+   "display": "追放",
+   "readings": [
+    "ついほう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "exile",
+    "banishment",
+    "eviction",
+    "deportation",
+    "purge",
+    "expulsion",
+    "ousting",
+    "elimination (e.g. of poverty)",
+    "removal"
+   ],
+   "meanings_es": [
+    "exilio",
+    "destierro"
+   ],
+   "meanings_fr": [
+    "exil"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6575212173053419527,
+   "sharedid": 6575212173053419527,
+   "type": "vocab",
+   "display": "未定",
+   "readings": [
+    "みてい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "not yet fixed",
+    "undecided",
+    "pending"
+   ],
+   "meanings_es": [
+    "por decidir",
+    "pendiente"
+   ],
+   "meanings_fr": [
+    "pas encore fixé",
+    "indéterminé",
+    "en attente",
+    "en suspens"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 3380135161162916264,
+   "sharedid": 3380135161162916264,
+   "type": "vocab",
+   "display": "値下げ",
+   "readings": [
+    "ねさげ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "price reduction",
+    "price cut",
+    "reduction in price",
+    "markdown"
+   ],
+   "meanings_es": [
+    "recorte de precio"
+   ],
+   "meanings_fr": [
+    "baisse du prix",
+    "diminution",
+    "réduction (salaire)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1790801286513083159,
+   "sharedid": 3380135161162916264,
+   "type": "vocab",
+   "display": "値下",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11231903120546182614,
+   "sharedid": 11231903120546182614,
+   "type": "vocab",
+   "display": "追っかける",
+   "readings": [
+    "おっかける"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to chase",
+    "to run after",
+    "to pursue"
+   ],
+   "meanings_es": [
+    "perseguir",
+    "correr detrás de",
+    "seguir"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 5474956804349953194,
+   "sharedid": 11231903120546182614,
+   "type": "vocab",
+   "display": "追っ掛ける",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1075962515264579915,
+   "sharedid": 1075962515264579915,
+   "type": "vocab",
+   "display": "含み",
+   "readings": [
+    "ふくみ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "implication",
+    "hidden meaning",
+    "latitude",
+    "atmosphere",
+    "tone",
+    "sentiment",
+    "inclusion"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 16938899489835102631,
+   "sharedid": 16938899489835102631,
+   "type": "vocab",
+   "display": "急いで",
+   "readings": [
+    "いそいで"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "hurriedly",
+    "in haste",
+    "in a rush",
+    "quickly",
+    "hurry up!",
+    "quickly!",
+    "get going!"
+   ],
+   "meanings_es": [
+    "apresuradamente"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 890697932895638760,
+   "sharedid": 890697932895638760,
+   "type": "vocab",
+   "display": "速報",
+   "readings": [
+    "そくほう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "news flash",
+    "prompt report",
+    "bulletin",
+    "quick announcement"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3028154836798000271,
+   "sharedid": 3028154836798000271,
+   "type": "vocab",
+   "display": "力士",
+   "readings": [
+    "りきし",
+    "りきじ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "sumo wrestler",
+    "rikishi",
+    "strong man",
+    "Deva king"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [
+    "lutteur de sumô",
+    "homme fort"
+   ],
    "meanings_pt": []
   },
   {
@@ -132656,6 +138120,163 @@
     "mener à",
     "être lié à"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14522457028811161715,
+   "sharedid": 14522457028811161715,
+   "type": "vocab",
+   "display": "修理",
+   "readings": [
+    "しゅうり",
+    "しゅり",
+    "すり"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "repair",
+    "mending",
+    "fixing",
+    "servicing"
+   ],
+   "meanings_es": [
+    "reparación",
+    "arreglo",
+    "restauración"
+   ],
+   "meanings_fr": [
+    "dépannage",
+    "réfection",
+    "réparation"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5344835541712530068,
+   "sharedid": 5344835541712530068,
+   "type": "vocab",
+   "display": "創造",
+   "readings": [
+    "そうぞう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "creation",
+    "Creation (by God)"
+   ],
+   "meanings_es": [
+    "crear",
+    "creación"
+   ],
+   "meanings_fr": [
+    "création"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16288232380997083839,
+   "sharedid": 16288232380997083839,
+   "type": "vocab",
+   "display": "減速",
+   "readings": [
+    "げんそく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "deceleration"
+   ],
+   "meanings_es": [
+    "desaceleracion"
+   ],
+   "meanings_fr": [
+    "décélération"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14939435569485697398,
+   "sharedid": 14939435569485697398,
+   "type": "vocab",
+   "display": "年収",
+   "readings": [
+    "ねんしゅう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "annual income"
+   ],
+   "meanings_es": [
+    "ingresos anuales"
+   ],
+   "meanings_fr": [
+    "revenu annuel"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9330814144104611244,
+   "sharedid": 9330814144104611244,
+   "type": "vocab",
+   "display": "面接",
+   "readings": [
+    "めんせつ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "interview (e.g. for a job)"
+   ],
+   "meanings_es": [
+    "entrevista"
+   ],
+   "meanings_fr": [
+    "entretien (par ex. pour un emploi)",
+    "entrevue"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 655959547562172740,
+   "sharedid": 655959547562172740,
+   "type": "vocab",
+   "display": "修復",
+   "readings": [
+    "しゅうふく",
+    "しゅふく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "restoration",
+    "repair",
+    "mending"
+   ],
+   "meanings_es": [
+    "rehabilitar",
+    "restaurar",
+    "reconstruir",
+    "reparación",
+    "arreglo"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 15017753479427682830,
+   "sharedid": 15017753479427682830,
+   "type": "vocab",
+   "display": "創業",
+   "readings": [
+    "そうぎょう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "establishment (of a business)",
+    "founding"
+   ],
+   "meanings_es": [
+    "fundación de una empresa",
+    "constitución de una sociedad"
+   ],
+   "meanings_fr": [],
    "meanings_pt": []
   },
   {
@@ -132696,6 +138317,422 @@
    "meanings_pt": []
   },
   {
+   "id": 3679966149627636100,
+   "sharedid": 3679966149627636100,
+   "type": "vocab",
+   "display": "急増",
+   "readings": [
+    "きゅうぞう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "rapid increase",
+    "proliferation",
+    "surge",
+    "explosion"
+   ],
+   "meanings_es": [
+    "incremento repentino"
+   ],
+   "meanings_fr": [
+    "augmentation rapide",
+    "croissance rapide",
+    "explosion"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 13498536291602391974,
+   "sharedid": 13498536291602391974,
+   "type": "vocab",
+   "display": "採算",
+   "readings": [
+    "さいさん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "profit"
+   ],
+   "meanings_es": [
+    "beneficio",
+    "provecho"
+   ],
+   "meanings_fr": [
+    "gain",
+    "profit"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10838730504324781872,
+   "sharedid": 10838730504324781872,
+   "type": "vocab",
+   "display": "創作",
+   "readings": [
+    "そうさく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "creation",
+    "production",
+    "creative work (novel, film, etc.)",
+    "original work",
+    "(creative) writing",
+    "fabrication",
+    "fiction",
+    "invention"
+   ],
+   "meanings_es": [
+    "creación"
+   ],
+   "meanings_fr": [
+    "production",
+    "création littéraire",
+    "travail",
+    "œuvre",
+    "ouvrage"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17385499406184506764,
+   "sharedid": 17385499406184506764,
+   "type": "vocab",
+   "display": "速やか",
+   "readings": [
+    "すみやか"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "quick",
+    "speedy",
+    "prompt",
+    "rapid",
+    "swift"
+   ],
+   "meanings_es": [
+    "velocidad"
+   ],
+   "meanings_fr": [
+    "rapidement",
+    "sans perdre de temps"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17297319140962411,
+   "sharedid": 17297319140962411,
+   "type": "vocab",
+   "display": "細かい",
+   "readings": [
+    "こまかい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "small",
+    "fine",
+    "minute",
+    "minor",
+    "trivial",
+    "sensitive",
+    "attentive",
+    "careful",
+    "frugal",
+    "stingy"
+   ],
+   "meanings_es": [
+    "pequeño",
+    "fino",
+    "diminuto",
+    "minúsculo",
+    "circunstanciado",
+    "detallado",
+    "minucioso",
+    "sutil"
+   ],
+   "meanings_fr": [
+    "petit",
+    "fin",
+    "minutieux",
+    "mineur",
+    "trivial",
+    "sensible",
+    "attentif"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 6469687814012069871,
+   "sharedid": 6469687814012069871,
+   "type": "vocab",
+   "display": "加速",
+   "readings": [
+    "かそく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "acceleration",
+    "speeding up"
+   ],
+   "meanings_es": [
+    "acelerar",
+    "aceleración",
+    "acelerador"
+   ],
+   "meanings_fr": [
+    "accélération"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 15101001253147035547,
+   "sharedid": 15101001253147035547,
+   "type": "vocab",
+   "display": "修行",
+   "readings": [
+    "しゅぎょう",
+    "すぎょう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "training",
+    "practice",
+    "discipline",
+    "study",
+    "ascetic practices"
+   ],
+   "meanings_es": [
+    "entrenamiento",
+    "práctica",
+    "adiestramiento"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11668887150185497747,
+   "sharedid": 11668887150185497747,
+   "type": "vocab",
+   "display": "送料",
+   "readings": [
+    "そうりょう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "postage",
+    "carriage",
+    "shipping charge"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [
+    "affranchissement",
+    "frais de port"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 17798975616308056232,
+   "sharedid": 17798975616308056232,
+   "type": "vocab",
+   "display": "追い風",
+   "readings": [
+    "おいかぜ",
+    "おいて"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "tailwind",
+    "fair wind",
+    "favorable wind (favourable)",
+    "favorable condition (favourable)",
+    "advantageous situation"
+   ],
+   "meanings_es": [
+    "viento a favor",
+    "viento en popa"
+   ],
+   "meanings_fr": [
+    "vent arrière"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10752028469033509642,
+   "sharedid": 17798975616308056232,
+   "type": "vocab",
+   "display": "追風",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12287428937220044863,
+   "sharedid": 12287428937220044863,
+   "type": "vocab",
+   "display": "戦士",
+   "readings": [
+    "せんし"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "soldier",
+    "combatant",
+    "warrior"
+   ],
+   "meanings_es": [
+    "soldado",
+    "combatiente",
+    "guerrero"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3206393022916551706,
+   "sharedid": 3206393022916551706,
+   "type": "vocab",
+   "display": "接する",
+   "readings": [
+    "せっする"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to touch",
+    "to come in contact with",
+    "to border on",
+    "to adjoin",
+    "to be adjacent",
+    "to be close",
+    "to receive (e.g. visitor)",
+    "to attend to",
+    "to serve",
+    "to take care of",
+    "to look after",
+    "to act towards",
+    "to deal with",
+    "to see",
+    "to receive (news)",
+    "to get",
+    "to hear",
+    "to encounter",
+    "to come across",
+    "to be tangent to",
+    "to make touch",
+    "to bring into contact with",
+    "to bring adjacent to",
+    "to bring close",
+    "to connect"
+   ],
+   "meanings_es": [
+    "entrar en contacto",
+    "tocar",
+    "conectar (con)",
+    "acudir a",
+    "asistir a",
+    "recibir (visitas)"
+   ],
+   "meanings_fr": [
+    "toucher",
+    "entrer en contact avec",
+    "border",
+    "donner sur",
+    "être adjacent",
+    "être proche",
+    "recevoir (par ex. un visiteur)",
+    "servir",
+    "prendre soin de",
+    "s'occuper de",
+    "faire face à",
+    "voir",
+    "recevoir (des nouvelles)",
+    "obtenir",
+    "entendre",
+    "rencontrer",
+    "rentrer en contact avec",
+    "être tangent à",
+    "faire toucher",
+    "mettre en contact avec",
+    "amener à proximité de",
+    "rapprocher",
+    "connecter"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9937381184416708113,
+   "sharedid": 9937381184416708113,
+   "type": "vocab",
+   "display": "特急",
+   "readings": [
+    "とっきゅう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "limited express (train for which a limited-express ticket is required)",
+    "limited express (train making a limited no. of stops)",
+    "great hurry"
+   ],
+   "meanings_es": [
+    "tren expreso especial"
+   ],
+   "meanings_fr": [
+    "express limité (train, plus rapide qu'un express)",
+    "très pressé"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 1026101968273064783,
+   "sharedid": 1026101968273064783,
+   "type": "vocab",
+   "display": "降りる",
+   "readings": [
+    "おりる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to descend (e.g. a mountain)",
+    "to go down",
+    "to come down",
+    "to alight (e.g. from bus)",
+    "to get off",
+    "to disembark",
+    "to dismount",
+    "to step down",
+    "to retire",
+    "to give up",
+    "to quit",
+    "to fold",
+    "to be granted",
+    "to be issued",
+    "to be given",
+    "to form (of frost, dew, mist, etc.)",
+    "to be passed (from the body; e.g. of a roundworm)"
+   ],
+   "meanings_es": [
+    "bajarse de un vehículo",
+    "salir",
+    "apearse",
+    "descender (ej. montaña)"
+   ],
+   "meanings_fr": [
+    "descendre (par ex. d'une montagne)",
+    "se désister",
+    "se retirer",
+    "abandonner",
+    "quitter",
+    "être accordé",
+    "être émis",
+    "être donné",
+    "se former (de la gelée, la rosée, la brume, etc.)",
+    "être excréter (ex. les vers du corps après prise d'un vermifuge)"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 401782082100556986,
    "sharedid": 9294233502335447747,
    "type": "vocab",
@@ -132708,6 +138745,78 @@
    "meanings_pt": []
   },
   {
+   "id": 2559349802824839604,
+   "sharedid": 2559349802824839604,
+   "type": "vocab",
+   "display": "含める",
+   "readings": [
+    "ふくめる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to include (in a group or scope)",
+    "to instruct",
+    "to make one understand",
+    "to include (a nuance)",
+    "to put in (an implication)",
+    "to put in (someone's) mouth",
+    "to permeate with flavor"
+   ],
+   "meanings_es": [
+    "incluir"
+   ],
+   "meanings_fr": [
+    "inclure (dans un groupe ou un périmètre)",
+    "instruire",
+    "faire comprendre à quelqu'un",
+    "insérer (une nuance)",
+    "inclure (une implication)",
+    "mettre dans la bouche (de quelqu'un)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2082916277531963895,
+   "sharedid": 2082916277531963895,
+   "type": "vocab",
+   "display": "接点",
+   "readings": [
+    "せってん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "tangent point",
+    "point of contact",
+    "contact (electrical, etc.)",
+    "point of agreement",
+    "common ground",
+    "interaction"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 5275510782090388936,
+   "sharedid": 5275510782090388936,
+   "type": "vocab",
+   "display": "続編",
+   "readings": [
+    "ぞくへん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "continuation",
+    "sequel"
+   ],
+   "meanings_es": [
+    "continuación",
+    "secuela"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 17272698708503366963,
    "sharedid": 6224469678725254249,
    "type": "vocab",
@@ -132715,6 +138824,595 @@
    "readings": [],
    "kun_readings": [],
    "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 18372649265312093736,
+   "sharedid": 18372649265312093736,
+   "type": "vocab",
+   "display": "修士",
+   "readings": [
+    "しゅうし"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "master's (academic degree)"
+   ],
+   "meanings_es": [
+    "maestría"
+   ],
+   "meanings_fr": [
+    "maîtrise (diplôme)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 2453120823944714420,
+   "sharedid": 2453120823944714420,
+   "type": "vocab",
+   "display": "細い",
+   "readings": [
+    "ほそい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "thin",
+    "slender",
+    "fine",
+    "unlucky",
+    "small",
+    "minute",
+    "stingy",
+    "cheap"
+   ],
+   "meanings_es": [
+    "delgado",
+    "fino"
+   ],
+   "meanings_fr": [
+    "fin",
+    "fluet",
+    "mince",
+    "svelte",
+    "malchanceux (au billard)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12732947984182064714,
+   "sharedid": 12732947984182064714,
+   "type": "vocab",
+   "display": "採点",
+   "readings": [
+    "さいてん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "marking",
+    "grading",
+    "scoring"
+   ],
+   "meanings_es": [
+    "puntuación",
+    "calificación",
+    "puntuar",
+    "calificar",
+    "poner nota"
+   ],
+   "meanings_fr": [
+    "indication",
+    "notation",
+    "vérification"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4832719845589197776,
+   "sharedid": 4832719845589197776,
+   "type": "vocab",
+   "display": "葬式",
+   "readings": [
+    "そうしき"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "funeral"
+   ],
+   "meanings_es": [
+    "funeral"
+   ],
+   "meanings_fr": [
+    "enterrement",
+    "funérailles",
+    "obsèques"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10950273009691136955,
+   "sharedid": 10950273009691136955,
+   "type": "vocab",
+   "display": "未知",
+   "readings": [
+    "みち"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "not yet known",
+    "unknown",
+    "strange"
+   ],
+   "meanings_es": [
+    "desconocido"
+   ],
+   "meanings_fr": [
+    "inconnu, pas encore connu"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14803084314845075966,
+   "sharedid": 14803084314845075966,
+   "type": "vocab",
+   "display": "細か",
+   "readings": [
+    "こまか"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "small",
+    "fine",
+    "detailed",
+    "stingy"
+   ],
+   "meanings_es": [
+    "minúsculo",
+    "detallado"
+   ],
+   "meanings_fr": [
+    "chiche",
+    "fin",
+    "minutieux",
+    "petit",
+    "pingre"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12875152310542508947,
+   "sharedid": 12875152310542508947,
+   "type": "vocab",
+   "display": "補修",
+   "readings": [
+    "ほしゅう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "repair",
+    "mending"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 6248921559827039229,
+   "sharedid": 6248921559827039229,
+   "type": "vocab",
+   "display": "創出",
+   "readings": [
+    "そうしゅつ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "creation",
+    "generation"
+   ],
+   "meanings_es": [
+    "creación (e.g. obra de arte)"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13301557092985801973,
+   "sharedid": 13301557092985801973,
+   "type": "vocab",
+   "display": "士気",
+   "readings": [
+    "しき"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "morale (of troops, team, etc.)",
+    "esprit de corps"
+   ],
+   "meanings_es": [
+    "moral (de tropas, equipo, etc.)"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8719208600448653996,
+   "sharedid": 8719208600448653996,
+   "type": "vocab",
+   "display": "専修",
+   "readings": [
+    "せんしゅう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "specialization",
+    "specialisation"
+   ],
+   "meanings_es": [
+    "especialización"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2348048567224746053,
+   "sharedid": 2348048567224746053,
+   "type": "vocab",
+   "display": "未解決",
+   "readings": [
+    "みかいけつ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "unsolved",
+    "unresolved",
+    "unsettled",
+    "pending",
+    "outstanding"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 788002764704933084,
+   "sharedid": 788002764704933084,
+   "type": "vocab",
+   "display": "月末",
+   "readings": [
+    "げつまつ",
+    "つきずえ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "end of the month"
+   ],
+   "meanings_es": [
+    "fin de mes"
+   ],
+   "meanings_fr": [
+    "fin de mois"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 12978682251542696095,
+   "sharedid": 12978682251542696095,
+   "type": "vocab",
+   "display": "採取",
+   "readings": [
+    "さいしゅ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "picking",
+    "collecting",
+    "harvesting",
+    "gathering",
+    "extraction"
+   ],
+   "meanings_es": [
+    "colección",
+    "amontonamiento",
+    "hacinamiento",
+    "acumulamiento"
+   ],
+   "meanings_fr": [
+    "collecte",
+    "cueillette",
+    "moisson"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14661644171811788066,
+   "sharedid": 14661644171811788066,
+   "type": "vocab",
+   "display": "応急",
+   "readings": [
+    "おうきゅう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "emergency",
+    "first-aid"
+   ],
+   "meanings_es": [
+    "emergencia"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 6814352268144767565,
+   "sharedid": 6814352268144767565,
+   "type": "vocab",
+   "display": "結末",
+   "readings": [
+    "けつまつ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "end",
+    "conclusion"
+   ],
+   "meanings_es": [
+    "final",
+    "conclusión"
+   ],
+   "meanings_fr": [
+    "conclusion",
+    "fin"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11236547143558027437,
+   "sharedid": 11236547143558027437,
+   "type": "vocab",
+   "display": "追いつく",
+   "readings": [
+    "おいつく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to catch up (with)",
+    "to draw level",
+    "to pull even",
+    "to reach",
+    "to be compensated",
+    "to make up for one's losses"
+   ],
+   "meanings_es": [
+    "alcanzar",
+    "coger",
+    "ponerse a la altura de",
+    "llegar al nivel de",
+    "alcanzar",
+    "dar alcance"
+   ],
+   "meanings_fr": [
+    "rattraper",
+    "égaliser",
+    "atteindre",
+    "rejoindre",
+    "être indemnisé",
+    "compenser ses pertes"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11646439302686101099,
+   "sharedid": 11236547143558027437,
+   "type": "vocab",
+   "display": "追い付く",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12886688704266923617,
+   "sharedid": 11236547143558027437,
+   "type": "vocab",
+   "display": "追付く",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11736694997744992550,
+   "sharedid": 11736694997744992550,
+   "type": "vocab",
+   "display": "皆無",
+   "readings": [
+    "かいむ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "nonexistent",
+    "nil",
+    "none",
+    "nothing (at all)",
+    "bugger-all"
+   ],
+   "meanings_es": [
+    "nada"
+   ],
+   "meanings_fr": [
+    "rien"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 873147245285150045,
+   "sharedid": 873147245285150045,
+   "type": "vocab",
+   "display": "葬送",
+   "readings": [
+    "そうそう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "funeral",
+    "burial rites",
+    "attendance at a funeral"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 17759770794363641328,
+   "sharedid": 873147245285150045,
+   "type": "vocab",
+   "display": "送葬",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4184930739019173644,
+   "sharedid": 4184930739019173644,
+   "type": "vocab",
+   "display": "太い",
+   "readings": [
+    "ふとい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "fat",
+    "thick",
+    "deep (of a voice)",
+    "thick",
+    "sonorous",
+    "daring",
+    "shameless",
+    "brazen",
+    "audacious"
+   ],
+   "meanings_es": [
+    "gordo",
+    "obeso",
+    "de voz gruesa",
+    "descarado",
+    "sinvergüenza"
+   ],
+   "meanings_fr": [
+    "épais",
+    "gros",
+    "grave (pour une voix)",
+    "audacieux",
+    "éhonté",
+    "effronté",
+    "chanceux (au billard)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7683763883172897786,
+   "sharedid": 7683763883172897786,
+   "type": "vocab",
+   "display": "編入",
+   "readings": [
+    "へんにゅう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "admission",
+    "incorporation",
+    "enlistment",
+    "enrollment"
+   ],
+   "meanings_es": [
+    "admisión",
+    "incorporación",
+    "afiliación",
+    "ingreso"
+   ],
+   "meanings_fr": [
+    "admission",
+    "incorporation"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5589802112580544330,
+   "sharedid": 5589802112580544330,
+   "type": "vocab",
+   "display": "含有",
+   "readings": [
+    "がんゆう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "containing (an ingredient, mineral, etc.)"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [
+    "contenir"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11917034313924543240,
+   "sharedid": 11917034313924543240,
+   "type": "vocab",
+   "display": "降水量",
+   "readings": [
+    "こうすいりょう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "amount of precipitation",
+    "precipitation"
+   ],
+   "meanings_es": [
+    "precipitación"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 11067727527388599199,
+   "sharedid": 11067727527388599199,
+   "type": "vocab",
+   "display": "終末",
+   "readings": [
+    "しゅうまつ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "end",
+    "close",
+    "conclusion",
+    "termination"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 7689332204837479061,
+   "sharedid": 7689332204837479061,
+   "type": "vocab",
+   "display": "創意",
+   "readings": [
+    "そうい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "original idea",
+    "originality"
+   ],
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
@@ -132762,6 +139460,24 @@
    "meanings_pt": []
   },
   {
+   "id": 11347400766624952585,
+   "sharedid": 11347400766624952585,
+   "type": "vocab",
+   "display": "追い上げる",
+   "readings": [
+    "おいあげる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to gain on",
+    "to put pressure on",
+    "to close in on"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 5548408369233815483,
    "sharedid": 5548408369233815483,
    "type": "vocab",
@@ -132785,6 +139501,54 @@
     "todavía no"
    ],
    "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 16297721287365576315,
+   "sharedid": 16297721287365576315,
+   "type": "vocab",
+   "display": "解読",
+   "readings": [
+    "かいどく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "deciphering",
+    "decoding"
+   ],
+   "meanings_es": [
+    "descifrar",
+    "descodificar"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2595192256905709796,
+   "sharedid": 2595192256905709796,
+   "type": "vocab",
+   "display": "急ぐ",
+   "readings": [
+    "いそぐ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to hurry",
+    "to rush",
+    "to hasten",
+    "to make something happen sooner"
+   ],
+   "meanings_es": [
+    "apresurar",
+    "apurar"
+   ],
+   "meanings_fr": [
+    "se dépêcher",
+    "se précipiter",
+    "se ruer",
+    "hâter",
+    "faire quelque chose plus tôt"
+   ],
    "meanings_pt": []
   },
   {
@@ -132879,6 +139643,198 @@
    "meanings_pt": []
   },
   {
+   "id": 7268926501391894403,
+   "sharedid": 7268926501391894403,
+   "type": "vocab",
+   "display": "創造力",
+   "readings": [
+    "そうぞうりょく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "creative power",
+    "creativity"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2509330826877663347,
+   "sharedid": 2509330826877663347,
+   "type": "vocab",
+   "display": "行脚",
+   "readings": [
+    "あんぎゃ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "pilgrimage",
+    "walking tour",
+    "travelling (on foot)"
+   ],
+   "meanings_es": [
+    "peregrinaje",
+    "peregrinación"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4757266578147444457,
+   "sharedid": 4757266578147444457,
+   "type": "vocab",
+   "display": "独創的",
+   "readings": [
+    "どくそうてき"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "creative",
+    "original"
+   ],
+   "meanings_es": [
+    "original"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 168846157152866347,
+   "sharedid": 168846157152866347,
+   "type": "vocab",
+   "display": "太子",
+   "readings": [
+    "たいし"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "crown prince",
+    "Prince Shōtoku"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9061347854453344214,
+   "sharedid": 9061347854453344214,
+   "type": "vocab",
+   "display": "投降",
+   "readings": [
+    "とうこう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "surrender"
+   ],
+   "meanings_es": [
+    "rendición"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 12483197080354502556,
+   "sharedid": 12483197080354502556,
+   "type": "vocab",
+   "display": "降格",
+   "readings": [
+    "こうかく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "demotion",
+    "relegation",
+    "downgrading"
+   ],
+   "meanings_es": [
+    "degradación"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9170816256576962021,
+   "sharedid": 9170816256576962021,
+   "type": "vocab",
+   "display": "採集",
+   "readings": [
+    "さいしゅう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "collecting",
+    "gathering"
+   ],
+   "meanings_es": [
+    "colección",
+    "amontonamiento",
+    "hacinamiento",
+    "acumulamiento"
+   ],
+   "meanings_fr": [
+    "collection"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 5049697231100306296,
+   "sharedid": 5049697231100306296,
+   "type": "vocab",
+   "display": "読み上げる",
+   "readings": [
+    "よみあげる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to read out",
+    "to read aloud",
+    "to call out",
+    "to finish reading",
+    "to read through"
+   ],
+   "meanings_es": [
+    "leer en voz alta"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9413677896050913718,
+   "sharedid": 5049697231100306296,
+   "type": "vocab",
+   "display": "読上げる",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 16420745932843405427,
+   "sharedid": 16420745932843405427,
+   "type": "vocab",
+   "display": "必読",
+   "readings": [
+    "ひつどく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "must-read",
+    "required reading"
+   ],
+   "meanings_es": [
+    "(algo que) debe ser leído por todos"
+   ],
+   "meanings_fr": [
+    "lecture de référence",
+    "lecture indispensable"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 4074899464944059743,
    "sharedid": 4074899464944059743,
    "type": "vocab",
@@ -132893,6 +139849,27 @@
    ],
    "meanings_es": [],
    "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 15400602970786925667,
+   "sharedid": 15400602970786925667,
+   "type": "vocab",
+   "display": "音読",
+   "readings": [
+    "おんどく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "reading aloud",
+    "reading (a kanji) by its Chinese-derived pronunciation"
+   ],
+   "meanings_es": [
+    "lectura en voz alta"
+   ],
+   "meanings_fr": [
+    "lire a voix haute"
+   ],
    "meanings_pt": []
   },
   {
@@ -132920,10 +139897,368 @@
    "meanings_pt": []
   },
   {
+   "id": 6908830502804276525,
+   "sharedid": 6908830502804276525,
+   "type": "vocab",
+   "display": "末に",
+   "readings": [
+    "すえに"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "finally",
+    "after",
+    "following",
+    "at the end (of)"
+   ],
+   "meanings_es": [
+    "finalmente",
+    "al fin"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8714814380143547992,
+   "sharedid": 8714814380143547992,
+   "type": "vocab",
+   "display": "此",
+   "readings": [
+    "こん"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "this"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 2385612063387301983,
+   "sharedid": 8714814380143547992,
+   "type": "vocab",
+   "display": "此ん",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 16697147965316230038,
+   "sharedid": 16697147965316230038,
+   "type": "vocab",
+   "display": "降る",
+   "readings": [
+    "ふる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to fall (of rain, snow, ash, etc.)",
+    "to come down",
+    "to form (of frost)",
+    "to beam down (of sunlight or moonlight)",
+    "to pour in",
+    "to visit (of luck, misfortune, etc.)",
+    "to come",
+    "to arrive"
+   ],
+   "meanings_es": [
+    "precipitar",
+    "caer (e.g. lluvia)"
+   ],
+   "meanings_fr": [
+    "précipiter (pour une substance dans une solution chimique)",
+    "tomber (par ex. pour la pluie)"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 16278604554982868512,
+   "sharedid": 16278604554982868512,
+   "type": "vocab",
+   "display": "編む",
+   "readings": [
+    "あむ"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to knit",
+    "to plait",
+    "to braid",
+    "to compile (anthology, dictionary, etc.)",
+    "to edit"
+   ],
+   "meanings_es": [
+    "tejer",
+    "trenzar",
+    "editar",
+    "planear"
+   ],
+   "meanings_fr": [
+    "tricoter",
+    "tresser",
+    "compiler (une anthologie, un dictionnaire, etc.)",
+    "éditer"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 7521233829097935129,
+   "sharedid": 7521233829097935129,
+   "type": "vocab",
+   "display": "採る",
+   "readings": [
+    "とる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to adopt (method, proposal, etc.)",
+    "to take (measure, course of action, etc.)",
+    "to decide on",
+    "to pick (e.g. flowers)",
+    "to gather (e.g. mushrooms)",
+    "to catch (e.g. insects)",
+    "to extract (e.g. juice)",
+    "to take (e.g. a sample)",
+    "to assume (an attitude)",
+    "to take on (workers, students)",
+    "to employ",
+    "to hire",
+    "to draw in (e.g. water)",
+    "to let in (e.g. light from a window)"
+   ],
+   "meanings_es": [
+    "adoptar (medida, propuesta)",
+    "recoger (fruta)",
+    "asumir (actitud)"
+   ],
+   "meanings_fr": [
+    "adopter (une proposition)",
+    "prendre (une mesure)",
+    "choisir (par ex. un fruit)",
+    "attraper (par ex. des insectes)",
+    "prendre (par ex.un échantillon)",
+    "adopter (une attitude)",
+    "prendre (c.-à-d. embaucher)",
+    "engager"
+   ],
+   "meanings_pt": []
+  },
+  {
    "id": 16564696428171930741,
    "sharedid": 891078897994055463,
    "type": "vocab",
    "display": "徒士",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1222374716167912719,
+   "sharedid": 1222374716167912719,
+   "type": "vocab",
+   "display": "宜しゅう",
+   "readings": [
+    "よろしゅう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "best regards",
+    "please remember me",
+    "please treat me favorably (favourably)",
+    "please take care of"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 6553156788501556206,
+   "sharedid": 6553156788501556206,
+   "type": "vocab",
+   "display": "葬る",
+   "readings": [
+    "ほうむる",
+    "ほうぶる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to bury",
+    "to inter",
+    "to entomb",
+    "to cover up",
+    "to hush up",
+    "to shelve"
+   ],
+   "meanings_es": [
+    "enterrar",
+    "tapar",
+    "relegar al olvido"
+   ],
+   "meanings_fr": [
+    "ensevelir",
+    "enterrer (une personne, une affaire)",
+    "inhumer"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11458604430241242150,
+   "sharedid": 11458604430241242150,
+   "type": "vocab",
+   "display": "太る",
+   "readings": [
+    "ふとる"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "to put on weight",
+    "to gain weight",
+    "to grow fat",
+    "to get stout"
+   ],
+   "meanings_es": [
+    "engordar",
+    "hacerse gordo",
+    "ganar peso"
+   ],
+   "meanings_fr": [
+    "grossir",
+    "engraisser",
+    "prendre du poids"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 8330432560297915117,
+   "sharedid": 8330432560297915117,
+   "type": "vocab",
+   "display": "土葬",
+   "readings": [
+    "どそう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "burial",
+    "interment"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3408313290505721472,
+   "sharedid": 3408313290505721472,
+   "type": "vocab",
+   "display": "三脚",
+   "readings": [
+    "さんきゃく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "tripod",
+    "three legs"
+   ],
+   "meanings_es": [
+    "trípode"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14224669974052459504,
+   "sharedid": 14224669974052459504,
+   "type": "vocab",
+   "display": "どうぞ宜しく",
+   "readings": [
+    "どうぞよろしく"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "pleased to meet you",
+    "how do you do",
+    "my regards (to someone)",
+    "my greetings",
+    "best wishes",
+    "remember me to"
+   ],
+   "meanings_es": [
+    "encantado de conocerte"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 14738212700047910940,
+   "sharedid": 14738212700047910940,
+   "type": "vocab",
+   "display": "皆済",
+   "readings": [
+    "かいさい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "settlement"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [
+    "paiement complet",
+    "règlement",
+    "solde"
+   ],
+   "meanings_pt": []
+  },
+  {
+   "id": 11596899823722420091,
+   "sharedid": 11596899823722420091,
+   "type": "vocab",
+   "display": "昭和時代",
+   "readings": [
+    "しょうわじだい"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "Shōwa period (1926-1989)",
+    "Showa period"
+   ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1003823848868793695,
+   "sharedid": 1003823848868793695,
+   "type": "vocab",
+   "display": "昭昭",
+   "readings": [
+    "しょうしょう"
+   ],
+   "kun_readings": [],
+   "meanings": [
+    "clear",
+    "bright",
+    "plain",
+    "obvious"
+   ],
+   "meanings_es": [
+    "claro",
+    "evidente",
+    "obvio"
+   ],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 3136221583609453357,
+   "sharedid": 1003823848868793695,
+   "type": "vocab",
+   "display": "昭々",
    "readings": [],
    "kun_readings": [],
    "meanings": [],
@@ -134412,6 +141747,18 @@
     "être à guichet fermé",
     "ne plus avoir de"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 10297693462420495620,
+   "sharedid": 2082916277531963895,
+   "type": "vocab",
+   "display": "切点",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
    "meanings_pt": []
   },
   {
@@ -137745,6 +145092,30 @@
    "sharedid": 14834081956926596787,
    "type": "vocab",
    "display": "板画",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 6293447134606441624,
+   "sharedid": 11236547143558027437,
+   "type": "vocab",
+   "display": "追い着く",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 13974658238772744721,
+   "sharedid": 11236547143558027437,
+   "type": "vocab",
+   "display": "追着く",
    "readings": [],
    "kun_readings": [],
    "meanings": [],
@@ -146005,6 +153376,18 @@
    "meanings_pt": []
   },
   {
+   "id": 83142993660321958,
+   "sharedid": 4252471816543092074,
+   "type": "vocab",
+   "display": "拾集",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 14958987706410993103,
    "sharedid": 18096899978952388409,
    "type": "vocab",
@@ -146116,6 +153499,18 @@
     "preuve",
     "signe (de gratitude, d'affection, etc.)"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 9421988483123903729,
+   "sharedid": 14439294895454832484,
+   "type": "vocab",
+   "display": "已める",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
    "meanings_pt": []
   },
   {
@@ -150319,6 +157714,18 @@
    "sharedid": 15863451229524265610,
    "type": "vocab",
    "display": "殖える",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9685049461281149699,
+   "sharedid": 14439294895454832484,
+   "type": "vocab",
+   "display": "廃める",
    "readings": [],
    "kun_readings": [],
    "meanings": [],
@@ -158745,6 +166152,18 @@
    "meanings_pt": []
   },
   {
+   "id": 14970818533183462794,
+   "sharedid": 1343712990498051210,
+   "type": "vocab",
+   "display": "弘い",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 3830882270104022118,
    "sharedid": 3830882270104022118,
    "type": "vocab",
@@ -160127,6 +167546,18 @@
    ]
   },
   {
+   "id": 15109683196123260559,
+   "sharedid": 1058223456939964452,
+   "type": "vocab",
+   "display": "唄",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 2938133175084517970,
    "sharedid": 2938133175084517970,
    "type": "vocab",
@@ -160186,6 +167617,18 @@
    "meanings_fr": [
     "bombe"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 4377935894468404627,
+   "sharedid": 8009662326270752270,
+   "type": "vocab",
+   "display": "唄う",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
    "meanings_pt": []
   },
   {
@@ -161350,6 +168793,18 @@
    ]
   },
   {
+   "id": 12743814699877658280,
+   "sharedid": 16275189827104967717,
+   "type": "vocab",
+   "display": "篇",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 14924823882217365293,
    "sharedid": 14924823882217365293,
    "type": "vocab",
@@ -161387,6 +168842,18 @@
    "sharedid": 14924823882217365293,
    "type": "vocab",
    "display": "貴男",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 16874520349378962661,
+   "sharedid": 5275510782090388936,
+   "type": "vocab",
+   "display": "続篇",
    "readings": [],
    "kun_readings": [],
    "meanings": [],
@@ -162558,6 +170025,18 @@
    "meanings_pt": []
   },
   {
+   "id": 14009264752751201217,
+   "sharedid": 1343712990498051210,
+   "type": "vocab",
+   "display": "宏い",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 14774105085812235714,
    "sharedid": 14774105085812235714,
    "type": "vocab",
@@ -162591,6 +170070,18 @@
     "tout à fait",
     "assez"
    ],
+   "meanings_pt": []
+  },
+  {
+   "id": 14269769770263383186,
+   "sharedid": 11486476276906807196,
+   "type": "vocab",
+   "display": "留る",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
    "meanings_pt": []
   },
   {
@@ -167611,6 +175102,18 @@
    "meanings_pt": []
   },
   {
+   "id": 10395419016494571341,
+   "sharedid": 4756865295933557262,
+   "type": "vocab",
+   "display": "均斉",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 16355410406484683153,
    "sharedid": 16355410406484683153,
    "type": "vocab_kana",
@@ -169699,6 +177202,18 @@
    "meanings_pt": []
   },
   {
+   "id": 2697251042321117771,
+   "sharedid": 15899425735792815700,
+   "type": "vocab",
+   "display": "廣告",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 4051677950229260330,
    "sharedid": 11356941044462445700,
    "type": "vocab",
@@ -169715,6 +177230,18 @@
    "sharedid": 14363266920738247979,
    "type": "vocab",
    "display": "斗い",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 7628171568671994712,
+   "sharedid": 1343712990498051210,
+   "type": "vocab",
+   "display": "廣い",
    "readings": [],
    "kun_readings": [],
    "meanings": [],
@@ -172385,6 +179912,18 @@
    "meanings_pt": []
   },
   {
+   "id": 14482913466287346207,
+   "sharedid": 655959547562172740,
+   "type": "vocab",
+   "display": "修覆",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 9925270676408660051,
    "sharedid": 9925270676408660051,
    "type": "vocab",
@@ -173797,6 +181336,18 @@
     "hang in there",
     "keep at it"
    ],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 1483113012429623078,
+   "sharedid": 8009662326270752270,
+   "type": "vocab",
+   "display": "唱う",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
    "meanings_es": [],
    "meanings_fr": [],
    "meanings_pt": []
@@ -178269,6 +185820,18 @@
    "sharedid": 2792724923627100668,
    "type": "vocab",
    "display": "奇怪しい",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 8277935706524397852,
+   "sharedid": 8009662326270752270,
+   "type": "vocab",
+   "display": "謡う",
    "readings": [],
    "kun_readings": [],
    "meanings": [],
@@ -185884,10 +193447,34 @@
    ]
   },
   {
+   "id": 1617354687056147371,
+   "sharedid": 16003147245474712900,
+   "type": "vocab",
+   "display": "逐う",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 5890914206206109555,
    "sharedid": 10525015127365777523,
    "type": "vocab",
    "display": "畔",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 4480056330081728870,
+   "sharedid": 8009662326270752270,
+   "type": "vocab",
+   "display": "詠う",
    "readings": [],
    "kun_readings": [],
    "meanings": [],
@@ -190579,6 +198166,18 @@
    "meanings_pt": []
   },
   {
+   "id": 13909847599671081365,
+   "sharedid": 13696861913040820666,
+   "type": "vocab",
+   "display": "鋭才",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 16108934214763234017,
    "sharedid": 16108934214763234017,
    "type": "vocab_kana",
@@ -195114,6 +202713,18 @@
    "meanings_pt": []
   },
   {
+   "id": 9337351824317727405,
+   "sharedid": 11458604430241242150,
+   "type": "vocab",
+   "display": "肥る",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
    "id": 12969313615465382538,
    "sharedid": 164605433285309819,
    "type": "vocab_kana",
@@ -199365,6 +206976,18 @@
    "sharedid": 3157013553941836887,
    "type": "vocab",
    "display": "佑ける",
+   "readings": [],
+   "kun_readings": [],
+   "meanings": [],
+   "meanings_es": [],
+   "meanings_fr": [],
+   "meanings_pt": []
+  },
+  {
+   "id": 9041687617976042961,
+   "sharedid": 14505889159400734084,
+   "type": "vocab",
+   "display": "遷す",
    "readings": [],
    "kun_readings": [],
    "meanings": [],
