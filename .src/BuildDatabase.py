@@ -221,6 +221,17 @@ for child in jmdictroot.getchildren():
                     if(child3.tag == "misc" and child3.text == "uk"):
                         dicoEntry["usually_kana"] = True
 
+                    if(child3.text != None):
+
+                        if(child3.text.startswith("s ")):
+                            child3.text = "sense " + child3.text[2:]
+
+                        if(child3.text.endswith(" s")):
+                            child3.text = child3.text[:-2] + " sense"
+                        
+                        while(" s " in child3.text):
+                            child3.text = child3.text.replace(" s ", " sense ")
+
                     if(child3.tag == "g"):
                         if(len(child3.attrib) == 0 or ("l" in child3.attrib and child3.get("l") == "eng")):
                             dicoEntry["meanings"].append(child3.text)
