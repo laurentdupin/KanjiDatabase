@@ -724,10 +724,13 @@ root.mainloop()
 json.dump(dicoOutput, open("../.src/Selected.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 dicoSelected = json.load(open("../.src/Selected.json", "r", encoding="utf-8"))
 
-listOutput = []
+dicoOutput = {}
+
+iLevelCount = 1
 
 for level in listInput:
-    listOutput.append([])
+    dicoOutput[iLevelCount] = []
+    iLevelCount += 1
 
 setValidKanaOnlyId = set()
 setValidVocabularySharedId = set()
@@ -780,8 +783,10 @@ for level in listInput:
 
 iCurrentKanaOnlyCursor = 0
 
-for iLevel, level in enumerate(listOutput):
-    for item in listInput[iLevel]:
+for iLevel in dicoOutput:
+    level = dicoOutput[iLevel]
+
+    for item in listInput[iLevel - 1]:
         if(item["id"] in dicoMeaningsTranslationsAndReplacements):
             listemptiedmeanings = []
             originalmeanings = copy.deepcopy(item["meanings"])
@@ -822,11 +827,13 @@ for iLevel, level in enumerate(listOutput):
                 continue
             level.append(item)
 
-    if(iLevel * 10 < len(listValidKanaOnly)):
-        level.extend(listValidKanaOnly[iLevel * 10: min((iLevel + 1) * 10, len(listValidKanaOnly))])
+    if((iLevel - 1) * 10 < len(listValidKanaOnly)):
+        level.extend(listValidKanaOnly[(iLevel-1)  * 10: min(iLevel * 10, len(listValidKanaOnly))])
 
-for iLevel, level in enumerate(listOutput):
-    for item in listOutput[iLevel]:
+for iLevel in dicoOutput:
+    level = dicoOutput[iLevel]
+
+    for item in level:
         while(None in item["readings"]):
             print("r", item["display"])
             item["readings"].remove(None)
@@ -844,6 +851,6 @@ for iLevel, level in enumerate(listOutput):
             item["meanings_pt"].remove(None)
 
 
-json.dump(listOutput, open("../Output/Levels.json", "w", encoding="utf8"), ensure_ascii=False, indent=1)
+json.dump(dicoOutput, open("../Output/Levels.json", "w", encoding="utf8"), ensure_ascii=False, indent=1)
 
 
