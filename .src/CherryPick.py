@@ -726,11 +726,10 @@ dicoSelected = json.load(open("../.src/Selected.json", "r", encoding="utf-8"))
 
 dicoOutput = {}
 
-iLevelCount = 1
+for i in range(1,101):
+    dicoOutput[i] = []
 
-for level in listInput:
-    dicoOutput[iLevelCount] = []
-    iLevelCount += 1
+dicoOutput["special"] = []
 
 setValidKanaOnlyId = set()
 setValidVocabularySharedId = set()
@@ -765,13 +764,6 @@ for level in dicoSelected["MeaningsTranslations"]:
     for item in dicoSelected["MeaningsTranslations"][level]:
         dicoMeaningsTranslationsAndReplacements[int(item)] = dicoSelected["MeaningsTranslations"][level][item]
 
-listValidKanaOnly = []
-
-for level in listInput:
-    for item in level:
-        if(item["type"] == "vocab_kana" and item["id"] in setValidKanaOnlyId):
-            listValidKanaOnly.append(item)
-
 for level in listInput:
     for item in level:
         if(item["type"] == "vocab_kana" and item["id"] in dicoKanaOnlySharedIds):
@@ -781,12 +773,8 @@ for level in listInput:
             item["meanings_es"] = []
             item["meanings_pt"] = []
 
-iCurrentKanaOnlyCursor = 0
-
-for iLevel in dicoOutput:
-    level = dicoOutput[iLevel]
-
-    for item in listInput[iLevel - 1]:
+for inputlevel in listInput:
+    for item in inputlevel:
         if(item["id"] in dicoMeaningsTranslationsAndReplacements):
             listemptiedmeanings = []
             originalmeanings = copy.deepcopy(item["meanings"])
@@ -821,14 +809,82 @@ for iLevel in dicoOutput:
             
             item["kun_readings"] = newreadinglist
 
-            level.append(item)
-        elif(item["type"] == "vocab" and item["sharedid"] in setValidVocabularySharedId):
-            if("〇" in item["display"] and not(item["id"] == item["sharedid"])):
-                continue
-            level.append(item)
+iCurrentKanjiLevel = 1
+iCurrentKanjiInLevel = 0
+
+dicoMinLevelForKanji = {}
+listValidKanjis = []
+listValidKanaOnly = []
+listValidVocabulary = []
+
+for level in listInput:
+    for item in level:
+        if(item["type"] == "vocab_kana" and item["id"] in setValidKanaOnlyId):
+            listValidKanaOnly.append(item)
+        elif(item["type"] == "vocab" and item["sharedid"] in setValidVocabularySharedId and not("〇" in item["display"] and not(item["id"] == item["sharedid"]))):
+            listValidVocabulary.append(item)
+        elif(item["type"] == "kanji"):
+            listValidKanjis.append(item)
+
+            dicoMinLevelForKanji[item["display"]] = iCurrentKanjiLevel
+            iCurrentKanjiInLevel += 1
+
+            if(iCurrentKanjiLevel <= 20):
+                if(iCurrentKanjiInLevel >= 15):
+                    iCurrentKanjiLevel += 1
+                    iCurrentKanjiInLevel = 0
+
+            elif(iCurrentKanjiLevel <= 40):
+                if(iCurrentKanjiInLevel >= 17):
+                    iCurrentKanjiLevel += 1
+                    iCurrentKanjiInLevel = 0
+
+            elif(iCurrentKanjiLevel <= 60):
+                if(iCurrentKanjiInLevel >= 20):
+                    iCurrentKanjiLevel += 1
+                    iCurrentKanjiInLevel = 0
+
+            elif(iCurrentKanjiLevel <= 80):
+                if(iCurrentKanjiInLevel >= 23):
+                    iCurrentKanjiLevel += 1
+                    iCurrentKanjiInLevel = 0
+
+            elif(iCurrentKanjiLevel > 80):
+                if(iCurrentKanjiInLevel >= 25):
+                    iCurrentKanjiLevel += 1
+                    iCurrentKanjiInLevel = 0
+
+dicoMinLevelForVocab = {}
+
+for vocab in listValidVocabulary:
+    minlevel = 1
+
+    for char in vocab["display"]:
+        if(char in dicoMinLevelForKanji and dicoMinLevelForKanji[char] > minlevel):
+            minlevel = dicoMinLevelForKanji[char]
+
+    dicoMinLevelForVocab[vocab["id"]] = minlevel
+
+    if(minlevel > 100):
+        dicoOutput["special"].append(vocab)
+
+for iLevel in dicoOutput:
+
+    if(not(type(iLevel) is int)):
+        continue
+
+    level = dicoOutput[iLevel]
+
+    for kanji in listValidKanjis:
+        if(dicoMinLevelForKanji[kanji["display"]] == iLevel):
+            level.append(kanji)
 
     if((iLevel - 1) * 10 < len(listValidKanaOnly)):
         level.extend(listValidKanaOnly[(iLevel-1)  * 10: min(iLevel * 10, len(listValidKanaOnly))])
+
+    for vocab in listValidVocabulary:
+        if(dicoMinLevelForVocab[vocab["id"]] == iLevel):
+            level.append(vocab)
 
 for iLevel in dicoOutput:
     level = dicoOutput[iLevel]
@@ -849,6 +905,8 @@ for iLevel in dicoOutput:
         while(None in item["meanings_pt"]):
             print("pt", item["display"])
             item["meanings_pt"].remove(None)
+
+    print(iLevel, len(level))
 
 
 json.dump(dicoOutput, open("../Output/Levels.json", "w", encoding="utf8"), ensure_ascii=False, indent=1)
