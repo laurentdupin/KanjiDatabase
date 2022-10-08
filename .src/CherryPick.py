@@ -849,8 +849,13 @@ for level in listInput:
                     iCurrentKanjiLevel += 1
                     iCurrentKanjiInLevel = 0
 
-            elif(iCurrentKanjiLevel > 80):
+            elif(iCurrentKanjiLevel <= 90):
                 if(iCurrentKanjiInLevel >= 25):
+                    iCurrentKanjiLevel += 1
+                    iCurrentKanjiInLevel = 0
+
+            elif(iCurrentKanjiLevel > 90):
+                if(iCurrentKanjiInLevel >= 35):
                     iCurrentKanjiLevel += 1
                     iCurrentKanjiInLevel = 0
 
