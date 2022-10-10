@@ -722,6 +722,14 @@ button.config(font=('Arial', FontSize))
 root.mainloop()
 
 json.dump(dicoOutput, open("../.src/Selected.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+
+listKanjis = [[], [], [], [], [], [], [], []]
+
+for i in range(1, 9):
+    with open("../.sources/jouyoukanji/" + str(i) + ".txt", encoding="utf-8") as kanjis:
+        for line in kanjis.readlines():
+            listKanjis[i - 1].extend(line.split(" "))
+
 dicoSelected = json.load(open("../.src/Selected.json", "r", encoding="utf-8"))
 
 dicoOutput = {}
@@ -809,13 +817,12 @@ for inputlevel in listInput:
             
             item["kun_readings"] = newreadinglist
 
-iCurrentKanjiLevel = 1
-iCurrentKanjiInLevel = 0
 
-dicoMinLevelForKanji = {}
-listValidKanjis = []
+
 listValidKanaOnly = []
 listValidVocabulary = []
+
+dicoVocabPerKanji = {}
 
 for level in listInput:
     for item in level:
@@ -824,40 +831,82 @@ for level in listInput:
         elif(item["type"] == "vocab" and item["sharedid"] in setValidVocabularySharedId and not("〇" in item["display"] and not(item["id"] == item["sharedid"]))):
             listValidVocabulary.append(item)
         elif(item["type"] == "kanji"):
-            listValidKanjis.append(item)
+            dicoVocabPerKanji[item["display"]] = 0
 
-            dicoMinLevelForKanji[item["display"]] = iCurrentKanjiLevel
-            iCurrentKanjiInLevel += 1
+for vocab in listValidVocabulary:
+    for char in vocab["display"]:
+        if(char in dicoVocabPerKanji):
+            dicoVocabPerKanji[char] += 1
 
-            if(iCurrentKanjiLevel <= 20):
-                if(iCurrentKanjiInLevel >= 15):
-                    iCurrentKanjiLevel += 1
-                    iCurrentKanjiInLevel = 0
+listTempKanji1 = []
+listTempKanji2 = []
+listTempKanji3 = []
 
-            elif(iCurrentKanjiLevel <= 40):
-                if(iCurrentKanjiInLevel >= 17):
-                    iCurrentKanjiLevel += 1
-                    iCurrentKanjiInLevel = 0
+for level in listInput:
+    for item in level:
+        if(item["type"] == "kanji"):
+            if(dicoVocabPerKanji[item["display"]] > 0):
+                bFoundInList = False
 
-            elif(iCurrentKanjiLevel <= 60):
-                if(iCurrentKanjiInLevel >= 20):
-                    iCurrentKanjiLevel += 1
-                    iCurrentKanjiInLevel = 0
+                for i in range(1, 9):
+                    if(item["display"] in listKanjis[i - 1]):
+                        if(i < 7):
+                            listTempKanji1.append(item)
+                        else:
+                            listTempKanji2.append(item)
+                        bFoundInList = True
+                        break
 
-            elif(iCurrentKanjiLevel <= 80):
-                if(iCurrentKanjiInLevel >= 23):
-                    iCurrentKanjiLevel += 1
-                    iCurrentKanjiInLevel = 0
+                if(not(bFoundInList)):
+                    listTempKanji3.append(item)
 
-            elif(iCurrentKanjiLevel <= 90):
-                if(iCurrentKanjiInLevel >= 25):
-                    iCurrentKanjiLevel += 1
-                    iCurrentKanjiInLevel = 0
+listValidKanjis = []
+listValidKanjis.extend(listTempKanji1)
+listValidKanjis.extend(listTempKanji2)
+listValidKanjis.extend(listTempKanji3)
 
-            elif(iCurrentKanjiLevel > 90):
-                if(iCurrentKanjiInLevel >= 35):
-                    iCurrentKanjiLevel += 1
-                    iCurrentKanjiInLevel = 0
+dicoMinLevelForKanji = {}
+iCurrentKanjiLevel = 1
+iCurrentKanjiInLevel = 0
+
+for kanji in listValidKanjis:
+    dicoMinLevelForKanji[kanji["display"]] = iCurrentKanjiLevel
+    iCurrentKanjiInLevel += 1
+
+    if(iCurrentKanjiLevel <= 20):
+        if(iCurrentKanjiInLevel >= 15):
+            iCurrentKanjiLevel += 1
+            iCurrentKanjiInLevel = 0
+
+    elif(iCurrentKanjiLevel <= 40):
+        if(iCurrentKanjiInLevel >= 17):
+            iCurrentKanjiLevel += 1
+            iCurrentKanjiInLevel = 0
+
+    elif(iCurrentKanjiLevel <= 60):
+        if(iCurrentKanjiInLevel >= 20):
+            iCurrentKanjiLevel += 1
+            iCurrentKanjiInLevel = 0
+
+    elif(iCurrentKanjiLevel <= 80):
+        if(iCurrentKanjiInLevel >= 23):
+            iCurrentKanjiLevel += 1
+            iCurrentKanjiInLevel = 0
+
+    elif(iCurrentKanjiLevel <= 90):
+        if(iCurrentKanjiInLevel >= 25):
+            iCurrentKanjiLevel += 1
+            iCurrentKanjiInLevel = 0
+
+    elif(iCurrentKanjiLevel <= 95):
+        if(iCurrentKanjiInLevel >= 35):
+            iCurrentKanjiLevel += 1
+            iCurrentKanjiInLevel = 0
+
+    elif(iCurrentKanjiLevel > 95):
+        if(iCurrentKanjiInLevel >= 45):
+            iCurrentKanjiLevel += 1
+            iCurrentKanjiInLevel = 0
 
 dicoMinLevelForVocab = {}
 
