@@ -18,15 +18,15 @@ if(not(os.path.exists(strOutputDirectory + "guidconversions.json"))):
 else:
     dicoGuids = json.load(open(strOutputDirectory + "guidconversions.json", "r", encoding="utf8"))
 
-listLevels = json.load(open("../output/Levels.json", "r", encoding="utf8"))
+dicoLevels = json.load(open("../output/Levels.json", "r", encoding="utf8"))
 
 setReadings = set()
 
 for reading in KanaReadings.listKanaReadings:
     setReadings.add(reading)
 
-for level in listLevels:
-    for item in level:
+for level in dicoLevels:
+    for item in dicoLevels[level]:
         if(item["type"] == "vocab_kana"):
             setReadings.add(item["display"].replace("-", ""))
         else:
@@ -36,9 +36,6 @@ for level in listLevels:
                 setReadings.add(reading.replace("-", ""))
 
 for reading in list(setReadings):
-    if("まわ" in reading):
-        print(reading)
-
     if("." in reading):
         for part in reading.split("."):
             setReadings.add(part)
