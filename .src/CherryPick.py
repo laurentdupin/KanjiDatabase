@@ -1,3 +1,4 @@
+from operator import index
 import tkinter
 import os
 import json
@@ -1132,6 +1133,36 @@ for iLevel in dicoOutput:
             item["meanings_pt"].remove(None)
 
     print(iLevel, len(level))
+
+for iLevel in dicoOutput:
+    level = dicoOutput[iLevel]
+    for item in level:
+        for meaninglist in ["meanings", "meanings_fr", "meanings_es", "meanings_pt"]:
+            for i, meaning in enumerate(item[meaninglist]):
+                while(meaning[0] == ' '):
+                    meaning = meaning[1:]
+
+                while(meaning[-1] == ' '):
+                    meaning = meaning[:-1]
+
+                if(meaning[0] == "(" and meaning[-1] == ")" and meaning.count("(") == 1 and meaning.count(")") == 1):
+                    meaning = meaning[1:-1]
+
+                if(meaning[0] == "("):
+                    if(not(")" in meaning)):
+                        meaning = meaning[1].upper() + meaning[2:]
+                    else:
+                        indexfirst = meaning.index(")") + 1
+
+                        while(meaning[indexfirst] == " "):
+                            indexfirst += 1
+
+                        meaning = meaning[:indexfirst] + meaning[indexfirst].upper() + meaning[indexfirst + 1:]
+                else:
+                    meaning = meaning[0].upper() + meaning[1:]
+
+                item[meaninglist][i] = meaning
+
 
 iItemCount = 0
 iKanjiCount = 0
