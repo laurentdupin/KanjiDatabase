@@ -962,6 +962,88 @@ for iLevel in dicoOutput:
 
     print(iLevel, len(level))
 
+iItemCount = 0
+iKanjiCount = 0
+iVocabKanaCount = 0
+iVocabCount = 0
+
+iItemCountFr = 0
+iKanjiCountFr = 0
+iVocabKanaCountFr = 0
+iVocabCountFr = 0
+
+iItemCountEs = 0
+iKanjiCountEs = 0
+iVocabKanaCountEs = 0
+iVocabCountEs = 0
+
+iItemCountPt = 0
+iKanjiCountPt = 0
+iVocabKanaCountPt = 0
+iVocabCountPt = 0
+
+iOneMeaningShare = 0
+
+for iLevel in dicoOutput:
+    for item in dicoOutput[iLevel]:
+        if(item["type"] == "kanji"):
+            iKanjiCount += 1
+            if(len(item["meanings_fr"]) > 0):
+                iKanjiCountFr += 1
+            if(len(item["meanings_es"]) > 0):
+                iKanjiCountEs += 1
+            if(len(item["meanings_pt"]) > 0):
+                iKanjiCountPt += 1
+        elif(item["type"] == "vocab_kana"):
+            iVocabKanaCount += 1
+            if(len(item["meanings_fr"]) > 0):
+                iVocabKanaCountFr += 1
+            if(len(item["meanings_es"]) > 0):
+                iVocabKanaCountEs += 1
+            if(len(item["meanings_pt"]) > 0):
+                iVocabKanaCountPt += 1
+        elif(item["type"] == "vocab"):
+            iVocabCount += 1
+            if(len(item["meanings_fr"]) > 0):
+                iVocabCountFr += 1
+            if(len(item["meanings_es"]) > 0):
+                iVocabCountEs += 1
+            if(len(item["meanings_pt"]) > 0):
+                iVocabCountPt += 1
+
+        iItemCount += 1
+        if(len(item["meanings_fr"]) > 0):
+            iItemCountFr += 1
+        if(len(item["meanings_es"]) > 0):
+            iItemCountEs += 1
+        if(len(item["meanings_pt"]) > 0):
+            iItemCountPt += 1
+
+        if(len(item["meanings"]) == 1):
+            iOneMeaningShare += 1
+
+print("ItemFr", iItemCountFr, iItemCount, iItemCountFr/iItemCount*100, "%")
+print("KanjiFr", iKanjiCountFr, iKanjiCount, iKanjiCountFr/iKanjiCount*100, "%")
+print("VocabKanaFr", iVocabKanaCountFr, iVocabKanaCount, iVocabKanaCountFr/iVocabKanaCount*100, "%")
+print("VocabFr", iVocabCountFr, iVocabCount, iVocabCountFr/iVocabCount*100, "%")
+
+print(" ")
+
+print("ItemEs", iItemCountEs, iItemCount, iItemCountEs/iItemCount*100, "%")
+print("KanjiEs", iKanjiCountEs, iKanjiCount, iKanjiCountEs/iKanjiCount*100, "%")
+print("VocabKanaEs", iVocabKanaCountEs, iVocabKanaCount, iVocabKanaCountEs/iVocabKanaCount*100, "%")
+print("VocabEs", iVocabCountEs, iVocabCount, iVocabCountEs/iVocabCount*100, "%")
+
+print(" ")
+
+print("ItemPt", iItemCountPt, iItemCount, iItemCountPt/iItemCount*100, "%")
+print("KanjiPt", iKanjiCountPt, iKanjiCount, iKanjiCountPt/iKanjiCount*100, "%")
+print("VocabKanaPt", iVocabKanaCountPt, iVocabKanaCount, iVocabKanaCountPt/iVocabKanaCount*100, "%")
+print("VocabPt", iVocabCountPt, iVocabCount, iVocabCountPt/iVocabCount*100, "%")
+
+print(" ")
+
+print("OneMeaning", iOneMeaningShare, iItemCount, iOneMeaningShare/iItemCount*100, "%")
 
 json.dump(dicoOutput, open("../Output/Levels.json", "w", encoding="utf8"), ensure_ascii=False, indent=1)
 
