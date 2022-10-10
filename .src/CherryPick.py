@@ -24,7 +24,7 @@ for level in listInput:
         dicoItemPerId[item["id"]] = item
 
 dicoOutput = {}
-
+ 
 if(os.path.exists("../.src/Selected.json")):
     dicoOutput = json.load(open("../.src/Selected.json", "r", encoding="utf-8"))
 
@@ -42,6 +42,9 @@ if(not("KunReadingSelections" in dicoOutput)):
 
 if(not("MeaningsTranslations" in dicoOutput)):
     dicoOutput["MeaningsTranslations"] = {}
+
+if(not("PreferedMeanings" in dicoOutput)):
+    dicoOutput["PreferedMeanings"] = {}
 
 def Quit():
     global root
@@ -390,24 +393,24 @@ def DisplayNextMeanings():
         for item in dicoOutput["KanaOnlySharedIds"][level]:
             dicoTempKanaOnlySharedIds[int(item)] = int(dicoOutput["KanaOnlySharedIds"][level][item])
 
+    setTempValidKanaOnlyId = set()
+    setTempValidVocabularySharedId = set()
+
+    for level in dicoOutput["SelectedKanaOnly"]:
+        for item in dicoOutput["SelectedKanaOnly"][level]:
+            setTempValidKanaOnlyId.add(item)
+            if(dicoItemPerId[item]["id"] != dicoItemPerId[item]["sharedid"]):
+                setTempValidVocabularySharedId.add(dicoItemPerId[item]["sharedid"])
+
+    for level in dicoOutput["SelectedVocab"]:
+        for item in dicoOutput["SelectedVocab"][level]:
+            setTempValidVocabularySharedId.add(item)
+
+    for level in dicoOutput["KanaOnlySharedIds"]:
+        for item in dicoOutput["KanaOnlySharedIds"][level]:
+            setTempValidVocabularySharedId.add(int(dicoOutput["KanaOnlySharedIds"][level][item]))
+
     for iPosition, entry in enumerate(listInput[iMeaningTranslationLevelSelected]):
-        setTempValidKanaOnlyId = set()
-        setTempValidVocabularySharedId = set()
-
-        for level in dicoOutput["SelectedKanaOnly"]:
-            for item in dicoOutput["SelectedKanaOnly"][level]:
-                setTempValidKanaOnlyId.add(item)
-                if(dicoItemPerId[item]["id"] != dicoItemPerId[item]["sharedid"]):
-                    setTempValidVocabularySharedId.add(dicoItemPerId[item]["sharedid"])
-
-        for level in dicoOutput["SelectedVocab"]:
-            for item in dicoOutput["SelectedVocab"][level]:
-                setTempValidVocabularySharedId.add(item)
-
-        for level in dicoOutput["KanaOnlySharedIds"]:
-            for item in dicoOutput["KanaOnlySharedIds"][level]:
-                setTempValidVocabularySharedId.add(int(dicoOutput["KanaOnlySharedIds"][level][item]))
-
         if(entry["id"] in setTempValidKanaOnlyId or entry["sharedid"] in setTempValidVocabularySharedId or entry["type"] == "kanji"):
             if(iCurrentMeanings == iMeaningTranslationCounter):
                 selectedEntry = entry
@@ -679,7 +682,7 @@ def DisplayNextKunReadingChoice():
 
     currentrow = 1
 
-    for kunreading in entry["kun_readings"]:
+    for kunreading in selectedEntry["kun_readings"]:
         if("." in kunreading):
 
             arraypart = kunreading.split(".")
@@ -697,6 +700,153 @@ def DoneWithKunReadingLevel():
     global dicoOutput
     dicoOutput["KunReadingSelections"][str(iKunReadingLevelSelected)] = dicoKunReadingsSelections
     KunReadingSelection()
+
+###
+###
+### KUN READING BLOCK
+###
+###
+
+strSelectedMeaningType = ""
+
+def KanjiPreferedMeaningsSelection():
+    global strSelectedMeaningType
+    strSelectedMeaningType = "kanji"
+    PreferedMeaningsSelection()
+
+def KanaOnlyPreferedMeaningsSelection():
+    global strSelectedMeaningType
+    strSelectedMeaningType = "vocab_kana"
+    PreferedMeaningsSelection()
+
+def VocabPreferedMeaningsSelection():
+    global strSelectedMeaningType
+    strSelectedMeaningType = "vocab"
+    PreferedMeaningsSelection()
+
+def PreferedMeaningsSelection():
+    global root
+    global dicoOutput
+    for child in root.winfo_children():
+        child.destroy()
+    
+    for iLevel, level in enumerate(listInput):
+        button = tkinter.Button(root, text=str(iLevel + 1), command = lambda level=iLevel: SelectPreferedMeaningsLevel(level))
+        button.grid(column=iLevel%10, row = iLevel//10)
+
+        if(str(iLevel) in dicoOutput["PreferedMeanings"] and strSelectedMeaningType in dicoOutput["PreferedMeanings"][str(iLevel)]):
+            button.config(bg="LightBlue1")
+
+    iLevel += 10
+
+    button = tkinter.Button(root, text="Quit", command = Quit)
+    button.grid(column=0, row = iLevel//10, columnspan=10) 
+
+iPreferedMeaningsLevelSelected = -1
+iPreferedMeaningsCounter = -1
+dicoPreferedMeaningsSelections = {}
+
+def SelectPreferedMeaningsLevel(level):
+    global iPreferedMeaningsLevelSelected
+    global iPreferedMeaningsCounter
+    global dicoPreferedMeaningsSelections
+    iPreferedMeaningsLevelSelected = level
+    iPreferedMeaningsCounter = -1
+    dicoPreferedMeaningsSelections = {}
+    DisplayNextPreferedMeaningsChoice()
+
+def SelectPreferedMeaning(id, index):
+    global dicoPreferedMeaningsSelections
+
+    if(index != 0):
+        dicoPreferedMeaningsSelections[id] = index
+
+    DisplayNextPreferedMeaningsChoice()
+
+def DisplayNextPreferedMeaningsChoice():
+    global iPreferedMeaningsLevelSelected
+    global iPreferedMeaningsCounter
+    global root
+    global iExpectedReadingCount
+
+    iPreferedMeaningsCounter += 1
+
+    for child in root.winfo_children():
+        child.destroy()
+    
+    iCurrentPreferedMeanings = 0
+    selectedEntry = None
+
+    setTempValidSharedIds = set()
+
+    for level in dicoOutput["SelectedKanaOnly"]:
+        for item in dicoOutput["SelectedKanaOnly"][level]:
+            setTempValidSharedIds.add(item)
+
+    for level in dicoOutput["SelectedVocab"]:
+        for item in dicoOutput["SelectedVocab"][level]:
+            setTempValidSharedIds.add(item)
+
+    dicoCustomKanaOnlySharedIds = {}
+
+    for level in dicoOutput["KanaOnlySharedIds"]:
+        for item in dicoOutput["KanaOnlySharedIds"][level]:
+            dicoCustomKanaOnlySharedIds[item] = dicoOutput["KanaOnlySharedIds"][level][item]
+
+    for entry in listInput[iPreferedMeaningsLevelSelected]:
+        sharedid = entry["sharedid"]
+
+        if(str(sharedid) in dicoCustomKanaOnlySharedIds):
+            sharedid = int(dicoCustomKanaOnlySharedIds[str(sharedid)])
+
+        if(entry["type"] != "kanji" and not(sharedid in setTempValidSharedIds)):
+            continue
+
+        if(entry["type"] == strSelectedMeaningType):
+            
+            iExpectedReadingCount = 0
+            bPreferedMeanings = False
+
+            if(len(entry["meanings"]) > 1):
+                bPreferedMeanings = True
+
+            if(bPreferedMeanings):
+                if(iCurrentPreferedMeanings != iPreferedMeaningsCounter):
+                    iCurrentPreferedMeanings += 1
+                else:
+                    selectedEntry = dicoItemPerId[sharedid]
+                    break
+
+    if(selectedEntry == None):
+        DoneWithPreferedMeaningsLevel()
+        return
+
+    label = tkinter.Label(root, text=selectedEntry["display"], width=80)
+    label.config(font=('Arial', FontSize))
+    label.pack()
+
+    for index, meaning in enumerate(selectedEntry["meanings"]):
+        button = tkinter.Button(root, text=meaning, command=lambda id=selectedEntry["sharedid"], index = index: SelectPreferedMeaning(id, index))
+        button.config(font=('Arial', int(FontSize * 0.7)))
+        button.pack()
+
+def DoneWithPreferedMeaningsLevel():
+    global dicoOutput
+    global strSelectedMeaningType
+    global dicoPreferedMeaningsSelections
+
+    if(not(str(iPreferedMeaningsLevelSelected)) in dicoOutput["PreferedMeanings"]):
+        dicoOutput["PreferedMeanings"][str(iPreferedMeaningsLevelSelected)] = {}
+
+    dicoOutput["PreferedMeanings"][str(iPreferedMeaningsLevelSelected)][strSelectedMeaningType] = dicoPreferedMeaningsSelections
+    
+    if(strSelectedMeaningType == "kanji"):
+        KanjiPreferedMeaningsSelection()
+    elif(strSelectedMeaningType == "vocab_kana"):
+        KanaOnlyPreferedMeaningsSelection()
+    else:
+        VocabPreferedMeaningsSelection()
+
 ###
 ###
 ### WHATEVER BLOCK
@@ -713,10 +863,19 @@ button.config(font=('Arial', FontSize))
 button = tkinter.Button(root, text="Vocabulary", command=VocabularySelection)
 button.pack()
 button.config(font=('Arial', FontSize))
-button = tkinter.Button(root, text="Per Item Definition", command=MeaningTranslationSelection)
+button = tkinter.Button(root, text="Per Item Definition (To redo with sharedid))", command=MeaningTranslationSelection)
 button.pack()
 button.config(font=('Arial', FontSize))
 button = tkinter.Button(root, text="Kun reading picker", command=KunReadingSelection)
+button.pack()
+button.config(font=('Arial', FontSize))
+button = tkinter.Button(root, text="Kanji meaning picker", command=KanjiPreferedMeaningsSelection)
+button.pack()
+button.config(font=('Arial', FontSize))
+button = tkinter.Button(root, text="Kana Only meaning picker", command=KanaOnlyPreferedMeaningsSelection)
+button.pack()
+button.config(font=('Arial', FontSize))
+button = tkinter.Button(root, text="Vocabulary meaning picker", command=VocabPreferedMeaningsSelection)
 button.pack()
 button.config(font=('Arial', FontSize))
 root.mainloop()
@@ -772,6 +931,13 @@ for level in dicoSelected["MeaningsTranslations"]:
     for item in dicoSelected["MeaningsTranslations"][level]:
         dicoMeaningsTranslationsAndReplacements[int(item)] = dicoSelected["MeaningsTranslations"][level][item]
 
+dicoReorderedMeanings = {}
+
+for level in dicoSelected["PreferedMeanings"]:
+    for kind in dicoSelected["PreferedMeanings"][level]:
+        for id in dicoSelected["PreferedMeanings"][level][kind]:
+            dicoReorderedMeanings[int(id)] = dicoSelected["PreferedMeanings"][level][kind][id]
+
 for level in listInput:
     for item in level:
         if(item["type"] == "vocab_kana" and item["id"] in dicoKanaOnlySharedIds):
@@ -780,6 +946,11 @@ for level in listInput:
             item["meanings_fr"] = []
             item["meanings_es"] = []
             item["meanings_pt"] = []
+
+        if(item["id"] == item["sharedid"] and item["sharedid"] in dicoReorderedMeanings):
+            tempmeaning = item["meanings"][dicoReorderedMeanings[item["sharedid"]]]
+            del item["meanings"][dicoReorderedMeanings[item["sharedid"]]]
+            item["meanings"].insert(0, tempmeaning)
 
 for inputlevel in listInput:
     for item in inputlevel:
