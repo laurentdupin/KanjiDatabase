@@ -19159,1651 +19159,6 @@
    }
   }
  },
- "MeaningsTranslations": {
-  "0": {
-   "4273045491245966129": {
-    "indicates possessive": {
-     "fr": "indique possessif"
-    }
-   },
-   "9664102368800350695": {
-    "at (place, time)": {
-     "fr": "à (lieu, heure)"
-    }
-   },
-   "6140059668109871959": {
-    "indicates sentence topic": {
-     "fr": "indique le sujet de la phrase"
-    }
-   },
-   "16040839961210652763": {
-    "indicates direct object of action": {
-     "fr": "indique l'objet de l'action"
-    }
-   },
-   "3531285183880338415": {
-    "indicates sentence subject (occasionally object)": {
-     "fr": "indique le sujet de la phrase (parfois l'objet)"
-    }
-   },
-   "1360232287289436453": {
-    "if": {
-     "fr": "si"
-    }
-   },
-   "12539023497561179860": {
-    "at": {
-     "fr": "à"
-    }
-   },
-   "16706882899400795669": {
-    "to do": {
-     "fr": "faire"
-    }
-   },
-   "8101763368195954545": {
-    "too": {
-     "fr": "aussi"
-    }
-   },
-   "599045077594075791": {
-    "thing": {
-     "fr": "chose"
-    }
-   },
-   "10959530568348224421": {
-    "from (e.g. time, place, numerical quantity)": {
-     "fr": "depuis (par exemple, heure, lieu, quantité numérique)"
-    }
-   },
-   "8573507350350467133": {
-    "this": {
-     "fr": "cet"
-    }
-   },
-   "15348000279602922013": {
-    "better": {
-     "fr": "meilleur"
-    }
-   },
-   "1324066150660686691": {
-    "that": {
-     "fr": "ce"
-    }
-   },
-   "1127242670892714104": {
-    "(I) will": {
-     "fr": "Je devrais"
-    }
-   },
-   "14327054878992109881": {
-    "such things as ...": {
-     "fr": "des choses telles que..."
-    }
-   },
-   "15662039460994755487": {
-    "called": {
-     "fr": "appelé"
-    }
-   },
-   "11247751646927928633": {
-    "thing": {
-     "fr": "chose"
-    }
-   },
-   "6250664657150503126": {
-    "et cetera": {
-     "fr": "etc"
-    }
-   },
-   "9080856878843173908": {
-    "this": {
-     "fr": "cet"
-    }
-   },
-   "10402655821664143628": {
-    "until (a time)": {
-     "fr": "jusqu'à (un moment dans le temps)"
-    }
-   },
-   "14799931299028691510": {
-    "to": {
-     "fr": "à"
-    }
-   },
-   "9418748128654246543": {
-    "as (i.e. in the role of)": {
-     "fr": "comme"
-    }
-   },
-   "7778634885249857501": {
-    "Mr.": {
-     "fr": "M."
-    }
-   },
-   "17914054802319723744": {
-    "that": {
-     "fr": "ce"
-    }
-   },
-   "18431821525256163629": {
-    "than": {
-     "fr": "que"
-    }
-   },
-   "5072413169570012274": {
-    "that being the case": {
-     "fr": "cela étant dit"
-    }
-   },
-   "3778475389834437709": {
-    "but": {
-     "fr": "mais"
-    }
-   },
-   "13711505575241105955": {
-    "concerning": {
-     "fr": "concernant"
-    }
-   },
-   "10408417492271319115": {
-    "good": {
-     "fr": "bien"
-    }
-   },
-   "8694381739787690802": {
-    "if": {
-     "fr": "si"
-    }
-   },
-   "4379058017547279610": {
-    "however": {
-     "fr": "toutefois"
-    }
-   },
-   "8677415563859415882": {
-    "to be able (in a position) to do": {
-     "fr": "pouvoir (être en mesure de) faire"
-    }
-   },
-   "16773073273022382936": {
-    "only": {
-     "fr": "seulement"
-    }
-   },
-   "13573624954293843426": {
-    "to do": {
-     "fr": "faire"
-    }
-   },
-   "17349203937047716827": {
-    "to go": {
-     "fr": "aller"
-    }
-   },
-   "3492585267304612939": {
-    "other (place, thing, person)": {
-     "fr": "autre (lieu, chose, personne)"
-    }
-   },
-   "11072065871043479877": {
-    "according to": {
-     "fr": "selon"
-    }
-   },
-   "16191396989902015838": {
-    "to see": {
-     "fr": "voir"
-    }
-   },
-   "7079245596405651471": {
-    "and the like": {
-     "fr": "entre autres"
-    }
-   },
-   "983099692662150126": {
-    "nicely": {
-     "fr": "correctement"
-    }
-   },
-   "8235028752483232073": {
-    "to finish": {
-     "fr": "finir"
-    }
-   },
-   "11748074380774041519": {
-    "and": {
-     "fr": "et donc"
-    }
-   },
-   "3101319297714683169": {
-    "to come (spatially or temporally)": {
-     "fr": "venir (spatialement ou temporellement)"
-    }
-   },
-   "11113883094201160919": {
-    "please (give me)": {
-     "fr": "s'il te plait"
-    }
-   },
-   "5154417959040854057": {
-    "while": {
-     "fr": "durant"
-    }
-   },
-   "14474696899948144870": {
-    "place": {
-     "fr": "endroit"
-    }
-   },
-   "16597666701588881205": {
-    "by means of": {
-     "fr": "au moyen de"
-    }
-   },
-   "16789600669604072175": {
-    "in": {
-     "fr": "dans"
-    }
-   },
-   "17555389102285341298": {
-    "ordinary": {
-     "fr": "ordinaire"
-    }
-   },
-   "14100416884345238002": {
-    "furthermore": {
-     "fr": "en outre"
-    }
-   },
-   "14674044266760529131": {
-    "various": {
-     "fr": "divers"
-    }
-   },
-   "18025976040647866811": {
-    "to": {
-     "fr": "pour"
-    }
-   },
-   "10312492722845915492": {
-    "inside": {
-     "fr": "l'intérieur"
-    }
-   },
-   "9109503670343683336": {
-    "although": {
-     "fr": "même si"
-    }
-   },
-   "14025459614202131692": {
-    "here": {
-     "fr": "ici"
-    }
-   },
-   "3196149577596452586": {
-    "everything": {
-     "fr": "tout"
-    }
-   },
-   "8755108653523142865": {
-    "almost": {
-     "fr": "presque"
-    }
-   },
-   "14821915487607494113": {
-    "only": {
-     "fr": "seulement"
-    }
-   },
-   "15590785144335147323": {
-    "there (place relatively near listener)": {
-     "fr": "là (placer relativement près de l'auditeur)"
-    }
-   },
-   "15793755963129234235": {
-    "first (of all)": {
-     "fr": "d'abord"
-    }
-   },
-   "5911498408926698059": {
-    "face": {
-     "fr": "surface"
-    }
-   },
-   "14631171414637563553": {
-    "each": {
-     "fr": "chaque"
-    }
-   },
-   "14539799040777356795": {
-    "suffix for familiar person": {
-     "fr": "suffixe familier pour une personne"
-    }
-   },
-   "13921814228739242579": {
-    "beginning": {
-     "fr": "début"
-    }
-   },
-   "15694480835257000659": {
-    "always": {
-     "fr": "toujours"
-    }
-   },
-   "14282307938823986014": {
-    "nothing but": {
-     "fr": "rien que"
-    }
-   },
-   "12853253744474307529": {
-    "or": {
-     "fr": "ou"
-    }
-   },
-   "15851650942550612005": {
-    "in": {
-     "fr": "dans"
-    }
-   },
-   "3084875288438841609": {
-    "a short while ago": {
-     "fr": "il y a peu de temps"
-    }
-   },
-   "14263228760529150068": {
-    "from now on": {
-     "fr": "à partir de maintenant"
-    }
-   },
-   "1138374229241025228": {
-    "but": {
-     "fr": "mais"
-    }
-   },
-   "7758774790735226994": {
-    "everyone": {
-     "fr": "tout le monde"
-    }
-   },
-   "3331850911287526746": {
-    "so to speak": {
-     "fr": "pour ainsi dire"
-    }
-   },
-   "14897608414873292159": {
-    "wife": {
-     "fr": "épouse"
-    }
-   },
-   "14163218582384933528": {
-    "eleven": {
-     "fr": "Onze"
-    }
-   },
-   "7873855536158926213": {
-    "why": {
-     "fr": "Pourquoi"
-    }
-   },
-   "1302755292944815232": {
-    "day": {
-     "fr": "jour"
-    }
-   },
-   "868413143002362820": {
-    "exit": {
-     "fr": "sortie"
-    }
-   },
-   "14315298062398326065": {
-    "year": {
-     "fr": "année"
-    }
-   },
-   "5771185106597304441": {
-    "person": {
-     "fr": "personne"
-    }
-   },
-   "8837439307738144146": {
-    "matter": {
-     "fr": "sujet"
-    }
-   },
-   "6672800308243118584": {
-    "month": {
-     "fr": "mois"
-    }
-   },
-   "14334063906266272156": {
-    "one": {
-     "fr": "un"
-    }
-   },
-   "7193612592146575269": {
-    "book": {
-     "fr": "livre"
-    }
-   },
-   "2649691742078222045": {
-    "in": {
-     "fr": "intérieur"
-    }
-   },
-   "1704635220313856885": {
-    "time": {
-     "fr": "temps"
-    }
-   },
-   "830174606307882074": {
-    "meeting": {
-     "fr": "Rencontre"
-    }
-   },
-   "15258491839833385847": {
-    "see": {
-     "fr": "voir"
-    }
-   },
-   "1539822958537232228": {
-    "country": {
-     "fr": "pays"
-    }
-   },
-   "2447089769372015406": {
-    "say": {
-     "fr": "dire"
-    }
-   },
-   "13667779671015080149": {
-    "behind": {
-     "fr": "derrière"
-    }
-   },
-   "2148257633987459846": {
-    "two": {
-     "fr": "deux"
-    }
-   },
-   "8615218107921479529": {
-    "fit": {
-     "fr": "adapter"
-    }
-   },
-   "7296469361135301202": {
-    "location": {
-     "fr": "emplacement"
-    }
-   },
-   "14094217043962694994": {
-    "ten": {
-     "fr": "Dix"
-    }
-   },
-   "14206015807604920970": {
-    "part": {
-     "fr": "morceau"
-    }
-   },
-   "1768232025104505272": {
-    "-times": {
-     "fr": "compteur d'occurrences"
-    }
-   },
-   "1386125423760499009": {
-    "interval": {
-     "fr": "intervalle"
-    }
-   },
-   "261687401708437316": {
-    "going": {
-     "fr": "Aller"
-    }
-   },
-   "5631173253382734797": {
-    "same": {
-     "fr": "identique"
-    }
-   },
-   "6747312506383923649": {
-    "company": {
-     "fr": "entreprise"
-    }
-   },
-   "12482456581745875021": {
-    "year": {
-     "fr": "année"
-    }
-   },
-   "14905238761438620730": {
-    "day": {
-     "fr": "jour"
-    }
-   },
-   "285453428012154162": {
-    "-ian (e.g. Italian)": {
-     "fr": "-ien (par exemple italien)"
-    }
-   },
-   "14178569385456786671": {
-    "Moon": {
-     "fr": "Lune"
-    }
-   },
-   "1575198423206132214": {
-    "Japan": {
-     "fr": "Japon"
-    }
-   },
-   "9558226857219571804": {
-    "one": {
-     "fr": "un"
-    }
-   },
-   "10303484615920219326": {
-    "time": {
-     "fr": "temps"
-    }
-   },
-   "18133892670524842131": {
-    "inside": {
-     "fr": "intérieur"
-    }
-   },
-   "4925160992700454434": {
-    "looking": {
-     "fr": "regardant"
-    }
-   },
-   "14558740743365960402": {
-    "gathering (esp. Buddhist, festive, etc.)": {
-     "fr": "rassemblement (en particulier bouddhiste, festif, etc.)"
-    }
-   },
-   "16674445106836311343": {
-    "to say": {
-     "fr": "dire"
-    }
-   },
-   "16939272142699876484": {
-    "case": {
-     "fr": "situation"
-    }
-   },
-   "4236085529915471229": {
-    "country": {
-     "fr": "pays"
-    }
-   },
-   "11657368421451963362": {
-    "counter for occurrences": {
-     "fr": "compteur d'occurrences"
-    }
-   },
-   "8103424506687196878": {
-    "two": {
-     "fr": "deux"
-    }
-   },
-   "5283443084418494749": {
-    "minute (unit of time)": {
-     "fr": "minute (unité de temps)"
-    }
-   },
-   "10417263572044350822": {
-    "time": {
-     "fr": "temps"
-    }
-   },
-   "16351751220910486408": {
-    "ten": {
-     "fr": "Dix"
-    }
-   },
-   "10772191182475834420": {
-    "same": {
-     "fr": "identique"
-    }
-   },
-   "2885762300577360588": {
-    "company": {
-     "fr": "entreprise"
-    }
-   },
-   "9571484700437111996": {
-    "space (between)": {
-     "fr": "espace (entre)"
-    }
-   },
-   "3353572133408479988": {
-    "book": {
-     "fr": "livre"
-    }
-   },
-   "13943952536589848104": {
-    "society": {
-     "fr": "société"
-    }
-   },
-   "15539949664891407542": {
-    "(Shinto) shrine": {
-     "fr": "Temple shintoïste"
-    }
-   },
-   "16134666047120258340": {
-    "after that": {
-     "fr": "après ça"
-    }
-   },
-   "1341470816796566112": {
-    "place": {
-     "fr": "endroit"
-    }
-   },
-   "13466162294590688113": {
-    "China": {
-     "fr": "Chine"
-    }
-   },
-   "3715193631863644025": {
-    "to perform": {
-     "fr": "effectuer"
-    }
-   },
-   "6429460267799476108": {
-    "human being": {
-     "fr": "humain"
-    }
-   },
-   "1537538832609257537": {
-    "Japanese person": {
-     "fr": "Japonais"
-    }
-   },
-   "9186639582280644373": {
-    "to leave": {
-     "fr": "quitter"
-    }
-   },
-   "17287994878014547738": {
-    "January": {
-     "fr": "Janvier"
-    }
-   },
-   "7686649202879219020": {
-    "interview": {
-     "fr": "interview"
-    }
-   },
-   "13908850996820455147": {
-    "September": {
-     "fr": "Septembre"
-    }
-   },
-   "13257527459235501131": {
-    "May": {
-     "fr": "Mai"
-    }
-   },
-   "4462236817340189303": {
-    "National Diet": {
-     "fr": "Diète nationale"
-    }
-   },
-   "13563913705766089076": {
-    "March": {
-     "fr": "Mars"
-    }
-   },
-   "4799748235880492102": {
-    "April": {
-     "fr": "Avril"
-    }
-   },
-   "322091200035698800": {
-    "July": {
-     "fr": "Juillet"
-    }
-   },
-   "10580643683546093539": {
-    "November": {
-     "fr": "Novembre"
-    }
-   },
-   "17407459893680688740": {
-    "October": {
-     "fr": "Octobre"
-    }
-   },
-   "4470423616756785241": {
-    "December": {
-     "fr": "Décembre"
-    }
-   },
-   "5703185152395215920": {
-    "simultaneous": {
-     "fr": "simultané"
-    }
-   },
-   "3257006378274185475": {
-    "February": {
-     "fr": "Février"
-    }
-   },
-   "14235223866153315715": {
-    "August": {
-     "fr": "Août"
-    }
-   },
-   "4433966485453872895": {
-    "head office": {
-     "fr": "siège social"
-    }
-   },
-   "9452584268915215512": {
-    "June": {
-     "fr": "Juin"
-    }
-   },
-   "9950372434816589558": {
-    "one o'clock": {
-     "fr": "une heure"
-    }
-   },
-   "996604232378042994": {
-    "people": {
-     "fr": "personnes"
-    }
-   },
-   "4950276018972351688": {
-    "two persons": {
-     "fr": "deux personnes"
-    }
-   },
-   "14360218615676549823": {
-    "twelve": {
-     "fr": "Douze"
-    }
-   },
-   "2604716027673714594": {
-    "the same day": {
-     "fr": "le même jour"
-    }
-   },
-   "16387367322965787474": {
-    "events of the day": {
-     "fr": "événements de la journée"
-    }
-   },
-   "16646334832831895700": {
-    "the same": {
-     "fr": "le même"
-    }
-   },
-   "7282107941878481442": {
-    "to take out": {
-     "fr": "sortir"
-    }
-   },
-   "17391872205993240324": {
-    "to do": {
-     "fr": "faire"
-    }
-   },
-   "17406525932779073369": {
-    "today": {
-     "fr": "aujourd'hui"
-    }
-   },
-   "7064558056158907235": {
-    "to understand": {
-     "fr": "comprendre"
-    }
-   },
-   "5012743964127586097": {
-    "one person": {
-     "fr": "une personne"
-    }
-   },
-   "2832737171263592144": {
-    "enough": {
-     "fr": "suffisant"
-    }
-   },
-   "9804089605242470892": {
-    "meeting": {
-     "fr": "Rencontre"
-    }
-   },
-   "10402839336828111536": {
-    "assembly hall": {
-     "fr": "lieu de réunion"
-    }
-   },
-   "9959689033861900361": {
-    "(one's) whereabouts": {
-     "fr": "localisation"
-    }
-   },
-   "13450403498133785430": {
-    "personnel affairs": {
-     "fr": "affaires personnelles"
-    }
-   },
-   "6310805812273708254": {
-    "middle": {
-     "fr": "milieu"
-    }
-   },
-   "18187199763627519552": {
-    "to be seen": {
-     "fr": "être vu"
-    }
-   },
-   "8490702735684459688": {
-    "understanding": {
-     "fr": "compréhension"
-    }
-   },
-   "14584929119810344575": {
-    "combination": {
-     "fr": "combinaison"
-    }
-   },
-   "10088796110457504692": {
-    "once": {
-     "fr": "une fois"
-    }
-   },
-   "2601417203886754342": {
-    "to consider as": {
-     "fr": "considérer comme"
-    }
-   },
-   "13153187634122389370": {
-    "to be possible to say": {
-     "fr": "être possible de dire"
-    }
-   },
-   "1252787337763526001": {
-    "to meet": {
-     "fr": "rencontrer"
-    }
-   },
-   "2804336740798498590": {
-    "daytime": {
-     "fr": "journée"
-    }
-   },
-   "10162023865479901071": {
-    "meeting": {
-     "fr": "Rencontre"
-    }
-   },
-   "4452808756993293915": {
-    "originally": {
-     "fr": "à l'origine"
-    }
-   },
-   "4112710704406709354": {
-    "daytime": {
-     "fr": "journée"
-    }
-   },
-   "15155788597916929093": {
-    "daily": {
-     "fr": "quotidiennement"
-    }
-   },
-   "423917760257683661": {
-    "Chinese person": {
-     "fr": "Chinois"
-    }
-   },
-   "5038851938173774113": {
-    "division": {
-     "fr": "division"
-    }
-   },
-   "17224753922633788316": {
-    "to come together": {
-     "fr": "se réunir"
-    }
-   },
-   "3658668583444529832": {
-    "soon": {
-     "fr": "bientôt"
-    }
-   },
-   "4333222565602013243": {
-    "to show": {
-     "fr": "montrer"
-    }
-   },
-   "1466085380806341038": {
-    "people": {
-     "fr": "personnes"
-    }
-   },
-   "5630243550495988016": {
-    "splendid": {
-     "fr": "splendide"
-    }
-   },
-   "16820227619276891672": {
-    "event": {
-     "fr": "événement"
-    }
-   },
-   "1937973230534531202": {
-    "working adult": {
-     "fr": "adulte actif"
-    }
-   },
-   "12639991650558733345": {
-    "to divide (into)": {
-     "fr": "diviser (en)"
-    }
-   },
-   "12728284927062387677": {
-    "3 o'clock": {
-     "fr": "trois heures"
-    }
-   },
-   "11443955492281108526": {
-    "accompanying": {
-     "fr": "accompagnant"
-    }
-   },
-   "2501016002606365869": {
-    "gō": {
-     "en": "conjunction",
-     "fr": "conjonction"
-    }
-   },
-   "4199403363119646571": {
-    "back": {
-     "fr": "derrière"
-    }
-   },
-   "17329733011018111147": {
-    "year by year": {
-     "fr": "année par année"
-    }
-   },
-   "2572397347516835743": {
-    "word": {
-     "fr": "mot"
-    }
-   },
-   "3576458943920301498": {
-    "among (other things)": {
-     "fr": "entre autres"
-    }
-   },
-   "15767319385926788617": {
-    "very": {
-     "fr": "très"
-    }
-   },
-   "17559749108580951390": {
-    "to match (rhythm, speed, etc.)": {
-     "fr": "correspondre (rythme, vitesse, etc.)"
-    }
-   },
-   "11061941396245152769": {
-    "very": {
-     "fr": "très"
-    }
-   },
-   "17609847069660342478": {
-    "to be found": {
-     "fr": "être trouvé"
-    }
-   },
-   "1328174045736558967": {
-    "now that you mention it": {
-     "fr": "maintenant que tu le dis"
-    }
-   },
-   "5892207933814270260": {
-    "outward appearance": {
-     "fr": "Aspect extérieur"
-    }
-   },
-   "18315191285275465082": {
-    "to meet (by chance)": {
-     "fr": "rencontrer (par hasard)"
-    }
-   },
-   "1245937345504733195": {
-    "mere": {
-     "fr": "seulement"
-    }
-   },
-   "17437281936271172331": {
-    "home country": {
-     "fr": "pays natal"
-    }
-   },
-   "14769063429606660388": {
-    "countries": {
-     "fr": "des pays"
-    }
-   },
-   "15829712000872515327": {
-    "sometimes": {
-     "fr": "parfois"
-    }
-   },
-   "16887181569247694056": {
-    "later on": {
-     "fr": "plus tard"
-    }
-   },
-   "18366244906650970115": {
-    "to discover": {
-     "fr": "découvrir"
-    }
-   },
-   "2038100572022944617": {
-    "rotation": {
-     "fr": "rotation"
-    }
-   },
-   "16120772298973548655": {
-    "heading": {
-     "fr": "titre"
-    }
-   },
-   "16732211355797580517": {
-    "middle-age": {
-     "fr": "Moyen-Âge"
-    }
-   },
-   "14281067367624295053": {
-    "China and Japan": {
-     "fr": "Chine et Japon"
-    }
-   },
-   "13252952577447239172": {
-    "offshoot": {
-     "fr": "ramification"
-    }
-   },
-   "6553317564232684140": {
-    "later (on)": {
-     "fr": "plus tard"
-    }
-   },
-   "12722568349025192202": {
-    "minutes (period of)": {
-     "fr": "minutes (période de temps)"
-    }
-   },
-   "9002490833081965810": {
-    "(for the) whole month": {
-     "fr": "durant le mois dans son entièreté"
-    }
-   },
-   "8740232771748917048": {
-    "interval": {
-     "fr": "intervalle"
-    }
-   },
-   "2401851688601299326": {
-    "one-by-one": {
-     "fr": "un par un"
-    }
-   },
-   "8186653040118285254": {
-    "to branch": {
-     "fr": "bifurquer"
-    }
-   },
-   "11234097712381718924": {
-    "month-long period": {
-     "fr": "période d'un mois"
-    }
-   },
-   "1840876766397569860": {
-    "in an instant": {
-     "fr": "en un instant"
-    }
-   },
-   "4051671558765245549": {
-    "like that": {
-     "fr": "comme ça"
-    }
-   },
-   "6976497459779632505": {
-    "departure from a country": {
-     "fr": "quitter un pays"
-    }
-   },
-   "9203182434237497941": {
-    "to turn": {
-     "fr": "tourner"
-    }
-   },
-   "4497843200264507900": {
-    "such": {
-     "fr": "tel"
-    }
-   },
-   "6001599131016463643": {
-    "to go out (e.g. on an excursion or outing)": {
-     "fr": "sortir (par exemple en excursion ou en sortie)"
-    }
-   },
-   "3598249338824503593": {
-    "before one knows": {
-     "fr": "avant que ça se sache"
-    }
-   },
-   "16111450130741203862": {
-    "to stare (at)": {
-     "fr": "fixer du regard"
-    }
-   },
-   "6224469678725254249": {
-    "the other day": {
-     "fr": "l'autre jour"
-    }
-   },
-   "3543401816162773613": {
-    "to divide": {
-     "fr": "diviser"
-    }
-   },
-   "7840415191709192642": {
-    "distinction": {
-     "fr": "distinction"
-    }
-   },
-   "1932163077180095047": {
-    "sightseeing": {
-     "fr": "tourisme"
-    }
-   },
-   "10226189079133385246": {
-    "wrong": {
-     "fr": "mauvais"
-    }
-   },
-   "2037994485699276525": {
-    "to (happen to) see": {
-     "fr": "remarquer"
-    }
-   },
-   "17270875475091195454": {
-    "to recall": {
-     "fr": "se rappeler"
-    }
-   },
-   "9205042394591740185": {
-    "one tenth": {
-     "fr": "un dixième"
-    }
-   },
-   "14428442669844337265": {
-    "halving": {
-     "fr": "réduire de moitié"
-    }
-   },
-   "13052114547483646546": {
-    "whole year": {
-     "fr": "toute l'année"
-    }
-   },
-   "5809585176606043677": {
-    "contact": {
-     "fr": "Contact"
-    }
-   },
-   "4641262802434572975": {
-    "this sort of": {
-     "fr": "ce genre de"
-    }
-   },
-   "2083530706348015455": {
-    "expression": {
-     "fr": "expression"
-    }
-   },
-   "11718487422706124405": {
-    "crowd": {
-     "fr": "foule"
-    }
-   },
-   "1486970645113686487": {
-    "one more": {
-     "fr": "un de plus"
-    }
-   },
-   "14031002229273134231": {
-    "what kind of": {
-     "fr": "quelle sorte de"
-    }
-   },
-   "3247427155171053882": {
-    "such": {
-     "fr": "tel"
-    }
-   },
-   "4112165425244944098": {
-    "more than enough": {
-     "fr": "plus qu'assez"
-    }
-   },
-   "13598054507057321651": {
-    "to be in time (for)": {
-     "fr": "être à l'heure (pour)"
-    }
-   },
-   "8970061410174999621": {
-    "one-by-one": {
-     "fr": "un par un"
-    }
-   },
-   "1099036587783621442": {
-    "during": {
-     "fr": "durant"
-    }
-   },
-   "1567811106192222940": {
-    "society": {
-     "fr": "société"
-    }
-   },
-   "15878480156160398951": {
-    "goes without saying": {
-     "fr": "Il va sans dire"
-    }
-   },
-   "17235938040007331616": {
-    "sample": {
-     "fr": "échantillon"
-    }
-   },
-   "10396129845542503226": {
-    "to make do with": {
-     "fr": "faire avec"
-    }
-   },
-   "12869074948331317358": {
-    "one turn": {
-     "fr": "un tour"
-    }
-   },
-   "1744110735799941264": {
-    "for now": {
-     "fr": "pour l'instant"
-    }
-   },
-   "12383243481399437303": {
-    "to meet fortuitously (e.g. running into an old friend)": {
-     "fr": "se rencontrer par hasard (par exemple, tomber sur un vieil ami)"
-    }
-   },
-   "917010428260988149": {
-    "to find out": {
-     "fr": "découvrir"
-    }
-   },
-   "13537377940835315205": {
-    "putting off": {
-     "fr": "reporter"
-    }
-   },
-   "6495126628128288940": {
-    "a (short) time": {
-     "fr": "un bref délais"
-    }
-   },
-   "9690300468004007631": {
-    "going to work (e.g. in the morning)": {
-     "fr": "aller travailler (par exemple le matin)"
-    }
-   },
-   "10750414416350071904": {
-    "crowd of people": {
-     "fr": "foule"
-    }
-   },
-   "101600847341712584": {
-    "very fast": {
-     "fr": "très vite"
-    }
-   },
-   "13241707972045361144": {
-    "shameful": {
-     "fr": "honteux"
-    }
-   },
-   "4442849393480478032": {
-    "before one's own eyes": {
-     "fr": "devant ses propres yeux"
-    }
-   },
-   "2949891832020457103": {
-    "to accompany": {
-     "fr": "accompagner"
-    }
-   },
-   "7807789943294803253": {
-    "by itself": {
-     "fr": "par lui-même"
-    }
-   },
-   "10015500849427121560": {
-    "9th day of the month": {
-     "fr": "9ème jour du mois"
-    }
-   },
-   "2418347552556034207": {
-    "5th day of the month": {
-     "fr": "5ème jour du mois"
-    }
-   },
-   "14306028716650421407": {
-    "3rd day of the month": {
-     "fr": "3ème jour du mois"
-    }
-   },
-   "10985133121435678473": {
-    "4th day of the month": {
-     "fr": "4ème jour du mois"
-    }
-   },
-   "1259156744321385724": {
-    "10th day of the month": {
-     "fr": "10ème jour du mois"
-    }
-   },
-   "13407112900784128661": {
-    "2nd day of the month": {
-     "fr": "2ème jour du mois"
-    }
-   },
-   "8713798389467467885": {
-    "8th day of the month": {
-     "fr": "8ème jour du mois"
-    }
-   },
-   "13400554972059340922": {
-    "6th day of the month": {
-     "fr": "6ème jour du mois"
-    }
-   },
-   "395402091509842653": {
-    "7th day of the month": {
-     "fr": "7ème jour du mois"
-    }
-   },
-   "12058583220474657223": {
-    "20th day of the month": {
-     "fr": "20ème jour du mois"
-    }
-   },
-   "2835613014568149804": {
-    "he": {
-     "fr": "cette personne"
-    }
-   },
-   "4541290870402329439": {
-    "(for something) to have occurred": {
-     "fr": "quelque chose s'est produit"
-    }
-   },
-   "9692894895899025064": {
-    "to be able (to)": {
-     "fr": "pouvoir faire"
-    }
-   },
-   "18411195013730961936": {
-    "to have been decided (so) that": {
-     "fr": "avoir été décidé (ainsi) que"
-    }
-   },
-   "10527464010490444143": {
-    "via": {
-     "fr": "passant par"
-    }
-   },
-   "14734272648248068706": {
-    "something like ...": {
-     "fr": "quelque chose comme ..."
-    }
-   },
-   "2561658469056643359": {
-    "speaking of ...": {
-     "fr": "en parlant de ..."
-    }
-   },
-   "9870953939151383376": {
-    "American person": {
-     "fr": "Américain"
-    }
-   },
-   "4327220797658284290": {
-    "one hour": {
-     "fr": "une heure"
-    }
-   },
-   "17915767956543538377": {
-    "alone": {
-     "fr": "seul"
-    }
-   },
-   "8616922124819271777": {
-    "three times": {
-     "fr": "trois fois"
-    }
-   },
-   "8114639315952802408": {
-    "four o'clock": {
-     "fr": "Quatre heures"
-    }
-   },
-   "17658401200949608126": {
-    "to go smoothly": {
-     "fr": "bien se passer"
-    }
-   },
-   "1263613897195617034": {
-    "twice": {
-     "fr": "deux fois"
-    }
-   },
-   "933151099049401606": {
-    "both (people)": {
-     "fr": "les deux (personnes)"
-    }
-   },
-   "3051969637072446962": {
-    "throughout Japan": {
-     "fr": "dans tout le Japon"
-    }
-   },
-   "5345605966769653058": {
-    "hard to understand": {
-     "fr": "difficile à comprendre"
-    }
-   },
-   "17072904125747679722": {
-    "makeshift": {
-     "fr": "de fortune"
-    }
-   },
-   "8648507247232039997": {
-    "in appearance": {
-     "fr": "en apparence"
-    }
-   },
-   "13979439618689005773": {
-    "have a good day": {
-     "fr": "passe une bonne journée"
-    }
-   },
-   "11359755925427986759": {
-    "Japanese society": {
-     "fr": "Société japonaise"
-    }
-   },
-   "8269440880635518837": {
-    "to decide to": {
-     "fr": "décider de"
-    }
-   },
-   "14862255234314424875": {
-    "have to (verb)": {
-     "fr": "devoir"
-    }
-   },
-   "12869329689696350371": {
-    "in all": {
-     "fr": "au total"
-    }
-   },
-   "12421213423505725908": {
-    "while it may be true that": {
-     "fr": "bien qu'il soit vrai que"
-    }
-   },
-   "18059181462287065911": {
-    "at the same time as": {
-     "fr": "en même temps que"
-    }
-   },
-   "16437330553955009222": {
-    "to exchange glances": {
-     "fr": "échanger des regards"
-    }
-   },
-   "17900984703011811684": {
-    "to contribute jointly": {
-     "fr": "contribuer conjointement"
-    }
-   },
-   "5394685514921887352": {
-    "national affairs": {
-     "fr": "affaires nationales"
-    }
-   },
-   "18018212784074698974": {
-    "to meet": {
-     "fr": "rencontrer"
-    }
-   },
-   "9539454543266082370": {
-    "to look up at": {
-     "fr": "regarder vers le haut"
-    }
-   },
-   "12894809558685523552": {
-    "time": {
-     "fr": "temps"
-    }
-   },
-   "1534004122213969958": {
-    "to exchange glances": {
-     "fr": "échanger des regards"
-    }
-   },
-   "4909011579962864957": {
-    "interval": {
-     "fr": "intervalle"
-    }
-   },
-   "10767640540561105111": {
-    "to distinguish": {
-     "fr": "distinguer"
-    }
-   },
-   "17239947754166163151": {
-    "in a company": {
-     "fr": "dans une entreprise"
-    }
-   },
-   "8088552186477732633": {
-    "patrolling": {
-     "fr": "patrouiller"
-    }
-   },
-   "672477046179901398": {
-    "to share": {
-     "fr": "partager"
-    }
-   },
-   "7807666680936161026": {
-    "to look around": {
-     "fr": "regarder autour"
-    }
-   },
-   "18064865273347534369": {
-    "place to go": {
-     "fr": "destination"
-    }
-   },
-   "2057564566589338006": {
-    "in this case": {
-     "fr": "dans ce cas"
-    }
-   },
-   "10431714457101432413": {
-    "screwdriver": {
-     "fr": "Tournevis"
-    }
-   },
-   "15930370952468682115": {
-    "10 minutes": {
-     "fr": "10 minutes"
-    }
-   },
-   "2128703103106665975": {
-    "tenth": {
-     "fr": "un dixième"
-    }
-   },
-   "6420016921197361507": {
-    "encounter": {
-     "fr": "rencontre"
-    }
-   },
-   "2771753050580772783": {
-    "human society": {
-     "fr": "Société humaine"
-    }
-   },
-   "3720641272704042699": {
-    "ten times": {
-     "fr": "dix fois"
-    }
-   },
-   "13794034177828311418": {
-    "from A to Z": {
-     "fr": "de A à Z"
-    }
-   },
-   "14843660926157153356": {
-    "contemporaries": {
-     "fr": "contemporains"
-    }
-   },
-   "232370054015034804": {
-    "ten years": {
-     "fr": "dix ans"
-    }
-   },
-   "5715700727656405433": {
-    "every (one) year": {
-     "fr": "tous les (un) ans"
-    }
-   }
-  }
- },
  "PreferedMeanings": {
   "0": {
    "kanji": {
@@ -21807,6 +20162,365 @@
     "15244740868722625940": 3,
     "16432076495453413139": 1,
     "14261049699884055206": 1
+   }
+  }
+ },
+ "MeaningsTranslations": {
+  "1": {
+   "4273045491245966129": {
+    "fr": {
+     "": "Indique le possessif"
+    }
+   },
+   "9664102368800350695": {
+    "fr": {
+     "": "À (lieu, heure)"
+    }
+   },
+   "6140059668109871959": {
+    "fr": {
+     "": "Indique le sujet de la phrase"
+    }
+   },
+   "16040839961210652763": {
+    "fr": {
+     "": "Indique l'objet direct de l'action"
+    }
+   },
+   "3531285183880338415": {
+    "fr": {
+     "": "Indique le sujet de la phrase (parfois l'objet)"
+    }
+   },
+   "12539023497561179860": {
+    "fr": {
+     "": "À"
+    }
+   },
+   "15662039460994755487": {
+    "fr": {
+     "": "Appelé"
+    }
+   },
+   "4925160992700454434": {
+    "fr": {
+     "": "Regarder"
+    }
+   },
+   "13908850996820455147": {
+    "fr": {
+     "": "Septembre"
+    }
+   },
+   "13257527459235501131": {
+    "fr": {
+     "": "Mai"
+    }
+   },
+   "13563913705766089076": {
+    "fr": {
+     "": "Mars"
+    }
+   },
+   "4799748235880492102": {
+    "fr": {
+     "": "Avril"
+    }
+   },
+   "322091200035698800": {
+    "fr": {
+     "": "Juillet"
+    }
+   },
+   "10580643683546093539": {
+    "fr": {
+     "": "Novembre"
+    }
+   },
+   "17407459893680688740": {
+    "fr": {
+     "": "Octobre"
+    }
+   },
+   "4470423616756785241": {
+    "fr": {
+     "": "Décembre"
+    }
+   },
+   "3257006378274185475": {
+    "fr": {
+     "": "Février"
+    }
+   },
+   "14235223866153315715": {
+    "fr": {
+     "": "Août"
+    }
+   },
+   "9452584268915215512": {
+    "fr": {
+     "": "Juin"
+    }
+   },
+   "16387367322965787474": {
+    "fr": {
+     "": "Événements du jour"
+    }
+   },
+   "13153187634122389370": {
+    "fr": {
+     "": "Pouvoir dire"
+    }
+   },
+   "423917760257683661": {
+    "fr": {
+     "": "personne chinoise"
+    }
+   },
+   "1466085380806341038": {
+    "fr": {
+     "": "Personnes"
+    }
+   },
+   "12728284927062387677": {
+    "fr": {
+     "": "3 heures"
+    }
+   },
+   "8779546208780511812": {
+    "fr": {
+     "": "Passé"
+    }
+   },
+   "2572397347516835743": {
+    "fr": {
+     "": "Mot"
+    }
+   },
+   "3576458943920301498": {
+    "fr": {
+     "": "Entre autres"
+    }
+   },
+   "16887181569247694056": {
+    "fr": {
+     "": "Plus tard"
+    }
+   },
+   "14281067367624295053": {
+    "fr": {
+     "": "Chine et Japon"
+    }
+   },
+   "6553317564232684140": {
+    "fr": {
+     "": "Plus tard"
+    }
+   },
+   "9002490833081965810": {
+    "fr": {
+     "": "(pour le) mois entier"
+    }
+   },
+   "4051671558765245549": {
+    "fr": {
+     "": "Comme ça"
+    }
+   },
+   "4497843200264507900": {
+    "fr": {
+     "": "Tel"
+    }
+   },
+   "16085689867001035975": {
+    "fr": {
+     "": "Une ligne"
+    }
+   },
+   "2037994485699276525": {
+    "fr": {
+     "": "Remarquer"
+    }
+   },
+   "649299677806240003": {
+    "fr": {
+     "": "Projeter"
+    }
+   },
+   "4641262802434572975": {
+    "fr": {
+     "": "Ce genre de"
+    }
+   },
+   "1486970645113686487": {
+    "fr": {
+     "": "Un de plus"
+    }
+   },
+   "14031002229273134231": {
+    "fr": {
+     "": "Quelle sorte de"
+    }
+   },
+   "3247427155171053882": {
+    "fr": {
+     "": "Tel"
+    }
+   },
+   "1567811106192222940": {
+    "fr": {
+     "": "Société"
+    }
+   },
+   "15878480156160398951": {
+    "fr": {
+     "": "Il va sans dire"
+    }
+   },
+   "4541290870402329439": {
+    "fr": {
+     "": "(pour quelque chose) Avoir eu lieu"
+    }
+   },
+   "9692894895899025064": {
+    "fr": {
+     "": "Pouvoir"
+    }
+   },
+   "18411195013730961936": {
+    "fr": {
+     "": "Avoir été décidé que"
+    }
+   },
+   "10527464010490444143": {
+    "fr": {
+     "": "Passant par"
+    }
+   },
+   "14734272648248068706": {
+    "fr": {
+     "": "Quelque chose comme ..."
+    }
+   },
+   "2561658469056643359": {
+    "fr": {
+     "": "En parlant de ..."
+    }
+   },
+   "9870953939151383376": {
+    "fr": {
+     "": "Personne américaine"
+    }
+   },
+   "8114639315952802408": {
+    "fr": {
+     "": "Quatre heures"
+    }
+   },
+   "8648507247232039997": {
+    "fr": {
+     "": "En apparence"
+    }
+   },
+   "8269440880635518837": {
+    "fr": {
+     "": "Décider de"
+    }
+   },
+   "12421213423505725908": {
+    "fr": {
+     "": "S'il est peut-être vrai que"
+    }
+   },
+   "4350226119477971051": {
+    "fr": {
+     "": "Projeter"
+    }
+   },
+   "18030876311640637215": {
+    "fr": {
+     "": "Être à la traîne"
+    }
+   },
+   "5394685514921887352": {
+    "fr": {
+     "": "Affaires nationales"
+    }
+   },
+   "18018212784074698974": {
+    "fr": {
+     "": "Rencontrer"
+    }
+   },
+   "17408428412226236296": {
+    "fr": {
+     "": "Regarder fixement"
+    }
+   },
+   "11283865925113841613": {
+    "fr": {
+     "": "Commencer à frapper"
+    }
+   },
+   "2240905419517684282": {
+    "fr": {
+     "": "Créer (une atmosphère, une sensation, etc.)"
+    }
+   },
+   "17241845922329111145": {
+    "fr": {
+     "": "Transporter quelque chose hors d'un endroit"
+    }
+   },
+   "7807666680936161026": {
+    "fr": {
+     "": "Regarder autour"
+    }
+   },
+   "5365950142098598745": {
+    "fr": {
+     "": "Pendant un certain temps"
+    }
+   },
+   "1278938967378673971": {
+    "fr": {
+     "": "Déborder de quelque chose de plein"
+    }
+   },
+   "11279334203474347345": {
+    "fr": {
+     "": "Année du Buffle"
+    }
+   },
+   "6420016921197361507": {
+    "fr": {
+     "": "Rencontre"
+    }
+   },
+   "6242220565319609999": {
+    "fr": {
+     "": "Année du Tigre"
+    }
+   },
+   "12584216103596685687": {
+    "fr": {
+     "": "Année du Coq"
+    }
+   },
+   "6696675224617298695": {
+    "fr": {
+     "": "Inapproprié"
+    }
+   },
+   "14843660926157153356": {
+    "fr": {
+     "": "Contemporains"
+    }
+   },
+   "5715700727656405433": {
+    "fr": {
+     "": "Chaque année"
+    }
    }
   }
  }
