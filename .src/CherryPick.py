@@ -352,21 +352,27 @@ def MeaningTranslationSelection():
 strMeaningTranslationLevelSelected = -1
 iMeaningTranslationCounter = -1
 dicoMeaningsTranslations = {}
+setMeaningsAlreadyDone = set()
 
 def SelectMeaningTranslation(level):
     global strMeaningTranslationLevelSelected
     global iMeaningTranslationCounter
     global dicoMeaningsTranslations
+    global setMeaningsAlreadyDone
     strMeaningTranslationLevelSelected = level
     iMeaningTranslationCounter = -1
     dicoMeaningsTranslations = {}
+    setMeaningsAlreadyDone = set()
     DisplayNextMeanings()
 
 dicoMeaningEntries = {}
 
 def ContinueToNextMeaning(id):
-    id = str(id)
     global dicoMeaningEntries
+    global setMeaningsAlreadyDone
+
+    setMeaningsAlreadyDone.add(id)
+    id = str(id)
 
     for lang in dicoMeaningEntries:
         for meaning in dicoMeaningEntries[lang]:
@@ -382,6 +388,9 @@ def ContinueToNextMeaning(id):
 def SearchNextEmpty(id):
     global meaningtranslationlang
     global iMeaningTranslationCounter
+    global setMeaningsAlreadyDone
+
+    setMeaningsAlreadyDone.add(id)
 
     iCurrentMeanings = 0
 
@@ -390,13 +399,13 @@ def SearchNextEmpty(id):
     for entry in dicoCurrentLevels[strMeaningTranslationLevelSelected]:
         if(iCurrentMeanings == iMeaningTranslationCounter):
             if(entry["id"] == entry["sharedid"]):
-                if(len(entry["meanings_" + meaningtranslationlang]) == 0):
+                if(len(entry["meanings_" + meaningtranslationlang]) == 0 and not(entry["sharedid"] in setMeaningsAlreadyDone)):
                     break
                 else:
                     iMeaningTranslationCounter += 1
             else:
                 sharedEntry = dicoItemPerIdCurrent[entry["sharedid"]]
-                if(len(sharedEntry["meanings_" + meaningtranslationlang]) == 0):
+                if(len(sharedEntry["meanings_" + meaningtranslationlang]) == 0 and not(entry["sharedid"] in setMeaningsAlreadyDone)):
                     break
                 else:
                     iMeaningTranslationCounter += 1
@@ -436,6 +445,8 @@ def DisplayNextMeanings():
         DoneWithMeaningTranslationLevel()
         return
 
+    originalentry = selectedEntry
+
     print(iPosition, len(dicoCurrentLevels[strMeaningTranslationLevelSelected]))
 
     if(selectedEntry["id"] != selectedEntry["sharedid"]):
@@ -443,7 +454,7 @@ def DisplayNextMeanings():
 
     dicoMeaningEntries = {}
 
-    label = tkinter.Label(root, text=selectedEntry["display"], width=80)
+    label = tkinter.Label(root, text=originalentry["display"], width=80)
     label.config(font=('Arial', FontSize))
     label.grid(row=0, column=0, columnspan=8)
 
@@ -516,8 +527,9 @@ def DisplayNextMeanings():
 
 def DoneWithMeaningTranslationLevel():
     global dicoOutput
+    global root
     dicoOutput["MeaningsTranslations"][strMeaningTranslationLevelSelected] = dicoMeaningsTranslations
-    MeaningTranslationSelection()
+    Quit()
 
 ###
 ###
