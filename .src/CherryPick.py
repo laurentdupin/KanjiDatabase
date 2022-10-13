@@ -1,5 +1,3 @@
-from operator import index
-from statistics import mean
 import tkinter
 import os
 import json
@@ -906,7 +904,7 @@ for inputlevel in listInput:
                 if(lang != "en"):
                     meaninglistname += "_" + lang
 
-                for iMeaning, meaning in list(item[meaninglistname]):
+                for iMeaning, meaning in enumerate(item[meaninglistname]):
                     if(meaning in dicoMeaningsTranslationsAndReplacements[item["id"]][lang]):
                         item[meaninglistname][iMeaning] = dicoMeaningsTranslationsAndReplacements[item["id"]][lang][meaning]
                     
