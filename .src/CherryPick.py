@@ -930,6 +930,7 @@ for inputlevel in listInput:
 
 
 
+
 listValidKanaOnly = []
 listValidVocabulary = []
 
@@ -1101,6 +1102,10 @@ for iLevel in dicoOutput:
                     meaning = meaning[0].upper() + meaning[1:]
 
                 item[meaninglist][i] = meaning
+
+    for item in level:
+        for meaninglist in ["meanings", "meanings_fr", "meanings_es", "meanings_pt"]:
+            item[meaninglist] = list(dict.fromkeys(item[meaninglist]))
 
 
 iItemCount = 0
