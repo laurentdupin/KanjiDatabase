@@ -339,7 +339,15 @@ def MeaningTranslationSelection():
         button = tkinter.Button(root, text=level, command = lambda level=level: SelectMeaningTranslation(level))
         button.grid(column=iLevel%10, row = iLevel//10)
 
+        langisdone = False
+
         if(level in dicoOutput["MeaningsTranslations"]):
+            for item in dicoOutput["MeaningsTranslations"][level]:
+                if(meaningtranslationlang in dicoOutput["MeaningsTranslations"][level][item]):
+                    langisdone = True
+                    break
+
+        if(level in dicoOutput["MeaningsTranslations"] and langisdone):
             button.config(bg="LightBlue1")
 
     iLevel += 10
@@ -531,7 +539,11 @@ def DoneWithMeaningTranslationLevel():
         dicoOutput["MeaningsTranslations"][strMeaningTranslationLevelSelected] = {}
 
     for item in dicoMeaningsTranslations:
-        dicoOutput["MeaningsTranslations"][strMeaningTranslationLevelSelected][item] = dicoMeaningsTranslations[item]
+        if(item in dicoOutput["MeaningsTranslations"][strMeaningTranslationLevelSelected]):
+            for lang in dicoMeaningsTranslations[item]:
+                dicoOutput["MeaningsTranslations"][strMeaningTranslationLevelSelected][item][lang] = dicoMeaningsTranslations[item][lang]
+        else:
+            dicoOutput["MeaningsTranslations"][strMeaningTranslationLevelSelected][item] = dicoMeaningsTranslations[item]
         
     Quit()
 
@@ -812,7 +824,13 @@ button.config(font=('Arial', FontSize))
 button = tkinter.Button(root, text="Vocabulary", command=VocabularySelection)
 button.pack()
 button.config(font=('Arial', FontSize))
-button = tkinter.Button(root, text="Per Item Definition (To redo with sharedid))", command=MeaningTranslationSelection)
+button = tkinter.Button(root, text="Fr Per Item Definition", command=FrMeaningTranslation)
+button.pack()
+button.config(font=('Arial', FontSize))
+button = tkinter.Button(root, text="Es Per Item Definition", command=EsMeaningTranslation)
+button.pack()
+button.config(font=('Arial', FontSize))
+button = tkinter.Button(root, text="Pt Per Item Definition", command=PtMeaningTranslation)
 button.pack()
 button.config(font=('Arial', FontSize))
 button = tkinter.Button(root, text="Kun reading picker", command=KunReadingSelection)
