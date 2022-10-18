@@ -526,7 +526,13 @@ def DisplayNextMeanings():
 def DoneWithMeaningTranslationLevel():
     global dicoOutput
     global root
-    dicoOutput["MeaningsTranslations"][strMeaningTranslationLevelSelected] = dicoMeaningsTranslations
+
+    if(not(strMeaningTranslationLevelSelected in dicoOutput["MeaningsTranslations"])):
+        dicoOutput["MeaningsTranslations"][strMeaningTranslationLevelSelected] = {}
+
+    for item in dicoMeaningsTranslations:
+        dicoOutput["MeaningsTranslations"][strMeaningTranslationLevelSelected][item] = dicoMeaningsTranslations[item]
+        
     Quit()
 
 ###
@@ -1128,7 +1134,15 @@ iVocabCountPt = 0
 
 iOneMeaningShare = 0
 
+setMissingLevelFr = set()
+setMissingLevelEs = set()
+setMissingLevelPt = set()
+
 for iLevel in dicoOutput:
+    bMissingLevelFr = False
+    bMissingLevelEs = False
+    bMissingLevelPt = False
+
     for item in dicoOutput[iLevel]:
         if(item["id"] != item["sharedid"]):
             continue
@@ -1161,18 +1175,36 @@ for iLevel in dicoOutput:
         iItemCount += 1
         if(len(item["meanings_fr"]) > 0):
             iItemCountFr += 1
+        else:
+            bMissingLevelFr = True
+
         if(len(item["meanings_es"]) > 0):
             iItemCountEs += 1
+        else:
+            bMissingLevelEs = True
+
         if(len(item["meanings_pt"]) > 0):
             iItemCountPt += 1
+        else:
+            bMissingLevelPt = True
 
         if(len(item["meanings"]) == 1):
             iOneMeaningShare += 1
+
+    if(bMissingLevelFr):
+        setMissingLevelFr.add(iLevel)
+
+    if(bMissingLevelEs):
+        setMissingLevelEs.add(iLevel)
+
+    if(bMissingLevelPt):
+        setMissingLevelPt.add(iLevel)
 
 print("ItemFr", iItemCountFr, iItemCount, iItemCountFr/iItemCount*100, "%")
 print("KanjiFr", iKanjiCountFr, iKanjiCount, iKanjiCountFr/iKanjiCount*100, "%")
 print("VocabKanaFr", iVocabKanaCountFr, iVocabKanaCount, iVocabKanaCountFr/iVocabKanaCount*100, "%")
 print("VocabFr", iVocabCountFr, iVocabCount, iVocabCountFr/iVocabCount*100, "%")
+print("MissingLevelFr", setMissingLevelFr)
 
 print(" ")
 
@@ -1180,6 +1212,7 @@ print("ItemEs", iItemCountEs, iItemCount, iItemCountEs/iItemCount*100, "%")
 print("KanjiEs", iKanjiCountEs, iKanjiCount, iKanjiCountEs/iKanjiCount*100, "%")
 print("VocabKanaEs", iVocabKanaCountEs, iVocabKanaCount, iVocabKanaCountEs/iVocabKanaCount*100, "%")
 print("VocabEs", iVocabCountEs, iVocabCount, iVocabCountEs/iVocabCount*100, "%")
+print("MissingLevelEs", setMissingLevelEs)
 
 print(" ")
 
@@ -1187,6 +1220,7 @@ print("ItemPt", iItemCountPt, iItemCount, iItemCountPt/iItemCount*100, "%")
 print("KanjiPt", iKanjiCountPt, iKanjiCount, iKanjiCountPt/iKanjiCount*100, "%")
 print("VocabKanaPt", iVocabKanaCountPt, iVocabKanaCount, iVocabKanaCountPt/iVocabKanaCount*100, "%")
 print("VocabPt", iVocabCountPt, iVocabCount, iVocabCountPt/iVocabCount*100, "%")
+print("MissingLevelPt", setMissingLevelPt)
 
 print(" ")
 
