@@ -887,6 +887,10 @@ for level in dicoSelected["KanaOnlySharedIds"]:
         dicoKanaOnlySharedIds[int(item)] = int(dicoSelected["KanaOnlySharedIds"][level][item])
         setValidVocabularySharedId.add(dicoKanaOnlySharedIds[int(item)])
 
+for id in list(setValidVocabularySharedId):
+    if(id in dicoItemPerId):
+        setValidVocabularySharedId.add(dicoItemPerId[id]["sharedid"])
+
 dicoKunReadingReplacements = {}
 
 for level in dicoSelected["KunReadingSelections"]:
@@ -953,9 +957,6 @@ for inputlevel in listInput:
                         newreadinglist.append(readingadjusted)
             
             item["kun_readings"] = newreadinglist
-
-
-
 
 listValidKanaOnly = []
 listValidVocabulary = []
@@ -1193,7 +1194,7 @@ for iLevel in dicoOutput:
     if(dicoSharedPerLevel[iLevel] > dicoKanjiPerLevel[iLevel] * 8):
         for iItem, item in enumerate(level):
             for otherlevel in dicoSharedIdLevels[item["sharedid"]]:
-                if(otherlevel != "special" and int(otherlevel) > int(iLevel) and dicoSharedPerLevel[otherlevel] < dicoKanjiPerLevel[otherlevel] * 8):
+                if(otherlevel != "special" and int(otherlevel) > int(iLevel) and int(otherlevel) - int(iLevel) < 10 and dicoSharedPerLevel[otherlevel] < dicoKanjiPerLevel[otherlevel] * 8):
                     dicoMoveBackLevel[iLevel] += 1
                     dicoReceivingLevel[otherlevel] += 1
                     dicoOutput[otherlevel].insert(0, item)
@@ -1207,6 +1208,10 @@ for iLevel in dicoOutput:
 dicoTargetCount = {
     1 : 120,
     2 : 130,
+    3 : 130, 
+    4 : 130, 
+    5 : 130, 
+    6 : 140, 
 }
 
 for iLevel in dicoOutput:

@@ -621,19 +621,7 @@ for entry in listEntries:
     if(CheckReadingValidity(entry["reading"])):
         setMainVocabReadings.add(entry["reading"])
 
-    altreadings = copy.deepcopy(entry["altKanjiReadings"])
-
-    for otherentry in entry["otherMeanings"]:
-        altreadings.extend(otherentry["altKanjiReadings"])
-
-    for reading in altreadings:
-
-        if(not(reading in dicoSecondaryVocabReadings)):
-            dicoSecondaryVocabReadings[reading] = 0
-
-        dicoSecondaryVocabReadings[reading] += 1
-
-
+setAddedReading = set()
 
 for entry in listEntries:
     if(entry["kana_only"]):
@@ -675,6 +663,8 @@ for entry in listEntries:
     sharedid = iId
     bAddedOne = False
 
+    iNbAdded = 0
+
     for iReading, reading in enumerate(readinglist):
         levelreading = -1
         bValid = False
@@ -683,7 +673,7 @@ for entry in listEntries:
             print("Invalid Secondary Reading", reading)
             continue
 
-        if(CheckReadingValidity(reading) and (iReading == 0 or not(reading in setMainVocabReadings))):
+        if(CheckReadingValidity(reading) and (iReading == 0 or not(reading in setMainVocabReadings)) and not(reading in setAddedReading)):
 
             for char in reading:
                 if(char in dicoKanjiLevel and dicoKanjiLevel[char] > levelreading):
@@ -703,7 +693,12 @@ for entry in listEntries:
 
             iId += 1
             listLevels[levelreading].append(dicoCopy)
+            iNbAdded += 1
+            setAddedReading.add(reading)
             bAddedOne = True
+
+            if(iNbAdded >= 2):
+                break
 
     if(bAddedOne):
         if(entry["entryid"] in dicoUsuallyKanaEntries):
