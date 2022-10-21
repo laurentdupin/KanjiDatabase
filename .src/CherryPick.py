@@ -1098,8 +1098,6 @@ for iLevel in dicoOutput:
             print("pt", item["display"])
             item["meanings_pt"].remove(None)
 
-    print(iLevel, len(level))
-
 for iLevel in dicoOutput:
     level = dicoOutput[iLevel]
     for item in level:
@@ -1155,6 +1153,91 @@ for iLevel in dicoOutput:
                     if(len(item[meaninglist]) > 1):
                         del item[meaninglist][0]
                         break
+
+dicoSharedIdLevels = {}
+dicoKanjiPerLevel = {}
+dicoSharedPerLevel = {}
+dicoReceivingLevel = {}
+dicoMoveBackLevel = {}
+
+for iLevel in dicoOutput:
+    level = dicoOutput[iLevel]
+
+    iKanjiCount = 0
+    setshared = set()
+
+    for item in level:
+        setshared.add(item["sharedid"])
+
+        if(item["type"] == "kanji"):
+            iKanjiCount += 1
+
+        if(not(item["sharedid"] in dicoSharedIdLevels)):
+            dicoSharedIdLevels[item["sharedid"]] = []
+
+        dicoSharedIdLevels[item["sharedid"]].append(iLevel)
+
+    dicoKanjiPerLevel[iLevel] = iKanjiCount
+    dicoSharedPerLevel[iLevel] = len(setshared)
+    dicoReceivingLevel[iLevel] = 0
+    dicoMoveBackLevel[iLevel] = 0
+
+for iLevel in dicoOutput:
+    if(iLevel == "special"):
+        continue
+
+    level = dicoOutput[iLevel]
+
+    indextodelete = set()
+
+    if(dicoSharedPerLevel[iLevel] > dicoKanjiPerLevel[iLevel] * 8):
+        for iItem, item in enumerate(level):
+            for otherlevel in dicoSharedIdLevels[item["sharedid"]]:
+                if(otherlevel != "special" and int(otherlevel) > int(iLevel) and dicoSharedPerLevel[otherlevel] < dicoKanjiPerLevel[otherlevel] * 8):
+                    dicoMoveBackLevel[iLevel] += 1
+                    dicoReceivingLevel[otherlevel] += 1
+                    dicoOutput[otherlevel].insert(0, item)
+                    indextodelete.add(iItem)
+                    break
+
+    for i in range(len(level) - 1, -1, -1):
+        if(i in indextodelete):
+            del level[i]
+
+dicoTargetCount = {
+    1 : 120,
+    2 : 130,
+}
+
+for iLevel in dicoOutput:
+    if(iLevel == "special"):
+        continue        
+
+    level = dicoOutput[iLevel]
+
+    if(iLevel in dicoTargetCount):
+        if(len(level) > dicoTargetCount[iLevel]):
+            todisseminate = level[dicoTargetCount[iLevel]:]
+            dicoOutput[iLevel] = level[:dicoTargetCount[iLevel]]
+            
+            for otherlevelid in dicoOutput:
+                if(len(todisseminate) == 0):
+                    break
+
+                if(otherlevelid == "special" or int(otherlevelid) <= int(iLevel)):
+                    continue  
+
+                otherlevel = dicoOutput[otherlevelid]
+                sizetoadd = min(dicoKanjiPerLevel[otherlevelid] * 9 - len(otherlevel), len(todisseminate))
+
+                if(sizetoadd > 0):
+                    dicoOutput[otherlevelid] = todisseminate[:sizetoadd] + dicoOutput[otherlevelid]
+                    todisseminate = todisseminate[sizetoadd:]
+
+
+
+for iLevel in dicoOutput:
+    print(iLevel, len(dicoOutput[iLevel]), dicoSharedPerLevel[iLevel], dicoMoveBackLevel[iLevel], dicoReceivingLevel[iLevel])
 
 print("Numerals", iNumeralCount)
 
