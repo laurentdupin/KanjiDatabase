@@ -4,6 +4,7 @@ import json
 import Tooltip
 import pyperclip
 import copy
+import string
 from googletrans import Translator
 
 #Need to do pip install googletrans==3.1.0a0 for it to work
@@ -1132,6 +1133,30 @@ for iLevel in dicoOutput:
         for meaninglist in ["meanings", "meanings_fr", "meanings_es", "meanings_pt"]:
             item[meaninglist] = list(dict.fromkeys(item[meaninglist]))
 
+iNumeralCount = 0
+
+for iLevel in dicoOutput:
+    level = dicoOutput[iLevel]
+    for item in level:
+        for meaninglist in ["meanings", "meanings_fr", "meanings_es", "meanings_pt"]:
+            for i, meaning in enumerate(item[meaninglist]):
+
+                bHasNumeral = True
+
+                for char in meaning:
+                    if(not(char in string.digits) and char != "." and char != "%" and char != ","):
+                        bHasNumeral = False
+                        break
+
+                if(i == 0 and bHasNumeral):
+                    print(meaning, item["id"], meaninglist, len(item[meaninglist]), item[meaninglist][1])
+                    iNumeralCount += 1
+
+                    if(len(item[meaninglist]) > 1):
+                        del item[meaninglist][0]
+                        break
+
+print("Numerals", iNumeralCount)
 
 iItemCount = 0
 iKanjiCount = 0
