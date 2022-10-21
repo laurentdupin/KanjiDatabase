@@ -1228,7 +1228,7 @@ for iLevel in dicoOutput:
                     continue  
 
                 otherlevel = dicoOutput[otherlevelid]
-                sizetoadd = min(dicoKanjiPerLevel[otherlevelid] * 9 - len(otherlevel), len(todisseminate))
+                sizetoadd = min(dicoKanjiPerLevel[otherlevelid] * 10 - len(otherlevel), len(todisseminate))
 
                 if(sizetoadd > 0):
                     dicoOutput[otherlevelid] = todisseminate[:sizetoadd] + dicoOutput[otherlevelid]
