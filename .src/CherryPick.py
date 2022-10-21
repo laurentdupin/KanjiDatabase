@@ -339,12 +339,12 @@ def MeaningTranslationSelection():
         button = tkinter.Button(root, text=level, command = lambda level=level: SelectMeaningTranslation(level))
         button.grid(column=iLevel%10, row = iLevel//10)
 
-        langisdone = False
+        langisdone = True
 
-        if(level in dicoOutput["MeaningsTranslations"]):
-            for item in dicoOutput["MeaningsTranslations"][level]:
-                if(meaningtranslationlang in dicoOutput["MeaningsTranslations"][level][item]):
-                    langisdone = True
+        if(level in dicoCurrentLevels):
+            for item in dicoCurrentLevels[level]:
+                if(item["sharedid"] == item["id"] and len(item["meanings_" + meaningtranslationlang]) == 0):
+                    langisdone = False
                     break
 
         if(level in dicoOutput["MeaningsTranslations"] and langisdone):
@@ -871,7 +871,7 @@ setValidVocabularySharedId = set()
 for level in dicoSelected["SelectedKanaOnly"]:
     for item in dicoSelected["SelectedKanaOnly"][level]:
         setValidKanaOnlyId.add(item)
-        if(dicoItemPerId[item]["id"] != dicoItemPerId[item]["sharedid"]):
+        if(item in dicoItemPerId and dicoItemPerId[item]["id"] != dicoItemPerId[item]["sharedid"]):
             setValidVocabularySharedId.add(dicoItemPerId[item]["sharedid"])
 
 for level in dicoSelected["SelectedVocab"]:
@@ -915,9 +915,12 @@ for level in listInput:
             item["meanings_pt"] = []
 
         if(item["id"] == item["sharedid"] and item["sharedid"] in dicoReorderedMeanings):
-            tempmeaning = item["meanings"][dicoReorderedMeanings[item["sharedid"]]]
-            del item["meanings"][dicoReorderedMeanings[item["sharedid"]]]
-            item["meanings"].insert(0, tempmeaning)
+            if(dicoReorderedMeanings[item["sharedid"]] < len(item["meanings"])):
+                tempmeaning = item["meanings"][dicoReorderedMeanings[item["sharedid"]]]
+                del item["meanings"][dicoReorderedMeanings[item["sharedid"]]]
+                item["meanings"].insert(0, tempmeaning)
+            else:
+                print("Wrong index for", item["display"])
 
 for inputlevel in listInput:
     for item in inputlevel:

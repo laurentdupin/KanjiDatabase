@@ -1,4 +1,5 @@
 from distutils.log import debug
+from locale import atoi
 from re import S
 from lxml import etree
 import os
@@ -155,7 +156,8 @@ for child in jmdictroot.getchildren():
             "pri" : [],
             "reading_in_freq_list" : False,
             "otherMeanings" : [],
-            "entryid" : -1
+            "entryid" : -1,
+            "firstmeaningtype" : ""
         }
 
         listKanjiReadings = []
@@ -177,6 +179,7 @@ for child in jmdictroot.getchildren():
                 for child3 in child2.getchildren():
                     if(child3.tag == "reb"):
                         strReading = child3.text
+
                     elif(child3.tag == "re_restr"):
                         bRestriction = True
                         dicoKanaReadings[child3.text] = strReading 
@@ -218,6 +221,10 @@ for child in jmdictroot.getchildren():
             
             elif(child2.tag == "s"):
                 for child3 in child2.getchildren():
+                    if(child3.tag == "pos"):
+                        if(dicoEntry["firstmeaningtype"] == ""):
+                            dicoEntry["firstmeaningtype"] = child3.text
+
                     if(child3.tag == "misc" and child3.text == "uk"):
                         dicoEntry["usually_kana"] = True
 
@@ -231,6 +238,15 @@ for child in jmdictroot.getchildren():
                         
                         while(" s " in child3.text):
                             child3.text = child3.text.replace(" s ", " sense ")
+
+                        if(child3.text.startswith("S ")):
+                            child3.text = "Sense " + child3.text[2:]
+
+                        if(child3.text.endswith(" S")):
+                            child3.text = child3.text[:-2] + " Sense"
+                        
+                        while(" S " in child3.text):
+                            child3.text = child3.text.replace(" S ", " Sense ")
 
                     if(child3.tag == "g"):
                         if(len(child3.attrib) == 0 or ("l" in child3.attrib and child3.get("l") == "eng")):
@@ -350,6 +366,89 @@ for i in range(len(listEntries) - 1, -1, -1):
     if(dicoLowestEntry[reading] != i):
         listEntries[dicoLowestEntry[reading]]["otherMeanings"].append(listEntries[i])
         del listEntries[i]
+
+iCountDifferentPos = 0
+
+listMinor = ["ctr", "suf", "pref"]
+
+def compareentry(ent1, ent2):
+    pri1 = copy.deepcopy(ent1["pri"])
+    pri2 = copy.deepcopy(ent2["pri"])
+
+    if(len(pri1) == 0 and len(pri2) != 0):
+        return 1
+
+    if(len(pri2) == 0 and len(pri1) != 0):
+        return -1
+
+    if("news2" in pri1 and not("news2" in pri2)):
+        return 1
+
+    if("news2" in pri2 and not("news2" in pri1)):
+        return -1
+
+    pri1 = list(filter(("news2").__ne__, pri1))
+    pri2 = list(filter(("news2").__ne__, pri2))
+
+    iNf1 = 1000
+    iNf2 = 1000
+
+    for elt1 in pri1:
+        if(elt1.startswith("nf")):
+            iNf1 = atoi(elt1[2:])
+
+    for elt2 in pri2:
+        if(elt2.startswith("nf")):
+            iNf2 = atoi(elt2[2:])
+
+    if((iNf1 <= 10 or iNf2 <= 10) and iNf1 != iNf2):
+        return iNf1 - iNf2
+
+    return len(ent2["pri"]) - len(ent1["pri"])
+
+for iEntry, entry in enumerate(listEntries):
+    if(len(entry["otherMeanings"]) > 0):
+        entry["otherMeanings"] = sorted(entry["otherMeanings"], key=functools.cmp_to_key(compareentry))
+
+        bSwitch = False
+
+        for iOther, othermeaning in enumerate(list(entry["otherMeanings"])):
+            if(entry["firstmeaningtype"] != othermeaning["firstmeaningtype"]):
+                bEntryMinor = False
+                bOtherEntryMinor = False
+
+                for possib in listMinor:
+                    if(possib in entry["firstmeaningtype"]):
+                        bEntryMinor = True
+                        
+                    if(possib in othermeaning["firstmeaningtype"]):
+                        bOtherEntryMinor = True
+
+                if(bEntryMinor and not(bOtherEntryMinor)):
+                    listEntries[iEntry] = othermeaning
+                    othermeaning["otherMeanings"] = entry["otherMeanings"]
+                    del othermeaning["otherMeanings"][iOther]
+                    entry["otherMeanings"] = []
+                    othermeaning["otherMeanings"].insert(0, entry)
+                    bSwitch = True
+                    break
+
+        if(not(bSwitch)):
+            for iOther, othermeaning in enumerate(list(entry["otherMeanings"])):
+                bOtherEntryMinor = False
+
+                for possib in listMinor:
+                    if(possib in othermeaning["firstmeaningtype"]):
+                        bOtherEntryMinor = True
+
+                if(not(bOtherEntryMinor) and compareentry(entry, othermeaning) > 0):
+                    listEntries[iEntry] = othermeaning
+                    othermeaning["otherMeanings"] = entry["otherMeanings"]
+                    del othermeaning["otherMeanings"][iOther]
+                    entry["otherMeanings"] = []
+                    othermeaning["otherMeanings"].insert(0, entry)
+                    bSwitch = True
+                    break
 
 dicoEntries = {}
 
@@ -485,11 +584,25 @@ for i in range(1, 101):
 setMainVocabReadings = set()
 dicoSecondaryVocabReadings = {}
 
+setKatakana = set(
+    [
+        "ア","イ","ウ","エ","オ","カ","キ","ク","ケ","コ","サ","シ","ス","セ","ソ","タ","チ","ツ","テ","ト","ナ","ニ","ヌ","ネ",
+        "ノ","ハ","ヒ","フ","ヘ","ホ","マ","ミ","ム","メ","モ","ヤ","ユ","ヨ","ラ","リ","ル","レ","ロ","ワ","ヲ","ン","ガ","ギ",
+        "グ","ゲ","ゴ","ザ","ジ","ズ","ゼ","ゾ","ダ","ヂ","ヅ","デ","ド","バ","ビ","ブ","ベ","ボ","パ","ピ","プ","ペ","ポ","キャ",
+        "キュ","キョ","シャ","シュ","ショ","チャ","チュ","チョ","ニャ","ニュ","ニョ","ヒャ","ヒュ","ヒョ","ミャ","ミュ","ミョ","リャ",
+        "リュ","リョ","ギャ","ギュ","ギョ","ジャ","ジュ","ジョ","ビャ","ビュ","ビョ","ピャ","ピュ","ピョ"
+    ]
+)
+
 def CheckReadingValidity(reading):
     global dicoKanjiLevel
     global dicoKanjis
 
     bValid = False
+
+    for katakana in setKatakana:
+        if(katakana in reading):
+            return False
 
     for char in reading:
         if(char in dicoKanjiLevel):
@@ -497,9 +610,8 @@ def CheckReadingValidity(reading):
 
         if(char in dicoKanjis and not(char in dicoKanjiLevel)):
             print("Invalid Kanji", char)
-            bValid = False
-            break
-    
+            return False
+                
     return bValid
 
 for entry in listEntries:
@@ -520,6 +632,8 @@ for entry in listEntries:
             dicoSecondaryVocabReadings[reading] = 0
 
         dicoSecondaryVocabReadings[reading] += 1
+
+
 
 for entry in listEntries:
     if(entry["kana_only"]):
@@ -542,6 +656,7 @@ for entry in listEntries:
     readinglist.extend(entry["altKanjiReadings"])
 
     for otherentry in entry["otherMeanings"]:
+        """
         dicoEntry["meanings"].extend(otherentry["meanings"])
         dicoEntry["meanings"] = list(dict.fromkeys(dicoEntry["meanings"]))
         dicoEntry["meanings_fr"].extend(otherentry["meanings_fr"])
@@ -550,7 +665,9 @@ for entry in listEntries:
         dicoEntry["meanings_es"] = list(dict.fromkeys(dicoEntry["meanings_es"]))
         dicoEntry["meanings_pt"].extend(otherentry["meanings_pt"])
         dicoEntry["meanings_pt"] = list(dict.fromkeys(dicoEntry["meanings_pt"]))
-        readinglist.extend(otherentry["altKanjiReadings"])
+        """
+        if(otherentry["altKanaReadings"][0] == entry["altKanaReadings"][0]):
+            readinglist.extend(otherentry["altKanjiReadings"])
 
     dicoEntry["readings"] = list(dict.fromkeys(list(map(jaconv.kata2hira, dicoEntry["readings"]))))
     readinglist = list(dict.fromkeys(readinglist))
