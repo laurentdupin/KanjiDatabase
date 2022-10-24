@@ -1075,9 +1075,6 @@ dicoMinLevelForVocab = {}
 for vocab in listValidVocabulary:
     minlevel = 1
 
-    if(vocab["id"] == 15324865902586543669):
-        print("Hello")
-
     for char in vocab["display"]:
         if(char in dicoMinLevelForKanji and dicoMinLevelForKanji[char] > minlevel):
             minlevel = dicoMinLevelForKanji[char]
