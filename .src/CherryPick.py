@@ -20,6 +20,10 @@ if(not(os.path.exists("../output/Levels.json"))):
     print("No output/Levels.json found")
     exit(1)
 
+if(not(os.path.exists("./SpecialToAdd.txt"))):
+    print("No SpecialToAdd.txt found")
+    exit(1)
+
 listInput = json.load(open("../.temp/Levels.json", "r", encoding="utf-8"))
 dicoCurrentLevels = json.load(open("../output/Levels.json", "r", encoding="utf-8"))
 
@@ -33,6 +37,13 @@ for level in listInput:
 for level in dicoCurrentLevels:
     for item in dicoCurrentLevels[level]:
         dicoItemPerIdCurrent[item["id"]] = item
+
+listSpecialToAdd = []
+
+with open("./SpecialToAdd.txt", 'r') as fileSpecialToAdd:
+    for line in fileSpecialToAdd.readlines():
+        line = line.replace("\r", "").replace("\n", "")
+        listSpecialToAdd.append(int(line))
 
 dicoOutput = {}
  
@@ -880,6 +891,13 @@ for level in dicoSelected["SelectedVocab"]:
         setValidVocabularySharedId.add(item)
 
 
+for item in listSpecialToAdd:
+    if(item in dicoItemPerId):
+        if(dicoItemPerId[item]["type"] == "vocab"):
+            setValidVocabularySharedId.add(dicoItemPerId[item]["sharedid"])
+        elif(dicoItemPerId[item]["type"] == "vocab_kana"):
+            setValidKanaOnlyId.add(dicoItemPerId[item]["id"])
+
 dicoKanaOnlySharedIds = {}
 
 for level in dicoSelected["KanaOnlySharedIds"]:
@@ -965,9 +983,14 @@ dicoVocabPerKanji = {}
 
 for level in listInput:
     for item in level:
+
         if(item["type"] == "vocab_kana" and item["id"] in setValidKanaOnlyId):
             listValidKanaOnly.append(item)
-        elif(item["type"] == "vocab" and item["sharedid"] in setValidVocabularySharedId and not("〇" in item["display"] and not(item["id"] == item["sharedid"]))):
+        elif(item["type"] == "vocab" and 
+                item["sharedid"] in setValidVocabularySharedId and 
+                not("〇" in item["display"] and 
+                not(item["id"] == item["sharedid"])) and
+                not("一一" in item["display"])):
             listValidVocabulary.append(item)
         elif(item["type"] == "kanji"):
             dicoVocabPerKanji[item["display"]] = 0
@@ -1051,6 +1074,9 @@ dicoMinLevelForVocab = {}
 
 for vocab in listValidVocabulary:
     minlevel = 1
+
+    if(vocab["id"] == 15324865902586543669):
+        print("Hello")
 
     for char in vocab["display"]:
         if(char in dicoMinLevelForKanji and dicoMinLevelForKanji[char] > minlevel):
