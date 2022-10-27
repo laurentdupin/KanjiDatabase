@@ -24,11 +24,20 @@ if(not(os.path.exists("./SpecialToAdd.txt"))):
     print("No SpecialToAdd.txt found")
     exit(1)
 
+if(not(os.path.exists("./AddedElements.json"))):
+    print("No AddedElements.json found")
+    exit(1)
+
 listInput = json.load(open("../.temp/Levels.json", "r", encoding="utf-8"))
 dicoCurrentLevels = json.load(open("../output/Levels.json", "r", encoding="utf-8"))
 
+listAddedElements = json.load(open("./AddedElements.json", "r", encoding="utf-8"))
+
 dicoItemPerId = {}
 dicoItemPerIdCurrent = {}
+
+for item in listAddedElements:
+    listInput[-1].append(item)
 
 for level in listInput:
     for item in level:

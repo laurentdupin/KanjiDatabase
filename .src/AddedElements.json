@@ -1,0 +1,130 @@
+[
+    {
+        "id": 1,
+        "sharedid": 1,
+        "type": "vocab",
+        "display": "新宿",
+        "readings": [
+         "しんじゅく"
+        ],
+        "kun_readings": [],
+        "meanings": [
+         "Shinjuku"
+        ],
+        "meanings_es": [],
+        "meanings_fr": [],
+        "meanings_pt": []
+    },
+    {
+        "id": 2,
+        "sharedid": 2,
+        "type": "vocab",
+        "display": "秋葉原",
+        "readings": [
+         "あきはばら"
+        ],
+        "kun_readings": [],
+        "meanings": [
+         "Akihabara"
+        ],
+        "meanings_es": [],
+        "meanings_fr": [],
+        "meanings_pt": []
+    },
+    {
+        "id": 3,
+        "sharedid": 3,
+        "type": "vocab",
+        "display": "中野",
+        "readings": [
+         "なかの"
+        ],
+        "kun_readings": [],
+        "meanings": [
+         "Nakano"
+        ],
+        "meanings_es": [],
+        "meanings_fr": [],
+        "meanings_pt": []
+    },
+    {
+        "id": 4,
+        "sharedid": 4,
+        "type": "vocab",
+        "display": "信濃川",
+        "readings": [
+         "しなのがわ"
+        ],
+        "kun_readings": [],
+        "meanings": [
+         "Shinano river"
+        ],
+        "meanings_es": [],
+        "meanings_fr": [],
+        "meanings_pt": []
+    },
+    {
+        "id": 5,
+        "sharedid": 5,
+        "type": "vocab",
+        "display": "利根川",
+        "readings": [
+         "とねがわ"
+        ],
+        "kun_readings": [],
+        "meanings": [
+         "Tone river"
+        ],
+        "meanings_es": [],
+        "meanings_fr": [],
+        "meanings_pt": []
+    },
+    {
+        "id": 6,
+        "sharedid": 6,
+        "type": "vocab",
+        "display": "飛騨山脈",
+        "readings": [
+         "ひださんみゃく"
+        ],
+        "kun_readings": [],
+        "meanings": [
+         "Hida Mountains"
+        ],
+        "meanings_es": [],
+        "meanings_fr": [],
+        "meanings_pt": []
+    },
+    {
+        "id": 7,
+        "sharedid": 7,
+        "type": "vocab",
+        "display": "木曽山脈",
+        "readings": [
+         "きそさんみゃく"
+        ],
+        "kun_readings": [],
+        "meanings": [
+         "Kiso Mountains"
+        ],
+        "meanings_es": [],
+        "meanings_fr": [],
+        "meanings_pt": []
+    },
+    {
+        "id": 8,
+        "sharedid": 8,
+        "type": "vocab",
+        "display": "赤石山脈",
+        "readings": [
+         "あかいしさんみゃく"
+        ],
+        "kun_readings": [],
+        "meanings": [
+         "Akaishi Mountains"
+        ],
+        "meanings_es": [],
+        "meanings_fr": [],
+        "meanings_pt": []
+    }
+]
