@@ -39,7 +39,8 @@ for child in kanjidicroot.getchildren():
             "meanings_fr" : [],
             "meanings_es" : [],
             "meanings_pt" : [],
-            "entries_ordered" : []
+            "entries_ordered" : [],
+            "firstmeaningtype" : "k"
         }
 
         for child2 in child.getchildren():
@@ -548,7 +549,8 @@ for i in range(1, 101):
             "meanings" : kana["meanings"],
             "meanings_fr" : kana["meanings_fr"],
             "meanings_es" : kana["meanings_es"],
-            "meanings_pt" : kana["meanings_pt"]
+            "meanings_pt" : kana["meanings_pt"],
+            "pos" : kana["firstmeaningtype"]
         }
 
         if(kana["kana_only"]):
@@ -571,7 +573,8 @@ for i in range(1, 101):
             "meanings" : kanji["meanings"],
             "meanings_fr" : kanji["meanings_fr"],
             "meanings_es" : kanji["meanings_es"],
-            "meanings_pt" : kanji["meanings_pt"]
+            "meanings_pt" : kanji["meanings_pt"],
+            "pos" : kanji["firstmeaningtype"]
         }
 
         dicoKanjiLevel[kanji["literal"]] = (i - 1)
@@ -637,7 +640,8 @@ for entry in listEntries:
         "meanings" : entry["meanings"],
         "meanings_es" : entry["meanings_es"],
         "meanings_fr" : entry["meanings_fr"],
-        "meanings_pt" : entry["meanings_pt"]
+        "meanings_pt" : entry["meanings_pt"],
+        "pos" : entry["firstmeaningtype"]
     }
 
     readinglist = [entry["reading"]]
@@ -690,6 +694,8 @@ for entry in listEntries:
                 dicoCopy["meanings_es"] = []
                 dicoCopy["meanings_pt"] = []
                 dicoCopy["readings"] = []
+                dicoCopy["kun_readings"] = []
+                dicoCopy["pos"] = ""
 
             iId += 1
             listLevels[levelreading].append(dicoCopy)
@@ -707,6 +713,7 @@ for entry in listEntries:
             dicoUsuallyKanaEntries[entry["entryid"]]["meanings_fr"] = []
             dicoUsuallyKanaEntries[entry["entryid"]]["meanings_es"] = []
             dicoUsuallyKanaEntries[entry["entryid"]]["meanings_pt"] = []
+            dicoUsuallyKanaEntries[entry["entryid"]]["pos"] = ""
 
         for otherentry in entry["otherMeanings"]:
             if(otherentry["entryid"] in dicoUsuallyKanaEntries):
@@ -715,6 +722,7 @@ for entry in listEntries:
                 dicoUsuallyKanaEntries[otherentry["entryid"]]["meanings_fr"] = []
                 dicoUsuallyKanaEntries[otherentry["entryid"]]["meanings_es"] = []
                 dicoUsuallyKanaEntries[otherentry["entryid"]]["meanings_pt"] = []
+                dicoUsuallyKanaEntries[otherentry["entryid"]]["pos"] = ""
 
 setDeletedIds = set()
 
