@@ -887,6 +887,7 @@ for i in range(1,101):
 dicoOutput["special"] = []
 
 setValidKanaOnlyId = set()
+setSpecialKanaOnlyIds = set()
 setValidVocabularySharedId = set()
 
 for level in dicoSelected["SelectedKanaOnly"]:
@@ -906,6 +907,7 @@ for item in listSpecialToAdd:
             setValidVocabularySharedId.add(dicoItemPerId[item]["sharedid"])
         elif(dicoItemPerId[item]["type"] == "vocab_kana"):
             setValidKanaOnlyId.add(dicoItemPerId[item]["id"])
+            setSpecialKanaOnlyIds.add(dicoItemPerId[item]["id"])
 
 dicoKanaOnlySharedIds = {}
 
@@ -1093,6 +1095,8 @@ for vocab in listValidVocabulary:
     if(minlevel > 100):
         dicoOutput["special"].append(vocab)
 
+setAddedKanaOnly = set()
+
 for iLevel in dicoOutput:
 
     if(not(type(iLevel) is int)):
@@ -1105,11 +1109,18 @@ for iLevel in dicoOutput:
             level.append(kanji)
 
     if((iLevel - 1) * 10 < len(listValidKanaOnly)):
-        level.extend(listValidKanaOnly[(iLevel-1)  * 10: min(iLevel * 10, len(listValidKanaOnly))])
+        sublist = listValidKanaOnly[(iLevel-1)  * 10: min(iLevel * 10, len(listValidKanaOnly))]
+        level.extend(sublist)
+        for item in sublist:
+            setAddedKanaOnly.add(item["id"])
 
     for vocab in listValidVocabulary:
         if(dicoMinLevelForVocab[vocab["id"]] == iLevel):
             level.append(vocab)
+
+for item in listValidKanaOnly:
+    if(item["id"] in setSpecialKanaOnlyIds and not(item["id"] in setAddedKanaOnly)):
+        dicoOutput["special"].append(item)
 
 for iLevel in dicoOutput:
     level = dicoOutput[iLevel]
