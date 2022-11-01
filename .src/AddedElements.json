@@ -134,5 +134,141 @@
         "meanings_fr": [],
         "meanings_pt": [],
         "pos": "n"
+    },
+    {
+        "id": 9,
+        "sharedid": 9,
+        "type": "vocab",
+        "display": "楓",
+        "readings": [
+         "かえで"
+        ],
+        "kun_readings": [],
+        "meanings": [
+         "maple"
+        ],
+        "meanings_es": [],
+        "meanings_fr": [],
+        "meanings_pt": [],
+        "pos": "n"
+    },
+    {
+        "id": 10,
+        "sharedid": 10,
+        "type": "vocab",
+        "display": "飴",
+        "readings": [
+         "あめ"
+        ],
+        "kun_readings": [],
+        "meanings": [
+         "(hard) candy"
+        ],
+        "meanings_es": [],
+        "meanings_fr": [],
+        "meanings_pt": [],
+        "pos": "n"
+    },
+    {
+        "id": 11,
+        "sharedid": 11,
+        "type": "vocab",
+        "display": "拉麺",
+        "readings": [
+         "らーめん"
+        ],
+        "kun_readings": [],
+        "meanings": [
+         "ramen"
+        ],
+        "meanings_es": [],
+        "meanings_fr": [],
+        "meanings_pt": [],
+        "pos": "n"
+    },
+    {
+        "id": 12,
+        "sharedid": 12,
+        "type": "vocab",
+        "display": "蕎麦",
+        "readings": [
+         "そば"
+        ],
+        "kun_readings": [],
+        "meanings": [
+         "soba"
+        ],
+        "meanings_es": [],
+        "meanings_fr": [],
+        "meanings_pt": [],
+        "pos": "n"
+    },
+    {
+        "id": 13,
+        "sharedid": 13,
+        "type": "vocab",
+        "display": "豚カツ",
+        "readings": [
+         "とんかつ"
+        ],
+        "kun_readings": [],
+        "meanings": [
+         "tonkatsu"
+        ],
+        "meanings_es": [],
+        "meanings_fr": [],
+        "meanings_pt": [],
+        "pos": "n"
+    },
+    {
+        "id": 14,
+        "sharedid": 14,
+        "type": "vocab",
+        "display": "味噌汁",
+        "readings": [
+         "みそしる"
+        ],
+        "kun_readings": [],
+        "meanings": [
+         "miso soup​"
+        ],
+        "meanings_es": [],
+        "meanings_fr": [],
+        "meanings_pt": [],
+        "pos": "n"
+    },
+    {
+        "id": 15,
+        "sharedid": 15,
+        "type": "vocab",
+        "display": "餃子",
+        "readings": [
+         "ぎょうざ"
+        ],
+        "kun_readings": [],
+        "meanings": [
+         "gyoza"
+        ],
+        "meanings_es": [],
+        "meanings_fr": [],
+        "meanings_pt": [],
+        "pos": "n"
+    },
+    {
+        "id": 16,
+        "sharedid": 16,
+        "type": "vocab",
+        "display": "海苔",
+        "readings": [
+         "のり"
+        ],
+        "kun_readings": [],
+        "meanings": [
+         "nori"
+        ],
+        "meanings_es": [],
+        "meanings_fr": [],
+        "meanings_pt": [],
+        "pos": "n"
     }
 ]

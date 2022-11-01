@@ -22138,6 +22138,11 @@
     "fr": {
      "": "Désordre"
     }
+   },
+   "15": {
+    "fr": {
+     "": "Gyoza"
+    }
    }
   },
   "9": {
@@ -22289,6 +22294,16 @@
    "10606997286111828376": {
     "fr": {
      "": "Biologie"
+    }
+   },
+   "9": {
+    "fr": {
+     "": "Érable"
+    }
+   },
+   "10": {
+    "fr": {
+     "": "bonbon (solide)"
     }
    }
   },
@@ -23080,6 +23095,11 @@
     "fr": {
      "": "Agence"
     }
+   },
+   "308812555565462895": {
+    "fr": {
+     "": "Lys (Lilium spp.)"
+    }
    }
   },
   "15": {
@@ -23211,6 +23231,16 @@
    "3305124672150875290": {
     "fr": {
      "": "Employé"
+    }
+   },
+   "15929002071440986370": {
+    "fr": {
+     "": "Méduse"
+    }
+   },
+   "16": {
+    "fr": {
+     "": "Nori"
     }
    }
   },
@@ -25239,6 +25269,11 @@
     "fr": {
      "": "Ouvrier du batiment"
     }
+   },
+   "13525746201045643077": {
+    "fr": {
+     "": "Aubépine du Japon (Crataegus cuneata)"
+    }
    }
   },
   "27": {
@@ -25410,6 +25445,11 @@
    "6635390345056866610": {
     "fr": {
      "": "Saison"
+    }
+   },
+   "12021274694197357778": {
+    "fr": {
+     "": "Cornouiller (Cornus controversa)"
     }
    }
   },
@@ -25971,6 +26011,11 @@
    "16141083923317616350": {
     "fr": {
      "": "Escaliers"
+    }
+   },
+   "12148748563254469164": {
+    "fr": {
+     "": "Hérisson (tout mammifère de la famille des Erinaceidae)"
     }
    }
   },
@@ -28034,6 +28079,11 @@
     "fr": {
      "": "Plexus solaire"
     }
+   },
+   "135945092881235922": {
+    "fr": {
+     "": "Termites"
+    }
    }
   },
   "42": {
@@ -30057,6 +30107,11 @@
     "fr": {
      "": "Édit impérial pour conférer des titres de noblesse (dans la Chine ancienne)"
     }
+   },
+   "12979700774383873058": {
+    "fr": {
+     "": "Merle noir (Turdus merula)"
+    }
    }
   },
   "51": {
@@ -30496,6 +30551,11 @@
     "fr": {
      "": "Boucher"
     }
+   },
+   "16205420586908388669": {
+    "fr": {
+     "": "Bernard-l'ermite"
+    }
    }
   },
   "53": {
@@ -30727,6 +30787,16 @@
    "5200576423811781073": {
     "fr": {
      "": "Ramification"
+    }
+   },
+   "4533999965188788252": {
+    "fr": {
+     "": "Muflier"
+    }
+   },
+   "11403442210037804485": {
+    "fr": {
+     "": "Vigne"
     }
    }
   },
@@ -31087,6 +31157,16 @@
     "fr": {
      "": "assaisonnement"
     }
+   },
+   "9875313584087940385": {
+    "fr": {
+     "": "Takoyaki"
+    }
+   },
+   "14665851908038113329": {
+    "fr": {
+     "": "Oeuf roulé"
+    }
    }
   },
   "56": {
@@ -31318,6 +31398,11 @@
    "17529033567244109388": {
     "fr": {
      "": "Lave-vaisselle"
+    }
+   },
+   "973711645082591844": {
+    "fr": {
+     "": "Eau gazeuse"
     }
    }
   },
@@ -31797,6 +31882,11 @@
    "16294396186334536774": {
     "fr": {
      "": "Vacher"
+    }
+   },
+   "12": {
+    "fr": {
+     "": "Soba"
     }
    }
   },
@@ -33183,6 +33273,11 @@
     "fr": {
      "": "Écouter avec respect"
     }
+   },
+   "14": {
+    "fr": {
+     "": "soupe miso"
+    }
    }
   },
   "64": {
@@ -33444,6 +33539,11 @@
    "1436844077657708918": {
     "fr": {
      "": "Chargeur (de batterie)"
+    }
+   },
+   "6417772728127294170": {
+    "fr": {
+     "": "Géranium (toute plante du genre Geranium)"
     }
    }
   },
@@ -39549,6 +39649,16 @@
     "fr": {
      "": "Sec"
     }
+   },
+   "2968246632780983214": {
+    "fr": {
+     "": "Scarabée rhinocéros (en particulier le scarabée rhinocéros japonais, Trypoxylus dichotomus)"
+    }
+   },
+   "8931378717276958269": {
+    "fr": {
+     "": "Marguerite (Bellis perennis)"
+    }
    }
   },
   "87": {
@@ -40937,6 +41047,16 @@
     "fr": {
      "": "Travailleur social"
     }
+   },
+   "9952846090243224651": {
+    "fr": {
+     "": "Chêne daimyo (Quercus dentata)"
+    }
+   },
+   "13340019211965213446": {
+    "fr": {
+     "": "Chenille (en particulier glabre)"
+    }
    }
   },
   "special": {
@@ -41924,6 +42044,136 @@
     "fr": {
      "": "Pioche"
     }
+   },
+   "11889935479077361546": {
+    "fr": {
+     "": "Buis du Japon (Buxus microphylla var. japonica)"
+    }
+   },
+   "15124275792374381428": {
+    "fr": {
+     "": "Truite"
+    }
+   },
+   "14870556006312535801": {
+    "fr": {
+     "": "Rhinocéros"
+    }
+   },
+   "15958749471057422951": {
+    "fr": {
+     "": "Pivert"
+    }
+   },
+   "15957873017725364559": {
+    "fr": {
+     "": "Goéland cendré (Larus canus)"
+    }
+   },
+   "11413153115041573187": {
+    "fr": {
+     "": "Noisetier d'Asie (Corylus heterophylla var. thunbergii)"
+    }
+   },
+   "5204850654577844204": {
+    "fr": {
+     "": "Cafard"
+    }
+   },
+   "16735559987768342077": {
+    "fr": {
+     "": "Faisan vert (Phasianus versicolor)"
+    }
+   },
+   "512545966849296574": {
+    "fr": {
+     "": "(grand) Perroquet (y compris le cacatoès)"
+    }
+   },
+   "6334421304177296309": {
+    "fr": {
+     "": "Écureuil (tout mammifère de la famille des Sciuridae)"
+    }
+   },
+   "7887025779491809239": {
+    "fr": {
+     "": "Escargot"
+    }
+   },
+   "18403918930454983019": {
+    "fr": {
+     "": "Sapin du Japon (Abies firma)"
+    }
+   },
+   "10738018050742275032": {
+    "fr": {
+     "": "Scorpion (Scorpiones spp.)"
+    }
+   },
+   "7256433098264668076": {
+    "fr": {
+     "": "Crocodile"
+    }
+   },
+   "10379007986172009073": {
+    "fr": {
+     "": "Rhododendron"
+    }
+   },
+   "13679078423278804575": {
+    "fr": {
+     "": "Orme (en particulier l'orme japonais, Ulmus davidiana var. Japonica)"
+    }
+   },
+   "1860348716874416650": {
+    "fr": {
+     "": "Asticot"
+    }
+   },
+   "1256006152085250192": {
+    "fr": {
+     "": "Violette (toute fleur du genre Viola, en particulier l'aube Fuji, Viola mandshurica)"
+    }
+   },
+   "9112918838815973599": {
+    "fr": {
+     "": "Chouette (en particulier la chouette de l'Oural, Strix uralensis)"
+    }
+   },
+   "11904909657382971665": {
+    "fr": {
+     "": "Toucan"
+    }
+   },
+   "13436772740753296055": {
+    "fr": {
+     "": "Petits pois"
+    }
+   },
+   "9580685244971492619": {
+    "fr": {
+     "": "Grillon (Gryllidae spp.)"
+    }
+   },
+   "4296413321261608180": {
+    "fr": {
+     "": "Poisson-chat (en particulier le poisson-chat de l'Amour, Silurus asotus)"
+    }
+   },
+   "16745056881516827452": {
+    "fr": {
+     "": "Oie"
+    }
+   },
+   "8893792440409854305": {
+    "fr": {
+     "": "Pie bavarde (Pica pica)"
+    }
+   },
+   "14657394209728421063": {
+    "fr": {
+     "": "Orque (Orcinus orca)"
+    }
    }
   },
   "91": {
@@ -42301,6 +42551,21 @@
     "fr": {
      "": "Graisse corporelle"
     }
+   },
+   "8557578895021225321": {
+    "fr": {
+     "": "Magnolia (Magnolia obovata)"
+    }
+   },
+   "3837286181554369841": {
+    "fr": {
+     "": "Mésange japonaise (Parus minor)"
+    }
+   },
+   "2144275831913078748": {
+    "fr": {
+     "": "Hibiscus chinois (Hibiscus rosa-sinensis)"
+    }
    }
   },
   "92": {
@@ -42652,6 +42917,16 @@
    "7957503586355295415": {
     "fr": {
      "": "Obscurité"
+    }
+   },
+   "17469101999771465036": {
+    "fr": {
+     "": "Poisson-globe"
+    }
+   },
+   "13": {
+    "fr": {
+     "": "Tonkatsu"
     }
    }
   },
@@ -43029,6 +43304,11 @@
    "5491146632153278125": {
     "fr": {
      "": "Critique anonyme"
+    }
+   },
+   "11": {
+    "fr": {
+     "": "ramens"
     }
    }
   },
@@ -45962,6 +46242,26 @@
     "fr": {
      "": "Mouchoir"
     }
+   },
+   "15116810578594458866": {
+    "fr": {
+     "": "Une sorte de miso"
+    }
+   },
+   "9188298471977413079": {
+    "fr": {
+     "": "Gruau de riz"
+    }
+   },
+   "9442032336214531850": {
+    "fr": {
+     "": "Thé vert"
+    }
+   },
+   "2285606550751637821": {
+    "fr": {
+     "": "Lierre (en particulier le lierre de Boston, Parthenocissus tricuspidata)"
+    }
    }
   },
   "100": {
@@ -46543,6 +46843,11 @@
    "2425768668240304258": {
     "fr": {
      "": "Art"
+    }
+   },
+   "15042401414304301968": {
+    "fr": {
+     "": "Orchidée"
     }
    }
   }
