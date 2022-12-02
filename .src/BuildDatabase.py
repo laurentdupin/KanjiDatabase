@@ -407,9 +407,9 @@ def compareentry(ent1, ent2):
             if(reading2 == compreading):
                 return 1
 
-    if(ent1["reading"] in dicoKanji):
-        i1 = dicoKanji[ent1["reading"]]["readings_kun"].index(ent1["altKanaReadings"][0]) if ent1["altKanaReadings"][0] in dicoKanji[ent1["reading"]]["readings_kun"] else None
-        i2 = dicoKanji[ent1["reading"]]["readings_kun"].index(ent2["altKanaReadings"][0]) if ent2["altKanaReadings"][0] in dicoKanji[ent1["reading"]]["readings_kun"] else None
+    if(ent1["reading"] in dicoKanjis):
+        i1 = dicoKanjis[ent1["reading"]]["readings_kun"].index(ent1["altKanaReadings"][0]) if ent1["altKanaReadings"][0] in dicoKanjis[ent1["reading"]]["readings_kun"] else None
+        i2 = dicoKanjis[ent1["reading"]]["readings_kun"].index(ent2["altKanaReadings"][0]) if ent2["altKanaReadings"][0] in dicoKanjis[ent1["reading"]]["readings_kun"] else None
 
         if(i1 != None and i2 == None):
             return -1
