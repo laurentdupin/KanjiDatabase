@@ -18,6 +18,13 @@ def string_is_katakana(s: str) -> bool:
 if(not(os.path.exists("../.temp/"))):
     os.mkdir("../.temp/")
 
+dicoForcedReading = {}
+
+with open("BuildDatabaseForcedReadingSelection.txt", 'r', encoding="utf8") as forcedReadings:
+    for line in forcedReadings.readlines():
+        line = line.replace("\n", "").replace("\r", "").split(":")
+        dicoForcedReading[line[0]] = line[1]
+
 dicoKanjis = {}
 
 kanjidic = etree.parse("../.sources/kanjidic/kanjidic2.xml") 
@@ -388,6 +395,33 @@ def compareentry(ent1, ent2):
     if("news2" in pri2 and not("news2" in pri1)):
         return -1
 
+    if(ent1["reading"] in dicoForcedReading):
+        reading1 = ent1["altKanaReadings"][0]
+        reading2 = ent2["altKanaReadings"][0]
+
+        if(reading1 != reading2):
+            compreading = dicoForcedReading[ent1["reading"]]
+            if(reading1 == compreading):
+                return -1
+
+            if(reading2 == compreading):
+                return 1
+
+    if(ent1["reading"] in dicoKanji):
+        i1 = dicoKanji[ent1["reading"]]["readings_kun"].index(ent1["altKanaReadings"][0]) if ent1["altKanaReadings"][0] in dicoKanji[ent1["reading"]]["readings_kun"] else None
+        i2 = dicoKanji[ent1["reading"]]["readings_kun"].index(ent2["altKanaReadings"][0]) if ent2["altKanaReadings"][0] in dicoKanji[ent1["reading"]]["readings_kun"] else None
+
+        if(i1 != None and i2 == None):
+            return -1
+        if(i1 == None and i2 != None):
+            return 1
+        if(i1 != None and i2 != None):
+            if(i1 < i2):
+                return -1
+            elif(i1 > i2):
+                return 1
+
+
     pri1 = list(filter(("news2").__ne__, pri1))
     pri2 = list(filter(("news2").__ne__, pri2))
 
@@ -635,7 +669,7 @@ for entry in listEntries:
         "sharedid" : iId,
         "type" : "vocab",
         "display" : entry["reading"],
-        "readings" : entry["altKanaReadings"],
+        "readings" : copy.deepcopy(entry["altKanaReadings"]),
         "kun_readings" : [],
         "meanings" : entry["meanings"],
         "meanings_es" : entry["meanings_es"],
@@ -648,18 +682,9 @@ for entry in listEntries:
     readinglist.extend(entry["altKanjiReadings"])
 
     for otherentry in entry["otherMeanings"]:
-        """
-        dicoEntry["meanings"].extend(otherentry["meanings"])
-        dicoEntry["meanings"] = list(dict.fromkeys(dicoEntry["meanings"]))
-        dicoEntry["meanings_fr"].extend(otherentry["meanings_fr"])
-        dicoEntry["meanings_fr"] = list(dict.fromkeys(dicoEntry["meanings_fr"]))
-        dicoEntry["meanings_es"].extend(otherentry["meanings_es"])
-        dicoEntry["meanings_es"] = list(dict.fromkeys(dicoEntry["meanings_es"]))
-        dicoEntry["meanings_pt"].extend(otherentry["meanings_pt"])
-        dicoEntry["meanings_pt"] = list(dict.fromkeys(dicoEntry["meanings_pt"]))
-        """
         if(otherentry["altKanaReadings"][0] == entry["altKanaReadings"][0]):
             readinglist.extend(otherentry["altKanjiReadings"])
+        dicoEntry["readings"].extend(otherentry["altKanaReadings"])
 
     dicoEntry["readings"] = list(dict.fromkeys(list(map(jaconv.kata2hira, dicoEntry["readings"]))))
     readinglist = list(dict.fromkeys(readinglist))
