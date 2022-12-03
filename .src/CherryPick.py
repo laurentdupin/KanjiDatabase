@@ -797,7 +797,7 @@ def PreferedMeaningsSelection():
         button = tkinter.Button(root, text=level, command = lambda level=level: SelectPreferedMeaningsLevel(level))
         button.grid(column=iLevel%10, row = iLevel//10)
 
-        if(level in dicoOutput["PreferedMeanings"] and strSelectedMeaningType in dicoOutput["PreferedMeanings"][level]):
+        if(level in dicoOutput["PreferedMeanings" + strPreferedMeaningsSuffix] and strSelectedMeaningType in dicoOutput["PreferedMeanings" + strPreferedMeaningsSuffix][level]):
             button.config(bg="LightBlue1")
 
     iLevel += 10
@@ -833,6 +833,8 @@ def DisplayNextPreferedMeaningsChoice():
     global iPreferedMeaningsCounter
     global root
     global iExpectedReadingCount
+    global strMeaningArray
+    global strPreferedMeaningsSuffix
 
     iPreferedMeaningsCounter += 1
 
@@ -899,18 +901,28 @@ def DoneWithPreferedMeaningsLevel():
     global dicoOutput
     global strSelectedMeaningType
     global dicoPreferedMeaningsSelections
+    global strMeaningArray
+    global strPreferedMeaningsSuffix
 
     if(not(str(strPreferedMeaningsLevelSelected)) in dicoOutput["PreferedMeanings" + strPreferedMeaningsSuffix]):
         dicoOutput["PreferedMeanings" + strPreferedMeaningsSuffix][str(strPreferedMeaningsLevelSelected)] = {}
 
     dicoOutput["PreferedMeanings" + strPreferedMeaningsSuffix][str(strPreferedMeaningsLevelSelected)][strSelectedMeaningType] = dicoPreferedMeaningsSelections
-    
-    if(strSelectedMeaningType == "kanji"):
-        KanjiPreferedMeaningsSelection()
-    elif(strSelectedMeaningType == "vocab_kana"):
-        KanaOnlyPreferedMeaningsSelection()
-    else:
-        VocabPreferedMeaningsSelection()
+
+    if(strPreferedMeaningsSuffix == ""):
+        if(strSelectedMeaningType == "kanji"):
+            KanjiPreferedMeaningsSelection()
+        elif(strSelectedMeaningType == "vocab_kana"):
+            KanaOnlyPreferedMeaningsSelection()
+        else:
+            VocabPreferedMeaningsSelection()
+    elif(strPreferedMeaningsSuffix == "fr"):
+        if(strSelectedMeaningType == "kanji"):
+            FRKanjiPreferedMeaningsSelection()
+        elif(strSelectedMeaningType == "vocab_kana"):
+            FRKanaOnlyPreferedMeaningsSelection()
+        else:
+            FRVocabPreferedMeaningsSelection()
 
 ###
 ###
