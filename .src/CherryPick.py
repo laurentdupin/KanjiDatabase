@@ -571,24 +571,24 @@ def DisplayNextMeanings():
             labeltext = meaning
 
             label = tkinter.Label(root, text=labeltext)
-            label.config(font=('Arial', int(FontSize * 0.3)))
+            label.config(font=('Arial', int(FontSize * 0.6)))
             label.grid(row=iCurrentRow, column=2 * iLang)
 
             entry = tkinter.Entry(root)
-            entry.config(font=('Arial', int(FontSize * 0.3)))
+            entry.config(font=('Arial', int(FontSize * 0.6)))
             entry.grid(row=iCurrentRow, column=2 * iLang + 1)
             dicoMeaningEntries[language][meaning] = entry
 
             if(language == "en" and meaning in dicoTranslations):
                 translation = dicoTranslations[meaning]
                 button = tkinter.Button(root, text=translation, command=lambda text=translation : pyperclip.copy(text))
-                button.config(font=('Arial', int(FontSize * 0.3)))
+                button.config(font=('Arial', int(FontSize * 0.6)))
                 button.grid(row=iCurrentRow + 1, column=2 * iLang)
 
             iCurrentRow += 2
 
         entry = tkinter.Entry(root)
-        entry.config(font=('Arial', int(FontSize * 0.3)))
+        entry.config(font=('Arial', int(FontSize * 0.6)))
         entry.grid(row=iCurrentRow, column=2 * iLang + 1)
         dicoMeaningEntries[language][""]= entry
 
@@ -835,6 +835,7 @@ def DisplayNextPreferedMeaningsChoice():
     global iExpectedReadingCount
     global strMeaningArray
     global strPreferedMeaningsSuffix
+    global listSpecialToAdd
 
     iPreferedMeaningsCounter += 1
 
@@ -853,6 +854,9 @@ def DisplayNextPreferedMeaningsChoice():
     for level in dicoOutput["SelectedVocab"]:
         for item in dicoOutput["SelectedVocab"][level]:
             setTempValidSharedIds.add(item)
+
+    for id in listSpecialToAdd:
+        setTempValidSharedIds.add(id)
 
     dicoCustomKanaOnlySharedIds = {}
 
@@ -1001,7 +1005,6 @@ for level in dicoSelected["SelectedKanaOnly"]:
 for level in dicoSelected["SelectedVocab"]:
     for item in dicoSelected["SelectedVocab"][level]:
         setValidVocabularySharedId.add(item)
-
 
 for item in listSpecialToAdd:
     if(item in dicoItemPerId):
