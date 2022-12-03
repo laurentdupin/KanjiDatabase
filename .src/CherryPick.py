@@ -10,7 +10,7 @@ from googletrans import Translator
 #Need to do pip install googletrans==3.1.0a0 for it to work
 translator = Translator()
 
-FontSize = 30
+FontSize = 22
 
 if(not(os.path.exists("../.temp/Levels.json"))):
     print("No .temp/Levels.json found")
@@ -28,10 +28,42 @@ if(not(os.path.exists("./AddedElements.json"))):
     print("No AddedElements.json found")
     exit(1)
 
+
+
 listInput = json.load(open("../.temp/Levels.json", "r", encoding="utf-8"))
 dicoCurrentLevels = json.load(open("../output/Levels.json", "r", encoding="utf-8"))
 
 listAddedElements = json.load(open("./AddedElements.json", "r", encoding="utf-8"))
+dicoChallengeId = {}
+
+if(os.path.exists("../../../Scripts/ChallengesLogic.cs")):
+    challengefile = open("../../../Scripts/ChallengesLogic.cs", 'r')
+    content = challengefile.read()
+    
+    newchallengestring = "new List<ChallengeItem>"
+    listChallengeIndexes = []
+    currentindex = content.index(newchallengestring, 0) + 1
+
+    while(content.find(newchallengestring, currentindex) >= 0):
+        namesecond = content.rindex('"', 0, currentindex)
+        namefirst = content.rindex('"', 0, namesecond)
+        print(content[namefirst + 1:namesecond])
+        oldindex = currentindex
+        currentindex = content.index(newchallengestring, currentindex) + 1
+        listChallengeIndexes.append((oldindex - 1, currentindex, content[namefirst + 1:namesecond]))
+        
+    refstring = "new ChallengeItem { id = "
+
+    for block in listChallengeIndexes:
+        currentindex = block[0]
+        dicoChallengeId[block[2]] = []
+
+        while(content.find(refstring, currentindex, block[1]) >= 0):
+            currentindex = content.index(refstring, currentindex) + 1
+            firstquoteindex = content.index('id = ', currentindex)
+            endquoteindex = content.index(',', firstquoteindex)
+            dicoChallengeId[block[2]].append(int(content[firstquoteindex+5:endquoteindex]))
+
 
 dicoItemPerId = {}
 dicoItemPerIdCurrent = {}
@@ -46,6 +78,11 @@ for level in listInput:
 for level in dicoCurrentLevels:
     for item in dicoCurrentLevels[level]:
         dicoItemPerIdCurrent[item["id"]] = item
+
+for challenge in dicoChallengeId:
+    dicoCurrentLevels[challenge] = []
+    for id in dicoChallengeId[challenge]:
+        dicoCurrentLevels[challenge].append(dicoItemPerIdCurrent[id])
 
 listSpecialToAdd = []
 
@@ -76,6 +113,9 @@ if(not("MeaningsTranslations" in dicoOutput)):
 
 if(not("PreferedMeanings" in dicoOutput)):
     dicoOutput["PreferedMeanings"] = {}
+
+if(not("PreferedMeaningsfr" in dicoOutput)):
+    dicoOutput["PreferedMeaningsfr"] = {}
 
 def Quit():
     global root
@@ -695,17 +735,56 @@ strSelectedMeaningType = ""
 
 def KanjiPreferedMeaningsSelection():
     global strSelectedMeaningType
+    global strMeaningArray
+    global strPreferedMeaningsSuffix
     strSelectedMeaningType = "kanji"
+    strMeaningArray = "meanings"
+    strPreferedMeaningsSuffix = ""
     PreferedMeaningsSelection()
 
 def KanaOnlyPreferedMeaningsSelection():
     global strSelectedMeaningType
+    global strMeaningArray
+    global strPreferedMeaningsSuffix
     strSelectedMeaningType = "vocab_kana"
+    strMeaningArray = "meanings"
+    strPreferedMeaningsSuffix = ""
     PreferedMeaningsSelection()
 
 def VocabPreferedMeaningsSelection():
     global strSelectedMeaningType
+    global strMeaningArray
+    global strPreferedMeaningsSuffix
     strSelectedMeaningType = "vocab"
+    strMeaningArray = "meanings"
+    strPreferedMeaningsSuffix = ""
+    PreferedMeaningsSelection()
+
+def FRKanjiPreferedMeaningsSelection():
+    global strSelectedMeaningType
+    global strMeaningArray
+    global strPreferedMeaningsSuffix
+    strSelectedMeaningType = "kanji"
+    strMeaningArray = "meanings_fr"
+    strPreferedMeaningsSuffix = "fr"
+    PreferedMeaningsSelection()
+
+def FRKanaOnlyPreferedMeaningsSelection():
+    global strSelectedMeaningType
+    global strMeaningArray
+    global strPreferedMeaningsSuffix
+    strSelectedMeaningType = "vocab_kana"
+    strMeaningArray = "meanings_fr"
+    strPreferedMeaningsSuffix = "fr"
+    PreferedMeaningsSelection()
+
+def FRVocabPreferedMeaningsSelection():
+    global strSelectedMeaningType
+    global strMeaningArray
+    global strPreferedMeaningsSuffix
+    strSelectedMeaningType = "vocab"
+    strMeaningArray = "meanings_fr"
+    strPreferedMeaningsSuffix = "fr"
     PreferedMeaningsSelection()
 
 def PreferedMeaningsSelection():
@@ -714,11 +793,11 @@ def PreferedMeaningsSelection():
     for child in root.winfo_children():
         child.destroy()
     
-    for iLevel, level in enumerate(listInput):
-        button = tkinter.Button(root, text=str(iLevel + 1), command = lambda level=iLevel: SelectPreferedMeaningsLevel(level))
+    for iLevel, level in enumerate(dicoCurrentLevels):
+        button = tkinter.Button(root, text=level, command = lambda level=level: SelectPreferedMeaningsLevel(level))
         button.grid(column=iLevel%10, row = iLevel//10)
 
-        if(str(iLevel) in dicoOutput["PreferedMeanings"] and strSelectedMeaningType in dicoOutput["PreferedMeanings"][str(iLevel)]):
+        if(level in dicoOutput["PreferedMeanings"] and strSelectedMeaningType in dicoOutput["PreferedMeanings"][level]):
             button.config(bg="LightBlue1")
 
     iLevel += 10
@@ -726,15 +805,17 @@ def PreferedMeaningsSelection():
     button = tkinter.Button(root, text="Quit", command = Quit)
     button.grid(column=0, row = iLevel//10, columnspan=10) 
 
-iPreferedMeaningsLevelSelected = -1
+strPreferedMeaningsLevelSelected = -1
+strMeaningArray = "meanings"
+strPreferedMeaningsSuffix = ""
 iPreferedMeaningsCounter = -1
 dicoPreferedMeaningsSelections = {}
 
 def SelectPreferedMeaningsLevel(level):
-    global iPreferedMeaningsLevelSelected
+    global strPreferedMeaningsLevelSelected
     global iPreferedMeaningsCounter
     global dicoPreferedMeaningsSelections
-    iPreferedMeaningsLevelSelected = level
+    strPreferedMeaningsLevelSelected = level
     iPreferedMeaningsCounter = -1
     dicoPreferedMeaningsSelections = {}
     DisplayNextPreferedMeaningsChoice()
@@ -748,7 +829,7 @@ def SelectPreferedMeaning(id, index):
     DisplayNextPreferedMeaningsChoice()
 
 def DisplayNextPreferedMeaningsChoice():
-    global iPreferedMeaningsLevelSelected
+    global strPreferedMeaningsLevelSelected
     global iPreferedMeaningsCounter
     global root
     global iExpectedReadingCount
@@ -777,7 +858,7 @@ def DisplayNextPreferedMeaningsChoice():
         for item in dicoOutput["KanaOnlySharedIds"][level]:
             dicoCustomKanaOnlySharedIds[item] = dicoOutput["KanaOnlySharedIds"][level][item]
 
-    for entry in listInput[iPreferedMeaningsLevelSelected]:
+    for entry in dicoCurrentLevels[strPreferedMeaningsLevelSelected]:
         sharedid = entry["sharedid"]
 
         if(str(sharedid) in dicoCustomKanaOnlySharedIds):
@@ -791,7 +872,7 @@ def DisplayNextPreferedMeaningsChoice():
             iExpectedReadingCount = 0
             bPreferedMeanings = False
 
-            if(len(entry["meanings"]) > 1):
+            if(len(entry[strMeaningArray]) > 1):
                 bPreferedMeanings = True
 
             if(bPreferedMeanings):
@@ -809,7 +890,7 @@ def DisplayNextPreferedMeaningsChoice():
     label.config(font=('Arial', FontSize))
     label.pack()
 
-    for index, meaning in enumerate(selectedEntry["meanings"]):
+    for index, meaning in enumerate(selectedEntry[strMeaningArray]):
         button = tkinter.Button(root, text=meaning, command=lambda id=selectedEntry["sharedid"], index = index: SelectPreferedMeaning(id, index))
         button.config(font=('Arial', int(FontSize * 0.7)))
         button.pack()
@@ -819,10 +900,10 @@ def DoneWithPreferedMeaningsLevel():
     global strSelectedMeaningType
     global dicoPreferedMeaningsSelections
 
-    if(not(str(iPreferedMeaningsLevelSelected)) in dicoOutput["PreferedMeanings"]):
-        dicoOutput["PreferedMeanings"][str(iPreferedMeaningsLevelSelected)] = {}
+    if(not(str(strPreferedMeaningsLevelSelected)) in dicoOutput["PreferedMeanings" + strPreferedMeaningsSuffix]):
+        dicoOutput["PreferedMeanings" + strPreferedMeaningsSuffix][str(strPreferedMeaningsLevelSelected)] = {}
 
-    dicoOutput["PreferedMeanings"][str(iPreferedMeaningsLevelSelected)][strSelectedMeaningType] = dicoPreferedMeaningsSelections
+    dicoOutput["PreferedMeanings" + strPreferedMeaningsSuffix][str(strPreferedMeaningsLevelSelected)][strSelectedMeaningType] = dicoPreferedMeaningsSelections
     
     if(strSelectedMeaningType == "kanji"):
         KanjiPreferedMeaningsSelection()
@@ -864,6 +945,15 @@ button = tkinter.Button(root, text="Kana Only meaning picker", command=KanaOnlyP
 button.pack()
 button.config(font=('Arial', FontSize))
 button = tkinter.Button(root, text="Vocabulary meaning picker", command=VocabPreferedMeaningsSelection)
+button.pack()
+button.config(font=('Arial', FontSize))
+button = tkinter.Button(root, text="Fr Kanji meaning picker", command=FRKanjiPreferedMeaningsSelection)
+button.pack()
+button.config(font=('Arial', FontSize))
+button = tkinter.Button(root, text="Fr Kana Only meaning picker", command=FRKanaOnlyPreferedMeaningsSelection)
+button.pack()
+button.config(font=('Arial', FontSize))
+button = tkinter.Button(root, text="Fr Vocabulary meaning picker", command=FRVocabPreferedMeaningsSelection)
 button.pack()
 button.config(font=('Arial', FontSize))
 root.mainloop()
@@ -939,6 +1029,13 @@ for level in dicoSelected["PreferedMeanings"]:
         for id in dicoSelected["PreferedMeanings"][level][kind]:
             dicoReorderedMeanings[int(id)] = dicoSelected["PreferedMeanings"][level][kind][id]
 
+dicoReorderedMeaningsFr = {}
+
+for level in dicoSelected["PreferedMeaningsfr"]:
+    for kind in dicoSelected["PreferedMeaningsfr"][level]:
+        for id in dicoSelected["PreferedMeaningsfr"][level][kind]:
+            dicoReorderedMeaningsFr[int(id)] = dicoSelected["PreferedMeaningsfr"][level][kind][id]
+
 for level in listInput:
     for item in level:
         if(item["type"] == "vocab_kana" and item["id"] in dicoKanaOnlySharedIds):
@@ -948,13 +1045,15 @@ for level in listInput:
             item["meanings_es"] = []
             item["meanings_pt"] = []
 
-        if(item["id"] == item["sharedid"] and item["sharedid"] in dicoReorderedMeanings):
-            if(dicoReorderedMeanings[item["sharedid"]] < len(item["meanings"])):
-                tempmeaning = item["meanings"][dicoReorderedMeanings[item["sharedid"]]]
-                del item["meanings"][dicoReorderedMeanings[item["sharedid"]]]
-                item["meanings"].insert(0, tempmeaning)
-            else:
-                print("Wrong index for", item["display"])
+        for dicoReorder, meaningstring in [(dicoReorderedMeanings, "meanings"), (dicoReorderedMeaningsFr, "meanings_fr")]:
+
+            if(item["id"] == item["sharedid"] and item["sharedid"] in dicoReorder):
+                if(dicoReorder[item["sharedid"]] < len(item[meaningstring])):
+                    tempmeaning = item[meaningstring][dicoReorder[item["sharedid"]]]
+                    del item[meaningstring][dicoReorder[item["sharedid"]]]
+                    item[meaningstring].insert(0, tempmeaning)
+                else:
+                    print("Wrong index for", item["display"])
 
 for inputlevel in listInput:
     for item in inputlevel:
