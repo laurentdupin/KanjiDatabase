@@ -420,6 +420,7 @@ strMeaningTranslationLevelSelected = -1
 iMeaningTranslationCounter = -1
 dicoMeaningsTranslations = {}
 setMeaningsAlreadyDone = set()
+dicoTranslateButtons = {}
 
 def SelectMeaningTranslation(level):
     global strMeaningTranslationLevelSelected
@@ -483,6 +484,23 @@ def SearchNextEmpty(id):
 
     ContinueToNextMeaning(id)
 
+def Translate():
+    global dicoTranslateButtons
+    dicoTranslations = {}
+
+    try:
+        translations = translator.translate(list(dicoTranslateButtons), src='en', dest=meaningtranslationlang)
+        for translation in translations:
+            dicoTranslations[translation.origin] = translation.text
+    except:
+        pass
+
+    for meaning in dicoTranslateButtons:
+        if(meaning in dicoTranslations):
+            dicoTranslateButtons[meaning].configure(text=dicoTranslations[meaning], command=lambda text=dicoTranslations[meaning] : pyperclip.copy(text))
+
+    dicoTranslateButtons = {}
+
 def DisplayNextMeanings():
     global strMeaningTranslationLevelSelected
     global iMeaningTranslationCounter
@@ -491,6 +509,9 @@ def DisplayNextMeanings():
     global dicoOutput
     global translator
     global meaningtranslationlang
+    global dicoTranslateButtons
+
+    dicoTranslateButtons = {}
 
     iMeaningTranslationCounter += 1
 
@@ -521,26 +542,21 @@ def DisplayNextMeanings():
 
     dicoMeaningEntries = {}
 
-    label = tkinter.Label(root, text=originalentry["display"], width=80)
-    label.config(font=('Arial', FontSize))
+    label = tkinter.Label(root, text=originalentry["display"], width=40)
+    label.config(font=('Arial', int(FontSize * 2)))
     label.grid(row=0, column=0, columnspan=8)
 
     button = tkinter.Button(root, text="Next Empty", command=lambda id=selectedEntry["id"] : SearchNextEmpty(id))
     button.config(font=('Arial', FontSize))
     button.grid(row=1, column=0)
 
+    button = tkinter.Button(root, text="Translate", command=lambda : Translate())
+    button.config(font=('Arial', FontSize))
+    button.grid(row=1, column=1, columnspan=3)
+
     button = tkinter.Button(root, text="Continue", command=lambda id=selectedEntry["id"] : ContinueToNextMeaning(id))
     button.config(font=('Arial', FontSize))
-    button.grid(row=1, column=1, columnspan=7)
-
-    dicoTranslations = {}
-
-    try:
-        translations = translator.translate(selectedEntry["meanings"][0:5], src='en', dest=meaningtranslationlang)
-        for translation in translations:
-            dicoTranslations[translation.origin] = translation.text
-    except:
-        pass
+    button.grid(row=1, column=4, columnspan=3)
 
     listAddedMeanings = []
 
@@ -562,7 +578,7 @@ def DisplayNextMeanings():
 
         dicoMeaningEntries[language] = {}
 
-        for meaning in selectedEntry[meaningname]:
+        for iMeaning, meaning in enumerate(selectedEntry[meaningname]):
             if(meaning in listAddedMeanings):
                 continue
 
@@ -579,11 +595,11 @@ def DisplayNextMeanings():
             entry.grid(row=iCurrentRow, column=2 * iLang + 1)
             dicoMeaningEntries[language][meaning] = entry
 
-            if(language == "en" and meaning in dicoTranslations):
-                translation = dicoTranslations[meaning]
-                button = tkinter.Button(root, text=translation, command=lambda text=translation : pyperclip.copy(text))
+            if(language == "en" and iMeaning < 5):  
+                button = tkinter.Button(root, text="")
                 button.config(font=('Arial', int(FontSize * 0.6)))
                 button.grid(row=iCurrentRow + 1, column=2 * iLang)
+                dicoTranslateButtons[meaning] = button
 
             iCurrentRow += 2
 
