@@ -1114,8 +1114,9 @@ for inputlevel in listInput:
                     meaninglistname += "_" + lang
 
                 for iMeaning, meaning in enumerate(item[meaninglistname]):
-                    if(meaning in dicoMeaningsTranslationsAndReplacements[item["id"]][lang]):
-                        item[meaninglistname][iMeaning] = dicoMeaningsTranslationsAndReplacements[item["id"]][lang][meaning]
+                    for othermeaning in dicoMeaningsTranslationsAndReplacements[item["id"]][lang]:
+                        if(othermeaning.lower() == meaning.lower()):
+                            item[meaninglistname][iMeaning] = dicoMeaningsTranslationsAndReplacements[item["id"]][lang][othermeaning]
                     
                 if("" in dicoMeaningsTranslationsAndReplacements[item["id"]][lang]):
                     item[meaninglistname].insert(0, dicoMeaningsTranslationsAndReplacements[item["id"]][lang][""])
