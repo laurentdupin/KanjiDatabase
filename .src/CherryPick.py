@@ -874,6 +874,12 @@ def DisplayNextPreferedMeaningsChoice():
     for id in listSpecialToAdd:
         setTempValidSharedIds.add(id)
 
+    dicoTempMeaningsTranslationsAndReplacements = {}
+
+    for level in dicoOutput["MeaningsTranslations"]:
+        for item in dicoOutput["MeaningsTranslations"][level]:
+            dicoTempMeaningsTranslationsAndReplacements[int(item)] = dicoOutput["MeaningsTranslations"][level][item]
+
     dicoCustomKanaOnlySharedIds = {}
 
     for level in dicoOutput["KanaOnlySharedIds"]:
@@ -912,7 +918,19 @@ def DisplayNextPreferedMeaningsChoice():
     label.config(font=('Arial', FontSize))
     label.pack()
 
+    othermeaningsuffix = strPreferedMeaningsSuffix
+
+    if(othermeaningsuffix == ""):
+        othermeaningsuffix = "en"
+
     for index, meaning in enumerate(selectedEntry[strMeaningArray]):
+        if(selectedEntry["sharedid"] in dicoTempMeaningsTranslationsAndReplacements and
+            othermeaningsuffix in dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]]):
+            for othermeaning in  dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]][othermeaningsuffix]:
+                if(othermeaning.lower() == meaning.lower()):
+                    meaning = dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]][othermeaningsuffix][othermeaning]
+                    break
+        
         button = tkinter.Button(root, text=meaning, command=lambda id=selectedEntry["sharedid"], index = index: SelectPreferedMeaning(id, index))
         button.config(font=('Arial', int(FontSize * 0.7)))
         button.pack()
