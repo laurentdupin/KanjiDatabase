@@ -524,7 +524,7 @@ def DisplayNextMeanings():
 
     for iPosition, entry in enumerate(dicoCurrentLevels[strMeaningTranslationLevelSelected]):
         if(iCurrentMeanings == iMeaningTranslationCounter):
-            selectedEntry = entry
+            selectedEntry = dicoItemPerId[entry["id"]]
             break
         else:
             iCurrentMeanings += 1
@@ -538,7 +538,7 @@ def DisplayNextMeanings():
     print(iPosition, len(dicoCurrentLevels[strMeaningTranslationLevelSelected]))
 
     if(selectedEntry["id"] != selectedEntry["sharedid"]):
-        selectedEntry = dicoItemPerIdCurrent[selectedEntry["sharedid"]]
+        selectedEntry = dicoItemPerId[selectedEntry["sharedid"]]
 
     dicoMeaningEntries = {}
 
@@ -559,6 +559,12 @@ def DisplayNextMeanings():
     button.grid(row=1, column=4, columnspan=3)
 
     listAddedMeanings = []
+
+    dicoTempMeaningsTranslationsAndReplacements = {}
+
+    for level in dicoOutput["MeaningsTranslations"]:
+        for item in dicoOutput["MeaningsTranslations"][level]:
+            dicoTempMeaningsTranslationsAndReplacements[int(item)] = dicoOutput["MeaningsTranslations"][level][item]
 
     for iLang, language in enumerate(["en", meaningtranslationlang]):
         meaningname = "meanings"
@@ -595,6 +601,12 @@ def DisplayNextMeanings():
             entry.grid(row=iCurrentRow, column=2 * iLang + 1)
             dicoMeaningEntries[language][meaning] = entry
 
+            if(selectedEntry["id"] in dicoTempMeaningsTranslationsAndReplacements and 
+                language in dicoTempMeaningsTranslationsAndReplacements[selectedEntry["id"]]):
+                for transmeaning in dicoTempMeaningsTranslationsAndReplacements[selectedEntry["id"]][language]:
+                    if(transmeaning.lower() == meaning.lower()):
+                        entry.insert(0, dicoTempMeaningsTranslationsAndReplacements[selectedEntry["id"]][language][transmeaning])
+
             if(language == "en" and iMeaning < 5):  
                 button = tkinter.Button(root, text="")
                 button.config(font=('Arial', int(FontSize * 0.6)))
@@ -607,6 +619,12 @@ def DisplayNextMeanings():
         entry.config(font=('Arial', int(FontSize * 0.6)))
         entry.grid(row=iCurrentRow, column=2 * iLang + 1)
         dicoMeaningEntries[language][""]= entry
+
+        if(selectedEntry["id"] in dicoTempMeaningsTranslationsAndReplacements and 
+            language in dicoTempMeaningsTranslationsAndReplacements[selectedEntry["id"]] and 
+            "" in dicoTempMeaningsTranslationsAndReplacements[selectedEntry["id"]][language]):
+            entry.insert(0, dicoTempMeaningsTranslationsAndReplacements[selectedEntry["id"]][language][""])
+
 
 def DoneWithMeaningTranslationLevel():
     global dicoOutput
