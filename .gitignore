@@ -153,3 +153,4 @@ cython_debug/
 .DS_Store
 .src/Credentials.py
 .temp/Levels.json
+.temp/Characters.txt

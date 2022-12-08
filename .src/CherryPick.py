@@ -1449,7 +1449,42 @@ for iLevel in dicoOutput:
                     dicoOutput[otherlevelid] = todisseminate[:sizetoadd] + dicoOutput[otherlevelid]
                     todisseminate = todisseminate[sizetoadd:]
 
+setCharacters = set()
 
+for iLevel in dicoOutput:
+    level = dicoOutput[iLevel]
+
+    for item in level:
+        for char in item["display"]:
+            setCharacters.add(char)
+
+        for meaning in item["meanings"]:
+            for char in meaning:
+                setCharacters.add(char)
+
+        for meaning in item["meanings_fr"]:
+            for char in meaning:
+                setCharacters.add(char)
+
+        for meaning in item["meanings_es"]:
+            for char in meaning:
+                setCharacters.add(char)
+
+        for meaning in item["meanings_pt"]:
+            for char in meaning:
+                setCharacters.add(char)
+
+        for reading in item["readings"]:
+            for char in reading:
+                setCharacters.add(char)
+
+        for reading in item["kun_readings"]:
+            for char in reading:
+                setCharacters.add(char)
+
+with open("../.temp/Characters.txt", "w") as fileCharacters:
+    for char in setCharacters:
+        fileCharacters.write(hex(ord(char))[2:] + ",")
 
 for iLevel in dicoOutput:
     print(iLevel, len(dicoOutput[iLevel]), dicoSharedPerLevel[iLevel], dicoMoveBackLevel[iLevel], dicoReceivingLevel[iLevel])
