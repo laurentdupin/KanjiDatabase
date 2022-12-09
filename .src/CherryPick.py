@@ -540,6 +540,15 @@ def DisplayNextMeanings():
     if(selectedEntry["id"] != selectedEntry["sharedid"]):
         selectedEntry = dicoItemPerId[selectedEntry["sharedid"]]
 
+    dicoTempKanaOnlySharedIds = {}
+
+    for level in dicoOutput["KanaOnlySharedIds"]:
+        for item in dicoOutput["KanaOnlySharedIds"][level]:
+            dicoTempKanaOnlySharedIds[int(item)] = int(dicoOutput["KanaOnlySharedIds"][level][item])
+
+    if(selectedEntry["id"] in dicoTempKanaOnlySharedIds):
+        selectedEntry = dicoItemPerId[dicoTempKanaOnlySharedIds[selectedEntry["id"]]]
+
     dicoMeaningEntries = {}
 
     label = tkinter.Label(root, text=originalentry["display"], width=40)

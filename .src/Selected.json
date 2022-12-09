@@ -20342,7 +20342,7 @@
    },
    "4925160992700454434": {
     "fr": {
-     "": "Regarder"
+     "": "Vue"
     }
    },
    "13908850996820455147": {
@@ -20425,7 +20425,10 @@
    },
    "12728284927062387677": {
     "fr": {
-     "": "3 heures"
+     "": "Trois heures"
+    },
+    "en": {
+     "3 o'clock": "Three o'clock"
     }
    },
    "8779546208780511812": {
@@ -20469,7 +20472,7 @@
    },
    "9002490833081965810": {
     "fr": {
-     "": "(pour le) mois entier"
+     "": "milieu du mois"
     },
     "es": {
      "": "(para el) mes entero"
@@ -20761,6 +20764,61 @@
     "es": {
      "": "Reconocer"
     }
+   },
+   "18133892670524842131": {
+    "fr": {
+     "à l'intérieur": "Intérieur"
+    }
+   },
+   "14558740743365960402": {
+    "fr": {
+     "rassemblement, rencontre (festival, évènement religieux, travaux...)": "Rassemblement (en particulier bouddhiste, festif, etc.)"
+    }
+   },
+   "4462236817340189303": {
+    "fr": {
+     "": "Diète nationale"
+    }
+   },
+   "9950372434816589558": {
+    "fr": {
+     "": "une heure"
+    }
+   },
+   "13450403498133785430": {
+    "fr": {
+     "": "affaires personnelles"
+    }
+   },
+   "2601417203886754342": {
+    "fr": {
+     "considérer": "considérer comme"
+    }
+   },
+   "17690135139259597971": {
+    "fr": {
+     "": "retard"
+    }
+   },
+   "18315191285275465082": {
+    "fr": {
+     "": "Rencontrer (par hasard)"
+    }
+   },
+   "17437281936271172331": {
+    "fr": {
+     "pays (de naissance)": "Pays d'origine"
+    }
+   },
+   "2822264120421660112": {
+    "fr": {
+     "": "excuse"
+    }
+   },
+   "4743595816339742275": {
+    "fr": {
+     "": "âge apparent"
+    }
    }
   },
   "2": {
@@ -20851,7 +20909,7 @@
    },
    "7840415191709192642": {
     "fr": {
-     "": "Distinction"
+     "": "différenciation"
     }
    },
    "9205042394591740185": {
@@ -21082,6 +21140,109 @@
    "3032018923343041882": {
     "fr": {
      "": "Poser une question"
+    }
+   },
+   "1768232025104505272": {
+    "en": {
+     "-times": "Times"
+    },
+    "fr": {
+     "": "Occurrence"
+    }
+   },
+   "6747312506383923649": {
+    "fr": {
+     "": "entreprise"
+    }
+   },
+   "5431312520640073358": {
+    "fr": {
+     "le présent": "Présent"
+    }
+   },
+   "15662039460994755487": {
+    "fr": {
+     "": "Appelé"
+    }
+   },
+   "6250664657150503126": {
+    "fr": {
+     "": "etc"
+    }
+   },
+   "10580643683546093539": {
+    "fr": {
+     "": "Novembre"
+    }
+   },
+   "17407459893680688740": {
+    "fr": {
+     "": "Octobre"
+    }
+   },
+   "4470423616756785241": {
+    "fr": {
+     "": "Décembre"
+    }
+   },
+   "2832737171263592144": {
+    "fr": {
+     "": "suffisant"
+    }
+   },
+   "17288821055745461466": {
+    "fr": {
+     "": "localisation"
+    }
+   },
+   "1937973230534531202": {
+    "fr": {
+     "": "membre à part entière de la société"
+    }
+   },
+   "3375898499165312333": {
+    "fr": {
+     "": "association"
+    }
+   },
+   "11061941396245152769": {
+    "fr": {
+     "": "très"
+    }
+   },
+   "5809585176606043677": {
+    "fr": {
+     "": "Contact"
+    }
+   },
+   "2083530706348015455": {
+    "fr": {
+     "": "expression"
+    }
+   },
+   "10396129845542503226": {
+    "fr": {
+     "faire (avec)": "Faire avec"
+    }
+   },
+   "1259156744321385724": {
+    "en": {
+     "10th day of the month": "Tenth day of the month"
+    }
+   },
+   "13407112900784128661": {
+    "en": {
+     "2nd day of the month": "Second day of the month"
+    }
+   },
+   "12058583220474657223": {
+    "en": {
+     "20th day of the month": "Twentieth day of the month"
+    }
+   },
+   "17072904125747679722": {
+    "fr": {
+     "moyen de fortune": "de fortune"
     }
    }
   },
