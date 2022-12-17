@@ -1500,6 +1500,15 @@ for iLevel in dicoOutput:
 
 print("Numerals", iNumeralCount)
 
+dicoMeaningsTranslationsAndReplacements = {}
+
+for level in dicoSelected["MeaningsTranslations"]:
+    for item in dicoSelected["MeaningsTranslations"][level]:
+        if(not(int(item) in dicoMeaningsTranslationsAndReplacements)):
+            dicoMeaningsTranslationsAndReplacements[int(item)] = dicoSelected["MeaningsTranslations"][level][item]
+        elif(dicoSelected["MeaningsTranslations"][level][item] != dicoMeaningsTranslationsAndReplacements[int(item)]):
+            print("Multiple meanings for", item)
+
 iItemCount = 0
 iKanjiCount = 0
 iVocabKanaCount = 0
