@@ -942,8 +942,27 @@ def DisplayNextPreferedMeaningsChoice():
         return
 
     label = tkinter.Label(root, text=selectedEntry["display"], width=80)
-    label.config(font=('Arial', FontSize))
+    label.config(font=('Arial', int(FontSize * 1.5)))
     label.pack()
+
+    if(selectedEntry["sharedid"] in dicoItemPerIdCurrent):
+        strLabel = ""
+        for meaning in dicoItemPerIdCurrent[selectedEntry["sharedid"]]["meanings"]:
+            strLabel += meaning + ";"
+
+        if(strLabel != ""):
+            label = tkinter.Label(root, text=strLabel, width=80)
+            label.config(font=('Arial', int(FontSize * 0.5)))
+            label.pack()
+
+        strLabel = ""
+        for meaning in dicoItemPerIdCurrent[selectedEntry["sharedid"]]["meanings_fr"]:
+            strLabel += meaning + ";"
+
+        if(strLabel != ""):
+            label = tkinter.Label(root, text=strLabel, width=80)
+            label.config(font=('Arial', int(FontSize * 0.5)))
+            label.pack()
 
     othermeaningsuffix = strPreferedMeaningsSuffix
 
