@@ -35484,7 +35484,7 @@
    },
    "6352649161387432571": {
     "fr": {
-     "": "Les restes de nourriture"
+     "": "restes de nourriture"
     }
    },
    "15774730422674467067": {
@@ -35661,6 +35661,119 @@
     "fr": {
      "": "Vigne"
     }
+   },
+   "13611335084514736885": {
+    "fr": {
+     "son altesse": "altesse"
+    }
+   },
+   "9885416975783158963": {
+    "fr": {
+     "piécette": "pièce"
+    }
+   },
+   "7145386091712947199": {
+    "fr": {
+     "": "abdomen"
+    }
+   },
+   "4892829229402125353": {
+    "fr": {
+     "": "chant"
+    }
+   },
+   "114728744840090134": {
+    "fr": {
+     "petits-enfants": "petit enfant"
+    }
+   },
+   "8274131168360601009": {
+    "fr": {
+     "en faisat exprès": "en faisant exprès"
+    }
+   },
+   "5548408369233815483": {
+    "fr": {
+     "": "Encore un long chemin à parcourir"
+    }
+   },
+   "2319176734226259108": {
+    "fr": {
+     "": "De préférence"
+    }
+   },
+   "16604880595178238172": {
+    "fr": {
+     "": "Soudain"
+    }
+   },
+   "1503181023474798237": {
+    "fr": {
+     "pourquoi ?": "pourquoi"
+    }
+   },
+   "8662553401343973637": {
+    "fr": {
+     "": "gemme"
+    }
+   },
+   "9396036329951833486": {
+    "fr": {
+     "débile (physiquement)": "faible physiquement"
+    }
+   },
+   "10635985745170537716": {
+    "fr": {
+     "": "Dîner"
+    }
+   },
+   "13270376111417677443": {
+    "fr": {
+     "": "pratique"
+    }
+   },
+   "17188520795257111091": {
+    "fr": {
+     "": "abdomen"
+    }
+   },
+   "7784544322712346410": {
+    "fr": {
+     "": "ventre"
+    }
+   },
+   "9576061370343870410": {
+    "en": {
+     "sen (hundredth of a yen)": "hundredth of a yen"
+    },
+    "fr": {
+     "1 centime de yen": "un centime de yen"
+    }
+   },
+   "7586189092193774474": {
+    "fr": {
+     "": "Geste"
+    }
+   },
+   "2730772205865088425": {
+    "fr": {
+     "": "Grenier à riz"
+    }
+   },
+   "16767219708924128748": {
+    "fr": {
+     "": "désordonné"
+    }
+   },
+   "2098592370131066565": {
+    "fr": {
+     "": "Thé vert (en poudre)"
+    }
+   },
+   "16100770186672304789": {
+    "fr": {
+     "chercher tout autour,partout": "chercher tout autour"
+    }
    }
   },
   "54": {
@@ -35831,7 +35944,7 @@
    },
    "1945981716143980798": {
     "fr": {
-     "": "Le réchauffement climatique"
+     "": "Réchauffement climatique"
     }
    },
    "8872802147811129243": {
@@ -35863,6 +35976,104 @@
     "fr": {
      "": "Opticien"
     }
+   },
+   "16963920389944835425": {
+    "fr": {
+     "": "vertical"
+    }
+   },
+   "17697680777579051334": {
+    "en": {
+     "Sino-": "Sino"
+    },
+    "fr": {
+     "sino-": "sino"
+    }
+   },
+   "17386419452817123826": {
+    "fr": {
+     "-scope": "scope"
+    }
+   },
+   "6092816876574627397": {
+    "fr": {
+     "": "L'intention de ne pas"
+    }
+   },
+   "13345000880013915083": {
+    "fr": {
+     "": "Poils"
+    }
+   },
+   "2459811830364915060": {
+    "fr": {
+     "porter sur l'épaule": "porter sur son épaule"
+    }
+   },
+   "205901888436427379": {
+    "fr": {
+     "": "insouciant"
+    }
+   },
+   "1501373518826016093": {
+    "fr": {
+     "": "respect"
+    }
+   },
+   "10892098725092512291": {
+    "fr": {
+     "": "Soutien"
+    }
+   },
+   "17530057381301217011": {
+    "fr": {
+     "": "brusque"
+    }
+   },
+   "15974520491286079102": {
+    "fr": {
+     "": "Cordialement"
+    }
+   },
+   "14711747979983107955": {
+    "fr": {
+     "": "Vider son verre"
+    }
+   },
+   "3715187960583879984": {
+    "fr": {
+     "": "Sécher"
+    }
+   },
+   "1947542514723661788": {
+    "en": {
+     "the vertical": "vertical"
+    }
+   },
+   "2109256207796098730": {
+    "fr": {
+     "": "désobéissance à ses parents"
+    }
+   },
+   "4233058138454193363": {
+    "fr": {
+     "": "Fosse"
+    }
+   },
+   "8409962955023673960": {
+    "fr": {
+     "": "Personne chanceuse"
+    }
+   },
+   "12323899700635440749": {
+    "fr": {
+     "belle-sœur cadette (sœur cadette du conjoint ou femme du petit frère)": "Belle-sœur (sœur cadette du conjoint ou femme du frère cadet)"
+    }
+   },
+   "2968246632780983214": {
+    "fr": {
+     "": "Scarabée rhinocéros (en particulier le scarabée rhinocéros japonais, Trypoxylus dichotomus)"
+    }
    }
   },
   "55": {
@@ -35884,6 +36095,9 @@
    "5160029934990416193": {
     "fr": {
      "": "Cuisine (surtout friture ou sauté)"
+    },
+    "en": {
+     "cooking, esp. frying or stir-frying": "cooking (esp. frying or stir-frying)"
     }
    },
    "4490365388568508144": {
@@ -36025,6 +36239,72 @@
     "fr": {
      "": "Takoyaki"
     }
+   },
+   "10940686120868461940": {
+    "fr": {
+     "": "courage"
+    }
+   },
+   "11220869891287358437": {
+    "fr": {
+     "": "Pot"
+    }
+   },
+   "1790874221522464326": {
+    "fr": {
+     "": "Par ailleurs"
+    }
+   },
+   "17318754612670433558": {
+    "fr": {
+     "": "Faucille"
+    }
+   },
+   "15522170122803476179": {
+    "fr": {
+     "": "Dans les alentours"
+    }
+   },
+   "14665851908038113329": {
+    "fr": {
+     "": "Oeuf frit"
+    }
+   },
+   "11663611241859006729": {
+    "fr": {
+     "": "Par erreur"
+    }
+   },
+   "6023879878621241811": {
+    "fr": {
+     "": "Loin"
+    }
+   },
+   "7040897706745660490": {
+    "fr": {
+     "": "campagne"
+    }
+   },
+   "16068354077613642109": {
+    "fr": {
+     "": "Ume séché mariné"
+    }
+   },
+   "7127062843500814187": {
+    "fr": {
+     "": "Liqueur d'umé"
+    }
+   },
+   "10435914013147664795": {
+    "fr": {
+     "(numéral pour les sacs)": "numéral pour les sacs",
+     "": "sac"
+    }
+   },
+   "8725702410880368175": {
+    "fr": {
+     "": "bronze"
+    }
    }
   },
   "56": {
@@ -36050,7 +36330,10 @@
    },
    "8077644010639935530": {
     "fr": {
-     "": "C'est précisément pourquoi..."
+     "": "C'est précisément pourquoi"
+    },
+    "en": {
+     "it's precisely for that reason that ...": "It's precisely for that reason that"
     }
    },
    "9849531166046372256": {
@@ -36130,7 +36413,7 @@
    },
    "4214424372902500160": {
     "fr": {
-     "": "La sincérité"
+     "": "Sincérité"
     }
    },
    "13052554421718619179": {
@@ -36266,6 +36549,82 @@
    "17779814260554037768": {
     "fr": {
      "": "Rideau"
+    }
+   },
+   "4726497346988078399": {
+    "fr": {
+     "": "Ta maison"
+    }
+   },
+   "6342798274762845594": {
+    "fr": {
+     "": "Boule de riz (souvent triangulaire, parfois fourrée et enveloppée de nori)"
+    }
+   },
+   "4155652016699549947": {
+    "fr": {
+     "": "Sérieux"
+    }
+   },
+   "3757761889736407210": {
+    "fr": {
+     "": "vertical"
+    }
+   },
+   "2997584753321102337": {
+    "fr": {
+     "": "Sauce (surtout sauce soja ou assaisonnement à base de mirin)"
+    }
+   },
+   "1604237635348867488": {
+    "fr": {
+     "": "Incontinence"
+    }
+   },
+   "12723514685552174258": {
+    "fr": {
+     "": "respect"
+    }
+   },
+   "4571032718467309640": {
+    "fr": {
+     "": "culte (en particulier chrétien)"
+    }
+   },
+   "5969747972191540809": {
+    "fr": {
+     "accorder de la valeur, de l'importance à": "Accorder de la valeur",
+     "": "évaluer"
+    }
+   },
+   "8408018638638711129": {
+    "fr": {
+     "or": "or (Au)"
+    }
+   },
+   "15469153544065419692": {
+    "fr": {
+     "traite (des vaches)": "traire (une vache, une chèvre, etc.)"
+    }
+   },
+   "9193414588029156199": {
+    "fr": {
+     "": "zone de baignade (dans l'océan)"
+    }
+   },
+   "14655618475249855860": {
+    "fr": {
+     "": "sur le bureau"
+    }
+   },
+   "15074820994363598520": {
+    "fr": {
+     "": "iceberg"
+    }
+   },
+   "12872377464780332763": {
+    "fr": {
+     "": "glacier"
     }
    }
   },
