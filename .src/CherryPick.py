@@ -901,19 +901,6 @@ def DisplayNextPreferedMeaningsChoice():
     selectedEntry = None
     listPreferedDone = []
 
-    setTempValidSharedIds = set()
-
-    for level in dicoOutput["SelectedKanaOnly"]:
-        for item in dicoOutput["SelectedKanaOnly"][level]:
-            setTempValidSharedIds.add(item)
-
-    for level in dicoOutput["SelectedVocab"]:
-        for item in dicoOutput["SelectedVocab"][level]:
-            setTempValidSharedIds.add(item)
-
-    for id in listSpecialToAdd:
-        setTempValidSharedIds.add(id)
-
     dicoTempMeaningsTranslationsAndReplacements = {}
 
     for level in dicoOutput["MeaningsTranslations"]:
@@ -926,27 +913,27 @@ def DisplayNextPreferedMeaningsChoice():
         for item in dicoOutput["KanaOnlySharedIds"][level]:
             dicoCustomKanaOnlySharedIds[item] = dicoOutput["KanaOnlySharedIds"][level][item]
 
+    originalentry = None
+
     for entry in dicoCurrentLevels[strPreferedMeaningsLevelSelected]:
         sharedid = entry["sharedid"]
 
         if(str(sharedid) in dicoCustomKanaOnlySharedIds):
             sharedid = int(dicoCustomKanaOnlySharedIds[str(sharedid)])
 
-        if(entry["type"] != "kanji" and not(sharedid in setTempValidSharedIds)):
-            continue
-
         if(entry["type"] == strSelectedMeaningType):
             
             iExpectedReadingCount = 0
             bPreferedMeanings = False
 
-            if(len(entry[strMeaningArray]) > 1 or len(entry["meanings"]) > 1):
+            if(len(dicoItemPerId[sharedid][strMeaningArray]) > 1 or len(dicoItemPerId[sharedid]["meanings"]) > 1):
                 bPreferedMeanings = True
 
             if(bPreferedMeanings):
                 if(iCurrentPreferedMeanings != iPreferedMeaningsCounter):
                     iCurrentPreferedMeanings += 1
                 else:
+                    originalentry = entry
                     selectedEntry = dicoItemPerId[sharedid]
                     break
 
@@ -968,9 +955,14 @@ def DisplayNextPreferedMeaningsChoice():
             for id in dicoOutput["PreferedMeaningsfr"][level][kind]:
                 dicoTempReorderedMeaningsFr[int(id)] = dicoOutput["PreferedMeaningsfr"][level][kind][id]
 
-    label = tkinter.Label(root, text=selectedEntry["display"], width=80)
+    label = tkinter.Label(root, text=originalentry["display"], width=80)
     label.config(font=('Arial', int(FontSize * 1.5)))
     label.grid(column=0, row=0, columnspan=2)
+
+    if(selectedEntry["display"] != originalentry["display"]):
+        label = tkinter.Label(root, text=selectedEntry["display"], width=80)
+        label.config(font=('Arial', int(FontSize * 1.5)))
+        label.grid(column=0, row=1, columnspan=2)
 
     for iEnum, language in enumerate(["meanings", strMeaningArray]):
 
@@ -979,7 +971,7 @@ def DisplayNextPreferedMeaningsChoice():
         if(othermeaningsuffix == ""):
             othermeaningsuffix = "en"
 
-        iRow = 1
+        iRow = 2
         iBlueIndex = 0
 
         if(language == "meanings" and selectedEntry["sharedid"] in dicoTempReorderedMeanings):
@@ -996,7 +988,7 @@ def DisplayNextPreferedMeaningsChoice():
                 button = tkinter.Button(root, text=dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]]["en"][""], command=lambda id=selectedEntry["sharedid"], index = index, language = language: SelectPreferedMeaning(id, 0, language))
                 button.config(font=('Arial', int(FontSize * 0.7)))
                 button.grid(column=iEnum, row=iRow)
-                button.config(bg="LightBlue1")
+                button.config(bg="wheat1")
                 iRow += 1
                 iBlueIndex = -1
 
@@ -1007,7 +999,7 @@ def DisplayNextPreferedMeaningsChoice():
                 button = tkinter.Button(root, text=dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]]["fr"][""], command=lambda id=selectedEntry["sharedid"], index = index, language = language: SelectPreferedMeaning(id, 0, language))
                 button.config(font=('Arial', int(FontSize * 0.7)))
                 button.grid(column=iEnum, row=iRow)
-                button.config(bg="LightBlue1")
+                button.config(bg="wheat1")
                 iRow += 1
                 iBlueIndex = -1   
 
