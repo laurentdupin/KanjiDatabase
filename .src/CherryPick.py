@@ -955,14 +955,18 @@ def DisplayNextPreferedMeaningsChoice():
             for id in dicoOutput["PreferedMeaningsfr"][level][kind]:
                 dicoTempReorderedMeaningsFr[int(id)] = dicoOutput["PreferedMeaningsfr"][level][kind][id]
 
+    button = tkinter.Button(root, text="Continue", command=lambda: DisplayNextPreferedMeaningsChoice())
+    button.config(font=('Arial', FontSize))
+    button.grid(column=0, row=0, columnspan=2)
+
     label = tkinter.Label(root, text=originalentry["display"], width=80)
     label.config(font=('Arial', int(FontSize * 1.5)))
-    label.grid(column=0, row=0, columnspan=2)
+    label.grid(column=0, row=1, columnspan=2)
 
     if(selectedEntry["display"] != originalentry["display"]):
         label = tkinter.Label(root, text=selectedEntry["display"], width=80)
         label.config(font=('Arial', int(FontSize * 1.5)))
-        label.grid(column=0, row=1, columnspan=2)
+        label.grid(column=0, row=2, columnspan=2)
 
     for iEnum, language in enumerate(["meanings", strMeaningArray]):
 
@@ -971,7 +975,7 @@ def DisplayNextPreferedMeaningsChoice():
         if(othermeaningsuffix == ""):
             othermeaningsuffix = "en"
 
-        iRow = 2
+        iRow = 3
         iBlueIndex = 0
 
         if(language == "meanings" and selectedEntry["sharedid"] in dicoTempReorderedMeanings):

@@ -19297,6 +19297,14 @@
   },
   "2": {
    "vocab_kana": {}
+  },
+  "3": {
+   "vocab_kana": {}
+  },
+  "4": {
+   "vocab_kana": {
+    "11748074380774041519": 1
+   }
   }
  },
  "MeaningsTranslations": {
@@ -57972,6 +57980,12 @@
    }
   },
   "2": {
+   "vocab_kana": {}
+  },
+  "3": {
+   "vocab_kana": {}
+  },
+  "4": {
    "vocab_kana": {}
   }
  }
