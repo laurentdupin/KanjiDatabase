@@ -1037,9 +1037,11 @@ def DoneWithPreferedMeaningsLevel():
 
     if(not(str(strPreferedMeaningsLevelSelected)) in dicoOutput["PreferedMeanings" + strPreferedMeaningsSuffix]):
         dicoOutput["PreferedMeanings" + strPreferedMeaningsSuffix][str(strPreferedMeaningsLevelSelected)] = {}
+        dicoOutput["PreferedMeanings" + strPreferedMeaningsSuffix][str(strPreferedMeaningsLevelSelected)][strSelectedMeaningType] = {}
 
     if(not(str(strPreferedMeaningsLevelSelected)) in dicoOutput["PreferedMeanings"]):
         dicoOutput["PreferedMeanings"][str(strPreferedMeaningsLevelSelected)] = {}
+        dicoOutput["PreferedMeanings"][str(strPreferedMeaningsLevelSelected)][strSelectedMeaningType] = {}
 
     for language in dicoPreferedMeaningsSelections:
         if(language == "meanings"):
