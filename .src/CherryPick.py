@@ -853,6 +853,7 @@ strMeaningArray = "meanings"
 strPreferedMeaningsSuffix = ""
 iPreferedMeaningsCounter = -1
 dicoPreferedMeaningsSelections = {}
+listPreferedDone = []
 
 def SelectPreferedMeaningsLevel(level):
     global strPreferedMeaningsLevelSelected
@@ -863,13 +864,23 @@ def SelectPreferedMeaningsLevel(level):
     dicoPreferedMeaningsSelections = {}
     DisplayNextPreferedMeaningsChoice()
 
-def SelectPreferedMeaning(id, index):
+def SelectPreferedMeaning(id, index, language):
     global dicoPreferedMeaningsSelections
+    global listPreferedDone
+
+    if(language in listPreferedDone):
+        return
 
     if(index != 0):
-        dicoPreferedMeaningsSelections[id] = index
+        if(not(language in dicoPreferedMeaningsSelections)):
+            dicoPreferedMeaningsSelections[language] = {}
 
-    DisplayNextPreferedMeaningsChoice()
+        dicoPreferedMeaningsSelections[language][id] = index
+
+    listPreferedDone.append(language)
+
+    if(len(listPreferedDone) == 2):
+        DisplayNextPreferedMeaningsChoice()
 
 def DisplayNextPreferedMeaningsChoice():
     global strPreferedMeaningsLevelSelected
@@ -879,6 +890,7 @@ def DisplayNextPreferedMeaningsChoice():
     global strMeaningArray
     global strPreferedMeaningsSuffix
     global listSpecialToAdd
+    global listPreferedDone
 
     iPreferedMeaningsCounter += 1
 
@@ -887,6 +899,7 @@ def DisplayNextPreferedMeaningsChoice():
     
     iCurrentPreferedMeanings = 0
     selectedEntry = None
+    listPreferedDone = []
 
     setTempValidSharedIds = set()
 
@@ -927,7 +940,7 @@ def DisplayNextPreferedMeaningsChoice():
             iExpectedReadingCount = 0
             bPreferedMeanings = False
 
-            if(len(entry[strMeaningArray]) > 1):
+            if(len(entry[strMeaningArray]) > 1 or len(entry["meanings"]) > 1):
                 bPreferedMeanings = True
 
             if(bPreferedMeanings):
@@ -941,45 +954,79 @@ def DisplayNextPreferedMeaningsChoice():
         DoneWithPreferedMeaningsLevel()
         return
 
+    dicoTempReorderedMeanings = {}
+
+    for level in dicoOutput["PreferedMeanings"]:
+        for kind in dicoOutput["PreferedMeanings"][level]:
+            for id in dicoOutput["PreferedMeanings"][level][kind]:
+                dicoTempReorderedMeanings[int(id)] = dicoOutput["PreferedMeanings"][level][kind][id]
+
+    dicoTempReorderedMeaningsFr = {}
+
+    for level in dicoOutput["PreferedMeaningsfr"]:
+        for kind in dicoOutput["PreferedMeaningsfr"][level]:
+            for id in dicoOutput["PreferedMeaningsfr"][level][kind]:
+                dicoTempReorderedMeaningsFr[int(id)] = dicoOutput["PreferedMeaningsfr"][level][kind][id]
+
     label = tkinter.Label(root, text=selectedEntry["display"], width=80)
     label.config(font=('Arial', int(FontSize * 1.5)))
-    label.pack()
+    label.grid(column=0, row=0, columnspan=2)
 
-    if(selectedEntry["sharedid"] in dicoItemPerIdCurrent):
-        strLabel = ""
-        for meaning in dicoItemPerIdCurrent[selectedEntry["sharedid"]]["meanings"]:
-            strLabel += meaning + ";"
+    for iEnum, language in enumerate(["meanings", strMeaningArray]):
 
-        if(strLabel != ""):
-            label = tkinter.Label(root, text=strLabel, width=80)
-            label.config(font=('Arial', int(FontSize * 0.5)))
-            label.pack()
+        othermeaningsuffix = strPreferedMeaningsSuffix
 
-        strLabel = ""
-        for meaning in dicoItemPerIdCurrent[selectedEntry["sharedid"]]["meanings_fr"]:
-            strLabel += meaning + ";"
+        if(othermeaningsuffix == ""):
+            othermeaningsuffix = "en"
 
-        if(strLabel != ""):
-            label = tkinter.Label(root, text=strLabel, width=80)
-            label.config(font=('Arial', int(FontSize * 0.5)))
-            label.pack()
+        iRow = 1
+        iBlueIndex = 0
 
-    othermeaningsuffix = strPreferedMeaningsSuffix
+        if(language == "meanings" and selectedEntry["sharedid"] in dicoTempReorderedMeanings):
+            iBlueIndex = dicoTempReorderedMeanings[selectedEntry["sharedid"]]
 
-    if(othermeaningsuffix == ""):
-        othermeaningsuffix = "en"
+        if(language == "meanings_fr" and selectedEntry["sharedid"] in dicoTempReorderedMeaningsFr):
+            iBlueIndex = dicoTempReorderedMeaningsFr[selectedEntry["sharedid"]]
 
-    for index, meaning in enumerate(selectedEntry[strMeaningArray]):
-        if(selectedEntry["sharedid"] in dicoTempMeaningsTranslationsAndReplacements and
-            othermeaningsuffix in dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]]):
-            for othermeaning in  dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]][othermeaningsuffix]:
-                if(othermeaning.lower() == meaning.lower()):
-                    meaning = dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]][othermeaningsuffix][othermeaning]
-                    break
-        
-        button = tkinter.Button(root, text=meaning, command=lambda id=selectedEntry["sharedid"], index = index: SelectPreferedMeaning(id, index))
-        button.config(font=('Arial', int(FontSize * 0.7)))
-        button.pack()
+        if(selectedEntry["sharedid"] in dicoTempMeaningsTranslationsAndReplacements):
+            if(language == "meanings" and 
+                "en" in dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]] and 
+                 "" in dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]]["en"]):
+
+                button = tkinter.Button(root, text=dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]]["en"][""], command=lambda id=selectedEntry["sharedid"], index = index, language = language: SelectPreferedMeaning(id, 0, language))
+                button.config(font=('Arial', int(FontSize * 0.7)))
+                button.grid(column=iEnum, row=iRow)
+                button.config(bg="LightBlue1")
+                iRow += 1
+                iBlueIndex = -1
+
+            if(language == "meanings_fr" and 
+                "fr" in dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]] and 
+                 "" in dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]]["fr"]):
+
+                button = tkinter.Button(root, text=dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]]["fr"][""], command=lambda id=selectedEntry["sharedid"], index = index, language = language: SelectPreferedMeaning(id, 0, language))
+                button.config(font=('Arial', int(FontSize * 0.7)))
+                button.grid(column=iEnum, row=iRow)
+                button.config(bg="LightBlue1")
+                iRow += 1
+                iBlueIndex = -1   
+
+        for index, meaning in enumerate(selectedEntry[language]):
+            if(selectedEntry["sharedid"] in dicoTempMeaningsTranslationsAndReplacements and
+                othermeaningsuffix in dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]]):
+                for othermeaning in  dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]][othermeaningsuffix]:
+                    if(othermeaning.lower() == meaning.lower()):
+                        meaning = dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]][othermeaningsuffix][othermeaning]
+                        break
+            
+            button = tkinter.Button(root, text=meaning, command=lambda id=selectedEntry["sharedid"], index = index, language = language: SelectPreferedMeaning(id, index, language))
+            button.config(font=('Arial', int(FontSize * 0.7)))
+            button.grid(column=iEnum, row=iRow)
+            iRow += 1
+
+            if(iBlueIndex == index): 
+                button.config(bg="LightBlue1")
+
 
 def DoneWithPreferedMeaningsLevel():
     global dicoOutput
@@ -991,7 +1038,19 @@ def DoneWithPreferedMeaningsLevel():
     if(not(str(strPreferedMeaningsLevelSelected)) in dicoOutput["PreferedMeanings" + strPreferedMeaningsSuffix]):
         dicoOutput["PreferedMeanings" + strPreferedMeaningsSuffix][str(strPreferedMeaningsLevelSelected)] = {}
 
-    dicoOutput["PreferedMeanings" + strPreferedMeaningsSuffix][str(strPreferedMeaningsLevelSelected)][strSelectedMeaningType] = dicoPreferedMeaningsSelections
+    if(not(str(strPreferedMeaningsLevelSelected)) in dicoOutput["PreferedMeanings"]):
+        dicoOutput["PreferedMeanings"][str(strPreferedMeaningsLevelSelected)] = {}
+
+    for language in dicoPreferedMeaningsSelections:
+        if(language == "meanings"):
+            dicoOutput["PreferedMeanings"][str(strPreferedMeaningsLevelSelected)][strSelectedMeaningType] = {}
+            for item in dicoPreferedMeaningsSelections[language]:
+                dicoOutput["PreferedMeanings"][str(strPreferedMeaningsLevelSelected)][strSelectedMeaningType][item] = dicoPreferedMeaningsSelections[language][item]
+
+        elif(language == "meanings_fr"):
+            dicoOutput["PreferedMeaningsfr"][str(strPreferedMeaningsLevelSelected)][strSelectedMeaningType] = {}
+            for item in dicoPreferedMeaningsSelections[language]:
+                dicoOutput["PreferedMeaningsfr"][str(strPreferedMeaningsLevelSelected)][strSelectedMeaningType][item] = dicoPreferedMeaningsSelections[language][item]
 
     if(strPreferedMeaningsSuffix == ""):
         if(strSelectedMeaningType == "kanji"):
@@ -1032,15 +1091,6 @@ button = tkinter.Button(root, text="Pt Per Item Definition", command=PtMeaningTr
 button.pack()
 button.config(font=('Arial', FontSize))
 button = tkinter.Button(root, text="Kun reading picker", command=KunReadingSelection)
-button.pack()
-button.config(font=('Arial', FontSize))
-button = tkinter.Button(root, text="Kanji meaning picker", command=KanjiPreferedMeaningsSelection)
-button.pack()
-button.config(font=('Arial', FontSize))
-button = tkinter.Button(root, text="Kana Only meaning picker", command=KanaOnlyPreferedMeaningsSelection)
-button.pack()
-button.config(font=('Arial', FontSize))
-button = tkinter.Button(root, text="Vocabulary meaning picker", command=VocabPreferedMeaningsSelection)
 button.pack()
 button.config(font=('Arial', FontSize))
 button = tkinter.Button(root, text="Fr Kanji meaning picker", command=FRKanjiPreferedMeaningsSelection)
