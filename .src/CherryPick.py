@@ -989,7 +989,7 @@ def DisplayNextPreferedMeaningsChoice():
                 "en" in dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]] and 
                  "" in dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]]["en"]):
 
-                button = tkinter.Button(root, text=dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]]["en"][""], command=lambda id=selectedEntry["sharedid"], index = index, language = language: SelectPreferedMeaning(id, 0, language))
+                button = tkinter.Button(root, text=dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]]["en"][""], command=lambda id=selectedEntry["sharedid"], language = language: SelectPreferedMeaning(id, 0, language))
                 button.config(font=('Arial', int(FontSize * 0.7)))
                 button.grid(column=iEnum, row=iRow)
                 button.config(bg="wheat1")
@@ -1000,7 +1000,7 @@ def DisplayNextPreferedMeaningsChoice():
                 "fr" in dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]] and 
                  "" in dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]]["fr"]):
 
-                button = tkinter.Button(root, text=dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]]["fr"][""], command=lambda id=selectedEntry["sharedid"], index = index, language = language: SelectPreferedMeaning(id, 0, language))
+                button = tkinter.Button(root, text=dicoTempMeaningsTranslationsAndReplacements[selectedEntry["sharedid"]]["fr"][""], command=lambda id=selectedEntry["sharedid"], language = language: SelectPreferedMeaning(id, 0, language))
                 button.config(font=('Arial', int(FontSize * 0.7)))
                 button.grid(column=iEnum, row=iRow)
                 button.config(bg="wheat1")
