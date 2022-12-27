@@ -840,7 +840,8 @@ def PreferedMeaningsSelection():
         button = tkinter.Button(root, text=level, command = lambda level=level: SelectPreferedMeaningsLevel(level))
         button.grid(column=iLevel%10, row = iLevel//10)
 
-        if(level in dicoOutput["PreferedMeanings" + strPreferedMeaningsSuffix] and strSelectedMeaningType in dicoOutput["PreferedMeanings" + strPreferedMeaningsSuffix][level]):
+        if((level in dicoOutput["PreferedMeanings" + strPreferedMeaningsSuffix] and strSelectedMeaningType in dicoOutput["PreferedMeanings" + strPreferedMeaningsSuffix][level]) or
+            (level in dicoOutput["PreferedMeanings"] and strSelectedMeaningType in dicoOutput["PreferedMeanings"][level]) ):
             button.config(bg="LightBlue1")
 
     iLevel += 10
