@@ -60,20 +60,36 @@ polly_client = boto3.Session(
                 aws_secret_access_key=Credentials.AWS_SECRET_ACCESS_KEY,
                 region_name="eu-west-2").client("polly")
 
+dicoReplaceReadings = {
+    "は" : "は。",
+    "へ" : "<speak><phoneme alphabet='ipa' ph='he'>へ</phoneme></speak>",
+    "し" : "<speak><phoneme alphabet='ipa' ph='ɕi'>し</phoneme></speak>"
+}
+
 for reading in dicoGuids:
     filepath = strOutputDirectory + dicoGuids[reading] + ".mp3"
 
     if(not(os.path.exists(filepath))):
         print(reading, filepath)
 
+        if(reading in dicoReplaceReadings):
+            reading = dicoReplaceReadings[reading]
+
+        texttype = "text"
+
+        if(reading[0] == "<"):
+            texttype = "ssml"
+
         response = polly_client.synthesize_speech(
             Engine="standard",
             LanguageCode="ja-JP",
             VoiceId="Mizuki",
             OutputFormat="mp3", 
-            TextType="text",
+            TextType=texttype,
             Text = reading)
 
         file = open(filepath, "wb")
         file.write(response["AudioStream"].read())
         file.close()
+
+
