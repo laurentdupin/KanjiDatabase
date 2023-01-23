@@ -1330,9 +1330,15 @@ dicoMinLevelForVocab = {}
 for vocab in listValidVocabulary:
     minlevel = 1
 
+    bFoundKanji = False
+
     for char in vocab["display"]:
-        if(char in dicoMinLevelForKanji and dicoMinLevelForKanji[char] > minlevel):
+        if(char in dicoMinLevelForKanji and dicoMinLevelForKanji[char] >= minlevel):
             minlevel = dicoMinLevelForKanji[char]
+            bFoundKanji = True
+
+    if(not(bFoundKanji)):
+        minlevel = 101
 
     dicoMinLevelForVocab[vocab["id"]] = minlevel
 
