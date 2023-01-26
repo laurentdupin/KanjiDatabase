@@ -1532,6 +1532,13 @@ for iLevel in dicoOutput:
                     dicoOutput[otherlevelid] = todisseminate[:sizetoadd] + dicoOutput[otherlevelid]
                     todisseminate = todisseminate[sizetoadd:]
 
+for iLevel in dicoOutput:
+    level = dicoOutput[iLevel]
+
+    for item in level:
+        for iReading, reading in enumerate(item["readings"]):
+            item["readings"][iReading] = reading.replace("-", "")
+
 setCharacters = set()
 
 for iLevel in dicoOutput:
