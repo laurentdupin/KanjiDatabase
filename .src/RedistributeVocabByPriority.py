@@ -125,6 +125,32 @@ def filter_phonetic_entries(levels, spellings):
     return filtered
 
 
+def filter_redundant_kana_variants(levels):
+    vocab_shared_ids = set()
+    for items in levels.values():
+        for item in items:
+            if item.get("type") == "vocab":
+                shared_id = item.get("sharedid")
+                if shared_id is not None:
+                    vocab_shared_ids.add(shared_id)
+
+    if not vocab_shared_ids:
+        return levels
+
+    filtered = {}
+    for level_key, items in levels.items():
+        filtered_items = []
+        for item in items:
+            if item.get("type") == "vocab_kana":
+                shared_id = item.get("sharedid")
+                if shared_id in vocab_shared_ids:
+                    continue
+            filtered_items.append(item)
+        filtered[level_key] = filtered_items
+
+    return filtered
+
+
 def build_jmdict_french_map(jmdict_path):
     mapping = defaultdict(lambda: defaultdict(list))
 
@@ -330,6 +356,7 @@ def main():
     levels = json.load(open(INPUT_LEVELS_PATH, "r", encoding="utf-8"))
     phonetic_spellings = load_phonetic_spellings(JMDICT_PATH)
     levels = filter_phonetic_entries(levels, phonetic_spellings)
+    levels = filter_redundant_kana_variants(levels)
     pri_by_reading = load_priority_tags(JMDICT_PATH)
     fr_overrides = load_french_overrides(TRANSLATIONS_FR_PATH)
     jmdict_fr_map = build_jmdict_french_map(JMDICT_PATH)
@@ -349,6 +376,7 @@ def main():
     vocab_items = []
     capacity = {}
     non_vocab_by_level = defaultdict(list)
+    vocab_counts = {}
 
     for level in range(1, 101):
         level_key = str(level)
@@ -356,7 +384,9 @@ def main():
             continue
 
         items = levels[level_key]
-        capacity[level] = sum(1 for item in items if item.get("type") == "vocab")
+        vocab_count = sum(1 for item in items if item.get("type") == "vocab")
+        capacity[level] = vocab_count
+        vocab_counts[level] = vocab_count
 
         for index, item in enumerate(items):
             item_type = item.get("type")
@@ -434,6 +464,12 @@ def main():
         apply_french_meanings(output_items, jmdict_fr_map, fr_overrides)
 
         output[level_key] = output_items
+
+        output_vocab_count = sum(1 for item in output_items if item.get("type") == "vocab")
+        if output_vocab_count != vocab_counts.get(level, 0):
+            raise RuntimeError(
+                f"Vocab count mismatch for level {level}: expected {vocab_counts.get(level, 0)}, got {output_vocab_count}"
+            )
 
     # Carry over any non-numeric keys untouched (e.g., "special").
     for key, value in levels.items():
