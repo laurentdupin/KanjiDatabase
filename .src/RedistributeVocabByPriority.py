@@ -72,6 +72,59 @@ def write_french_overrides(path, entries):
         json.dump(payload, handle, ensure_ascii=False, indent=2)
 
 
+def load_phonetic_spellings(jmdict_path):
+    spellings = set()
+
+    context = ET.iterparse(jmdict_path, events=("end",))
+    for _, elem in context:
+        if elem.tag != "entry":
+            continue
+
+        s_inf_values = [
+            value.text
+            for value in elem.findall("./s/s_inf")
+            if value is not None and value.text
+        ]
+
+        if any("phonetic spelling" in value.lower() for value in s_inf_values):
+            for k_ele in elem.findall("k_ele"):
+                keb = k_ele.findtext("keb")
+                if keb:
+                    spellings.add(keb)
+            for r_ele in elem.findall("r_ele"):
+                reb = r_ele.findtext("reb")
+                if reb:
+                    spellings.add(reb)
+
+        elem.clear()
+
+    return spellings
+
+
+def filter_phonetic_entries(levels, spellings):
+    if not spellings:
+        return levels
+
+    filtered = {}
+    for level_key, items in levels.items():
+        filtered_items = []
+        for item in items:
+            item_type = item.get("type")
+            if item_type not in ("vocab", "vocab_kana"):
+                filtered_items.append(item)
+                continue
+
+            display = item.get("display", "")
+            readings = item.get("readings", []) or []
+            if display in spellings or any(reading in spellings for reading in readings):
+                continue
+
+            filtered_items.append(item)
+        filtered[level_key] = filtered_items
+
+    return filtered
+
+
 def build_jmdict_french_map(jmdict_path):
     mapping = defaultdict(lambda: defaultdict(list))
 
@@ -275,6 +328,8 @@ def main():
         raise FileNotFoundError(f"JMdict file not found: {JMDICT_PATH}")
 
     levels = json.load(open(INPUT_LEVELS_PATH, "r", encoding="utf-8"))
+    phonetic_spellings = load_phonetic_spellings(JMDICT_PATH)
+    levels = filter_phonetic_entries(levels, phonetic_spellings)
     pri_by_reading = load_priority_tags(JMDICT_PATH)
     fr_overrides = load_french_overrides(TRANSLATIONS_FR_PATH)
     jmdict_fr_map = build_jmdict_french_map(JMDICT_PATH)
